@@ -1,7 +1,7 @@
 # Roblox Release Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build Status](https://github.com/outofbears/rbx-release-tracker/workflows/CI/badge.svg)](https://github.com/outofbears/rbx-release-tracker/actions)
+[![Build Status](https://github.com/outofbears/rbx-release-tracker/actions/workflows/update/badge.svg)](https://github.com/outofbears/rbx-release-tracker/actions)
 [![Last Commit](https://img.shields.io/github/last-commit/outofbears/rbx-release-tracker.svg)](https://github.com/outofbears/rbx-release-tracker/commits/main)
 [![Issues](https://img.shields.io/github/issues/outofbears/rbx-release-tracker.svg)](https://github.com/outofbears/rbx-release-tracker/issues)
 
