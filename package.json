@@ -1,0 +1,15 @@
+{
+  "name": "rbx-release-tracker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/update.js",
+  "scripts": {
+    "start": "node src/update.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^7.0.1"
+  }
+}
