@@ -1,0 +1,117 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes a bug in the new Luau type solver that prevented inferring the types of globals."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Speeds up Studio startup by loading translations in parallel."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves script write performance for <code>Class.EditableMesh</code> by 20-40%."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes bug of incorrect inertia data when using <code>Class.PartOperation:SubstituteGeometry()</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a crash when calling <code>Class.Actor:BindToMessage()</code> from the Command Bar in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with <code>Class.Sound.LoopRegion</code> not working if the bounds of the loop region encompass the entire asset."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issue where switching macOS Studio app across monitors or changing resolution causes crashes."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes Studio ribbon buttons \"Show Welds\" and \"Constraint Details\" not being capable to toggle."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issues with the mobile touch jump button on character death."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Users who register callbacks on <code>Class.DragDetector|DragDetectors</code> for <code>Class.DragDetector.MouseHoverEnter</code> and <code>Class.DragDetector.MouseHoverLeave</code> on touch devices will now only correctly see one set of calls to enter/leave when pressing and releasing (previously there were two sets of calls)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes crashes related to custom clothing in the Avatar Setup preview."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where <code>Class.UIDragDetector</code> did not take device insets into account."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "When drawing in the Terrain Editor with \"Ignore Parts\" set to false, terrain will be added as expected."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In the \"Next Gen Explorer\" beta, fixes a rare failure of arrow key navigation/selection to jump to the correct item."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Adds support for en-150 English (Europe) locale."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Massively optimizes speed in the \"Next Gen Explorer\" beta when actively using the tool without clicking."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Instances in the \"Next Gen Explorer\" beta now always match the ordering of the current Explorer."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In the \"Next Gen Explorer\" beta, clearing the search now once again expands whatever your selection is, and it only expands the selection you made at time of clearing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes crashes in avatar compatibility plugin when a deep hierarchy is selected, or a hierarchy with invalid UTF8 strings."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes issues with <code>Class.Highlight</code> re-parenting on a <code>Class.Model</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Suppresses errors about \"exception while signaling: Cannot load the AnimationClipProvider Service\" when interacting with streaming NPCs."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "<code>Class.Humanoid.Seated</code> no longer passes a valid <code>currentSeatPart</code> as <code>nil</code>."
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a <code>Class.Players</code> property named <code>BanningEnabled</code>, which enables/disables the three <code>Class.Players</code> methods that constitute the ban API."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Changes <code>Class.EditableMesh</code> to inherit from <code>Class.Object</code> and live outside the <code>Class.DataModel</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Refines type information for <code>require</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixed issue with terrain in lighting propagation."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Added support for <code>Plugin</code> RunContext attribute—a <code>Script</code> that only runs as part of a plugin."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improved Output window performance when printing large tables."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Reduces the memory usage of ShadowMap and Future lighting technologies when running at low graphics quality levels."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes bug where an invalid <code>Class.ParticleEmitter.FlipbookLayout</code> could be applied to a <code>Class.ParticleEmitter</code> if a different property was modified."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issues with the mobile touch jump button on character death."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Enables <code>UIStroke</code> to be used in conjunction with rich text."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixing crashes and glitches in self-view animation."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The Gamepad Controller now opens when it's launched for the first time."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes autocomplete for string literals that contain special characters."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "User-defined function documentation is now pulled from comments above function attributes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a class of bugs in the new Luau solver regarding unsolved contraints."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Restore the defining module name metadata for types in the New Type Solver Beta that allows for more detailed error messages that include the module the type originates from."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Updating retargeting cache so it doesn't cache procedural rig modifications. This could result in broken looking animation in some experiences."
+    }
+]
