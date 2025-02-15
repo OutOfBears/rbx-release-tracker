@@ -154,8 +154,8 @@ getCurrentVersions()
 
     const readMeContent = fs.readFileSync("README.md", "utf8");
     const newReadMeContent = readMeContent
-      .replaceAll(/data\/release-\d+/g, `/data/release-${latestVersion}`)
-      .replaceAll(/docs\/release-\d+/g, `/data/release-${latestVersion}`);
+      .replaceAll(/data\/release-\d+/g, `data/release-${latestVersion}`)
+      .replaceAll(/docs\/release-\d+/g, `docs/release-${latestVersion}`);
     fs.writeFileSync("README.md", newReadMeContent);
 
     versionsData.forEach((versionData) => {
