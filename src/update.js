@@ -127,6 +127,9 @@ const fetchVersionData = (version) => {
   });
 };
 
+if (!fs.existsSync("data")) fs.mkdirSync("data");
+if (!fs.existsSync("docs")) fs.mkdirSync("docs");
+
 getCurrentVersions()
   .then((versions) => {
     return new Promise((resolve, reject) => {
