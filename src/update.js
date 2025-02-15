@@ -149,6 +149,15 @@ getCurrentVersions()
     });
   })
   .then((versionsData) => {
+    const latestVersion = versionsData[0].version;
+    console.log("Latest version: " + latestVersion);
+
+    const readMeContent = fs.readFileSync("README.md", "utf8");
+    const newReadMeContent = readMeContent
+      .replaceAll(/data\/release-\d+/g, `/data/release-${latestVersion}`)
+      .replaceAll(/docs\/release-\d+/g, `/data/release-${latestVersion}`);
+    fs.writeFileSync("README.md", newReadMeContent);
+
     versionsData.forEach((versionData) => {
       fs.writeFileSync(
         `data/release-${versionData.version}.json`,
