@@ -26,10 +26,10 @@ jobs:
       - name: Install
         run: pnpm install
 
-      - name: Update
+      - name: Run update script
         run: pnpm start
 
-      - name: Update
+      - name: Commit any changes
         continue-on-error: true
         run: |
           git config user.name "${{ github.actor }}"
