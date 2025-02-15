@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set current date as env variable
+        run: echo "NOW=$(date +'%Y-%m-%dT%H:%M:%S')" >> $GITHUB_ENV
+
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
@@ -29,5 +32,5 @@ jobs:
           git config user.email "${{ github.actor_id }}+${{ github.actor }}@users.noreply.github.com"
           git pull
           git add .
-          git commit -m "Update"
+          git commit -m "Synchronize with upstream content: $NOW"
           git push
