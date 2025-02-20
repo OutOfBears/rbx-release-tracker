@@ -7,15 +7,15 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds new \"ProductPurchaseChannel\" field to the ProcessReceipt API with enums (Unknown, InExperience, ExperienceDetailsPage) to inform developers of the sale channel for the purchase."
     },
     {
-        "status": "Live",
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
+    },
+    {
+        "status": "Pending",
         "type": "Improvements",
         "content": "New Explorer Beta - Adds back Ungroup button (will only show for models), and Select Parents/Select Children (which are now under Hierarchy)."
     },
@@ -52,21 +52,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Beta Constraint Tool preserves existing initial attachments when using escape to cancel."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes issue with camera zoom resetting."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Makes PlayerScripts controls enable/disable idempotent for consistent behavior."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
     },
     {
@@ -93,5 +78,20 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Cave generation in Terrain Editor now disabled by default."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Beta Constraint Tool preserves existing initial attachments when using escape to cancel."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes issue with camera zoom resetting."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Makes PlayerScripts controls enable/disable idempotent for consistent behavior."
     }
 ]

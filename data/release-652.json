@@ -2,17 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a new <code>Class.DataStore.GetVersionAtTimeAsync</code> method to retrieve data store versions by timestamp."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Adds a <code>Class.Players</code> property named <code>BanningEnabled</code>, which enables/disables the three <code>Class.Players</code> methods that constitute the ban API."
     },
     {
         "status": "Live",
@@ -23,16 +13,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Adds an entry to the beta features menu to enable incremental autocomplete in Studio."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Fixes stale lighting state when transitioning in then out of eager bulk execution."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Fixes voxelization of invalid parts and meshes."
     },
     {
         "status": "Live",
@@ -57,17 +37,32 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Adds a new <code>Class.DataStore.GetVersionAtTimeAsync</code> method to retrieve data store versions by timestamp."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a <code>Class.Players</code> property named <code>BanningEnabled</code>, which enables/disables the three <code>Class.Players</code> methods that constitute the ban API."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes stale lighting state when transitioning in then out of eager bulk execution."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes voxelization of invalid parts and meshes."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Updates AnimationLibrary in Animation Compositor beta."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Reduces how long it takes to find the desired time position in a <code>Class.VideoFrame</code>."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes bug where an invalid <code>Class.ParticleEmitter.FlipbookLayout</code> could be applied to a <code>Class.ParticleEmitter</code> if a different property was modified."
     },
     {
         "status": "Live",
@@ -82,27 +77,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes a bug in non-strict mode under the New Solver Beta that causes method calls to incorrectly report argument count mismatches."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Faces now properly animate in Animation Compositor Beta self view."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a bug in the New Type Solver Beta where property accesses from read-only tables would sometimes incorrectly report an error when read from to initialize another table's keys."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes issues with the mobile touch jump button on character death."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Enables <code>UIStroke</code> to be used in conjunction with rich text."
     },
     {
         "status": "Live",
@@ -110,7 +85,32 @@
         "content": "Fixes a bug where the insert object popup would not let you use the arrow keys to change selection."
     },
     {
-        "status": "Live",
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bug where an invalid <code>Class.ParticleEmitter.FlipbookLayout</code> could be applied to a <code>Class.ParticleEmitter</code> if a different property was modified."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in non-strict mode under the New Solver Beta that causes method calls to incorrectly report argument count mismatches."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in the New Type Solver Beta where property accesses from read-only tables would sometimes incorrectly report an error when read from to initialize another table's keys."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes issues with the mobile touch jump button on character death."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Enables <code>UIStroke</code> to be used in conjunction with rich text."
+    },
+    {
+        "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where <code>Class.UIDragDetector|UIDragDetectors</code> would no longer function when the visible property of its parent was toggled during a drag."
     }
