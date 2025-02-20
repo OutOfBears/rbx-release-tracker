@@ -2,30 +2,30 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds new \"ProductPurchaseChannel\" field to the ProcessReceipt API with enums (Unknown, InExperience, ExperienceDetailsPage) to inform developers of the sale channel for the purchase."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
     },
     {
-        "status": "Pending",
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds new \"ProductPurchaseChannel\" field to the ProcessReceipt API with enums (Unknown, InExperience, ExperienceDetailsPage) to inform developers of the sale channel for the purchase."
+    },
+    {
+        "status": "Live",
         "type": "Improvements",
         "content": "\"Save as local plugin\" now always saves a .rbxmx file to preserve RunContext information. \"Save as file\" can still be used to obtain a .lua file, and .lua plugins will still run as expected."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Adds <code>Class.AudioAnalyzer.WindowSize</code> and <code>Class.AudioPitchShifter.WindowSize</code> properties, which can be used to adjust responsiveness against quality."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Fixes a crash in the new Luau type solver beta where duplicate keys in a table literal always causes Studio to crash."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Allow layered clothing to be previewed on Avatar Bodies created using WrapDeformer before publishing."
     },
@@ -37,7 +37,57 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Improves trackpad behavior for Chromebooks."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Beta Constraint Tool preserves existing initial attachments when using escape to cancel."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed an issue that made scripts in plugins with the Plugin RunContext not run."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Mention task.wait() in the warning message for calling task.wait(t) or task.delay(t, f) where t is NaN or infinity."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed a crash when connection is made to a signal that doesn't exist (e.g. Instance.StyledPropertiesChanged)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Resolved some Beta Constraint Tool errors when not hovering over a BasePart."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<code>Class.UserInputService.TouchEnabled</code> will now be set to <code>true</code> for Windows touch devices."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Added a warning in the Output console window when a sound fails to load in an AudioPlayer."
     },
     {
         "status": "Live",
@@ -47,66 +97,16 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "The Controls Emulator widget is only visible now when a placefile is open."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves trackpad behavior for Chromebooks."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed an issue that made scripts in plugins with the Plugin RunContext not run."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.WrapDeformer</code> now respects its CageOrigin property rather than using the position of its sibling WrapTarget."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Mention task.wait() in the warning message for calling task.wait(t) or task.delay(t, f) where t is NaN or infinity."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed a crash when connection is made to a signal that doesn't exist (e.g. Instance.StyledPropertiesChanged)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Resolved some Beta Constraint Tool errors when not hovering over a BasePart."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.UserInputService.TouchEnabled</code> will be set to true for windows touch devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Added a warning in the Output console window when a sound fails to load in an AudioPlayer."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue causing <code>Class.Sound.DidLoop</code> to sometimes trigger more than once after a loop."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
         "content": "Memory profiler now shows separate items for terrain textures vs. terrain meshes under GPU memory. Previously this was counted together."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The Controls Emulator widget is only visible now when a placefile is open."
     }
 ]

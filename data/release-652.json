@@ -7,12 +7,22 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds a <code>Class.Players</code> property named <code>BanningEnabled</code>, which enables/disables the three <code>Class.Players</code> methods that constitute the ban API."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "Changes <code>Class.EditableMesh</code> to inherit from <code>Class.Object</code> and live outside the <code>Class.DataModel</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds an entry to the beta features menu to enable incremental autocomplete in Studio."
     },
     {
         "status": "Live",
@@ -25,24 +35,29 @@
         "content": "Fixes voxelization of invalid parts and meshes."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Adds an entry to the beta features menu to enable incremental autocomplete in Studio."
+        "content": "Adds <code>Class.TextChannel.DirectChatRequester</code> property and <code>TextChannel:SetDirectChatRequester(requestingPlayer)</code> method that you can use to annotate text channels as \"requested by\" a particular player. Text channels with a <code>DirectChatRequster</code> will automatically use <code>CanUsersDirectChatAsync()</code> appropriately."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Speeds up performance in the Output window when printing duplicate messages."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Avatar Setup now automatically reruns avatar marketplace validations if you change the scale of your avatar."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Fixes the Plugin Management window infinitely loading."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates AnimationLibrary in Animation Compositor beta."
     },
     {
         "status": "Live",
@@ -57,12 +72,22 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Updates Luau parser to allow writing parenthesized types in generic type arguments, such as:\n<pre><code>type X<T> = T\n\nlocal x: X<(() -> ())?>\n</code></pre>"
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a rare bug for in-experience CSG incremental collision geometry."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes a bug in non-strict mode under the New Solver Beta that causes method calls to incorrectly report argument count mismatches."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Faces now properly animate in Animation Compositor Beta self view."
     },
     {
         "status": "Live",
@@ -88,10 +113,5 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where <code>Class.UIDragDetector|UIDragDetectors</code> would no longer function when the visible property of its parent was toggled during a drag."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Updates Luau parser to allow writing parenthesized types in generic type arguments, such as:\n<pre><code>type X<T> = T\n\nlocal x: X<(() -> ())?>\n</code></pre>"
     }
 ]

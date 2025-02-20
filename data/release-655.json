@@ -7,22 +7,32 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Speeds up Studio startup by loading translations in parallel."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves script write performance for <code>Class.EditableMesh</code> by 20-40%."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Fixes bug of incorrect inertia data when using <code>Class.PartOperation:SubstituteGeometry()</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Speeds up Studio startup by loading translations in parallel."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Enables the <code>Class.Workspace.FallHeightEnabled</code> property to toggle the fallen height kill plane. Also fixes the kill plane logic so that models with at least one descendant fallen part or no descendant parts are deleted."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issues with <code>Class.Highlight</code> re-parenting on a <code>Class.Model</code>."
     },
     {
         "status": "Live",
@@ -48,6 +58,16 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes issues with the mobile touch jump button on character death."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Suppresses errors about \"exception while signaling: Cannot load the AnimationClipProvider Service\" when interacting with streaming NPCs."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<code>Class.Humanoid.Seated</code> no longer passes a valid <code>currentSeatPart</code> as <code>nil</code>."
     },
     {
         "status": "Live",
@@ -98,20 +118,5 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes crashes in avatar compatibility plugin when a deep hierarchy is selected, or a hierarchy with invalid UTF8 strings."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes issues with <code>Class.Highlight</code> re-parenting on a <code>Class.Model</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Suppresses errors about \"exception while signaling: Cannot load the AnimationClipProvider Service\" when interacting with streaming NPCs."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.Humanoid.Seated</code> no longer passes a valid <code>currentSeatPart</code> as <code>nil</code>."
     }
 ]

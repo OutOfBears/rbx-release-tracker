@@ -1,0 +1,97 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances which are paused and haven't been modified recently."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Removes lighting calculations from rendering."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "<code>Class.AssetService:CreateEditableMeshAsync()</code> now supports creating an <code>Class.EditableMesh</code> from another <code>Class.EditableMesh</code> via <code>Datatype.Content.fromObject()|Content.fromObject(editableMesh)</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes the generation of some unresolved types like <code>'a <: number</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "MicroProfiler now shows the links between scopes that are part of the same job."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Studio's \"New Luau type solver\" beta, reading from an unknown variable will now produce an unknown symbol error in non-strict mode."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes a crash that could occur at login in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with <code>Enum.Material|Glass</code> material rendering in Studio's \"Unified Lighting\" beta."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<code>Class.UserInputService.TouchEnabled</code> will now be set to <code>true</code> for Windows touch devices."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug in Studio's \"New Luau type solver\" beta preventing the types of unannotated variables in multiple assignments from being correctly inferred."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes bug where importing malformed animation curve <code>.rbxmx</code> files resulted in Studio crashing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Adds new <code>Enum.ProductPurchaseChannel</code> field to the <code>Class.MarketplaceService.ProcessReceipt</code> callback to inform developers of the sale channel for the purchase."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Using <code>%c</code> in Luau <code>Library.string.format()</code> now appends <code>\\0</code> to the string instead of skipping the value."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Addresses an issue where the default <code>Class.TextChatService</code> chat window sometimes clips longer messages behind the scrollbar instead of wrapping around to the next line."
+    }
+]
