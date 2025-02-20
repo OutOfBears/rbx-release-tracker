@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "\"Save as local plugin\" now always saves a .rbxmx file to preserve RunContext information. \"Save as file\" can still be used to obtain a .lua file, and .lua plugins will still run as expected."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds <code>Class.AudioAnalyzer.WindowSize</code> and <code>Class.AudioPitchShifter.WindowSize</code> properties, which can be used to adjust responsiveness against quality."
     },
     {
@@ -20,12 +25,7 @@
         "content": "Fixes a crash in the new Luau type solver beta where duplicate keys in a table literal always causes Studio to crash."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "\"Save as local plugin\" now always saves a .rbxmx file to preserve RunContext information. \"Save as file\" can still be used to obtain a .lua file, and .lua plugins will still run as expected."
-    },
-    {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Allow layered clothing to be previewed on Avatar Bodies created using WrapDeformer before publishing."
     },
@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Beta Constraint Tool preserves existing initial attachments when using escape to cancel."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
     },
     {
@@ -52,12 +57,22 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixed an issue that made scripts in plugins with the Plugin RunContext not run."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Mention task.wait() in the warning message for calling task.wait(t) or task.delay(t, f) where t is NaN or infinity."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixed a crash when connection is made to a signal that doesn't exist (e.g. Instance.StyledPropertiesChanged)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Resolved some Beta Constraint Tool errors when not hovering over a BasePart."
     },
     {
         "status": "Live",
@@ -87,22 +102,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Beta Constraint Tool preserves existing initial attachments when using escape to cancel."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed an issue that made scripts in plugins with the Plugin RunContext not run."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Resolved some Beta Constraint Tool errors when not hovering over a BasePart."
     },
     {
         "status": "Pending",

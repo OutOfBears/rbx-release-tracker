@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes voxelization of invalid parts and meshes."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves lighting update performance on mobile devices with PowerVR GPUs."
     },
     {
@@ -17,7 +22,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds <code>buffer.readbits</code> and <code>buffer.writebits</code> functions to the Luau buffer library."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Next Gen Explorer beta now displays status for Packages and offers package quick actions when clicking the package status indicator."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Avatar Setup now automatically reruns avatar marketplace validations if you change the scale of your avatar."
     },
     {
         "status": "Pending",
@@ -27,27 +42,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes voxelization of invalid parts and meshes."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Removes lighting calculations from rendering."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>buffer.readbits</code> and <code>buffer.writebits</code> functions to the Luau buffer library."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds Luau <code>math.lerp</code> method to interpolate numbers."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Avatar Setup now automatically reruns avatar marketplace validations if you change the scale of your avatar."
     },
     {
         "status": "Live",
@@ -77,6 +77,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where \"Function encountered an internal lowering failure\" was reported on native functions with a large number of table accesses."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where rendering bounding box is different from physics bounding box for mesh parts."
     },
     {
@@ -88,6 +93,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes the incorrect insert position for items from autocomplete plugin API."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where destroying the parent of a <code>Class.UIDragDetector</code> during dragEnd caused improper termination of the drag."
     },
     {
         "status": "Live",
@@ -108,15 +118,5 @@
         "status": "Live",
         "type": "Fixes",
         "content": "New Explorer Beta - Fixes a bug where selecting an instance and then clearing a search would expand it, leaving it broken if it had no children."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where \"Function encountered an internal lowering failure\" was reported on native functions with a large number of table accesses."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where destroying the parent of a <code>Class.UIDragDetector</code> during dragEnd caused improper termination of the drag."
     }
 ]

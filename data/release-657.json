@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves performance on some Android devices running on PowerVR GPUs."
     },
     {
@@ -30,24 +35,19 @@
         "content": "Script Sync and Next Gen Explorer beta features interact properly. Script Sync status and actions are now available in the Next Gen Explorer."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a new <code>Class.Decal.TextureContent</code> property so that <code>EditableImage</code> can be used with decals."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
-    },
-    {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "In a group Team Create session, the owner of the place becomes the owner of any models and assets uploaded through the Avatar Setup Tool."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Adds support for built-in and custom gear accessories in the Avatar Setup previewer."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a new <code>Class.Decal.TextureContent</code> property so that <code>EditableImage</code> can be used with decals."
     },
     {
         "status": "Live",
@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug in which playback from <code>Class.VideoFrame</code> doesn’t work under <code>Class.CanvasGroup</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Existing UGC characters no longer retarget animations, but new UGC characters support retargeting."
     },
     {
@@ -82,31 +87,26 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Improves performance of reading small boxes from Terrain."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Resolves a bug in the New Type Solver Beta where <code>string.format</code> previously did not respect error-suppressing types like <code>any</code>, leading to false positive type errors."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes inconsistent behavior where the Explorer behaves as if the cursor is hovering over it when you use keyboard key interactions."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where instances reparent at creation and cause errors in the New Explorer Beta. You no longer get errors when inserting free models."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in which playback from <code>Class.VideoFrame</code> doesn’t work under <code>Class.CanvasGroup</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves performance of reading small boxes from Terrain."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Resolves a bug in the New Type Solver Beta where <code>string.format</code> previously did not respect error-suppressing types like <code>any</code>, leading to false positive type errors."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where switching themes throws warnings and doesn’t change class icons in the New Explorer Beta."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where instances reparent at creation and cause errors in the New Explorer Beta. You no longer get errors when inserting free models."
     }
 ]
