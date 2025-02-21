@@ -2,16 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "For the new Luau type solver, users can assign <code>nil</code> into tables with indexers."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds a <code>Class.Players</code> property named <code>BanningEnabled</code>, which enables/disables the three <code>Class.Players</code> methods that constitute the ban API."
     },
     {
@@ -30,44 +20,29 @@
         "content": "Fixes false positive error report in Luau typechecking when an unspecified enum is indexed with a string, for example, in <code>Enum[a][b]</code>."
     },
     {
-        "status": "Live",
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "For the new Luau type solver, users can assign <code>nil</code> into tables with indexers."
+    },
+    {
+        "status": "Pending",
         "type": "Improvements",
         "content": "Adds the <code>Class.TextChannel.DirectChatRequester</code> property and <code>TextChannel:SetDirectChatRequester(requestingPlayer)</code> method, which developers can use to annotate <code>TextChannels</code> as \"requested by\" a particular player. <code>TextChannels</code> with a <code>DirectChatRequester</code> will automatically use <code>CanUsersDirectChatAsync</code> appropriately."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Improvements",
         "content": "Instance picker is now more consistent about cancelling itself when clicking out of the viewport."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes <code>Class.GroundController</code> sliding when landing on slopes."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a Luau parser bug that could cause Luau to hang indefinitely when parsing ill-formed table types in class declarations."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes an issue that could prevent tools from being equipped in some scenarios, such as when <code>ImprovedModelStreaming</code> is enabled."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes an issue when <code>Class.EditableMesh</code> doesn't get updated on some mobile devices."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes certain \"EditableImage/EditableMesh is not accessible\" errors in the command line or plugins in Studio"
     },
     {
         "status": "Live",
@@ -92,11 +67,36 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Opening a place with terrain panel docked now selects the Select Dragger by default instead of attempting to select one of the terrain tools by default."
+        "content": "You can now write scripts for <code>PermissionPolicyFunction</code> that change their return result to false while the <code>Class.DragDetector</code> is being dragged and will no longer crash when using the <code>ModeSwitchKey</code> to change between planar and linear translation. The permission policy now <strong>only</strong> checks on mouse down, and that answer will be used until mouse up, even if the <code>ModeSwitchKey</code> is pressed."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Fixes",
-        "content": "You can now write scripts for <code>PermissionPolicyFunction</code> that change their return result to false while the <code>Class.DragDetector</code> is being dragged and will no longer crash when using the <code>ModeSwitchKey</code> to change between planar and linear translation. The permission policy now <strong>only</strong> checks on mouse down, and that answer will be used until mouse up, even if the <code>ModeSwitchKey</code> is pressed."
+        "content": "Fixes <code>Class.GroundController</code> sliding when landing on slopes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a Luau parser bug that could cause Luau to hang indefinitely when parsing ill-formed table types in class declarations."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue that could prevent tools from being equipped in some scenarios, such as when <code>ImprovedModelStreaming</code> is enabled."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes certain \"EditableImage/EditableMesh is not accessible\" errors in the command line or plugins in Studio"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Opening a place with terrain panel docked now selects the Select Dragger by default instead of attempting to select one of the terrain tools by default."
     }
 ]

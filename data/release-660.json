@@ -2,17 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Renamed TestService.Is30FpsThrottleEnabled to TestService.ThrottlePhysicsToRealtime"
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Fixes a bug with sky and lighting initialization."
     },
     {
         "status": "Live",
@@ -27,32 +17,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Implements <code>AudioChannelMixer</code> and <code>AudioChannelSplitter</code> instances which can be used for channel layout conversions."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "WrapDeformer:SetCageMeshContent() now takes an optional CFrame second parameter for the CageOrigin. If you set the cage to a mesh from another BaseWrap (or EditableMesh derived from a BaseWrap mesh), set this parameter so the deformer cage properly lines up with its parent mesh."
+        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "Implements <code>:GetInputPins()</code> and <code>:GetOutputPins()</code> methods on all of the \"Wirable\"/Audio API instances. These list options are available for <code>Wire.TargetName</code> and <code>Wire.SourceName</code> respectively."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "In the New Type Solver Beta, implements <code>getmetatable</code> and <code>setmetatable</code> type functions to enable Creators to more readily work with metatable types without the use of <code>typeof</code>."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Moves the Insert Object button back next to the Instance name under the Next Gen Explorer beta."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Adds the Lock button and Anchor tool button to the new Ribbon beta."
     },
     {
         "status": "Pending",
@@ -62,7 +32,37 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
+        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes a bug with sky and lighting initialization."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Implements <code>AudioChannelMixer</code> and <code>AudioChannelSplitter</code> instances which can be used for channel layout conversions."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "WrapDeformer:SetCageMeshContent() now takes an optional CFrame second parameter for the CageOrigin. If you set the cage to a mesh from another BaseWrap (or EditableMesh derived from a BaseWrap mesh), set this parameter so the deformer cage properly lines up with its parent mesh."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Type Solver Beta, implements <code>getmetatable</code> and <code>setmetatable</code> type functions to enable Creators to more readily work with metatable types without the use of <code>typeof</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Moves the Insert Object button back next to the Instance name under the Next Gen Explorer beta."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the Lock button and Anchor tool button to the new Ribbon beta."
     },
     {
         "status": "Live",
@@ -77,37 +77,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Improves script paths in the Luau error message call stack section in cases where scripts are cloned/moved in the DataModel."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes bugs for the Luau new solver beta where some type functions are \"uninhabited\" and look like: <code>t1 where t1 = union<A, union<B, t1>></code>"
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a <code>require-by-string</code> issue where <code>require</code> calls inside closures resolve relative to an incorrect Instance."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Removes invalid unicode handling for characters in error logs on Windows."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes an issue causing <code>Class.Sound.DidLoop</code> to sometimes trigger more than once after a loop."
+        "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
     },
     {
         "status": "Live",
@@ -115,19 +90,44 @@
         "content": "Memory profiler now shows separate items for terrain textures vs. terrain meshes under GPU memory. Previously this was counted together."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Fixes",
-        "content": "In the New Type Solver Beta, resolves a bug where recursive types would sometimes cause type normalization to loop infinitely until memory was exhausted."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Adds new <code>Enum.ProductPurchaseChannel</code> field to the <code>Class.MarketplaceService.ProcessReceipt</code> callback to inform developers of the sale channel for the purchase."
+        "content": "Improves script paths in the Luau error message call stack section in cases where scripts are cloned/moved in the DataModel."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
+        "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bugs for the Luau new solver beta where some type functions are \"uninhabited\" and look like: <code>t1 where t1 = union<A, union<B, t1>></code>"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a <code>require-by-string</code> issue where <code>require</code> calls inside closures resolve relative to an incorrect Instance."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Removes invalid unicode handling for characters in error logs on Windows."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue causing <code>Class.Sound.DidLoop</code> to sometimes trigger more than once after a loop."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Type Solver Beta, resolves a bug where recursive types would sometimes cause type normalization to loop infinitely until memory was exhausted."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds new <code>Enum.ProductPurchaseChannel</code> field to the <code>Class.MarketplaceService.ProcessReceipt</code> callback to inform developers of the sale channel for the purchase."
     },
     {
         "status": "Pending",

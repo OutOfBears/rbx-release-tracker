@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
     },
     {
@@ -20,34 +15,14 @@
         "content": "New Explorer Beta - Adds back Ungroup button (will only show for models), and Select Parents/Select Children (which are now under Hierarchy)."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes issue in import queue where some errored files would not be deselected before import."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Reduces how long it takes to find the desired time position in a <code>Class.VideoFrame</code>."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "<ul>\n<li>Fixes longstanding bug where networked CFrame rotations could exhibit 4x more deviation than expected.</li>\n<li>Removes a restriction where networked CFrame positions were clamped to ±1M studs.</li>\n</ul>"
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Improves trackpad behavior for Chromebooks."
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Existing UGC characters no longer retarget animations, but new UGC characters support retargeting."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Sitting characters are no longer disconnected from their seats on remote clients that stream them out and back in again."
     },
     {
         "status": "Live",
@@ -62,17 +37,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a crash in OpenGL with Unified Lighting enabled."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Adds time limitation for improved pathfinding."
+        "content": "Makes PlayerScripts controls enable/disable idempotent for consistent behavior."
     },
     {
         "status": "Live",
@@ -80,18 +45,53 @@
         "content": "New Explorer Beta - Fixes scenario where having an open script editor breaks all shortcuts."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Fixes",
-        "content": "New Explorer Beta - Fixes clearing search not jumping to your selection if it was already expanded."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Cave generation in Terrain Editor now disabled by default."
+        "content": "Fixes issue in import queue where some errored files would not be deselected before import."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Makes PlayerScripts controls enable/disable idempotent for consistent behavior."
+        "content": "Reduces how long it takes to find the desired time position in a <code>Class.VideoFrame</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "<ul>\n<li>Fixes longstanding bug where networked CFrame rotations could exhibit 4x more deviation than expected.</li>\n<li>Removes a restriction where networked CFrame positions were clamped to ±1M studs.</li>\n</ul>"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves trackpad behavior for Chromebooks."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Sitting characters are no longer disconnected from their seats on remote clients that stream them out and back in again."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash in OpenGL with Unified Lighting enabled."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds time limitation for improved pathfinding."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Explorer Beta - Fixes clearing search not jumping to your selection if it was already expanded."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Cave generation in Terrain Editor now disabled by default."
     }
 ]

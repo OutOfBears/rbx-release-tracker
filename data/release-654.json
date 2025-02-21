@@ -15,7 +15,7 @@
         "content": "Fixed false positive Luau type errors when using 'vector' type properties and operators."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Improvements",
         "content": "Instance picker is now more consistent about cancelling itself when clicking out of the viewport."
     },

@@ -7,27 +7,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Improves lighting update performance on mobile devices with PowerVR GPUs."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Improves performance on some Android devices running on PowerVR GPUs."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Reduces startup time and memory usage on Windows devices."
     },
     {
         "status": "Live",
@@ -47,22 +27,27 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Adds a new <code>Class.Decal.TextureContent</code> property so that <code>EditableImage</code> can be used with decals."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Reduces how long it takes to find the desired time position in a <code>Class.VideoFrame</code>."
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves lighting update performance on mobile devices with PowerVR GPUs."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Enables the <code>Class.Workspace.FallHeightEnabled</code> property to toggle the fallen height kill plane. Also fixes the kill plane logic so that models with at least one descendant fallen part or no descendant parts are deleted."
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance on some Android devices running on PowerVR GPUs."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Improves trackpad behavior for Chromebooks."
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Reduces startup time and memory usage on Windows devices."
     },
     {
         "status": "Live",
@@ -73,16 +58,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Existing UGC characters no longer retarget animations, but new UGC characters support retargeting."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Sitting characters are no longer disconnected from their seats on remote clients that stream them out and back in again."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a crash when using the CSG <code>Class.BasePart</code> API with the solid modeling improvements beta enabled."
     },
     {
         "status": "Live",
@@ -108,5 +83,30 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where instances reparent at creation and cause errors in the New Explorer Beta. You no longer get errors when inserting free models."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Reduces how long it takes to find the desired time position in a <code>Class.VideoFrame</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Enables the <code>Class.Workspace.FallHeightEnabled</code> property to toggle the fallen height kill plane. Also fixes the kill plane logic so that models with at least one descendant fallen part or no descendant parts are deleted."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves trackpad behavior for Chromebooks."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Sitting characters are no longer disconnected from their seats on remote clients that stream them out and back in again."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash when using the CSG <code>Class.BasePart</code> API with the solid modeling improvements beta enabled."
     }
 ]
