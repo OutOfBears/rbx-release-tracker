@@ -35,8 +35,15 @@ async function getChangedFiles() {
       if (newContent === cachedContent) return;
       await client.set(release, newContent);
 
-      const past = JSON.parse(await git.show([`HEAD~1:${file}`]));
+      let past = [];
       const present = JSON.parse(await git.show([`HEAD:${file}`]));
+
+      try {
+        past = JSON.parse(await git.show([`HEAD~1:${file}`]));
+      } catch {
+        past = [];
+      }
+
       const diffs = { added: [], removed: [], modified: [] };
 
       past.forEach((value) => {
