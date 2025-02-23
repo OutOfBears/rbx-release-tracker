@@ -33,7 +33,7 @@ async function getChangedFiles() {
       const cachedContent = await client.get(release);
 
       if (newContent === cachedContent) return;
-      // await client.set(release, newContent);
+      await client.set(release, newContent);
 
       const past = JSON.parse(await git.show([`HEAD~1:${file}`]));
       const present = JSON.parse(await git.show([`HEAD:${file}`]));
