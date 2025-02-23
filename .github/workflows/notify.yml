@@ -1,6 +1,6 @@
 name: Notify subscribers
 
-on: push
+on: [push]
 
 jobs:
   update:
@@ -23,3 +23,5 @@ jobs:
       - name: Run update script
         continue-on-error: true
         run: pnpm notify
+        env:
+          REDIS_URL: ${{ secrets.REDIS_URL }}
