@@ -18,8 +18,6 @@ const client = redis.createClient({
 });
 
 async function getChangedFiles() {
-  await git.fetch("origin", "HEAD:refs/remotes/origin/HEAD");
-
   const allDiffs = {};
   const files = (await git.diff(["HEAD", "HEAD~1", "--name-only"]))
     .trim()
