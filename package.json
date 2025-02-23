@@ -4,12 +4,18 @@
   "description": "",
   "main": "src/update.js",
   "scripts": {
-    "start": "node src/update.js"
+    "start": "node src/update.js",
+    "notify": "node src/notify.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-html-parser": "^7.0.1"
+    "dotenv": "^16.4.7",
+    "node-html-parser": "^7.0.1",
+    "pino": "^9.6.0",
+    "pino-pretty": "^13.0.0",
+    "redis": "^4.7.0",
+    "simple-git": "^3.27.0"
   }
 }
