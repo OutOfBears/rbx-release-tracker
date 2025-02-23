@@ -21,4 +21,5 @@ jobs:
         run: pnpm install
 
       - name: Run update script
+        continue-on-error: true
         run: pnpm notify
