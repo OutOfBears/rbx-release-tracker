@@ -37,7 +37,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Studio's \"New Luau type solver\" beta, reading from an unknown variable will now produce an unknown symbol error in non-strict mode."
+        "content": "In Luau's New Type Solver, reading from an unknown variable will now produce an unknown symbol error in non-strict mode."
     },
     {
         "status": "Pending",
@@ -58,6 +58,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes bug where importing malformed animation curve <code>.rbxmx</code> files resulted in Studio crashing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
     },
     {
         "status": "Pending",
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds new <code>Enum.ProductPurchaseChannel</code> field to the <code>Class.MarketplaceService.ProcessReceipt</code> callback to inform developers of the sale channel for the purchase."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
     },
     {
         "status": "Pending",

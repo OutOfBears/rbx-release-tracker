@@ -7,7 +7,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in the new Luau type solver that prevented inferring the types of globals. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Speeds up Studio startup by loading translations in parallel. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves script write performance for <code>Class.EditableMesh</code> by 20-40%. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug of incorrect inertia data when using <code>Class.PartOperation:SubstituteGeometry()</code>. |
 ## Fixes
 
@@ -27,7 +26,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Instances in the "Next Gen Explorer" beta now always match the ordering of the current Explorer. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the "Next Gen Explorer" beta, clearing the search now once again expands whatever your selection is, and it only expands the selection you made at time of clearing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes crashes in avatar compatibility plugin when a deep hierarchy is selected, or a hierarchy with invalid UTF8 strings. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables the <code>Class.Workspace.FallHeightEnabled</code> property to toggle the fallen height kill plane. Also fixes the kill plane logic so that models with at least one descendant fallen part or no descendant parts are deleted. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issues with <code>Class.Highlight</code> re-parenting on a <code>Class.Model</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio ribbon buttons "Show Welds" and "Constraint Details" not being capable to toggle. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Suppresses errors about "exception while signaling: Cannot load the AnimationClipProvider Service" when interacting with streaming NPCs. |

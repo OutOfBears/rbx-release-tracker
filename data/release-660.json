@@ -17,22 +17,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Implements <code>:GetInputPins()</code> and <code>:GetOutputPins()</code> methods on all of the \"Wirable\"/Audio API instances. These list options are available for <code>Wire.TargetName</code> and <code>Wire.SourceName</code> respectively."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances which are paused and haven't been modified recently."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
     },
     {
         "status": "Pending",
@@ -72,17 +57,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue with <code>Enum.Material|Glass</code> material rendering in Studio's \"Unified Lighting\" beta."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
     },
     {
         "status": "Live",
@@ -123,11 +98,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Type Solver Beta, resolves a bug where recursive types would sometimes cause type normalization to loop infinitely until memory was exhausted."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds new <code>Enum.ProductPurchaseChannel</code> field to the <code>Class.MarketplaceService.ProcessReceipt</code> callback to inform developers of the sale channel for the purchase."
     },
     {
         "status": "Pending",

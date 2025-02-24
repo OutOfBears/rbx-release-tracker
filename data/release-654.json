@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixes voxelization of invalid parts and meshes."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Luau user-defined type functions now support Luau thread and buffer primitive types"
     },
     {

@@ -27,26 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a new <code>Class.Decal.TextureContent</code> property so that <code>EditableImage</code> can be used with decals."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Removes lighting calculations from rendering."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves lighting update performance on mobile devices with PowerVR GPUs."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes the generation of some unresolved types like <code>'a <: number</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Next Gen Explorer beta now displays status for Packages and offers package quick actions when clicking the package status indicator."
     },
     {
@@ -68,6 +48,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Adds two new Studio settings to allow users to specify which autocomplete behavior (replace or insert) they want for the Enter/Return and Tab keys."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes the incorrect insert position for items from autocomplete plugin API."
     },
     {
         "status": "Live",
@@ -113,10 +98,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes bug where part streaming would cause animation retargeting glitches."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes the incorrect insert position for items from autocomplete plugin API."
     }
 ]

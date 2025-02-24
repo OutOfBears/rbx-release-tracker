@@ -7,11 +7,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Implements the <code><mark></code> tag, which lets you highlight text with a solid background. Supports the <code>color</code> and <code>transparency</code> attributes."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Script Sync and Next Gen Explorer beta features interact properly. Script Sync status and actions are now available in the Next Gen Explorer."
     },
     {
@@ -23,11 +18,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Adds support for built-in and custom gear accessories in the Avatar Setup previewer."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
     },
     {
         "status": "Pending",
@@ -57,11 +47,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Existing UGC characters no longer retarget animations, but new UGC characters support retargeting."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Improves performance of reading small boxes from Terrain."
     },
     {
@@ -87,22 +72,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Reduces how long it takes to find the desired time position in a <code>Class.VideoFrame</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Enables the <code>Class.Workspace.FallHeightEnabled</code> property to toggle the fallen height kill plane. Also fixes the kill plane logic so that models with at least one descendant fallen part or no descendant parts are deleted."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves trackpad behavior for Chromebooks."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Sitting characters are no longer disconnected from their seats on remote clients that stream them out and back in again."
     },
     {
         "status": "Pending",
