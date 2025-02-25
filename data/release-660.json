@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the Lock button and Anchor tool button to the new Ribbon beta."
+        "content": "Adds the Lock button and Anchor tool button to the new Ribbon in Next Gen Studio Preview."
     },
     {
         "status": "Live",
@@ -58,6 +58,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Removes invalid unicode handling for characters in error logs on Windows."
     },
     {
         "status": "Live",
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a <code>require-by-string</code> issue where <code>require</code> calls inside closures resolve relative to an incorrect Instance."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Removes invalid unicode handling for characters in error logs on Windows."
     },
     {
         "status": "Pending",

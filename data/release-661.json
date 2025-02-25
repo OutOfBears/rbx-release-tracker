@@ -7,7 +7,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances which are paused and haven't been modified recently."
+        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances that are paused and haven't been modified recently."
     },
     {
         "status": "Pending",
@@ -72,7 +72,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "<code>Class.UserInputService.TouchEnabled</code> will now be set to <code>true</code> for Windows touch devices."
+        "content": "<code>Class.UserInputService.TouchEnabled</code> is now set to <code>true</code> for Windows touch devices."
     },
     {
         "status": "Pending",
