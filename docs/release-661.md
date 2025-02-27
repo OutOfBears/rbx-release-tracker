@@ -18,10 +18,10 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with <code>Enum.Material\|Glass</code> material rendering in Studio's "Unified Lighting" beta. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | <code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin\|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug where importing malformed animation curve <code>.rbxmx</code> files resulted in Studio crashing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()\|GetSpectrum()</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin\|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.UserInputService.TouchEnabled</code> is now set to <code>true</code> for Windows touch devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Studio's "New Luau type solver" beta preventing the types of unannotated variables in multiple assignments from being correctly inferred. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Addressed a crash that could occur with <code>TextChannel:SetDirectChatRequestor</code>. This should no longer occur. |
