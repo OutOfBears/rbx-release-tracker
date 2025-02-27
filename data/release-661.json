@@ -7,11 +7,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances that are paused and haven't been modified recently."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
     },
     {
@@ -63,16 +58,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.UserInputService.TouchEnabled</code> is now set to <code>true</code> for Windows touch devices."
     },
     {
         "status": "Pending",

@@ -17,17 +17,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Implements <code>AudioChannelMixer</code> and <code>AudioChannelSplitter</code> instances which can be used for channel layout conversions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Implements <code>:GetInputPins()</code> and <code>:GetOutputPins()</code> methods on all of the \"Wirable\"/Audio API instances. These list options are available for <code>Wire.TargetName</code> and <code>Wire.SourceName</code> respectively."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes a bug with sky and lighting initialization."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Implements <code>AudioChannelMixer</code> and <code>AudioChannelSplitter</code> instances which can be used for channel layout conversions."
     },
     {
         "status": "Pending",
@@ -43,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Moves the Insert Object button back next to the Instance name under the Next Gen Explorer beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the Lock button and Anchor tool button to the new Ribbon in Next Gen Studio Preview."
     },
     {
         "status": "Live",
