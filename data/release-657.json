@@ -7,6 +7,21 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves lighting update performance on mobile devices with PowerVR GPUs."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves performance on some Android devices running on PowerVR GPUs."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reduces startup time and memory usage on Windows devices."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Script Sync and Next Gen Explorer beta features interact properly. Script Sync status and actions are now available in the Next Gen Explorer."
     },
     {
@@ -23,21 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new <code>Class.Decal.TextureContent</code> property so that <code>EditableImage</code> can be used with decals."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves lighting update performance on mobile devices with PowerVR GPUs."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves performance on some Android devices running on PowerVR GPUs."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Reduces startup time and memory usage on Windows devices."
     },
     {
         "status": "Live",

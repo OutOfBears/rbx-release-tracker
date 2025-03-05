@@ -1,10 +1,5 @@
 [
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces three-phase rollout for updates to the sleep system."
@@ -22,7 +17,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Optimizes join times for Android devices running OpenGLES3."
+        "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Optimizes join times for Android devices running OpenGL ES."
     },
     {
         "status": "Pending",

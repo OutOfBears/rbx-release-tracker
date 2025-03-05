@@ -5,13 +5,13 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows developer plugins to trigger the opening of the directional curve editor. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves lighting update performance on mobile devices with PowerVR GPUs. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves performance on some Android devices running on PowerVR GPUs. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reduces startup time and memory usage on Windows devices. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Script Sync and Next Gen Explorer beta features interact properly. Script Sync status and actions are now available in the Next Gen Explorer. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In a group Team Create session, the owner of the place becomes the owner of any models and assets uploaded through the Avatar Setup Tool. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for built-in and custom gear accessories in the Avatar Setup previewer. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new <code>Class.Decal.TextureContent</code> property so that <code>EditableImage</code> can be used with decals. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves lighting update performance on mobile devices with PowerVR GPUs. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves performance on some Android devices running on PowerVR GPUs. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reduces startup time and memory usage on Windows devices. |
 ## Fixes
 
 | Status | Note |
