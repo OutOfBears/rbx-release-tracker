@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue causing <code>Class.Sound.DidLoop</code> to sometimes trigger more than once after a loop."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Memory profiler now shows separate items for terrain textures vs. terrain meshes under GPU memory. Previously this was counted together."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes bugs for the Luau new solver beta where some type functions are \"uninhabited\" and look like: <code>t1 where t1 = union<A, union<B, t1>></code>"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue causing <code>Class.Sound.DidLoop</code> to sometimes trigger more than once after a loop."
     },
     {
         "status": "Pending",
