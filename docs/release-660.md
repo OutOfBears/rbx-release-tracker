@@ -5,12 +5,12 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renamed TestService.Is30FpsThrottleEnabled to TestService.ThrottlePhysicsToRealtime |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug with sky and lighting initialization. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds <code>Class.AudioEmitter:GetAudibilityFor()</code> and <code>Class.AudioListener:GetAudibilityFor()</code>. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Now when event re-entrancy limits are hit, the script path will be printed. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements <code>AudioChannelMixer</code> and <code>AudioChannelSplitter</code> instances which can be used for channel layout conversions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements <code>:GetInputPins()</code> and <code>:GetOutputPins()</code> methods on all of the "Wirable"/Audio API instances. These list options are available for <code>Wire.TargetName</code> and <code>Wire.SourceName</code> respectively. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Moves the Insert Object button back next to the Instance name under the Next Gen Explorer beta. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug with sky and lighting initialization. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | WrapDeformer:SetCageMeshContent() now takes an optional CFrame second parameter for the CageOrigin. If you set the cage to a mesh from another BaseWrap (or EditableMesh derived from a BaseWrap mesh), set this parameter so the deformer cage properly lines up with its parent mesh. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Type Solver Beta, implements <code>getmetatable</code> and <code>setmetatable</code> type functions to enable Creators to more readily work with metatable types without the use of <code>typeof</code>. |
 ## Fixes

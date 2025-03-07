@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes a bug with sky and lighting initialization."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds <code>Class.AudioEmitter:GetAudibilityFor()</code> and <code>Class.AudioListener:GetAudibilityFor()</code>."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Moves the Insert Object button back next to the Instance name under the Next Gen Explorer beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes a bug with sky and lighting initialization."
     },
     {
         "status": "Pending",
