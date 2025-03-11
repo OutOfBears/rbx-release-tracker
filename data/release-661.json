@@ -5,6 +5,11 @@
         "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes a crash that could occur at login in Studio."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances."
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, reading from an unknown variable will now produce an unknown symbol error in non-strict mode."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes a crash that could occur at login in Studio."
     },
     {
         "status": "Live",

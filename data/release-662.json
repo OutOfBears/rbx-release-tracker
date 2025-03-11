@@ -25,6 +25,16 @@
         "content": "Adds the Lock button and Anchor tool button to the new Ribbon in Next Gen Studio Preview."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug where an animation assetID would sometimes overlap the copy button in the post-publish pop-up window."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau require expressions now support arguments containing () or typeof type annotations containing a resolvable instance path."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
@@ -37,17 +47,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug where an animation assetID would sometimes overlap the copy button in the post-publish pop-up window."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes bug where parts of the rig in the IK chain of <code>Class.IKControl</code> have incorrect scale and offset when <code>ScaleTo</code> is called on the model."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau require expressions now support arguments containing () or typeof type annotations containing a resolvable instance path."
     },
     {
         "status": "Pending",
