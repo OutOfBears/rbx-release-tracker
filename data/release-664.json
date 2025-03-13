@@ -65,6 +65,11 @@
         "content": "Change return type of <code>Class.OrderedDataStore:GetSortedAsync()</code> from <code>Instance</code> to <code>DataStorePages</code>."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Update dragging behavior with \"Align Dragged Objects\" disabled in the Dragger QoL Beta: Objects are now placed flush with one and other rather than having an unexpected gap after dragging."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Improved type checking for some spatial queries."
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "On Mac, context menus will now open a small amount away from your cursor. This is intended to prevent accidentally moving your mouse a tiny bit and triggering whatever the first option is, such as accidentally cutting something you right-click in the Explorer."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Update dragging behavior with \"Align Dragged Objects\" disabled in the Dragger QoL Beta: Objects are now placed flush with one and other rather than having an unexpected gap after dragging."
     },
     {
         "status": "Pending",
