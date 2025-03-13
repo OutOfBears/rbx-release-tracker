@@ -1,0 +1,127 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Added a Step() and rollback() function."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Explorer - Fix funky hovering when hovering over a dropdown item or search box."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds entry to properties widget for properties of the <code>Content</code> type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces three-phase rollout for updates to the sleep system."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, greatly improves the ability to infer types of table literals, reducing the number of invariant subtyping failures, such as in:\n<pre><code>local x: foo = {abc = 100} -- ok\nlocal y: foo = {abc = 10 * 10} -- Previously errors, now ok\n</code></pre>"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "For the New Luau Type Solver, fixed some instances where non-nil variables became <code>nil</code> after function or method calls, such as in:\n<pre><code>--!strict\nlocal RunService = game:GetService(\"RunService\")\nif RunService:IsRunning() then\n  -- BEFORE: `RunService` now has type `RunService?`\n  -- AFTER: `RunService` still has type `RunService`\n  return RunService\nend\n</code></pre>"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "A <code>Players</code> capability is introduced as required for Players service, StarterPlayer service, Player, Teams service, and Team. There are several exceptions.\nPlayer:\n<ul>\n<li>Unassigned for GetJoinData</li>\n<li>Unassigned for GetRankInGroup/GetRoleInGroup/IsInGroup</li>\n<li>Unassigned for IsFriendsWith/GetFriendsOnline</li>\n<li>Unassigned for OnTeleport</li>\n<li>Unassigned for Kick</li>\n<li>Chat for Chatted</li>\n<li>Input for GetMouse</li>\n<li>Avatar for LoadCharacterAppearance/LoadCharacterWithHumanoidDescription</li>\n</ul>\nPlayers service:\n<ul>\n<li>Unassigned for BanAsync/UnbanAsync/GetBanHistoryAsync</li>\n<li>Unassigned for UserSubscriptionStatusChanged</li>\n<li>Unassigned for GetFriendsAsync</li>\n<li>Chat for BubbleChat and ClassicChat</li>\n<li>Avatar for GetHumanoidDescriptionFromOutfitId/GetHumanoidDescriptionFromUserId/CreateHumanoidModelFromDescription</li>\n</ul>"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves the <code>Class.IKControl</code> solver for the two-bone case."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improve shader load times on DirectX."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Add cage and attachment editing tools to the Avatar Auto Setup tool."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Explorer - The insert object button will stay visible while the insert object menu is open."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Add status notifications for users running Avatar Auto Setup."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Change return type of <code>Class.OrderedDataStore:GetSortedAsync()</code> from <code>Instance</code> to <code>DataStorePages</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improved type checking for some spatial queries."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes quadratic time complexity of render transcode step for meshes containing duplicate normal index as described in on the <a>DevForum</a>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds a warning to the macro parser telling users to not use it anymore."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, <code>getmetatable</code> will now return that the type of the metatable of <code>any</code> is also <code>any</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Roblox Studio, when the Luau type checker or autocomplete encounters an internal error, it now tells the user that they need to restart Studio in the script analysis widget."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "On Mac, context menus will now open a small amount away from your cursor. This is intended to prevent accidentally moving your mouse a tiny bit and triggering whatever the first option is, such as accidentally cutting something you right-click in the Explorer."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Update dragging behavior with \"Align Dragged Objects\" disabled in the Dragger QoL Beta: Objects are now placed flush with one and other rather than having an unexpected gap after dragging."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix UIPageLayout event sinking behavior under Scroll Event Overhaul beta. The UIPageLayout now sinks horizontal trackpad pans avoiding unintended camera rotation."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Reduces the Studio log size by removing a set of unnecessary entries."
+    }
+]

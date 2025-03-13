@@ -52,7 +52,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Improves script paths in the Luau error message call stack section when scripts are cloned or moved in the <code>DataModel</code>."
+        "content": "Improves script paths in the Luau error message call stack section in cases where scripts are cloned/moved in the DataModel."
     },
     {
         "status": "Live",

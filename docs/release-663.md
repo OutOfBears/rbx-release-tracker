@@ -4,11 +4,8 @@
 
 | Status | Note |
 |--------|------|
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reduces the memory footprint of <code>Class.VideoFrame</code> instances that are paused and haven't been modified recently. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes join times for Android devices running OpenGL ES. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the <code>Class.IKControl</code> solver for the two-bone case. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a New Type Solver Beta bug where refinements on generic types would lead to unexpected type errors about the <code>intersect</code> type function being uninhabited. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a New Type Solver bug where recursive function calls could lead to overly-complicated types, or constraint-solving wouldn't finish errors. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Spin boxes now clear on focus in the Next Gen Studio UI. |

@@ -18,7 +18,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Existing UGC characters no longer retarget animations, but new UGC characters support retargeting. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves script paths in the Luau error message call stack section when scripts are cloned or moved in the <code>DataModel</code>. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves script paths in the Luau error message call stack section in cases where scripts are cloned/moved in the DataModel. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a <code>require-by-string</code> issue where <code>require</code> calls inside closures resolve relative to an incorrect Instance. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes invalid unicode handling for characters in error logs on Windows. |

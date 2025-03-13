@@ -2,27 +2,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the sleep system."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances that are paused and haven't been modified recently."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Optimizes join times for Android devices running OpenGL ES."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the <code>Class.IKControl</code> solver for the two-bone case."
     },
     {
         "status": "Pending",
