@@ -4,7 +4,6 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Added a Step() and rollback() function. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Fix funky hovering when hovering over a dropdown item or search box. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds entry to properties widget for properties of the <code>Content</code> type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the sleep system. |

@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Added a Step() and rollback() function."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "New Explorer - Fix funky hovering when hovering over a dropdown item or search box."
     },
     {
