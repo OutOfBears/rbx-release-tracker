@@ -15,8 +15,8 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where an animation assetID would sometimes overlap the copy button in the post-publish pop-up window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau require expressions now support arguments containing () or typeof type annotations containing a resolvable instance path. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a Next Gen Studio Preview bug where the command bar would hide when opening a script. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin\|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash that would occur when an avatar rig contained legacy clothing alongside layered clothing without a <code>Class.SurfaceAppearance</code> object. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug where parts of the rig in the IK chain of <code>Class.IKControl</code> have incorrect scale and offset when <code>ScaleTo</code> is called on the model. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a New Explorer Beta bug where inserted services didn't become visible in the Explorer window. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a Next Gen Studio Preview bug where the command bar would hide when opening a script. |
