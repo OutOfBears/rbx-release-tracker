@@ -17,12 +17,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Allow layered clothing to be previewed on Avatar Bodies created using WrapDeformer before publishing."
+        "content": "Fixes a crash in the new Luau type solver beta where duplicate keys in a table literal always causes Studio to crash."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Fixes a crash in the new Luau type solver beta where duplicate keys in a table literal always causes Studio to crash."
+        "content": "Allow layered clothing to be previewed on Avatar Bodies created using WrapDeformer before publishing."
     },
     {
         "status": "Live",

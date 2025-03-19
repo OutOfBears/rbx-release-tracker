@@ -7,8 +7,8 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds new "ProductPurchaseChannel" field to the ProcessReceipt API with enums (Unknown, InExperience, ExperienceDetailsPage) to inform developers of the sale channel for the purchase. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | "Save as local plugin" now always saves a .rbxmx file to preserve RunContext information. "Save as file" can still be used to obtain a .lua file, and .lua plugins will still run as expected. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds <code>Class.AudioAnalyzer.WindowSize</code> and <code>Class.AudioPitchShifter.WindowSize</code> properties, which can be used to adjust responsiveness against quality. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash in the new Luau type solver beta where duplicate keys in a table literal always causes Studio to crash. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allow layered clothing to be previewed on Avatar Bodies created using WrapDeformer before publishing. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in the new Luau type solver beta where duplicate keys in a table literal always causes Studio to crash. |
 ## Fixes
 
 | Status | Note |
