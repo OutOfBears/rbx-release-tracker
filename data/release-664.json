@@ -2,7 +2,22 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "New Explorer - Fix funky hovering when hovering over a dropdown item or search box."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Explorer - The insert object button will stay visible while the insert object menu is open."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Add status notifications for users running Avatar Auto Setup."
     },
     {
         "status": "Pending",
@@ -32,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves the <code>Class.IKControl</code> solver for the two-bone case."
     },
     {
@@ -50,19 +60,24 @@
         "content": "Add cage and attachment editing tools to the Avatar Auto Setup tool."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New Explorer - The insert object button will stay visible while the insert object menu is open."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Add status notifications for users running Avatar Auto Setup."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Change return type of <code>Class.OrderedDataStore:GetSortedAsync()</code> from <code>Instance</code> to <code>DataStorePages</code>."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Change return type of <code>Class.OrderedDataStore:GetSortedAsync()</code> from <code>Instance</code> to <code>DataStorePages</code>."
+        "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "On Mac, context menus will now open a small amount away from your cursor. This is intended to prevent accidentally moving your mouse a tiny bit and triggering whatever the first option is, such as accidentally cutting something you right-click in the Explorer."
     },
     {
         "status": "Live",
@@ -87,27 +102,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "In the New Luau Type Solver, <code>getmetatable</code> will now return that the type of the metatable of <code>any</code> is also <code>any</code>."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "In Roblox Studio, when the Luau type checker or autocomplete encounters an internal error, it now tells the user that they need to restart Studio in the script analysis widget."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "On Mac, context menus will now open a small amount away from your cursor. This is intended to prevent accidentally moving your mouse a tiny bit and triggering whatever the first option is, such as accidentally cutting something you right-click in the Explorer."
     },
     {
         "status": "Pending",

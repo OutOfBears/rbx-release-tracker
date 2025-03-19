@@ -27,6 +27,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where the camera would reset angles when switching modes."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes <code>Class.Actor.SendMessage</code> in plugin scripts using the <code>RunContext</code> plugin."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a New Explorer Beta bug where \"Save as Local Plugin\" wouldn't show for folders."
     },
     {
@@ -43,16 +53,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "<code>Class.UserInputService.TouchEnabled</code> is now set to <code>true</code> for Windows touch devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where the camera would reset angles when switching modes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes <code>Class.Actor.SendMessage</code> in plugin scripts using the <code>RunContext</code> plugin."
     },
     {
         "status": "Pending",
