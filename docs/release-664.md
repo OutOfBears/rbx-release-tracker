@@ -18,10 +18,10 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Change return type of <code>Class.OrderedDataStore:GetSortedAsync()</code> from <code>Instance</code> to <code>DataStorePages</code>. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Narrows return types for multiple <code>Class.WorldModel</code> APIs from <code>{ Instance }</code> to <code>{ BasePart }</code>. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()\|GetSpectrum()</code>. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | On Mac, context menus will now open a small amount away from your cursor. This is intended to prevent accidentally moving your mouse a tiny bit and triggering whatever the first option is, such as accidentally cutting something you right-click in the Explorer. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Update dragging behavior with "Align Dragged Objects" disabled in the Dragger QoL Beta: Objects are now placed flush with one and other rather than having an unexpected gap after dragging. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improved type checking for some spatial queries. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes quadratic time complexity of render transcode step for meshes containing duplicate normal index as described in on the <a>DevForum</a>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a warning to the macro parser telling users to not use it anymore. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, <code>getmetatable</code> will now return that the type of the metatable of <code>any</code> is also <code>any</code>. |

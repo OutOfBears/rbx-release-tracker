@@ -40,6 +40,11 @@
         "content": "Fixes a New Explorer Beta bug where \"Save as Local Plugin\" wouldn't show for folders."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug where the <code>Class.DragDetector.RestartDrag</code> dragged part would jump to the wrong location during the restart. The <code>RestartDrag</code> method now allows you to change the <code>DragDetector</code> direction or <code>DragStyle</code> without releasing the mouse when the <code>ModeSwitchKey</code> is pressed by <code>TranslatePlaneOrLine</code> and <code>TranslateLineOrPlane</code> drag styles."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug where a sandbox escape could happen when a player equipped items like tools and flags. When parented from players, these instances now become sandboxed with the appropriate capabilities. These instances remain sandboxed even when they're unparented later."
@@ -68,10 +73,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds back plugin debugging context menu actions to the New Explorer Beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where the <code>Class.DragDetector.RestartDrag</code> dragged part would jump to the wrong location during the restart. The <code>RestartDrag</code> method now allows you to change the <code>DragDetector</code> direction or <code>DragStyle</code> without releasing the mouse when the <code>ModeSwitchKey</code> is pressed by <code>TranslatePlaneOrLine</code> and <code>TranslateLineOrPlane</code> drag styles."
     }
 ]

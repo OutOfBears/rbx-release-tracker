@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Narrows return types for multiple <code>Class.WorldModel</code> APIs from <code>{ Instance }</code> to <code>{ BasePart }</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Update dragging behavior with \"Align Dragged Objects\" disabled in the Dragger QoL Beta: Objects are now placed flush with one and other rather than having an unexpected gap after dragging."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improved type checking for some spatial queries."
     },
     {
         "status": "Pending",

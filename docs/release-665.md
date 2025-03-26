@@ -5,9 +5,9 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Changes styling of dragging and dropping indicators to be less obtrusive. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the sleep system. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes <code>Class.Instance:FindFirstChildWhichIsA()</code> 20x for parent instances with many children. Optimizes <code>Class.Object:IsA()</code> 30%. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.SurfaceAppearance</code> updates:<br><ul><br><li>Adds new alpha blend mode for <code>Class.SurfaceAppearance</code>: <code>TintMask</code>.</li><br><li>Streaming LOD Meshes more accurately represents the Surface Appearance alpha blend modes.</li><br></ul> |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new <code>TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves memory usage of <code>Class.EditableImage</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the <code>Class.IKControl</code> solver for the two-bone case. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables physics/datamodel/scripts to all re-simulate together. |
@@ -19,6 +19,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Fixes long names not giving a horizontal scroll bar again. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Scrolling now works on Windows while dragging. For Qt users: Qt has no native way to solve this, you need to use <code>SetWindowsHookEx</code> to capture the scroll input. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where installed fonts disappear in dropdown list. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, users will be less likely to see blocked types and "constraint solving incomplete" errors when doing basic math. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with require-by-string's autocomplete not inserting escape characters like <code>\\</code>, <code>\"</code>, and <code>\'</code> when necessary. |
@@ -26,5 +27,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>PreloadAsync</code> call will fail on a <code>Class.VideoFrame</code> instance that is not in a DataModel. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Explorer - Fixes bugs relating to clearing searches, especially with debugger open. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where Avatar Setup gets stuck on the uploading stage for non-humanoid avatars. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Explorer - Scrolling now works on Windows while dragging. For Qt users: Qt has no native way to solve this, you need to use <code>SetWindowsHookEx</code> to capture the scroll input. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes "Game Settings" and "Download as Copy" being disabled when the Script Editor is open. |

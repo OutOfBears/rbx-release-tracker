@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with <code>Enum.Material|Glass</code> material rendering in Studio's \"Unified Lighting\" beta."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes bug where importing malformed animation curve <code>.rbxmx</code> files resulted in Studio crashing."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a crash for the new Luau type solver on some <code>Datatype.Vector3</code> methods."
     },
     {
         "status": "Pending",

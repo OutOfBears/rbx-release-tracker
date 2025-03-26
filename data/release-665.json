@@ -7,7 +7,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the sleep system."
+        "content": "Introduces three-phase rollout for updates to the physics sleep system."
     },
     {
         "status": "Pending",
@@ -17,7 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "<code>Class.SurfaceAppearance</code> updates:\n<ul>\n<li>Adds new alpha blend mode for <code>Class.SurfaceAppearance</code>: <code>TintMask</code>.</li>\n<li>Streaming LOD Meshes more accurately represents the Surface Appearance alpha blend modes.</li>\n</ul>"
+        "content": "Adds new <code>TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes."
     },
     {
         "status": "Pending",
@@ -55,6 +55,11 @@
         "content": "New Explorer - Fixes long names not giving a horizontal scroll bar again."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Scrolling now works on Windows while dragging. For Qt users: Qt has no native way to solve this, you need to use <code>SetWindowsHookEx</code> to capture the scroll input."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where installed fonts disappear in dropdown list."
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes issue where Avatar Setup gets stuck on the uploading stage for non-humanoid avatars."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "New Explorer - Scrolling now works on Windows while dragging. For Qt users: Qt has no native way to solve this, you need to use <code>SetWindowsHookEx</code> to capture the scroll input."
     },
     {
         "status": "Pending",
