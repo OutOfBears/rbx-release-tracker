@@ -5,9 +5,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Changes styling of dragging and dropping indicators to be less obtrusive. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes <code>Class.Instance:FindFirstChildWhichIsA()</code> 20x for parent instances with many children. Optimizes <code>Class.Object:IsA()</code> 30%. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new <code>TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves memory usage of <code>Class.EditableImage</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the <code>Class.IKControl</code> solver for the two-bone case. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables physics/datamodel/scripts to all re-simulate together. |

@@ -7,17 +7,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the physics sleep system."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Optimizes <code>Class.Instance:FindFirstChildWhichIsA()</code> 20x for parent instances with many children. Optimizes <code>Class.Object:IsA()</code> 30%."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds new <code>TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes."
     },
     {
         "status": "Pending",
