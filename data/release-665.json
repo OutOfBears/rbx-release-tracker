@@ -5,6 +5,11 @@
         "content": "New Explorer - Changes styling of dragging and dropping indicators to be less obtrusive."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Explorer - Explorer no longer smooth scrolls."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Optimizes <code>Class.Instance:FindFirstChildWhichIsA()</code> 20x for parent instances with many children. Optimizes <code>Class.Object:IsA()</code> 30%."
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Terrain updates:\n<ul>\n<li>Grass blades on terrain now are more randomly distributed with less apparent repetition.</li>\n<li>Fixes a bug that caused straight lines with shorter or missing grass blades to appear on terrain.</li>\n<li>When editing terrain in Roblox Studio, the grass blade positions are updated continuously and not just after large changes.</li>\n</ul>"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New Explorer - Explorer no longer smooth scrolls."
     },
     {
         "status": "Live",

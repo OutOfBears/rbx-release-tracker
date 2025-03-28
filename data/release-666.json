@@ -1,5 +1,15 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds new <code>Enum.AlphaMode|TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improved experience join times."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, improves the rendering of type errors to significantly increase comprehension of subtyping failures with multiple underlying reasons."
@@ -12,22 +22,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds new <code>Enum.AlphaMode|TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "MicroProfiler on-screen UI can be easily closed now."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Autocomplete and typechecking is now available inside Luau type functions (feature of Luau's New Type Solver)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improved experience join times."
     },
     {
         "status": "Pending",
@@ -48,6 +48,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Audio discovery plugin now discovers new asset IDs where it previously did not."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<kbd>Ctrl</kbd><kbd>Z</kbd> (<kbd>⌘</kbd><kbd>Z</kbd>) now performs an undo in text input boxes. Similarly, <kbd>Ctrl</kbd><kbd>Y</kbd> (<kbd>⌘</kbd><kbd>Y</kbd>) or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Z</kbd> (<kbd>⌘</kbd><kbd>Shift</kbd><kbd>Z</kbd>) now performs a redo in text input boxes."
     },
     {
         "status": "Live",
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue on console chat where chat tags weren't being rendered correctly due to up-scaled text size."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<kbd>Ctrl</kbd><kbd>Z</kbd> (<kbd>⌘</kbd><kbd>Z</kbd>) now performs an undo in text input boxes. Similarly, <kbd>Ctrl</kbd><kbd>Y</kbd> (<kbd>⌘</kbd><kbd>Y</kbd>) or <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>Z</kbd> (<kbd>⌘</kbd><kbd>Shift</kbd><kbd>Z</kbd>) now performs a redo in text input boxes."
     },
     {
         "status": "Pending",

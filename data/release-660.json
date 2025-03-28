@@ -62,6 +62,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes bugs for the Luau new solver beta where some type functions are \"uninhabited\" and look like: <code>t1 where t1 = union<A, union<B, t1>></code>"
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a <code>require-by-string</code> issue where <code>require</code> calls inside closures resolve relative to an incorrect Instance."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes bugs for the Luau new solver beta where some type functions are \"uninhabited\" and look like: <code>t1 where t1 = union<A, union<B, t1>></code>"
     },
     {
         "status": "Pending",
