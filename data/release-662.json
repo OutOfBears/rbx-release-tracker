@@ -1,6 +1,6 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Fixes some issues with assigning tables in Luau’s New Type Solver where optional fields were mistakenly required."
     },
