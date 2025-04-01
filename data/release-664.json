@@ -65,6 +65,11 @@
         "content": "Update dragging behavior with \"Align Dragged Objects\" disabled in the Dragger QoL Beta: Objects are now placed flush with one and other rather than having an unexpected gap after dragging."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fix UIPageLayout event sinking behavior under Scroll Event Overhaul beta. The UIPageLayout now sinks horizontal trackpad pans avoiding unintended camera rotation."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes quadratic time complexity of render transcode step for meshes containing duplicate normal index as described in on the <a>DevForum</a>."
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Roblox Studio, when the Luau type checker or autocomplete encounters an internal error, it now tells the user that they need to restart Studio in the script analysis widget."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fix UIPageLayout event sinking behavior under Scroll Event Overhaul beta. The UIPageLayout now sinks horizontal trackpad pans avoiding unintended camera rotation."
     },
     {
         "status": "Pending",
