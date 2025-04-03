@@ -5,6 +5,11 @@
         "content": "Fixes some issues with assigning tables in Luau’s New Type Solver where optional fields were mistakenly required."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Overhauls the handling of scrolling in the Roblox engine so that scroll deltas are no longer always integers."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a field to <code>Class.DataModel</code> called <code>MatchmakingType</code> and a corresponding enum with the following values: <code>Default</code>, <code>XboxOnly</code>, and <code>PlayStationOnly</code>."
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "When you set a custom icon theme, <code>StudioService:GetClassIcon()</code> now returns your custom icons within the New Explorer Beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Overhauls the handling of scrolling in the Roblox engine so that scroll deltas are no longer always integers."
     },
     {
         "status": "Pending",

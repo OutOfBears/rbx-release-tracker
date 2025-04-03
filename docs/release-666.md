@@ -7,7 +7,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds new <code>Enum.AlphaMode\|TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improved experience join times. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, improves the rendering of type errors to significantly increase comprehension of subtyping failures with multiple underlying reasons. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | MicroProfiler on-screen UI can be easily closed now. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Autocomplete and typechecking is now available inside Luau type functions (feature of Luau's New Type Solver). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug on consoles where attempting to purchase an item while having enough Robux would cause gamepad selection to stop working in experiences with the virtual cursor disabled. |
@@ -24,7 +23,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, the <code>index</code> type function now returns the type <code>any</code> when indexing an error-suppressing type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, the <code>index</code> type function no longer crashes when looking up a missing property in a cyclic metatable. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, the <code>index</code> type function now computes the result type of an index when using a metatable with a function as the <code>__index</code> metamethod. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that sometimes caused sounds shorter than one frame not to play. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue on PlayStation where logging into the user that launched Roblox on another controller could cause the gamepad disconnect modal to stay on the screen. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue on console chat where chat tags weren't being rendered correctly due to up-scaled text size. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Holding <code>Alt</code> no longer disables scrolling in Studio for Windows. |

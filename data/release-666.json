@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the physics sleep system."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "MicroProfiler on-screen UI can be easily closed now."
     },
     {
@@ -78,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, the <code>index</code> type function now computes the result type of an index when using a metatable with a function as the <code>__index</code> metamethod."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
     },
     {
         "status": "Pending",
