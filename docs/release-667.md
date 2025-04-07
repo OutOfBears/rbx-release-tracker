@@ -5,6 +5,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces support for deprecating methods in Luau class declarations. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an 'Ask Assistant' option to the right-click menu of script errors in the output window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, added box select. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, removed "select on insertion" setting from dropdown (but is still accessible from the Insert Object settings menu). "Highlight hierarchy under selection" has been removed and is now forced on. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used. |

@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds an 'Ask Assistant' option to the right-click menu of script errors in the output window."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the new Explorer, added box select."
     },
     {
