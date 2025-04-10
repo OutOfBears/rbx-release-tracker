@@ -22,16 +22,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the physics sleep system."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Removes lighting calculations from rendering."
     },
     {
@@ -92,6 +82,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "DragDetector callbacks may change the Anchored property of the dragged part without fear of crashing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes crash that could occur on startup if client settings failed to download."
     },
     {
@@ -143,11 +138,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a rare crash relating to the insert object action (Ctrl+I)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "DragDetector callbacks may change the Anchored property of the dragged part without fear of crashing."
     },
     {
         "status": "Pending",

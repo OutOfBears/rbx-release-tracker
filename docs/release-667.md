@@ -8,8 +8,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an 'Ask Assistant' option to the right-click menu of script errors in the output window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, added box select. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, removed "select on insertion" setting from dropdown (but is still accessible from the Insert Object settings menu). "Highlight hierarchy under selection" has been removed and is now forced on. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes lighting calculations from rendering. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the superclass of <code>Camera</code> from <code>Instance</code> to <code>PVInstance</code>. This doesn't do anything meaningful <em>yet</em>, but it will :) |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the performance of the IK tool for "Body Part" mode in the Animation Clip Editor. |
@@ -26,6 +24,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issues of Luau user-defined type functions failing with 'Type function instance is uninhabited' error when used inside type aliases like <code>type Wrap<T> = { a: UserFunction<T?> }</code> and other nested scenarios. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | DragDetector callbacks may change the Anchored property of the dragged part without fear of crashing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes crash that could occur on startup if client settings failed to download. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an animation bug where running IK Control with either the End Effector or Chain Root wrapping a PoseHandle would cause a crash |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a bug with type refinements that would sometimes lead to types exploding to include <code>boolean \| buffer \| class \| function \| number \| string \| table \| thread</code>. |
@@ -37,5 +36,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the issue with math operations broken in Properties widget. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes to the ShowDevelopmentGui property are now excluded from change history. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare crash relating to the insert object action (Ctrl+I). |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | DragDetector callbacks may change the Anchored property of the dragged part without fear of crashing. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where Studio shortcuts would become disabled after stopping a play test with a text input UI having focus. |
