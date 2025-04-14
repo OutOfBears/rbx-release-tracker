@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Removes lighting calculations from rendering."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Introduces support for deprecating methods in Luau class declarations."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "In the new Explorer, removed \"select on insertion\" setting from dropdown (but is still accessible from the Insert Object settings menu). \"Highlight hierarchy under selection\" has been removed and is now forced on."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Removes lighting calculations from rendering."
     },
     {
         "status": "Pending",

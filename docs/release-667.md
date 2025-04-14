@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes lighting calculations from rendering. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces support for deprecating methods in Luau class declarations. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When using Luau user-defined type functions in Luau's New Type Solver, autocomplete now works on the types coming from evaluation of those type functions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an 'Ask Assistant' option to the right-click menu of script errors in the output window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, added box select. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, removed "select on insertion" setting from dropdown (but is still accessible from the Insert Object settings menu). "Highlight hierarchy under selection" has been removed and is now forced on. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes lighting calculations from rendering. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the superclass of <code>Camera</code> from <code>Instance</code> to <code>PVInstance</code>. This doesn't do anything meaningful <em>yet</em>, but it will :) |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the performance of the IK tool for "Body Part" mode in the Animation Clip Editor. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In many cases, we were previously enforcing that concat operands be only strings, and have updated the type solver to accept numbers in those cases as well. |
