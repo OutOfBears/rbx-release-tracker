@@ -72,6 +72,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "The Beta Constraint tool now correctly resizes attachment adorns in accordance with the spinbox value."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "In the new Explorer, the scroll bar now snaps to the edges when you go out of bounds, rather than stopping still."
     },
     {
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fixes an internal compiler exception when passing the same argument twice to <code>table.freeze</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "The Beta Constraint tool now correctly resizes attachment adorns in accordance with the spinbox value."
     },
     {
         "status": "Pending",

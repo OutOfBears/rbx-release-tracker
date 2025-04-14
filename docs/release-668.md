@@ -22,6 +22,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The Beta Constraint tool now correctly resizes attachment adorns in accordance with the spinbox value. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, the scroll bar now snaps to the edges when you go out of bounds, rather than stopping still. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, fixes broken box select behavior. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.ContentProvider.PreloadAsync</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects. |
@@ -29,7 +30,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.RopeConstraint</code>, <code>Class.RodConstraint</code>, and <code>Class.SpringConstraint</code> objects are now visible by default when you create them using the Beta Constraint tool. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes long heap profiler entries to be properly cut off instead of disappearing. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes an internal compiler exception when passing the same argument twice to <code>table.freeze</code>. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The Beta Constraint tool now correctly resizes attachment adorns in accordance with the spinbox value. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Ray:ClosestPoint()</code> and <code>Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with glass refraction when unified lighting is enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Mutually recursive types must agree on their type parameters. This restriction always existed, but it caused random behavior if it was broken. |
