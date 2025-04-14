@@ -5,6 +5,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces support for deprecating methods in Luau class declarations. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When using Luau user-defined type functions in Luau's New Type Solver, autocomplete now works on the types coming from evaluation of those type functions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an 'Ask Assistant' option to the right-click menu of script errors in the output window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, added box select. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, removed "select on insertion" setting from dropdown (but is still accessible from the Insert Object settings menu). "Highlight hierarchy under selection" has been removed and is now forced on. |
@@ -17,7 +18,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Editable mesh updates:<br><ul><br><li>Add get methods for a vertex on a face. <code>GetVertexFaceColor</code>, <code>GetVertexFaceNormal</code>, <code>GetVertexFaceUV</code></li><br><li>Add set methods for a vertex on a face. <code>SetVertexFaceColor</code>, <code>SetVertexFaceNormal</code>, <code>SetVertexFaceUV</code></li><br><li>Add get methods for all corners involving a vertex. <code>GetVertexColors</code>, <code>GetVertexNormals</code>, <code>GetVertexUVs</code>, <code>GetVertexFaces</code></li><br><li>Deprecate <code>GetVerticesWithAttribute</code> in favor of new alternatives. <code>GetVerticesWithColor</code>, <code>GetVerticesWithNormal</code>, <code>GetVerticesWithUV</code>, <code>GetFaceVertices</code></li><br><li>Deprecate <code>GetFacesWithAttribute</code> in favor of new alternatives. <code>GetFacesWithColor</code>, <code>GetFacesWithNormal</code>, <code>GetFacesWithUV</code>, <code>GetVertexFaces</code></li><br></ul> |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Logs an error if users access API's are deemed to not be AuroraScript safe. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a property to <code>Class.VoiceChatService\|VoiceChatService</code> that sets the default distance attenuation curve for default voice emitters. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When using Luau user-defined type functions in the new type solver Beta, autocomplete now works on the types coming from evaluation of those type functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New beta feature: Fast autocompletion with fragment typechecking. |
 ## Fixes
 

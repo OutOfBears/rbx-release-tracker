@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "When using Luau user-defined type functions in Luau's New Type Solver, autocomplete now works on the types coming from evaluation of those type functions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds an 'Ask Assistant' option to the right-click menu of script errors in the output window."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a property to <code>Class.VoiceChatService|VoiceChatService</code> that sets the default distance attenuation curve for default voice emitters."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When using Luau user-defined type functions in the new type solver Beta, autocomplete now works on the types coming from evaluation of those type functions."
     },
     {
         "status": "Pending",
