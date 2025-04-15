@@ -4,10 +4,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves memory usage of <code>Class.EditableImage</code>. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Changes styling of dragging and dropping indicators to be less obtrusive. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Explorer no longer smooth scrolls. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes <code>Class.Instance:FindFirstChildWhichIsA()</code> 20x for parent instances with many children. Optimizes <code>Class.Object:IsA()</code> 30%. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves memory usage of <code>Class.EditableImage</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the <code>Class.IKControl</code> solver for the two-bone case. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables physics/datamodel/scripts to all re-simulate together. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves shader load times on DirectX. |

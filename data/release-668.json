@@ -87,12 +87,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "<code>Class.ContentProvider.PreloadAsync</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects."
+        "content": "<code>Class.ContentProvider:PreloadAsync()</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "<code>Class.RunService.IsRunMode</code> no longer incorrectly returns true when run on a server started from Play mode."
+        "content": "<code>Class.RunService:IsRunMode()</code> no longer incorrectly returns true when run on a server started from Play mode."
     },
     {
         "status": "Pending",
@@ -112,7 +112,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "<code>Ray:ClosestPoint()</code> and <code>Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
+        "content": "<code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
     },
     {
         "status": "Pending",
