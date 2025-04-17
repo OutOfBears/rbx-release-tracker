@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In many cases, we were previously enforcing that concat operands be only strings, and have updated the type solver to accept numbers in those cases as well."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Introduces support for deprecating methods in Luau class declarations."
     },
     {
@@ -38,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves the performance of the IK tool for \"Body Part\" mode in the Animation Clip Editor."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In many cases, we were previously enforcing that concat operands be only strings, and have updated the type solver to accept numbers in those cases as well."
     },
     {
         "status": "Pending",

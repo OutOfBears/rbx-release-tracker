@@ -14,6 +14,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixed a class of issue where comparisons would cause non-<code>nil</code> values to suddenly become <code>nil</code> unexpectedly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Make <code>Class.Humanoid:BuildRigFromAttachments()</code> respect the AvatarJointUpgrade rollout |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: holding shift while scrolling will now scroll Explorer by page |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Avatar auto setup no longer uploads models as input which stops you from being moderated twice for the same asset. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New logo for Roblox Studio. |
 ## Fixes

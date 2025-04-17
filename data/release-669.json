@@ -52,6 +52,11 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Next Gen Explorer beta: holding shift while scrolling will now scroll Explorer by page"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Avatar auto setup no longer uploads models as input which stops you from being moderated twice for the same asset."
     },
     {
