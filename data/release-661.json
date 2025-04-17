@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Fixes a crash that could occur at login in Studio."
     },
     {

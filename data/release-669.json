@@ -1,0 +1,122 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixed a bug causing the Explorer to get stuck in a dragging state."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces three-phase rollout for updates to the physics sleep system."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance for mouse raycast check."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "When using Script Capabilities to sandbox instances, properties of a base class can be read in a derived class using base class capability requirements. Some read-only methods like <code>IsA</code> can also be called. For example, even with <code>FlagStand</code> being Unassigned today, properties defined on Part can be read."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "The following <code>Class.WrapLayer</code> and <code>Class.WrapTarget</code> properties that are used to adjust the layered clothing (LC) fit and how the avatar body conforms to it are no longer needed and will be deprecated with this release:\n<ul>\n<li><code>Class.WrapLayer.Puffiness</code></li>\n<li><code>Class.WrapLayer.ShrinkFactor</code></li>\n<li><code>Class.WrapTarget.Stiffness</code></li>\n</ul>\nThese properties are ignored on existing LC assets and body parts with non-default values set."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixed a class of issue where comparisons would cause non-<code>nil</code> values to suddenly become <code>nil</code> unexpectedly."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Make <code>Class.Humanoid:BuildRigFromAttachments()</code> respect the AvatarJointUpgrade rollout"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Avatar auto setup no longer uploads models as input which stops you from being moderated twice for the same asset."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New logo for Roblox Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Fixed several issues relating to box select."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "<code>Class.ContentProvider:PreloadAsync()</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "<code>Class.RunService:IsRunMode()</code> no longer incorrectly returns true when run on a server started from Play mode."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed an issue where Unicode in the user directory name could cause sound files to fail to load."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Automatically fix corrupted animation curves for curves with encoding version 1."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "The in-Studio Solid Modeling buttons should now be enabled/disabled as appropriate when selecting parts using the Explorer view."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix ImproveSearch cut through wall issue."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed issue in EditableMesh where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "<code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed an issue with lighting property migration when enabling the Unified Lighting Studio beta."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Changes the lowest LOD of a SurfaceAppearance to use the specular value as the average value of the roughness texture, rather than have all SurfaceAppearances use a the same constant value"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Next Gen Explorer beta no longer makes GUI selection highlights fail to render."
+    }
+]

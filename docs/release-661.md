@@ -4,7 +4,6 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash that could occur at login in Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a visual editor for <code>Class.AudioCompressor</code> and <code>Class.AudioLimiter</code> instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.AssetService:CreateEditableMeshAsync()</code> now supports creating an <code>Class.EditableMesh</code> from another <code>Class.EditableMesh</code> via <code>Datatype.Content.fromObject()\|Content.fromObject(editableMesh)</code>. |
