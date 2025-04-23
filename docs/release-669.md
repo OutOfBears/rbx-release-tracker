@@ -16,7 +16,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: holding shift while scrolling will now scroll Explorer by page |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Avatar auto setup no longer uploads models as input which stops you from being moderated twice for the same asset. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New logo for Roblox Studio. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates logo for Roblox Studio. |
 ## Fixes
 
 | Status | Note |
@@ -30,6 +30,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix ImproveSearch cut through wall issue. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed issue in EditableMesh where removing faces could sometimes corrupt the internal mesh data structure and cause crashes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue with lighting property migration when enabling the Unified Lighting Studio beta. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with lighting property migration when enabling the Unified Lighting Studio beta. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the lowest LOD of a SurfaceAppearance to use the specular value as the average value of the roughness texture, rather than have all SurfaceAppearances use a the same constant value |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta no longer makes GUI selection highlights fail to render. |

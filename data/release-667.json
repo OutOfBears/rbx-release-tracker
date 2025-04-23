@@ -82,6 +82,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "DragDetector callbacks may change the Anchored property of the dragged part without fear of crashing."
     },
     {
@@ -113,11 +118,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug in Luau where writing a union of string literal types as a table indexer would cause an unnecessary parse error without being parenthesized."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
     },
     {
         "status": "Pending",

@@ -62,7 +62,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "New logo for Roblox Studio."
+        "content": "Updates logo for Roblox Studio."
     },
     {
         "status": "Live",
@@ -112,7 +112,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed an issue with lighting property migration when enabling the Unified Lighting Studio beta."
+        "content": "Fixes an issue with lighting property migration when enabling the Unified Lighting Studio beta."
     },
     {
         "status": "Pending",

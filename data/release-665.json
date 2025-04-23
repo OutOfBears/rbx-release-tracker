@@ -42,6 +42,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue with require-by-string's autocomplete not inserting escape characters like <code>\\\\</code>, <code>\\\"</code>, and <code>\\'</code> when necessary."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue that causes autocomplete to insert invalid Instance names when using require-by-string."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "New Explorer - Fixes long names not giving a horizontal scroll bar again."
     },
     {
@@ -63,16 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, users will be less likely to see blocked types and \"constraint solving incomplete\" errors when doing basic math."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with require-by-string's autocomplete not inserting escape characters like <code>\\\\</code>, <code>\\\"</code>, and <code>\\'</code> when necessary."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that causes autocomplete to insert invalid Instance names when using require-by-string."
     },
     {
         "status": "Pending",

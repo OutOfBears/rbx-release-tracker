@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes the generation of some unresolved types like <code>'a <: number</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes a crash that could occur at login in Studio."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "<code>Class.AssetService:CreateEditableMeshAsync()</code> now supports creating an <code>Class.EditableMesh</code> from another <code>Class.EditableMesh</code> via <code>Datatype.Content.fromObject()|Content.fromObject(editableMesh)</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes the generation of some unresolved types like <code>'a <: number</code>."
     },
     {
         "status": "Pending",

@@ -19,12 +19,12 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Existing UGC characters no longer retarget animations, but new UGC characters support retargeting. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves script paths in the Luau error message call stack section in cases where scripts are cloned/moved in the DataModel. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Deprecates the <code>Class.AudioPlayer.AssetId</code> property, which was a string, and replaces it with <code>AudioPlayer.Asset</code>, which is of type <code>Content</code>. This autocompletes <code>rbxassetid://</code> in studio when typing numbers into the text box. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bugs for the Luau new solver beta where some type functions are "uninhabited" and look like: <code>t1 where t1 = union<A, union<B, t1>></code> |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a <code>require-by-string</code> issue where <code>require</code> calls inside closures resolve relative to an incorrect Instance. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes invalid unicode handling for characters in error logs on Windows. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue causing <code>Class.Sound.DidLoop</code> to sometimes trigger more than once after a loop. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Memory profiler now shows separate items for terrain textures vs. terrain meshes under GPU memory. Previously this was counted together. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Luau's type system where extending tables copied with <code>table.clone</code> would cause the types of both tables to be inaccurately combined. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Type Solver Beta, resolves a bug where recursive types would sometimes cause type normalization to loop infinitely until memory was exhausted. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | TextChatService's default UI longer does unnecessary work in the background when disabled, either through <code>StarterGui:SetCoreGuiEnabled</code> or <code>ChatWindowConfiguration.Enabled</code>. This eliminates redundant work for experiences with custom chat UI. |
