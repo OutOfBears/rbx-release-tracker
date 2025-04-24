@@ -7,9 +7,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Studio Debug Assistant error actions in the output context menu now retain on exiting Play mode. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the new Explorer, selected instances now have darker text. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes crashes that occurred when the <code>index</code> type function was used cyclically to define the indexer of a table type. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds preset selection to the visual editor for <code>Class.AudioEmitter.DistanceAttenuation</code> and <code>Class.AudioListener.DistanceAttenuation</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for a new <code>@self</code> alias to directly access children when using <code>require-by-string</code>, and deprecates the special treatment of ModuleScripts named <code>Init</code> or <code>init</code>. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau’s New Type Solver, decreases the occurrence of "leaked free type" errors. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Add a new default <code>@self</code> alias as an autocomplete option when using <code>require-by-string</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau’s New Type Solver, resolves some crashes related to using type assertions with a leading union or intersection type, such as:<br><pre><code>local x = 42 :: \| number <br>                \| string<br></code></pre> |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for multiple controllers on Xbox and PlayStation. |

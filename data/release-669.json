@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the physics sleep system."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves performance for mouse raycast check."
     },
     {
@@ -55,34 +50,9 @@
         "content": "Next Gen Explorer beta: holding shift while scrolling will now scroll Explorer by page"
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Avatar auto setup no longer uploads models as input which stops you from being moderated twice for the same asset."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates logo for Roblox Studio."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "New Explorer - Fixed several issues relating to box select."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.ContentProvider:PreloadAsync()</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.RunService:IsRunMode()</code> no longer incorrectly returns true when run on a server started from Play mode."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed an issue where Unicode in the user directory name could cause sound files to fail to load."
     },
     {
         "status": "Pending",
@@ -98,26 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix ImproveSearch cut through wall issue."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed issue in EditableMesh where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with lighting property migration when enabling the Unified Lighting Studio beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Changes the lowest LOD of a SurfaceAppearance to use the specular value as the average value of the roughness texture, rather than have all SurfaceAppearances use a the same constant value"
     },
     {
         "status": "Pending",

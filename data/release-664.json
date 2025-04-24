@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "For the New Luau Type Solver, fixed some instances where non-nil variables became <code>nil</code> after function or method calls, such as in:\n<pre><code>--!strict\nlocal RunService = game:GetService(\"RunService\")\nif RunService:IsRunning() then\n  -- BEFORE: `RunService` now has type `RunService?`\n  -- AFTER: `RunService` still has type `RunService`\n  return RunService\nend\n</code></pre>"
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "<code>Runtime/Sleep</code> profiles in the MicroProfiler are now visually semi-transparent."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds entry to properties widget for properties of the <code>Content</code> type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "For the New Luau Type Solver, fixed some instances where non-nil variables became <code>nil</code> after function or method calls, such as in:\n<pre><code>--!strict\nlocal RunService = game:GetService(\"RunService\")\nif RunService:IsRunning() then\n  -- BEFORE: `RunService` now has type `RunService?`\n  -- AFTER: `RunService` still has type `RunService`\n  return RunService\nend\n</code></pre>"
     },
     {
         "status": "Pending",

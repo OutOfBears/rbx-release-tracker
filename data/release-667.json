@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Removes lighting calculations from rendering."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "In many cases, we were previously enforcing that concat operands be only strings, and have updated the type solver to accept numbers in those cases as well."
     },
     {
@@ -33,6 +28,11 @@
         "status": "Live",
         "type": "Improvements",
         "content": "In the new Explorer, removed \"select on insertion\" setting from dropdown (but is still accessible from the Insert Object settings menu). \"Highlight hierarchy under selection\" has been removed and is now forced on."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Removes lighting calculations from rendering."
     },
     {
         "status": "Pending",
@@ -68,11 +68,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a property to <code>Class.VoiceChatService|VoiceChatService</code> that sets the default distance attenuation curve for default voice emitters."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New beta feature: Fast autocompletion with fragment typechecking."
     },
     {
         "status": "Live",

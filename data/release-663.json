@@ -1,13 +1,13 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances that are paused and haven't been modified recently."
+        "content": "Optimizes join times for Android devices running OpenGL ES."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Optimizes join times for Android devices running OpenGL ES."
+        "content": "Reduces the memory footprint of <code>Class.VideoFrame</code> instances that are paused and haven't been modified recently."
     },
     {
         "status": "Pending",

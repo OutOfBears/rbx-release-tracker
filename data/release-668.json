@@ -17,17 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds preset selection to the visual editor for <code>Class.AudioEmitter.DistanceAttenuation</code> and <code>Class.AudioListener.DistanceAttenuation</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds support for a new <code>@self</code> alias to directly access children when using <code>require-by-string</code>, and deprecates the special treatment of ModuleScripts named <code>Init</code> or <code>init</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau’s New Type Solver, decreases the occurrence of \"leaked free type\" errors."
     },
     {
         "status": "Pending",
