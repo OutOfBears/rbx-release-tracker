@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a method <code>CFrame:angleBetween(cf: CFrame)</code>, used to compute the angle of rotation between two CFrames. This is the minimum angle required to align both rotations of the CFrames together. This function does not take the position of either CFrame into account, and only looks at the relative rotation."
+        "content": "Adds a method <code>CFrame:AngleBetween(cf: CFrame)</code>, used to compute the angle of rotation between two CFrames. This is the minimum angle required to align both rotations of the CFrames together. This function does not take the position of either CFrame into account, and only looks at the relative rotation."
     },
     {
         "status": "Pending",
