@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Updates logo for Roblox Studio."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds animation support to <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>."
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Avatar auto setup no longer uploads models as input. This prevents you from being moderated twice for the same asset."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates logo for Roblox Studio."
     },
     {
         "status": "Pending",

@@ -32,11 +32,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for multiple controllers on Xbox and PlayStation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds section headers to the Draggers dropdown in the Nex Gen Studio toolbar."
     },
     {
@@ -48,6 +43,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Mac Studio now supports pinch to zoom."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes long heap profiler entries to be properly cut off instead of disappearing."
     },
     {
         "status": "Live",
@@ -73,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "<code>Class.RopeConstraint</code>, <code>Class.RodConstraint</code>, and <code>Class.SpringConstraint</code> objects are now visible by default when you create them using the Beta Constraint tool."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes long heap profiler entries to be properly cut off instead of disappearing."
     },
     {
         "status": "Pending",

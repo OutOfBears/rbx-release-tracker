@@ -4,6 +4,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates logo for Roblox Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds animation support to <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds an explicit error that user defined type functions named "typeof" are not allowed. |
@@ -17,7 +18,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Enum.AudioFilterType.Lowpass6dB</code>, which produces a gentler muffling effect when assigned to an <code>Class.AudioFilter</code>, compared to <code>Enum.AudioFilterType.Lowpass12dB</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New beta feature: Fast autocompletion with fragment typechecking. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Avatar auto setup no longer uploads models as input. This prevents you from being moderated twice for the same asset. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates logo for Roblox Studio. |
 ## Fixes
 
 | Status | Note |
