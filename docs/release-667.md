@@ -24,6 +24,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issues of Luau user-defined type functions failing with 'Type function instance is uninhabited' error when used inside type aliases like <code>type Wrap<T> = { a: UserFunction<T?> }</code> and other nested scenarios. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue that sometimes caused sounds shorter than one frame not to play. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes the issue with math operations broken in Properties widget. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | DragDetector callbacks may change the Anchored property of the dragged part without fear of crashing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes crash that could occur on startup if client settings failed to download. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an animation bug where running IK Control with either the End Effector or Chain Root wrapping a PoseHandle would cause a crash |
@@ -32,7 +33,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that could cause Model LOD to flicker when characters get out of a seat. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Luau where writing a union of string literal types as a table indexer would cause an unnecessary parse error without being parenthesized. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where inserting from a file into locations other than Workspace would be ignored by undo history. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the issue with math operations broken in Properties widget. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes to the ShowDevelopmentGui property are now excluded from change history. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare crash relating to the insert object action (Ctrl+I). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where Studio shortcuts would become disabled after stopping a play test with a text input UI having focus. |

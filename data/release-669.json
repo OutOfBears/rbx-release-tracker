@@ -2,17 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "Fixed a bug causing the Explorer to get stuck in a dragging state."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used."
     },
     {
         "status": "Pending",

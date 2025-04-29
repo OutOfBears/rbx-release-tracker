@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes ScaleTo behavior for <code>Class.Trail</code> instances. <code>Class.Trail.TextureLength</code> should not be scaled in <code>Enum.TextureMode.Stretch</code> mode, and <code>Class.Trail.WidthScale</code> should never be scaled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "In the new Explorer, fixes broken box select behavior."
     },
     {
@@ -88,10 +93,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes Studio selections counting as Triangles and Drawcalls in scene statistics."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes ScaleTo behavior for <code>Class.Trail</code> instances. <code>Class.Trail.TextureLength</code> should not be scaled in <code>Enum.TextureMode.Stretch</code> mode, and <code>Class.Trail.WidthScale</code> should never be scaled."
     }
 ]
