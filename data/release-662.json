@@ -27,6 +27,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a crash that would occur when an avatar rig contained legacy clothing alongside layered clothing without a <code>Class.SurfaceAppearance</code> object."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug where an animation assetID would sometimes overlap the copy button in the post-publish pop-up window."
     },
     {
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "<code>Class.WrapDeformer</code> now respects its <code>Class.WrapDeformer.CageOrigin|CageOrigin</code> property rather than using the position of its sibling <code>Class.WrapTarget</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a crash that would occur when an avatar rig contained legacy clothing alongside layered clothing without a <code>Class.SurfaceAppearance</code> object."
     },
     {
         "status": "Pending",

@@ -57,7 +57,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Enum.AudioFilterType.Lowpass6dB|Lowpass6dB</code>, which produces a gentler muffling effect when assigned to an <code>Class.AudioFilter</code> when compared to <code>Enum.AudioFilterType.Lowpass12dB|Lowpass12dB</code>."
+        "content": "Adds <code>Enum.AudioFilterType.Lowpass6dB</code>, which produces a gentler muffling effect when assigned to an <code>Class.AudioFilter</code> when compared to <code>Enum.AudioFilterType.Lowpass12dB</code>."
     },
     {
         "status": "Pending",

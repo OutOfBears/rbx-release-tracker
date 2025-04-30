@@ -15,7 +15,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.ImageButton.HoverImageContent</code> and <code>Class.ImageButton.PressedImageContent</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a method <code>CFrame:AngleBetween(cf: CFrame)</code>, used to compute the angle of rotation between two CFrames. This is the minimum angle required to align both rotations of the CFrames together. This function does not take the position of either CFrame into account, and only looks at the relative rotation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds ragdoll death to the Avatar Joint Upgrade. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Enum.AudioFilterType.Lowpass6dB\|Lowpass6dB</code>, which produces a gentler muffling effect when assigned to an <code>Class.AudioFilter</code> when compared to <code>Enum.AudioFilterType.Lowpass12dB\|Lowpass12dB</code>. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Enum.AudioFilterType.Lowpass6dB</code>, which produces a gentler muffling effect when assigned to an <code>Class.AudioFilter</code> when compared to <code>Enum.AudioFilterType.Lowpass12dB</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New beta feature: Fast autocompletion with fragment typechecking. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Avatar auto setup no longer uploads models as input. This prevents you from being moderated twice for the same asset. |
 ## Fixes
