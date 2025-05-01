@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes quadratic time complexity of render transcode step for meshes containing duplicate normal index as described in on the <a>DevForum</a>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a crash occurring when changing <code>Class.AudioAnalyzer.WindowSize</code> while reading <code>Class.AudioAnalyzer:GetSpectrum()|GetSpectrum()</code>."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fix UIPageLayout event sinking behavior under Scroll Event Overhaul beta. The UIPageLayout now sinks horizontal trackpad pans avoiding unintended camera rotation."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes quadratic time complexity of render transcode step for meshes containing duplicate normal index as described in on the <a>DevForum</a>."
     },
     {
         "status": "Pending",

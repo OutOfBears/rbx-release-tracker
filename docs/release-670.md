@@ -22,12 +22,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: The new non-strict mode now reports unknown symbol errors for annotations of non-existent types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.ContentProvider:PreloadAsync()</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.RunService:IsRunMode()</code> no longer incorrectly returns true when run on a server started from Play mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where unicode in the user directory name could cause sound files to fail to load. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with lighting property migration when enabling the Unified Lighting Studio beta. |

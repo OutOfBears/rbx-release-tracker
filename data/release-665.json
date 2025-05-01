@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves shader load times on DirectX."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "New Explorer - Changes styling of dragging and dropping indicators to be less obtrusive."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Enables physics/datamodel/scripts to all re-simulate together."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves shader load times on DirectX."
     },
     {
         "status": "Pending",
