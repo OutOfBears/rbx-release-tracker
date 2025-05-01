@@ -17,26 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds an explicit error to alert that user-defined type functions named <code>typeof</code> are not allowed."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds <code>CapabilityControl</code> to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a preset selection to the visual editor for <code>Class.AudioEmitter.DistanceAttenuation</code> and <code>Class.AudioListener.DistanceAttenuation</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds <code>Class.WireframeHandleAdornment.Thickness</code> to enable drawling lines of different thicknesses."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In Luau’s New Type Solver, decreases the occurrence of \"leaked free type\" errors."
     },
     {
@@ -57,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Enum.AudioFilterType.Lowpass6dB</code>, which produces a gentler muffling effect when assigned to an <code>Class.AudioFilter</code> when compared to <code>Enum.AudioFilterType.Lowpass12dB</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "New beta feature: Fast autocompletion with fragment typechecking."
     },
     {
@@ -72,17 +47,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: The new non-strict mode now reports unknown symbol errors for annotations of non-existent types."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>."
+        "content": "Next Gen Explorer Beta: Fixes bug where pressing F to scroll to the selection and zoom the camera would sometimes not work."
     },
     {
         "status": "Pending",
@@ -97,22 +62,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "<code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with lighting property migration when enabling the Unified Lighting Studio beta."
     },
     {
         "status": "Pending",
@@ -133,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Next Gen Explorer Beta: The Show Hidden Objects in Explorer Studio setting now shows ALL objects including those that have dedicated settings like CoreGui."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Next Gen Explorer Beta: Fixes bug where pressing F to scroll to the selection and zoom the camera would sometimes not work."
     },
     {
         "status": "Pending",
