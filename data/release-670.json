@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a case where certain code fragments could cause Luau Script Analysis to consume memory and run forever."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Next Gen Explorer Beta: Fixes bug where pressing F to scroll to the selection and zoom the camera would sometimes not work."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "<code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a case where certain code fragments could cause Luau Script Analysis to consume memory and run forever."
     },
     {
         "status": "Pending",

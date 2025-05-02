@@ -17,11 +17,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a case where certain code fragments could cause Luau Script Analysis to consume memory and run forever. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer Beta: Fixes bug where pressing F to scroll to the selection and zoom the camera would sometimes not work. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.ContentProvider:PreloadAsync()</code> now supports <code>Class.SurfaceAppearance</code> and <code>Class.MaterialVariant</code> objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Class.RunService:IsRunMode()</code> no longer incorrectly returns true when run on a server started from Play mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | <code>Datatype.Ray:ClosestPoint()</code> and <code>Datatype.Ray:Distance()</code> now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where certain code fragments could cause Luau Script Analysis to consume memory and run forever. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the lowest LOD of a SurfaceAppearance to use the specular value as the average value of the roughness texture, rather than have all SurfaceAppearances use a the same constant value. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Hides cursor following widgets in the Script Editor (Signature Help, Color3 Picker, Autocomplete) when the text cursor has a selection. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer Beta: The Show Hidden Objects in Explorer Studio setting now shows ALL objects including those that have dedicated settings like CoreGui. |

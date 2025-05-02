@@ -2,17 +2,22 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds an explicit error to alert that user-defined type functions named <code>typeof</code> are not allowed."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue where Roblox would silently lose connection without notice or the option to rejoin."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes a crash caused by iterating through magic functions like <code>require</code> using a <code>for ... in</code> loop."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes an issue where loop variables were being inferred as having generic types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds an explicit error to alert that user-defined type functions named <code>typeof</code> are not allowed."
     },
     {
         "status": "Pending",
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Implements an <code>AudioRecorder</code> instance, which can be used to record audio streams in-experience. The results can be loaded back into an <code>Class.AudioPlayer</code> for playback."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue where Roblox would silently lose connection without notice or the option to rejoin."
     },
     {
         "status": "Pending",
