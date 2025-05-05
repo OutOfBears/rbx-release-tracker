@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixed a bug causing the Explorer to get stuck in a dragging state."
     },
     {
@@ -38,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Make <code>Class.Humanoid:BuildRigFromAttachments()</code> respect the AvatarJointUpgrade rollout"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function."
     },
     {
         "status": "Pending",

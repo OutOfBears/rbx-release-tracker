@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "For the Luau New Type Solver, fixed some instances of being unable to use table literals in a \"more general\" manner."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Introduces support for deprecating methods in Luau class declarations."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Sandboxing is now available for ModuleScripts."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "For the Luau New Type Solver, fixed some instances of being unable to use table literals in a \"more general\" manner."
     },
     {
         "status": "Pending",
