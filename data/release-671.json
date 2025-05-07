@@ -22,32 +22,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Textures displaying <code>Class.EditableImage|EditableImages</code> now switch to low resolution when the system is low on memory, with no changes to the actual image data."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a <code>Class.LineForce.ReactionForceEnabled|ReactionForceEnabled</code> property to the <code>Class.LinearVelocity|LinearVelocity</code> constraint to be consistent with other <code>Class.BodyMover|BodyMovers</code>. If you toggle the property off, the constraint only affects <code>Class.Constraint.Attachment0|Attachment0</code>."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>CapabilityControl</code> to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a preset selection to the visual editor for <code>Class.AudioEmitter.DistanceAttenuation</code> and <code>Class.AudioListener.DistanceAttenuation</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a stricter check on accessing table indexes in the conditions of <code>if</code> statements."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds <code>Class.WireframeHandleAdornment.Thickness</code> to enable drawling lines of different thicknesses."
     },
     {
         "status": "Pending",
@@ -85,24 +65,9 @@
         "content": "Luau's New Type Solver: Fixes a crash that could occur when passing a type pack to <code>string.format</code>."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for multiple controllers on Xbox and PlayStation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Next Gen Explorer Beta: Fixes several issues of actions showing when they shouldn't, or not showing when they should. Toggle Scripts, for example, now show consistently instead of as TBD."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: The new non-strict mode now reports unknown symbol errors for annotations of non-existent types."
     },
     {
         "status": "Pending",
@@ -112,32 +77,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue with lighting property migration when enabling the Unified Lighting Studio beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Improves the robustness of the <code>Class.GeometryService</code> CSG API."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes several bugs that could cause the Navigation Mesh visualization to flicker or fail to render under certain conditions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior. This makes sure that the rendering result in terms of diffuse textures is the same, whether a head is rendered with PBR or not."
     },
     {
         "status": "Pending",

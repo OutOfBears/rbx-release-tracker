@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a New Type Solver bug where, in an <code>if</code> condition, a function call with a table as an argument would narrow that table to <code>never</code> in the <code>if</code> body."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a New Explorer Beta bug where \"Save as Local Plugin\" wouldn't show for folders."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "<code>Class.UserInputService.TouchEnabled</code> is now set to <code>true</code> for Windows touch devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a New Type Solver bug where, in an <code>if</code> condition, a function call with a table as an argument would narrow that table to <code>never</code> in the <code>if</code> body."
     },
     {
         "status": "Pending",
