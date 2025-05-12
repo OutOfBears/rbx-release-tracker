@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, improves the rendering of type errors to significantly increase comprehension of subtyping failures with multiple underlying reasons."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds new <code>Enum.AlphaMode|TintMask</code> alpha blend mode for <code>Class.SurfaceAppearance</code>. Additionally, streaming LoD meshes more accurately represent the <code>Class.SurfaceAppearance</code> alpha blend modes."
     },
     {
@@ -22,11 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, improves the rendering of type errors to significantly increase comprehension of subtyping failures with multiple underlying reasons."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "MicroProfiler on-screen UI can be easily closed now."
     },
     {
@@ -38,6 +38,21 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Narrows return types for multiple <code>Class.WorldModel</code> APIs from <code>{Instance}</code> to <code>{BasePart}</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, the <code>index</code> type function now returns the type <code>any</code> when indexing an error-suppressing type."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, the <code>index</code> type function no longer crashes when looking up a missing property in a cyclic metatable."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, the <code>index</code> type function now computes the result type of an index when using a metatable with a function as the <code>__index</code> metamethod."
     },
     {
         "status": "Live",
@@ -73,20 +88,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Terrain APIs now print warnings if the region is not aligned to the voxel grid as per documentation. Please use <code>Datatype.Region3:ExpandToGrid()</code> to make regions aligned, as this will become an error in the future."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, the <code>index</code> type function now returns the type <code>any</code> when indexing an error-suppressing type."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, the <code>index</code> type function no longer crashes when looking up a missing property in a cyclic metatable."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, the <code>index</code> type function now computes the result type of an index when using a metatable with a function as the <code>__index</code> metamethod."
     }
 ]

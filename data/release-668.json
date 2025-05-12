@@ -2,6 +2,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes crashes that occurred when the <code>index</code> type function was used cyclically to define the indexer of a table type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau’s New Type Solver, resolves some crashes related to using type assertions with a leading union or intersection type, such as:\n<pre><code>local x = 42 :: | number \n                | string\n</code></pre>"
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Studio Debug Assistant error actions in the output context menu now retain on exiting Play mode."
     },
     {
@@ -12,22 +22,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, fixes crashes that occurred when the <code>index</code> type function was used cyclically to define the indexer of a table type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds support for a new <code>@self</code> alias to directly access children when using <code>require-by-string</code>, and deprecates the special treatment of ModuleScripts named <code>Init</code> or <code>init</code>."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Add a new default <code>@self</code> alias as an autocomplete option when using <code>require-by-string</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau’s New Type Solver, resolves some crashes related to using type assertions with a leading union or intersection type, such as:\n<pre><code>local x = 42 :: | number \n                | string\n</code></pre>"
     },
     {
         "status": "Pending",

@@ -77,6 +77,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a bug with type refinements that would sometimes lead to types exploding to include <code>boolean | buffer | class | function | number | string | table | thread</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, overloaded functions with singleton type arguments now more often infer the correct argument types without casting."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
     },
     {
@@ -98,16 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an animation bug where running IK Control with either the End Effector or Chain Root wrapping a PoseHandle would cause a crash"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a bug with type refinements that would sometimes lead to types exploding to include <code>boolean | buffer | class | function | number | string | table | thread</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, overloaded functions with singleton type arguments now more often infer the correct argument types without casting."
     },
     {
         "status": "Pending",

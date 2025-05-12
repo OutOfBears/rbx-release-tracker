@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves performance for mouse raycast check."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Fixed a bug causing the Explorer to get stuck in a dragging state."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves performance for mouse raycast check."
     },
     {
         "status": "Pending",

@@ -65,6 +65,16 @@
         "content": "In \"Next Gen Explorer\" beta, changes <kbd>Shift</kbd>-click behavior to one simpler rule: If two things being selected are on the same depth level, only things between with that same depth level are selected; otherwise, everything is selected. Also, the anchor is now the last thing you selected before <kbd>Shift</kbd>-clicking; for example, if there are four consecutive instances (<code>A</code>, <code>B</code>, <code>C</code>, <code>D</code>) and you <kbd>Shift</kbd>-click from <code>A</code> to <code>D</code>, then you <kbd>Shift</kbd>-click <code>C</code>, it'll only select <code>A</code> to <code>C</code>."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where <code>Class.AudioCompressor</code> does not properly compress when the <code>Input</code> and <code>Sidechain</code> streams use a different number of channels."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where rapidly changing <code>Class.AudioPlayer.Asset</code> could cause the wrong asset to be loaded."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, the new non-strict mode now reports unknown symbol errors for annotations of non-existent types."
@@ -103,16 +113,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where <code>Class.AudioCompressor</code> does not properly compress when the <code>Input</code> and <code>Sidechain</code> streams use a different number of channels."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where rapidly changing <code>Class.AudioPlayer.Asset</code> could cause the wrong asset to be loaded."
     },
     {
         "status": "Pending",
