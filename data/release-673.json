@@ -1,0 +1,87 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "The new SolidMesh pipelines now have material box mapping which matches the behavior of the previous version."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Speeds up animation curve evaluation by enabling caching for animation curve sampling."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds <code>Class.Bone.LocalCFrame</code> and <code>Class.Bone.WorldCFrame</code> properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds <code>Class.MaterialVariant.ColorMapContent</code>, <code>Class.MaterialVariant.MetalnessMapContent</code>, <code>Class.MaterialVariant.NormalMapContent</code>, and <code>Class.MaterialVariant.RoughnessMapContent</code> properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Ensures that subtyping errors are reported correctly."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices pre- and post-deformation by <code>Class.WrapDeformer</code>.\nBy default, visualization will show post-deformation vertices, but with the new debug visualization setting of PreWrapDeformerCage, they can view the <code>Class.WrapTarget</code> cage verts prior to deformation."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "The keyboard shortcuts for cut and copy can now be triggered in the Script Editor with no text selected. If a cursor has no selected text, the cut and copy actions will place the entire line the cursor is on into the clipboard.\nPasting a clipboard item sourced from a single line cut or copy will place it on the previous editor line."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In \"Next Gen Explorer\" beta, fixes several issues of actions showing when they shouldn't, or not showing when they should."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Pressing <kbd>Enter</kbd> or <kbd>F2</kbd> to rename an instance can now be done after selecting from the viewport, without having to click on the Explorer window."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by <code>Class.WrapDeformer|WrapDeformers</code>."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with lighting property migration when enabling the \"Unified Lighting\" beta."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a bug where the <code>index</code>, <code>rawget</code>, and <code>setmetatable</code> type functions mistakenly had a default value for their second type parameter."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Some mice such as \"Microsoft Ergonomic Mouse\" send scroll deltas other than -1 or 1 which tricks the input stack into thinking their scroll is a trackpad scroll disabling smooth scrolling in the Windows client.\nUse a better heuristic to avoid this."
+    }
+]
