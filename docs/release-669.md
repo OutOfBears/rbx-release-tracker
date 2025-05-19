@@ -18,8 +18,8 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The in-Studio Solid Modeling buttons should now be enabled/disabled as appropriate when selecting parts using the Explorer view. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Fixed several issues relating to box select. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Automatically fix corrupted animation curves for curves with encoding version 1. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The in-Studio Solid Modeling buttons should now be enabled/disabled as appropriate when selecting parts using the Explorer view. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix ImproveSearch cut through wall issue. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta no longer makes GUI selection highlights fail to render. |

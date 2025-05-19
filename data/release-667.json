@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds a property to <code>Class.VoiceChatService|VoiceChatService</code> that sets the default distance attenuation curve for default voice emitters."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "When using Luau user-defined type functions in Luau's New Type Solver, autocomplete now works on the types coming from evaluation of those type functions."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Logs an error if users access API's are deemed to not be AuroraScript safe."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a property to <code>Class.VoiceChatService|VoiceChatService</code> that sets the default distance attenuation curve for default voice emitters."
     },
     {
         "status": "Live",

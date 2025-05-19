@@ -52,17 +52,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "The in-Studio Solid Modeling buttons should now be enabled/disabled as appropriate when selecting parts using the Explorer view."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "New Explorer - Fixed several issues relating to box select."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Automatically fix corrupted animation curves for curves with encoding version 1."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "The in-Studio Solid Modeling buttons should now be enabled/disabled as appropriate when selecting parts using the Explorer view."
     },
     {
         "status": "Pending",
