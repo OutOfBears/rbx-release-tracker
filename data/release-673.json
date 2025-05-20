@@ -2,7 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "The new SolidMesh pipelines now have material box mapping which matches the behavior of the previous version."
+        "content": "The new <code>SolidMesh</code> pipelines now have material box mapping, which matches the behavior of the previous version."
     },
     {
         "status": "Live",
@@ -32,7 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices pre- and post-deformation by <code>Class.WrapDeformer</code>.\nBy default, visualization will show post-deformation vertices, but with the new debug visualization setting of PreWrapDeformerCage, they can view the <code>Class.WrapTarget</code> cage verts prior to deformation."
+        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices pre- and post-deformation by <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting of <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage verts prior to deformation."
     },
     {
         "status": "Pending",

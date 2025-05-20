@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Renamed the <code>?</code> tab in MicroProfiler HTML dumps to <code>Info</code> for better clarity."
+        "content": "Renames the <code>?</code> tab in MicroProfiler HTML dumps to <code>Info</code> for better clarity."
     },
     {
         "status": "Pending",

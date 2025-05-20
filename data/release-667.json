@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves the performance of the IK tool for \"Body Part\" mode in the Animation Clip Editor."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In many cases, we were previously enforcing that concat operands be only strings, and have updated the type solver to accept numbers in those cases as well."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Changes the superclass of <code>Camera</code> from <code>Instance</code> to <code>PVInstance</code>. This doesn't do anything meaningful <em>yet</em>, but it will :)"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the performance of the IK tool for \"Body Part\" mode in the Animation Clip Editor."
     },
     {
         "status": "Pending",
