@@ -47,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Renames the <code>?</code> tab in MicroProfiler HTML dumps to <code>Info</code> for better clarity."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds support for multiple controllers on Xbox and PlayStation."
     },
     {
