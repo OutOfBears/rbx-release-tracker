@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "<code>Class.RopeConstraint</code>, <code>Class.RodConstraint</code>, and <code>Class.SpringConstraint</code> objects are now visible by default when you create them using the Beta Constraint tool."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes long heap profiler entries to be properly cut off instead of disappearing."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "In the new Explorer, fixes broken box select behavior."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "<code>Class.RopeConstraint</code>, <code>Class.RodConstraint</code>, and <code>Class.SpringConstraint</code> objects are now visible by default when you create them using the Beta Constraint tool."
     },
     {
         "status": "Pending",

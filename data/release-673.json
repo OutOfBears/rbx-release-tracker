@@ -2,7 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "The new <code>SolidMesh</code> pipelines now have material box mapping, which matches the behavior of the previous version."
+        "content": "Ensures that subtyping errors are reported correctly."
     },
     {
         "status": "Live",
@@ -17,26 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.Bone.LocalCFrame</code> and <code>Class.Bone.WorldCFrame</code> properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds <code>Class.MaterialVariant.ColorMapContent</code>, <code>Class.MaterialVariant.MetalnessMapContent</code>, <code>Class.MaterialVariant.NormalMapContent</code>, and <code>Class.MaterialVariant.RoughnessMapContent</code> properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Ensures that subtyping errors are reported correctly."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices pre- and post-deformation by <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting of <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage verts prior to deformation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "The keyboard shortcuts for cut and copy can now be triggered in the Script Editor with no text selected. If a cursor has no selected text, the cut and copy actions will place the entire line the cursor is on into the clipboard.\nPasting a clipboard item sourced from a single line cut or copy will place it on the previous editor line."
     },
     {
@@ -47,32 +27,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by <code>Class.WrapDeformer|WrapDeformers</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue with lighting property migration when enabling the \"Unified Lighting\" beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
     },
     {
         "status": "Pending",
