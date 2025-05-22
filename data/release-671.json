@@ -2,7 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes an issue where loop variables were being inferred as having generic types."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds an explicit error to alert that user-defined type functions named <code>typeof</code> are not allowed."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a stricter check on accessing table indexes in the conditions of <code>if</code> statements."
     },
     {
         "status": "Live",
@@ -17,17 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes an issue where loop variables were being inferred as having generic types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a <code>Class.LineForce.ReactionForceEnabled|ReactionForceEnabled</code> property to the <code>Class.LinearVelocity|LinearVelocity</code> constraint to be consistent with other <code>Class.BodyMover|BodyMovers</code>. If you toggle the property off, the constraint only affects <code>Class.Constraint.Attachment0|Attachment0</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a stricter check on accessing table indexes in the conditions of <code>if</code> statements."
     },
     {
         "status": "Pending",
@@ -70,6 +70,11 @@
         "content": "Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug in Avatar Setup where custom assets wouldn't appear in Test in Experience."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>."
@@ -93,10 +98,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a rare edge case in Draggers where follow-the-cursor dragging of an object over certain surfaces could cause it to disappear."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in Avatar Setup where custom assets wouldn't appear in Test in Experience."
     }
 ]
