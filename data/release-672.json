@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support for multiple controllers on Xbox and PlayStation."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment."
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, adds a library function <code>types.optional</code> for constructing optional types in a user-defined type function."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for multiple controllers on Xbox and PlayStation."
     },
     {
         "status": "Pending",
