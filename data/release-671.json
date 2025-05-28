@@ -72,17 +72,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug in Avatar Setup where custom assets wouldn't appear in Test in Experience."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines."
     },
     {
         "status": "Pending",

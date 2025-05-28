@@ -22,9 +22,9 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in Avatar Setup where custom assets wouldn't appear in Test in Experience. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the robustness of the <code>Class.GeometryService</code> CSG API. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where volumetric sounds could become much louder when unparented from a <code>Class.Part</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare edge case in Draggers where follow-the-cursor dragging of an object over certain surfaces could cause it to disappear. |
