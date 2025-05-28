@@ -52,7 +52,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices pre- and post-deformation by <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting of <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage verts prior to deformation."
+        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage verts prior to deformation."
     },
     {
         "status": "Pending",
@@ -82,7 +82,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Enables improved replication of simulated physics."
+        "content": "Improves replication of simulated physics."
     },
     {
         "status": "Pending",

@@ -2,17 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Introduces three-phase rollout for updates to the physics sleep system."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates logo for Roblox Studio."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds animation support to <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces three-phase rollout for updates to the physics sleep system."
     },
     {
         "status": "Pending",

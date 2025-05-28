@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows <code>Attachment</code>s to have any parent"
+        "content": "Allows <code>Class.Attachment</code> objects to have any parent."
     },
     {
         "status": "Pending",

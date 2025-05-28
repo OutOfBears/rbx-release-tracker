@@ -14,13 +14,13 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.TerrainDetail.ColorMapContent</code>, <code>Class.TerrainDetail.MetalnessMapContent</code>, <code>Class.TerrainDetail.NormalMapContent</code>, and <code>Class.TerrainDetail.RoughnessMapContent</code> properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes some instances of redundant unions in table indexer types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds Mouse <code>KeyCodes</code> for bool <code>InputAction</code> types. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize <code>Class.WrapTarget</code> cage mesh vertices pre- and post-deformation by <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting of <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage verts prior to deformation. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage verts prior to deformation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the <code>GetSize()</code> method to the <code>MemoryStoreQueue</code> data structure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the <code>GetSize()</code> method to the <code>MemoryStoreSortedMap</code> data structure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reduces the CPU usage of Acoustic Simulation's area-density calculations by up to 20%. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes some crashes around aliases containing type assertion expressions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash that occurred when passing a function from another module as an argument to a generic function. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables improved replication of simulated physics. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves replication of simulated physics. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a persistent setting for adaptive camera speed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the Import 3D button to the Home tab of the Next Gen Studio Preview beta feature. |
 ## Fixes
