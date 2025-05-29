@@ -47,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows <code>Class.Attachment</code> objects to have any parent."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves the performance of the IK tool for \"Body Part\" mode in the Animation Clip Editor."
     },
     {
