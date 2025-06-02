@@ -62,6 +62,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Next Gen Explorer Beta: The duplicate shortcut now works while a script is open."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "<code>Class.ContentProvider:RegisterEncryptedAsset</code> and <code>Class.ContentProvider:RegisterSessionEncryptedAsset</code> will throw an error when an invalid ContentId is provided."
     },
     {
@@ -93,11 +98,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Next Gen Explorer Beta: The Show Hidden Objects in Explorer Studio setting now shows ALL objects including those that have dedicated settings like CoreGui."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Next Gen Explorer Beta: The duplicate shortcut now works while a script is open."
     },
     {
         "status": "Pending",
