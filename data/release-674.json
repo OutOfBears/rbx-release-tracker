@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where assigning a value to a read-only property would report an error saying \"Property is not a valid member of Class\" instead of \"Property cannot be assigned to\"."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Next Gen Explorer Beta: Fixes \"NYI: Parented to nil\" and other errors when stopping and starting play solo with certain search terms."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where assigning a value to a read-only property would report an error saying \"Property is not a valid member of Class\" instead of \"Property cannot be assigned to\"."
     },
     {
         "status": "Pending",

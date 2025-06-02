@@ -24,6 +24,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer Beta: Fixes selection occurring during shutdown triggering a "selectionChanged without connection" error. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in <code>Class.Textbox</code> where text is duplicated when long sequences of whitespace are present. |
@@ -31,7 +32,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Adds clarification to wording of Luau's error when not being able to call something of the primitive type <code>function</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where unicode in the user directory name could cause sound files to fail to load. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Parts created on the client are now destroyed when they hit the killplane. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issues with Script Analysis randomly reporting internal "Analysis has been cancelled by user" and "Typeinfer failed to complete in allotted time" errors and stopping auto-complete from running. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where selecting a particular input audio device does not carry over to the next session. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the way Luau renders out the empty type pack so that you will consistently see <code>()</code> in errors for things like empty function returns. |
