@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Terrain APIs now print warnings if the region is not aligned to the voxel grid as per documentation. Please use <code>Datatype.Region3:ExpandToGrid()</code> to make regions aligned, as this will become an error in the future."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "In Luau's New Type Solver, the <code>index</code> type function now returns the type <code>any</code> when indexing an error-suppressing type."
     },
     {
@@ -83,10 +88,5 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes a bug in the \"Next Gen Explorer\" beta with inconsistent cursor state of hovering when you aren't actually hovering."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Terrain APIs now print warnings if the region is not aligned to the voxel grid as per documentation. Please use <code>Datatype.Region3:ExpandToGrid()</code> to make regions aligned, as this will become an error in the future."
     }
 ]
