@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Editable mesh updates:\n<ul>\n<li>Add get methods for a vertex on a face. <code>GetVertexFaceColor</code>, <code>GetVertexFaceNormal</code>, <code>GetVertexFaceUV</code></li>\n<li>Add set methods for a vertex on a face. <code>SetVertexFaceColor</code>, <code>SetVertexFaceNormal</code>, <code>SetVertexFaceUV</code></li>\n<li>Add get methods for all corners involving a vertex. <code>GetVertexColors</code>, <code>GetVertexNormals</code>, <code>GetVertexUVs</code>, <code>GetVertexFaces</code></li>\n<li>Deprecate <code>GetVerticesWithAttribute</code> in favor of new alternatives. <code>GetVerticesWithColor</code>, <code>GetVerticesWithNormal</code>, <code>GetVerticesWithUV</code>, <code>GetFaceVertices</code></li>\n<li>Deprecate <code>GetFacesWithAttribute</code> in favor of new alternatives. <code>GetFacesWithColor</code>, <code>GetFacesWithNormal</code>, <code>GetFacesWithUV</code>, <code>GetVertexFaces</code></li>\n</ul>"
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Introduces support for deprecating methods in Luau class declarations."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Sandboxing is now available for ModuleScripts."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Editable mesh updates:\n<ul>\n<li>Add get methods for a vertex on a face. <code>GetVertexFaceColor</code>, <code>GetVertexFaceNormal</code>, <code>GetVertexFaceUV</code></li>\n<li>Add set methods for a vertex on a face. <code>SetVertexFaceColor</code>, <code>SetVertexFaceNormal</code>, <code>SetVertexFaceUV</code></li>\n<li>Add get methods for all corners involving a vertex. <code>GetVertexColors</code>, <code>GetVertexNormals</code>, <code>GetVertexUVs</code>, <code>GetVertexFaces</code></li>\n<li>Deprecate <code>GetVerticesWithAttribute</code> in favor of new alternatives. <code>GetVerticesWithColor</code>, <code>GetVerticesWithNormal</code>, <code>GetVerticesWithUV</code>, <code>GetFaceVertices</code></li>\n<li>Deprecate <code>GetFacesWithAttribute</code> in favor of new alternatives. <code>GetFacesWithColor</code>, <code>GetFacesWithNormal</code>, <code>GetFacesWithUV</code>, <code>GetVertexFaces</code></li>\n</ul>"
     },
     {
         "status": "Pending",

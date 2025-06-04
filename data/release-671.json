@@ -22,6 +22,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Fixes a crash that could occur when passing a type pack to <code>string.format</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes a crash caused by iterating through magic functions like <code>require</code> using a <code>for ... in</code> loop."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Implements an <code>AudioRecorder</code> instance, which can be used to record audio streams in-experience. The results can be loaded back into an <code>Class.AudioPlayer</code> for playback."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Fixes a crash that could occur when passing a type pack to <code>string.format</code>."
     },
     {
         "status": "Live",

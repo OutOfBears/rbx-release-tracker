@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes an internal compiler exception when passing the same argument twice to <code>table.freeze</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "The Beta Constraint tool now correctly resizes attachment adorns in accordance with the spinbox value."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "In the new Explorer, fixes broken box select behavior."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes an internal compiler exception when passing the same argument twice to <code>table.freeze</code>."
     },
     {
         "status": "Pending",

@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixed a class of issue where comparisons would cause non-<code>nil</code> values to suddenly become <code>nil</code> unexpectedly."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "The following <code>Class.WrapLayer</code> and <code>Class.WrapTarget</code> properties that are used to adjust the layered clothing (LC) fit and how the avatar body conforms to it are no longer needed and will be deprecated with this release:\n<ul>\n<li><code>Class.WrapLayer.Puffiness</code></li>\n<li><code>Class.WrapLayer.ShrinkFactor</code></li>\n<li><code>Class.WrapTarget.Stiffness</code></li>\n</ul>\nThese properties are ignored on existing LC assets and body parts with non-default values set."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixed a class of issue where comparisons would cause non-<code>nil</code> values to suddenly become <code>nil</code> unexpectedly."
     },
     {
         "status": "Pending",
