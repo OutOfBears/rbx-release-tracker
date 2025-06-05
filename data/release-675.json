@@ -22,21 +22,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.Bone.LocalCFrame</code> and <code>Class.Bone.WorldCFrame</code> properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows <code>Class.Attachment</code> objects to have any parent."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage vertices prior to deformation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Implements <code>Class.UserInputService.PreferredInput</code> for detecting the user's current primary input type."
     },
     {
@@ -57,11 +42,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves replication of simulated physics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Luau's New Type Solver: Type inference for singles is now disabled for large tables. The intended order of magnitude here is hundreds of elements."
     },
     {
@@ -72,17 +52,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes meshes not getting rendered on some GPUs running GLES3."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a persistent setting for adaptive camera speed."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions."
     },
     {
         "status": "Live",
@@ -97,37 +67,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue in <code>Class.Textbox</code> where text is duplicated when long sequences of whitespace are present."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by <code>Class.WrapDeformer|WrapDeformers</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Luau's New Type Solver: Adds clarification to wording of Luau's error when not being able to call something of the primitive type <code>function</code>."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Parts created on the client are now destroyed when they hit the killplane."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes issues with Script Analysis randomly reporting internal \"Analysis has been cancelled by user\" and \"Typeinfer failed to complete in allotted time\" errors and stopping auto-complete from running."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where selecting a particular input audio device does not carry over to the next session."
     },
     {
         "status": "Pending",
