@@ -82,6 +82,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue that could cause Model LOD to flicker when characters get out of a seat."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue that sometimes caused sounds shorter than one frame not to play."
     },
     {
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an animation bug where running IK Control with either the End Effector or Chain Root wrapping a PoseHandle would cause a crash"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that could cause Model LOD to flicker when characters get out of a seat."
     },
     {
         "status": "Pending",

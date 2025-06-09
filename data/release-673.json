@@ -25,14 +25,14 @@
         "content": "Pressing <kbd>Enter</kbd> or <kbd>F2</kbd> to rename an instance can now be done after selecting from the viewport, without having to click on the Explorer window."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue with lighting property migration when enabling the \"Unified Lighting\" beta."
+        "content": "In Luau's New Type Solver, fixes a bug where the <code>index</code>, <code>rawget</code>, and <code>setmetatable</code> type functions mistakenly had a default value for their second type parameter."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a bug where the <code>index</code>, <code>rawget</code>, and <code>setmetatable</code> type functions mistakenly had a default value for their second type parameter."
+        "content": "Fixes an issue with lighting property migration when enabling the \"Unified Lighting\" beta."
     },
     {
         "status": "Pending",

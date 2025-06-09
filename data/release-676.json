@@ -32,6 +32,11 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Adds a \"Default\" device option when selecting input and output audio devices."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Fixes meshes not getting rendered on some GPUs running GLES3."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Parts created on the client are now destroyed when they hit the killplane."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where selecting a particular input audio device does not carry over to the next session."
     },
     {
         "status": "Pending",
