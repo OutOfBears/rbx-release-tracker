@@ -27,11 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.MaterialVariant.ColorMapContent</code>, <code>Class.MaterialVariant.MetalnessMapContent</code>, <code>Class.MaterialVariant.NormalMapContent</code>, and <code>Class.MaterialVariant.RoughnessMapContent</code> properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds <code>Class.TerrainDetail.ColorMapContent</code>, <code>Class.TerrainDetail.MetalnessMapContent</code>, <code>Class.TerrainDetail.NormalMapContent</code>, and <code>Class.TerrainDetail.RoughnessMapContent</code> properties."
     },
     {
@@ -83,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Luau's New Type Solver: Instances of \"uninhabited type function\" when using math in loops now occur considerably less often."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
     },
     {
         "status": "Pending",

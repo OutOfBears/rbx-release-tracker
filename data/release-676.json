@@ -12,27 +12,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.Bone.LocalCFrame</code> and <code>Class.Bone.WorldCFrame</code> properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Allows <code>Class.Attachment</code> objects to have any parent."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>Enum.WrapTargetDebugMode.PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage vertices prior to deformation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves replication of simulated physics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a \"Default\" device option when selecting input and output audio devices."
     },
     {
         "status": "Pending",
@@ -73,16 +58,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by <code>Class.WrapDeformer|WrapDeformers</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Parts created on the client are now destroyed when they hit the killplane."
     },
     {
         "status": "Pending",

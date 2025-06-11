@@ -4,10 +4,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau’s New Type Solver, decreases the occurrence of "leaked free type" errors. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates logo for Roblox Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds animation support to <code>Class.AssetService.CreateAssetAsync</code> and <code>Class.AssetService.CreateAssetVersionAsync</code>. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for updates to the physics sleep system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.ImageButton.HoverImageContent</code> and <code>Class.ImageButton.PressedImageContent</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a method <code>CFrame:AngleBetween(cf: CFrame)</code>, used to compute the angle of rotation between two CFrames. This is the minimum angle required to align both rotations of the CFrames together. This function does not take the position of either CFrame into account, and only looks at the relative rotation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds ragdoll death to the Avatar Joint Upgrade. |
