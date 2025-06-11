@@ -8,7 +8,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau user-defined type functions, it is now possible to reference regular type aliases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.Bone.LocalCFrame</code> and <code>Class.Bone.WorldCFrame</code> properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows <code>Class.Attachment</code> objects to have any parent. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage vertices prior to deformation. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>Enum.WrapTargetDebugMode.PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage vertices prior to deformation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves replication of simulated physics. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a "Default" device option when selecting input and output audio devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes meshes not getting rendered on some GPUs running GLES3. |

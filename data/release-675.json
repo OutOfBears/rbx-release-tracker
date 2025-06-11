@@ -57,17 +57,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes issues with Script Analysis randomly reporting internal \"Analysis has been cancelled by user\" and \"Typeinfer failed to complete in allotted time\" errors and stopping auto-complete from running."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Next Gen Explorer Beta: Fixes selection occurring during shutdown triggering a \"selectionChanged without connection\" error."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window."
     },
     {
         "status": "Pending",

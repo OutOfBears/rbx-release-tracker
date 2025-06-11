@@ -37,7 +37,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a <code>SkyboxOrientation</code> property to <code>Class.Sky</code>."
+        "content": "Adds a <code>Class.Sky.SkyboxOrientation|SkyboxOrientation</code> property to <code>Class.Sky</code>."
     },
     {
         "status": "Pending",

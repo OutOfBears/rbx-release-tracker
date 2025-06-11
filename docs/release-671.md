@@ -11,7 +11,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Fixes a crash that could occur when passing a type pack to <code>string.format</code>. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash caused by iterating through magic functions like <code>require</code> using a <code>for ... in</code> loop. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a <code>Class.LineForce.ReactionForceEnabled\|ReactionForceEnabled</code> property to the <code>Class.LinearVelocity\|LinearVelocity</code> constraint to be consistent with other <code>Class.BodyMover\|BodyMovers</code>. If you toggle the property off, the constraint only affects <code>Class.Constraint.Attachment0\|Attachment0</code>. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a <code>SkyboxOrientation</code> property to <code>Class.Sky</code>. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a <code>Class.Sky.SkyboxOrientation\|SkyboxOrientation</code> property to <code>Class.Sky</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables a new service called <code>Class.ReflectionService</code> to inspect available <code>Objects</code> and their properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves Studio Luau type information for some instance methods that currently take tables as arguments. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where CSG operations wouldn't copy <code>Class.BasePart.AudioCanCollide</code> from the source. |
