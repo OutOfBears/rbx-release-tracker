@@ -4,11 +4,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Error messages for some incorrect types in table literals are now more specific. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The new <code>SolidMesh</code> pipelines now have material box mapping that matches the behavior of the previous version. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Fixes some instances of redundant unions in table indexer types. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renames the <code>?</code> tab in MicroProfiler HTML dumps to <code>Info</code> for better clarity. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reduces the CPU usage of Acoustic Simulation's area-density calculations by up to 20%. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Error messages for some incorrect types in table literals are now more specific. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.MaterialVariant.ColorMapContent</code>, <code>Class.MaterialVariant.MetalnessMapContent</code>, <code>Class.MaterialVariant.NormalMapContent</code>, and <code>Class.MaterialVariant.RoughnessMapContent</code> properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.TerrainDetail.ColorMapContent</code>, <code>Class.TerrainDetail.MetalnessMapContent</code>, <code>Class.TerrainDetail.NormalMapContent</code>, and <code>Class.TerrainDetail.RoughnessMapContent</code> properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds Mouse <code>KeyCodes</code> for bool <code>InputAction</code> types. |

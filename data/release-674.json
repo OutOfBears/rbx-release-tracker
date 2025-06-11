@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Error messages for some incorrect types in table literals are now more specific."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "The new <code>SolidMesh</code> pipelines now have material box mapping that matches the behavior of the previous version."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Reduces the CPU usage of Acoustic Simulation's area-density calculations by up to 20%."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Error messages for some incorrect types in table literals are now more specific."
     },
     {
         "status": "Pending",

@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes issue in <code>Class.EditableMesh</code> where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes a bug in Avatar Setup where custom assets wouldn't appear in Test in Experience."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type <code>unknown</code>."
     },
     {
         "status": "Pending",

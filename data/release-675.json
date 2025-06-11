@@ -67,17 +67,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes the way Luau renders out the empty type pack so that you will consistently see <code>()</code> in errors for things like empty function returns."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Next Gen Explorer Beta: Fixes selection occurring during shutdown triggering a \"selectionChanged without connection\" error."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Luau's New Type Solver: Adds clarification to wording of Luau's error when not being able to call something of the primitive type <code>function</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes the way Luau renders out the empty type pack so that you will consistently see <code>()</code> in errors for things like empty function returns."
     },
     {
         "status": "Pending",
