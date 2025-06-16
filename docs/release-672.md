@@ -19,10 +19,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes three issues in <code>Class.EditableMesh</code>: A) <code>Class.EditableMesh:FindClosestVertex()\|FindClosestVertex()</code> only returns vertices that are part of triangles; B) <code>Class.EditableMesh:FindClosestPointOnSurface()\|FindClosestPointOnSurface()</code> does not work for query points inside mesh; C) <code>Class.EditableMesh:FindClosestPointOnSurface()\|FindClosestPointOnSurface()</code> sometimes returns incorrect barycentric coordinates. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where <code>Class.AudioCompressor</code> does not properly compress when the <code>Input</code> and <code>Sidechain</code> streams use a different number of channels. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where rapidly changing <code>Class.AudioPlayer.Asset</code> could cause the wrong asset to be loaded. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, the new non-strict mode now reports unknown symbol errors for annotations of non-existent types. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes three issues in <code>Class.EditableMesh</code>: A) <code>Class.EditableMesh:FindClosestVertex()\|FindClosestVertex()</code> only returns vertices that are part of triangles; B) <code>Class.EditableMesh:FindClosestPointOnSurface()\|FindClosestPointOnSurface()</code> does not work for query points inside mesh; C) <code>Class.EditableMesh:FindClosestPointOnSurface()\|FindClosestPointOnSurface()</code> sometimes returns incorrect barycentric coordinates. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a regression in improved pathfinding where the path would stick to the edges of high-cost areas. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes some of the instances of Roblox types getting refined to <code>never</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In "Next Gen Explorer" beta, hotkeys bound to "expand all" and "collapse all" now work as expected. |
