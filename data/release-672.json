@@ -12,11 +12,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Textures displaying <code>Class.EditableImage|EditableImages</code> now switch to low resolution when the system is low on memory, with no changes to the actual image data."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds <code>CapabilityControl</code> capability to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities."
     },
     {

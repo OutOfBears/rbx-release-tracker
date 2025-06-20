@@ -2,12 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Optimized module script loading leading to reduced memory usage, especially for Windows users."
+        "content": "In Luau user-defined type functions, it is now possible to reference regular type aliases."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "In Luau user-defined type functions, it is now possible to reference regular type aliases."
+        "content": "Optimized module script loading leading to reduced memory usage, especially for Windows users."
     },
     {
         "status": "Pending",
@@ -42,6 +42,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Makes <code>Class.AudioEcho.RampTime</code> use 50% less CPU."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where a freshly-created <code>Class.AudioEmitter</code> or <code>Class.AudioListener</code> that uses custom distance or angle attenuation curves produces an audible click."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "New Explorer - Fixed a rare <code>direction == 0</code>, which would imply <code>target == anchor</code> bug."
     },
     {
@@ -62,11 +72,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Makes <code>Class.AudioEcho.RampTime</code> use 50% less CPU."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Makes accessories for R6 avatars have <code>Class.BasePart.AudioCanCollide</code> set to false by default."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fixes a bug where generic type packs would erroneously produce unknown symbol errors."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where a freshly-created <code>Class.AudioEmitter</code> or <code>Class.AudioListener</code> that uses custom distance or angle attenuation curves produces an audible click."
     },
     {
         "status": "Pending",

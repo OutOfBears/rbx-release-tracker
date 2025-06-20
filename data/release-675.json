@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Implements <code>Class.UserInputService.PreferredInput</code> for detecting the user's current primary input type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau's New Type Solver: Fixes an instance of an internal compiler exception when calling some built-in functions, like <code>table.freeze</code>, as a child of <code>or</code> or <code>and</code> expressions."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "First of several updates targeting Studio performance for large selections. This update makes a ~15% improvement in performance of Properties Widget when dealing with large selections."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Implements <code>Class.UserInputService.PreferredInput</code> for detecting the user's current primary input type."
     },
     {
         "status": "Pending",

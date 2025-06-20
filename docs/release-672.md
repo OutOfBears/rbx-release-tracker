@@ -6,7 +6,6 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for multiple controllers on Xbox and PlayStation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Textures displaying <code>Class.EditableImage\|EditableImages</code> now switch to low resolution when the system is low on memory, with no changes to the actual image data. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>CapabilityControl</code> capability to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a preset selection to the visual editor for <code>Class.AudioEmitter.DistanceAttenuation</code> and <code>Class.AudioListener.DistanceAttenuation</code>. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <code>Class.WireframeHandleAdornment.Thickness</code> to enable drawling lines of different thicknesses. |

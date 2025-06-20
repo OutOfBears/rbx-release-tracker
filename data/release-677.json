@@ -1,8 +1,8 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Adds <code>Class.Bone.LocalCFrame</code> and <code>Class.Bone.WorldCFrame</code> properties."
+        "content": "Adds two new APIs, <code>Class.SocialService:GetEventRsvpStatusAsync()</code> and <code>Class.SocialService:PromptRsvpToEventAsync()</code>, which allow experience events to be subscribed to in-experience."
     },
     {
         "status": "Pending",
@@ -18,16 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a <code>Class.Sky.SkyboxOrientation|SkyboxOrientation</code> property to <code>Class.Sky</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a <code>Enum.InputActionType|Direction3D</code> enum option for use with <code>Class.InputAction.Type</code>."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "You can now visualize <code>Class.WrapTarget</code> cage mesh vertices before and after deformation with <code>Class.WrapDeformer</code>. By default, visualization shows post-deformation vertices, but the new debug visualization setting <code>Enum.WrapTargetDebugMode.PreWrapDeformerCage</code> lets you view the <code>Class.WrapTarget</code> cage vertices prior to deformation."
     },
     {
         "status": "Pending",
@@ -53,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, resolve some instances of generic types \"leaking\" into lambdas, creating unusable callbacks."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds two new APIs, <code>Class.SocialService:GetEventRsvpStatusAsync()</code> and <code>Class.SocialService:PromptRsvpToEventAsync()</code>, which allow experience events to be subscribed to in-experience."
     },
     {
         "status": "Pending",
@@ -92,27 +77,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Extends type checker to check associated generics of function types."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where unicode in the user directory name could cause sound files to fail to load."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Parts created on the client are now destroyed when they hit the killplane."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Various fixes: A) Fixes a bug where certain meshes could be stuck in <code>Enum.CollisionFidelity|Default</code> or <code>Enum.CollisionFidelity|Box</code> collision fidelity; B) Fixes a bug where an initial size of <code>0, 0, 0</code> could force a mesh to have a large <code>Class.MeshPart.ExtentsSize|ExtentsSize</code>; C) Optimizes setting <code>Class.MeshPart.Size</code> and <code>Class.TriangleMeshPart.Size</code>."
     },
     {
         "status": "Pending",

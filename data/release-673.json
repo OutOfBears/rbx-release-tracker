@@ -32,11 +32,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue with lighting property migration when enabling the \"Unified Lighting\" beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Some mice such as \"Microsoft Ergonomic Mouse\" send scroll deltas other than -1 or 1 which tricks the input stack into thinking their scroll is a trackpad scroll disabling smooth scrolling in the Windows client.\nUse a better heuristic to avoid this."
     }
 ]
