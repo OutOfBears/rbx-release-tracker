@@ -2,96 +2,96 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "In Luau user-defined type functions, it is now possible to reference regular type aliases."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Optimized module script loading leading to reduced memory usage, especially for Windows users."
+        "content": ""
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows <code>Class.Attachment</code> objects to have any parent."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves replication of simulated physics."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes meshes not getting rendered on some GPUs running GLES3."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, autocomplete for assignments should provide more helpful suggestions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updated the type signature of the <code>setmetatable</code> builtin to use the <code>setmetatable</code> type function."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Makes <code>Class.AudioEcho.RampTime</code> use 50% less CPU."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where a freshly-created <code>Class.AudioEmitter</code> or <code>Class.AudioListener</code> that uses custom distance or angle attenuation curves produces an audible click."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "New Explorer - Fixed a rare <code>direction == 0</code>, which would imply <code>target == anchor</code> bug."
+        "content": ""
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix scrolling of <code>Class.ScrollingFrame|ScrollingFrames</code> in <code>Class.BillboardGui|BillboardGuis</code> via the mouse wheel."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue in <code>Class.Textbox</code> where text is duplicated when long sequences of whitespace are present."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by <code>Class.WrapDeformer|WrapDeformers</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Makes accessories for R6 avatars have <code>Class.BasePart.AudioCanCollide</code> set to false by default."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Improves incremental autocomplete’s support for completions on union types in Luau’s old Type Solver."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where Sounds and AudioPlayers can fail to play properly when calling <code>Stop()</code> and <code>Play()</code> in quick succession."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a bug where generic type packs would erroneously produce unknown symbol errors."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds PackageLink as instance to ignore when cloning for Texture Generator"
+        "content": ""
     }
 ]

@@ -2,86 +2,86 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Improves type checking for functions with generic type pack arguments."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Implements <code>Class.UserInputService.PreferredInput</code> for detecting the user's current primary input type."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: Fixes an instance of an internal compiler exception when calling some built-in functions, like <code>table.freeze</code>, as a child of <code>or</code> or <code>and</code> expressions."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Improves display names of threads, closures, and their prototypes in the Luau Heap Profiler using \"thread at name:line source\", \"name:line source\" and \"proto name:line source\" formats."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Deprecates use of <code>Class.TextFilterResult.GetChatForUserAsync</code>."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "First of several updates targeting Studio performance for large selections. This update makes a ~15% improvement in performance of Properties Widget when dealing with large selections."
+        "content": ""
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the <code>GetSize()</code> method to the <code>MemoryStoreQueue</code> data structure."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the <code>GetSize()</code> method to the <code>MemoryStoreSortedMap</code> data structure."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: Type inference for singles is now disabled for large tables. The intended order of magnitude here is hundreds of elements."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: Enables support for write-only property types in tables."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a persistent setting for adaptive camera speed."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes issues with Script Analysis randomly reporting internal \"Analysis has been cancelled by user\" and \"Typeinfer failed to complete in allotted time\" errors and stopping auto-complete from running."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes the way Luau renders out the empty type pack so that you will consistently see <code>()</code> in errors for things like empty function returns."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Next Gen Explorer Beta: Fixes selection occurring during shutdown triggering a \"selectionChanged without connection\" error."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Luau's New Type Solver: Adds clarification to wording of Luau's error when not being able to call something of the primitive type <code>function</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes Union not being enabled/disabled correctly."
+        "content": ""
     }
 ]

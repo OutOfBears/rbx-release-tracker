@@ -2,76 +2,76 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Introduces support for the <code>deprecated</code> attribute. Luau functions and table methods marked for deprecation lead to linter warnings when used."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Improves performance for mouse raycast check."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Changes the <code>Class.Plugin</code> type, as well as many related Instance types, to be plugin-level security."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixed a class of issue where comparisons would cause non-<code>nil</code> values to suddenly become <code>nil</code> unexpectedly."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixed potential memory corruption when using <code>table.freeze</code> as a first class function."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixed a bug causing the Explorer to get stuck in a dragging state."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "When using Script Capabilities to sandbox instances, properties of a base class can be read in a derived class using base class capability requirements. Some read-only methods like <code>IsA</code> can also be called. For example, even with <code>FlagStand</code> being Unassigned today, properties defined on Part can be read."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "The following <code>Class.WrapLayer</code> and <code>Class.WrapTarget</code> properties that are used to adjust the layered clothing (LC) fit and how the avatar body conforms to it are no longer needed and will be deprecated with this release:\n<ul>\n<li><code>Class.WrapLayer.Puffiness</code></li>\n<li><code>Class.WrapLayer.ShrinkFactor</code></li>\n<li><code>Class.WrapTarget.Stiffness</code></li>\n</ul>\nThese properties are ignored on existing LC assets and body parts with non-default values set."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Make <code>Class.Humanoid:BuildRigFromAttachments()</code> respect the AvatarJointUpgrade rollout"
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Next Gen Explorer beta: holding shift while scrolling will now scroll Explorer by page"
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "The in-Studio Solid Modeling buttons should now be enabled/disabled as appropriate when selecting parts using the Explorer view."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "New Explorer - Fixed several issues relating to box select."
+        "content": ""
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Automatically fix corrupted animation curves for curves with encoding version 1."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix ImproveSearch cut through wall issue."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta no longer makes GUI selection highlights fail to render."
+        "content": ""
     }
 ]

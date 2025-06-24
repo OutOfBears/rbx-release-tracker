@@ -2,136 +2,136 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds two new APIs, <code>Class.SocialService:GetEventRsvpStatusAsync()</code> and <code>Class.SocialService:PromptRsvpToEventAsync()</code>, which allow experience events to be subscribed to in-experience."
+        "content": ""
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.MaterialVariant.ColorMapContent</code>, <code>Class.MaterialVariant.MetalnessMapContent</code>, <code>Class.MaterialVariant.NormalMapContent</code>, and <code>Class.MaterialVariant.RoughnessMapContent</code> properties."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.ScrollingFrame.TopImageContent</code>, <code>Class.ScrollingFrame.MidImageContent</code>, and <code>Class.ScrollingFrame.BottomImageContent</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a <code>Class.Sky.SkyboxOrientation|SkyboxOrientation</code> property to <code>Class.Sky</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a \"Default\" device option when selecting input and output audio devices."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "When a gamepad is used, the <strong>X</strong> button will now trigger the closest dialog that is <strong>visible</strong> on screen, rather than just the closest one."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates the type signature of the <code>getmetatable()</code> builtin to use the <code>getmetatable()</code> type function."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau type solver, fixed some instances of un-reducible cyclic type functions when using compound assignment, for example <code>+=</code> or <code>-=</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, resolve some instances of generic types \"leaking\" into lambdas, creating unusable callbacks."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "On the Studio start page, the \"@\" symbol is no longer present in group names."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta: Fixes performance drops when new search results would come in."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta: Box select can now be started from the blank space below the last instance in the hierarchy."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta: Fixes bug where scrolling to selected instances would sometimes not occur after clearing a search."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta: Fixes hangs related to instances being created/modified in bulk."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta: Fixes cases of errors throwing while searching if the instances are moved."
+        "content": ""
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Parts created on the client are now destroyed when they hit the killplane."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes Studio Settings not saving for users with non-ASCII characters in OS usernames."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a number of bugs where Roblox API types would get refined to <code>never</code> both inside and after conditionals."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where <code>Class.Sound.TimePosition</code> and <code>Class.AudioPlayer.TimePosition</code> advance while <code>Class.Sound.PlaybackSpeed</code> or <code>Class.AudioPlayer.PlaybackSpeed</code> is set to <code>0</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, improves the error reporting for <code>Library.string.format()</code> calls with non-literal format strings."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug in the audio engine where playing thousands of <code>Class.AudioPlayer|AudioPlayers</code> at once would not properly prioritize rendering the loudest ones."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes the context menu sometimes opening in the 3D viewport while adjusting camera speed."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "On the Studio start page, in the experiences view, sort dropdown text that exceeds bounds is now truncated, namely \"Date Created (Descending).\" Also changes group dropdown truncate method to match."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes collaborator icons on the start page: previously the page showed info tiles with 3 collaborators as two avatars with an additional icon and \"+1\" text; now, the \"+1\" icon shows the third collaborator avatar. Also replaces the third collaborator with \"+{N-2}\" for a collaborative session with more than 3 collaborators where \"N\" represents the total number of collaborators."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In the Next Gen Studio Preview beta feature, restores support for the <kbd>Shift</kbd><kbd>2</kbd> and <kbd>Alt</kbd><kbd>R</kbd> shortcuts to focus the <strong>Move</strong> increment spinbox and the <strong>Rotate</strong> increment spinbox, respectively."
+        "content": ""
     }
 ]

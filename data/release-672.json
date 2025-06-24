@@ -2,91 +2,91 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds support for multiple controllers on Xbox and PlayStation."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>CapabilityControl</code> capability to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a preset selection to the visual editor for <code>Class.AudioEmitter.DistanceAttenuation</code> and <code>Class.AudioListener.DistanceAttenuation</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds <code>Class.WireframeHandleAdornment.Thickness</code> to enable drawling lines of different thicknesses."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "<code>Class.PartOperation.SmoothingAngle|SmoothingAngle</code> on <code>Class.PartOperation</code> in Studio now affects smoothing of all edges, not just the boundaries between parts. It also does a much cleaner job of smoothing overall."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Introduces <code>Class.EditableMesh</code> skinning & FACS Studio beta."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like \"exit early from a function if a variable does not have a particular type.\""
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, adds a library function <code>types.optional</code> for constructing optional types in a user-defined type function."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In \"Next Gen Explorer\" beta, changes <kbd>Shift</kbd>-click behavior to one simpler rule: If two things being selected are on the same depth level, only things between with that same depth level are selected; otherwise, everything is selected. Also, the anchor is now the last thing you selected before <kbd>Shift</kbd>-clicking; for example, if there are four consecutive instances (<code>A</code>, <code>B</code>, <code>C</code>, <code>D</code>) and you <kbd>Shift</kbd>-click from <code>A</code> to <code>D</code>, then you <kbd>Shift</kbd>-click <code>C</code>, it'll only select <code>A</code> to <code>C</code>."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes three issues in <code>Class.EditableMesh</code>: A) <code>Class.EditableMesh:FindClosestVertex()|FindClosestVertex()</code> only returns vertices that are part of triangles; B) <code>Class.EditableMesh:FindClosestPointOnSurface()|FindClosestPointOnSurface()</code> does not work for query points inside mesh; C) <code>Class.EditableMesh:FindClosestPointOnSurface()|FindClosestPointOnSurface()</code> sometimes returns incorrect barycentric coordinates."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where <code>Class.AudioCompressor</code> does not properly compress when the <code>Input</code> and <code>Sidechain</code> streams use a different number of channels."
+        "content": ""
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where rapidly changing <code>Class.AudioPlayer.Asset</code> could cause the wrong asset to be loaded."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, the new non-strict mode now reports unknown symbol errors for annotations of non-existent types."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a regression in improved pathfinding where the path would stick to the edges of high-cost areas."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes some of the instances of Roblox types getting refined to <code>never</code>."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In \"Next Gen Explorer\" beta, hotkeys bound to \"expand all\" and \"collapse all\" now work as expected."
+        "content": ""
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Amends fix for GUI selection highlights with \"Next Gen Explorer\" beta enabled (some cases with previous fix were still not working correctly)."
+        "content": ""
     }
 ]
