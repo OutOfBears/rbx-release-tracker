@@ -10,17 +10,7 @@
         "content": ""
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": ""
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": ""
-    },
-    {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": ""
     },
@@ -80,22 +70,17 @@
         "content": ""
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
         "content": ""
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
         "content": ""
     },
     {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": ""
-    },
-    {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
         "content": ""
     },
