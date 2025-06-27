@@ -119,7 +119,10 @@ const fetchVersionData = (version) => {
       notes.push({
         status: item.Status,
         type: item.ReleaseNotesType,
-        content: parseContents(item.ReleaseNotesText.children),
+        content:
+          typeof item.ReleaseNotesText === "string"
+            ? item.ReleaseNotesText
+            : parseContents(item.ReleaseNotesText.children),
       });
     }
 
