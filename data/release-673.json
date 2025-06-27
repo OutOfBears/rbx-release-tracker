@@ -2,36 +2,36 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Ensures that subtyping errors are reported correctly."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Speeds up animation curve evaluation by enabling caching for animation curve sampling. "
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "In \"Next Gen Explorer\" beta, fixes several issues of actions showing when they shouldn't, or not showing when they should."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "The keyboard shortcuts for cut and copy can now be triggered in the Script Editor with no text selected. If a cursor has no selected text, the cut and copy actions will place the entire line the cursor is on into the clipboard.\n\nPasting a clipboard item sourced from a single line cut or copy will place it on the previous editor line."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Pressing <kbd>Enter</kbd> or <kbd>F2</kbd> to rename an instance can now be done after selecting from the viewport, without having to click on the Explorer window."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "In Luau's New Type Solver, fixes a bug where the `index`, `rawget`, and `setmetatable` type functions mistakenly had a default value for their second type parameter."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Some mice such as \"Microsoft Ergonomic Mouse\" send scroll deltas other than -1 or 1 which tricks the input stack into thinking their scroll is a trackpad scroll disabling smooth scrolling in the Windows client.\r\n\r\nUse a better heuristic to avoid this."
     }
 ]

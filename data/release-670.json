@@ -2,106 +2,106 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Introduces three-phase rollout for updates to the physics sleep system."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "In Luau’s New Type Solver, decreases the occurrence of \"leaked free type\" errors. "
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Updates logo for Roblox Studio."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds animation support to `Class.AssetService.CreateAssetAsync` and `Class.AssetService.CreateAssetVersionAsync`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds `Class.ImageButton.HoverImageContent` and `Class.ImageButton.PressedImageContent`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds a method `CFrame:AngleBetween(cf: CFrame)`, used to compute the angle of rotation between two CFrames. This is the minimum angle required to align both rotations of the CFrames together. This function does not take the position of either CFrame into account, and only looks at the relative rotation."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds ragdoll death to the Avatar Joint Upgrade."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "New beta feature: Fast autocompletion with fragment typechecking."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Avatar auto setup no longer uploads models as input. This prevents you from being moderated twice for the same asset."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes a case where certain code fragments could cause Luau Script Analysis to consume memory and run forever."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Next Gen Explorer Beta: Fixes bug where pressing F to scroll to the selection and zoom the camera would sometimes not work."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Next Gen Explorer Beta: The delete shortcut now works while a script is open."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Next Gen Explorer Beta: The duplicate shortcut now works while a script is open."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "`Class.ContentProvider:RegisterEncryptedAsset` and `Class.ContentProvider:RegisterSessionEncryptedAsset` will throw an error when an invalid ContentId is provided. "
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "`Class.ContentProvider:PreloadAsync()` now supports `Class.SurfaceAppearance` and `Class.MaterialVariant` objects."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "`Class.RunService:IsRunMode()` no longer incorrectly returns true when run on a server started from Play mode."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "`Datatype.Ray:ClosestPoint()` and `Datatype.Ray:Distance()` now produce the expected values. Both methods now use a unit vector to perform the projection in the underlying computation."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Changes the lowest LOD of a SurfaceAppearance to use the specular value as the average value of the roughness texture, rather than have all SurfaceAppearances use a the same constant value."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Hides cursor following widgets in the Script Editor (Signature Help, Color3 Picker, Autocomplete) when the text cursor has a selection."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Next Gen Explorer Beta: The Show Hidden Objects in Explorer Studio setting now shows ALL objects including those that have dedicated settings like CoreGui."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Next Gen Explorer Beta: Explorer no longer steals PageUp and PageDown shortcuts from the script editor."
     }
 ]

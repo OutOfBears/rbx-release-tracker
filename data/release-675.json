@@ -2,86 +2,86 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Improves type checking for functions with generic type pack arguments."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Implements `Class.UserInputService.PreferredInput` for detecting the user's current primary input type."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Luau's New Type Solver: Fixes an instance of an internal compiler exception when calling some built-in functions, like `table.freeze`, as a child of `or` or `and` expressions."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Improves display names of threads, closures, and their prototypes in the Luau Heap Profiler using \"thread at name:line source\", \"name:line source\" and \"proto name:line source\" formats."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Deprecates use of `Class.TextFilterResult.GetChatForUserAsync`."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds a persistent setting for adaptive camera speed."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "First of several updates targeting Studio performance for large selections. This update makes a ~15% improvement in performance of Properties Widget when dealing with large selections."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds the `GetSize()` method to the `MemoryStoreQueue` data structure."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds the `GetSize()` method to the `MemoryStoreSortedMap` data structure."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Luau's New Type Solver: Type inference for singles is now disabled for large tables. The intended order of magnitude here is hundreds of elements."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Luau's New Type Solver: Enables support for write-only property types in tables."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes blurry engine-based UI in Studio on Windows, such as the new ribbon bar and new Explorer window."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes issues with Script Analysis randomly reporting internal \"Analysis has been cancelled by user\" and \"Typeinfer failed to complete in allotted time\" errors and stopping auto-complete from running."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes the way Luau renders out the empty type pack so that you will consistently see `()` in errors for things like empty function returns."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Next Gen Explorer Beta: Fixes selection occurring during shutdown triggering a \"selectionChanged without connection\" error."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Luau's New Type Solver: Adds clarification to wording of Luau's error when not being able to call something of the primitive type `function`."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes Union not being enabled/disabled correctly."
     }
 ]

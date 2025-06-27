@@ -2,91 +2,91 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Textures displaying `Class.EditableImage|EditableImages` now switch to low resolution when the system is low on memory, with no changes to the actual image data."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds a `Enum.InputActionType|Direction3D` enum option for use with `Class.InputAction.Type`."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "In the New Luau Type Solver, autocomplete now suggests individual string literal keys for table index expressions when appropriate."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Updates the Script Capability system to extend availability of instances under existing capabilities. See the DevForum announcement for specifics."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "In the New Luau Type Solver, improves error messages for table literals in assignments while still allowing imperative table updates."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Next Gen Explorer beta: the true option will now auto-sort to the top when doing searches like `anchored=t`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Makes the camera speed lock in the \"New Studio Camera Controls\" beta persistent."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Extends type checker in the New Type Solver to check associated generics of function types."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes occasional crashes on macOS when a user unplugs a game controller."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Various fixes: A) Fixes a bug where certain meshes could be stuck in `Enum.CollisionFidelity|Default` or `Enum.CollisionFidelity|Box` collision fidelity; B) Fixes a bug where an initial size of `0, 0, 0` could force a mesh to have a large `Class.MeshPart.ExtentsSize|ExtentsSize`; C) Optimizes setting `Class.MeshPart.Size` and `Class.TriangleMeshPart.Size`."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes an issue where some text in the AudioCompressor editor renders incorrectly."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes a visual issue with the default `Class.TextChatService` UI that would sometimes flash a grey square on startup."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "New Explorer - Adds back Team Create selection indicators."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "New Explorer - Now returns temporary script settings."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "New Explorer - Fixes an error where you could rename an object even if it was deleted before you clicked it in the Explorer window."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "New Explorer - Fixes several cases where context menu items could disappear."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes an issue in which the \"You've made script changes while playing \" dialog keeps reappearing even after dismissed with no new script changes."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "The Save Place dialog now always displays on top when closing a place where the Add Tools window is open."
     }
 ]

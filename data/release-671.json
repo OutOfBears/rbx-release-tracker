@@ -2,96 +2,96 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Fixes an issue where loop variables were being inferred as having generic types."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds an explicit error to alert that user-defined type functions named `typeof` are not allowed."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds a stricter check on accessing table indexes in the conditions of `if` statements."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Fixes an issue where Roblox would silently lose connection without notice or the option to rejoin."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Luau's New Type Solver: Fixes a crash that could occur when passing a type pack to `string.format`."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": ""
+        "content": "Fixes a crash caused by iterating through magic functions like `require` using a `for ... in` loop."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds a `Class.LineForce.ReactionForceEnabled|ReactionForceEnabled` property to the `Class.LinearVelocity|LinearVelocity` constraint to be consistent with other `Class.BodyMover|BodyMovers`. If you toggle the property off, the constraint only affects `Class.Constraint.Attachment0|Attachment0`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Enables a new service called `Class.ReflectionService` to inspect available `Objects` and their properties."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Improves Studio Luau type information for some instance methods that currently take tables as arguments."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Fixes a bug where CSG operations wouldn't copy `Class.BasePart.AudioCanCollide` from the source."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
+        "content": "Adds `Enum.AudioFilterType.Lowpass6dB`, which produces a gentler muffling effect when assigned to an `Class.AudioFilter` when compared to `Enum.AudioFilterType.Lowpass12dB`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": ""
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": ""
+        "content": "Implements an `AudioRecorder` instance, which can be used to record audio streams in-experience. The results can be loaded back into an `Class.AudioPlayer` for playback."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Luau's New Type Solver: Fixes a bug where script analysis would not report argument count errors for call sites omitting parameters with the type `unknown`."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes issue in `Class.EditableMesh` where removing faces could sometimes corrupt the internal mesh data structure and cause crashes."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes water editing tools that would sometimes not work correctly on legacy placefiles that had not been previously converted to Shorelines."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug in Avatar Setup where custom assets wouldn't appear in Test in Experience."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Improves the robustness of the `Class.GeometryService` CSG API."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes an issue where volumetric sounds could become much louder when unparented from a `Class.Part`."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": ""
+        "content": "Fixes a rare edge case in Draggers where follow-the-cursor dragging of an object over certain surfaces could cause it to disappear."
     }
 ]
