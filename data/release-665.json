@@ -1,0 +1,92 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves memory usage of <code>Class.EditableImage</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves shader load times on DirectX."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Explorer - Changes styling of dragging and dropping indicators to be less obtrusive."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Explorer - Explorer no longer smooth scrolls."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Optimizes <code>Class.Instance:FindFirstChildWhichIsA()</code> 20x for parent instances with many children. Optimizes <code>Class.Object:IsA()</code> 30%."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves the <code>Class.IKControl</code> solver for the two-bone case."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Enables physics/datamodel/scripts to all re-simulate together."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Terrain updates:\n<ul>\n<li>Grass blades on terrain now are more randomly distributed with less apparent repetition.</li>\n<li>Fixes a bug that caused straight lines with shorter or missing grass blades to appear on terrain.</li>\n<li>When editing terrain in Roblox Studio, the grass blade positions are updated continuously and not just after large changes.</li>\n</ul>"
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with require-by-string's autocomplete not inserting escape characters like <code>\\\\</code>, <code>\\\"</code>, and <code>\\'</code> when necessary."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue that causes autocomplete to insert invalid Instance names when using require-by-string."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Fixes long names not giving a horizontal scroll bar again."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issue where Avatar Setup gets stuck on the uploading stage for non-humanoid avatars."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Scrolling now works on Windows while dragging. For Qt users: Qt has no native way to solve this, you need to use <code>SetWindowsHookEx</code> to capture the scroll input."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where installed fonts disappear in dropdown list."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, users will be less likely to see blocked types and \"constraint solving incomplete\" errors when doing basic math."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "<code>PreloadAsync</code> call will fail on a <code>Class.VideoFrame</code> instance that is not in a DataModel."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Explorer - Fixes bugs relating to clearing searches, especially with debugger open."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes \"Game Settings\" and \"Download as Copy\" being disabled when the Script Editor is open."
+    }
+]

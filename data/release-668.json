@@ -1,0 +1,97 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes crashes that occurred when the <code>index</code> type function was used cyclically to define the indexer of a table type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support for a new <code>@self</code> alias to directly access children when using <code>require-by-string</code>, and deprecates the special treatment of ModuleScripts named <code>Init</code> or <code>init</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Add a new default <code>@self</code> alias as an autocomplete option when using <code>require-by-string</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau’s New Type Solver, resolves some crashes related to using type assertions with a leading union or intersection type, such as:\n<pre><code>local x = 42 :: | number \n                | string\n</code></pre>"
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Studio Debug Assistant error actions in the output context menu now retain on exiting Play mode."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the new Explorer, selected instances now have darker text."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds section headers to the Draggers dropdown in the Nex Gen Studio toolbar."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allow users to specify body mesh, or layered or rigid clothing and accessories for input models of Avatar Setup."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Mac Studio now supports pinch to zoom."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "<code>Class.RopeConstraint</code>, <code>Class.RodConstraint</code>, and <code>Class.SpringConstraint</code> objects are now visible by default when you create them using the Beta Constraint tool."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes long heap profiler entries to be properly cut off instead of disappearing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes an internal compiler exception when passing the same argument twice to <code>table.freeze</code>."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The Beta Constraint tool now correctly resizes attachment adorns in accordance with the spinbox value."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with glass refraction when unified lighting is enabled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In the new Explorer, the scroll bar now snaps to the edges when you go out of bounds, rather than stopping still."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes ScaleTo behavior for <code>Class.Trail</code> instances. <code>Class.Trail.TextureLength</code> should not be scaled in <code>Enum.TextureMode.Stretch</code> mode, and <code>Class.Trail.WidthScale</code> should never be scaled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In the new Explorer, fixes broken box select behavior."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Mutually recursive types must agree on their type parameters. This restriction always existed, but it caused random behavior if it was broken."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes Studio selections counting as Triangles and Drawcalls in scene statistics."
+    }
+]
