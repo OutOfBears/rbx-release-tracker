@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a bug where generic type packs would erroneously produce unknown symbol errors."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where a freshly-created `Class.AudioEmitter` or `Class.AudioListener` that uses custom distance or angle attenuation curves produces an audible click."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where Sounds and AudioPlayers can fail to play properly when calling `Stop()` and `Play()` in quick succession."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a bug where generic type packs would erroneously produce unknown symbol errors."
     },
     {
         "status": "Pending",

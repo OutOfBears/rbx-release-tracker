@@ -45,14 +45,19 @@
         "content": "Fixes occasional crashes on macOS when a user unplugs a game controller."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
         "content": "Various fixes: A) Fixes a bug where certain meshes could be stuck in `Enum.CollisionFidelity|Default` or `Enum.CollisionFidelity|Box` collision fidelity; B) Fixes a bug where an initial size of `0, 0, 0` could force a mesh to have a large `Class.MeshPart.ExtentsSize|ExtentsSize`; C) Optimizes setting `Class.MeshPart.Size` and `Class.TriangleMeshPart.Size`."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where some text in the AudioCompressor editor renders incorrectly."
+        "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Now returns temporary script settings."
     },
     {
         "status": "Pending",
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "New Explorer - Adds back Team Create selection indicators."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "New Explorer - Now returns temporary script settings."
     },
     {
         "status": "Pending",

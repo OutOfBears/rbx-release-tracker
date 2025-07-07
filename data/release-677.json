@@ -42,6 +42,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a number of bugs where Roblox API types would get refined to `never` both inside and after conditionals."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, improves the error reporting for `Library.string.format()` calls with non-literal format strings."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug in the audio engine where playing thousands of `Class.AudioPlayer|AudioPlayers` at once would not properly prioritize rendering the loudest ones."
     },
     {
@@ -92,17 +102,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a number of bugs where Roblox API types would get refined to `never` both inside and after conditionals."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where `Class.Sound.TimePosition` and `Class.AudioPlayer.TimePosition` advance while `Class.Sound.PlaybackSpeed` or `Class.AudioPlayer.PlaybackSpeed` is set to `0`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, improves the error reporting for `Library.string.format()` calls with non-literal format strings."
     },
     {
         "status": "Pending",

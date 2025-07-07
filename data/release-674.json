@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds Mouse `KeyCodes` for bool `InputAction` types."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Renames the `?` tab in MicroProfiler HTML dumps to `Info` for better clarity."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.TerrainDetail.ColorMapContent`, `Class.TerrainDetail.MetalnessMapContent`, `Class.TerrainDetail.NormalMapContent`, and `Class.TerrainDetail.RoughnessMapContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds Mouse `KeyCodes` for bool `InputAction` types."
     },
     {
         "status": "Pending",

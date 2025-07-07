@@ -7,11 +7,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Error messages for some incorrect types in table literals are now more specific. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The new `SolidMesh` pipelines now have material box mapping that matches the behavior of the previous version. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Fixes some instances of redundant unions in table indexer types. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds Mouse `KeyCodes` for bool `InputAction` types. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renames the `?` tab in MicroProfiler HTML dumps to `Info` for better clarity. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reduces the CPU usage of Acoustic Simulation's area-density calculations by up to 20%. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash that occurred when passing a function from another module as an argument to a generic function. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.TerrainDetail.ColorMapContent`, `Class.TerrainDetail.MetalnessMapContent`, `Class.TerrainDetail.NormalMapContent`, and `Class.TerrainDetail.RoughnessMapContent` properties. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds Mouse `KeyCodes` for bool `InputAction` types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes some crashes around aliases containing type assertion expressions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the Import 3D button to the Home tab of the Next Gen Studio Preview beta feature. |
 ## Fixes

@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, adds a library function `types.optional` for constructing optional types in a user-defined type function."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds support for multiple controllers on Xbox and PlayStation."
     },
     {
@@ -42,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, adds a library function `types.optional` for constructing optional types in a user-defined type function."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In \"Next Gen Explorer\" beta, changes <kbd>Shift</kbd>-click behavior to one simpler rule: If two things being selected are on the same depth level, only things between with that same depth level are selected; otherwise, everything is selected. Also, the anchor is now the last thing you selected before <kbd>Shift</kbd>-clicking; for example, if there are four consecutive instances (`A`, `B`, `C`, `D`) and you <kbd>Shift</kbd>-click from `A` to `D`, then you <kbd>Shift</kbd>-click `C`, it'll only select `A` to `C`."
     },
     {
@@ -65,6 +65,11 @@
         "content": "Fixes an issue where rapidly changing `Class.AudioPlayer.Asset` could cause the wrong asset to be loaded."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes some of the instances of Roblox types getting refined to `never`."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, the new non-strict mode now reports unknown symbol errors for annotations of non-existent types."
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a regression in improved pathfinding where the path would stick to the edges of high-cost areas."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes some of the instances of Roblox types getting refined to `never`."
     },
     {
         "status": "Pending",

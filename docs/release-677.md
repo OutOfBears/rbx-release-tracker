@@ -16,6 +16,8 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, fixes a number of bugs where Roblox API types would get refined to `never` both inside and after conditionals. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, improves the error reporting for `Library.string.format()` calls with non-literal format strings. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in the audio engine where playing thousands of `Class.AudioPlayer\|AudioPlayers` at once would not properly prioritize rendering the loudest ones. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Fixes performance drops when new search results would come in. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Box select can now be started from the blank space below the last instance in the hierarchy. |
@@ -26,9 +28,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes collaborator icons on the start page: previously the page showed info tiles with 3 collaborators as two avatars with an additional icon and "+1" text; now, the "+1" icon shows the third collaborator avatar. Also replaces the third collaborator with "+{N-2}" for a collaborative session with more than 3 collaborators where "N" represents the total number of collaborators. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the Next Gen Studio Preview beta feature, restores support for the <kbd>Shift</kbd><kbd>2</kbd> and <kbd>Alt</kbd><kbd>R</kbd> shortcuts to focus the **Move** increment spinbox and the **Rotate** increment spinbox, respectively. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio Settings not saving for users with non-ASCII characters in OS usernames. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a number of bugs where Roblox API types would get refined to `never` both inside and after conditionals. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.Sound.TimePosition` and `Class.AudioPlayer.TimePosition` advance while `Class.Sound.PlaybackSpeed` or `Class.AudioPlayer.PlaybackSpeed` is set to `0`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, improves the error reporting for `Library.string.format()` calls with non-literal format strings. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the context menu sometimes opening in the 3D viewport while adjusting camera speed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively. |
