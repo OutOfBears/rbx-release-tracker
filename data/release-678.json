@@ -52,12 +52,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
+        "content": "New Explorer - Now returns temporary script settings."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Fixes",
-        "content": "New Explorer - Now returns temporary script settings."
+        "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
     },
     {
         "status": "Pending",
