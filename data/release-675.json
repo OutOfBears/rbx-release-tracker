@@ -22,6 +22,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Enables support for write-only property types in tables."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Deprecates use of `Class.TextFilterResult.GetChatForUserAsync`."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau's New Type Solver: Type inference for singles is now disabled for large tables. The intended order of magnitude here is hundreds of elements."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Enables support for write-only property types in tables."
     },
     {
         "status": "Live",

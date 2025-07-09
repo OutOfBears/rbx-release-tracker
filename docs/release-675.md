@@ -8,13 +8,13 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements `Class.UserInputService.PreferredInput` for detecting the user's current primary input type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Fixes an instance of an internal compiler exception when calling some built-in functions, like `table.freeze`, as a child of `or` or `and` expressions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves display names of threads, closures, and their prototypes in the Luau Heap Profiler using "thread at name:line source", "name:line source" and "proto name:line source" formats. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Enables support for write-only property types in tables. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Deprecates use of `Class.TextFilterResult.GetChatForUserAsync`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a persistent setting for adaptive camera speed. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | First of several updates targeting Studio performance for large selections. This update makes a ~15% improvement in performance of Properties Widget when dealing with large selections. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `GetSize()` method to the `MemoryStoreQueue` data structure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `GetSize()` method to the `MemoryStoreSortedMap` data structure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Type inference for singles is now disabled for large tables. The intended order of magnitude here is hundreds of elements. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Enables support for write-only property types in tables. |
 ## Fixes
 
 | Status | Note |

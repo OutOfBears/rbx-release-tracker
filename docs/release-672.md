@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a preset selection to the visual editor for `Class.AudioEmitter.DistanceAttenuation` and `Class.AudioListener.DistanceAttenuation`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like "exit early from a function if a variable does not have a particular type." |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, adds a library function `types.optional` for constructing optional types in a user-defined type function. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for multiple controllers on Xbox and PlayStation. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `CapabilityControl` capability to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a preset selection to the visual editor for `Class.AudioEmitter.DistanceAttenuation` and `Class.AudioListener.DistanceAttenuation`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.WireframeHandleAdornment.Thickness` to enable drawling lines of different thicknesses. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.PartOperation.SmoothingAngle\|SmoothingAngle` on `Class.PartOperation` in Studio now affects smoothing of all edges, not just the boundaries between parts. It also does a much cleaner job of smoothing overall. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces `Class.EditableMesh` skinning & FACS Studio beta. |

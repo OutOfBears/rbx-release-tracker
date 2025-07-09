@@ -2,6 +2,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a preset selection to the visual editor for `Class.AudioEmitter.DistanceAttenuation` and `Class.AudioListener.DistanceAttenuation`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like \"exit early from a function if a variable does not have a particular type.\""
     },
     {
@@ -17,17 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `CapabilityControl` capability to allow sandboxed scripts to modify the capabilities and sandboxing of other instances, and updates the rules to keep sandboxing safe when properties are changed. In general, a script can't modify capabilities of an instance if the resulting capabilities exceed that original script's own capabilities."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a preset selection to the visual editor for `Class.AudioEmitter.DistanceAttenuation` and `Class.AudioListener.DistanceAttenuation`."
     },
     {
         "status": "Pending",
