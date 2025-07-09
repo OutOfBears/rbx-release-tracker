@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like \"exit early from a function if a variable does not have a particular type.\""
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "In Luau's New Type Solver, adds a library function `types.optional` for constructing optional types in a user-defined type function."
     },
     {
@@ -43,6 +38,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces `Class.EditableMesh` skinning & FACS Studio beta."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like \"exit early from a function if a variable does not have a particular type.\""
     },
     {
         "status": "Pending",

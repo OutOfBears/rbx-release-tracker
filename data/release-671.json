@@ -12,11 +12,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a `Class.LineForce.ReactionForceEnabled|ReactionForceEnabled` property to the `Class.LinearVelocity|LinearVelocity` constraint to be consistent with other `Class.BodyMover|BodyMovers`. If you toggle the property off, the constraint only affects `Class.Constraint.Attachment0|Attachment0`."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds a stricter check on accessing table indexes in the conditions of `if` statements."
     },
     {
@@ -33,6 +28,11 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Fixes a crash caused by iterating through magic functions like `require` using a `for ... in` loop."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a `Class.LineForce.ReactionForceEnabled|ReactionForceEnabled` property to the `Class.LinearVelocity|LinearVelocity` constraint to be consistent with other `Class.BodyMover|BodyMovers`. If you toggle the property off, the constraint only affects `Class.Constraint.Attachment0|Attachment0`."
     },
     {
         "status": "Pending",

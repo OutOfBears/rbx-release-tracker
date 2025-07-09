@@ -4,7 +4,6 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like "exit early from a function if a variable does not have a particular type." |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, adds a library function `types.optional` for constructing optional types in a user-defined type function. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for multiple controllers on Xbox and PlayStation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, local variables captured in a lambda are no longer allowed to change types via assignment. |
@@ -13,6 +12,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.WireframeHandleAdornment.Thickness` to enable drawling lines of different thicknesses. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.PartOperation.SmoothingAngle\|SmoothingAngle` on `Class.PartOperation` in Studio now affects smoothing of all edges, not just the boundaries between parts. It also does a much cleaner job of smoothing overall. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces `Class.EditableMesh` skinning & FACS Studio beta. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, type inference now understands that returning (or breaking/continuing in a loop) will short circuit control flow. This allows you to write patterns like "exit early from a function if a variable does not have a particular type." |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In "Next Gen Explorer" beta, changes <kbd>Shift</kbd>-click behavior to one simpler rule: If two things being selected are on the same depth level, only things between with that same depth level are selected; otherwise, everything is selected. Also, the anchor is now the last thing you selected before <kbd>Shift</kbd>-clicking; for example, if there are four consecutive instances (`A`, `B`, `C`, `D`) and you <kbd>Shift</kbd>-click from `A` to `D`, then you <kbd>Shift</kbd>-click `C`, it'll only select `A` to `C`. |
 ## Fixes
 

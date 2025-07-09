@@ -52,11 +52,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "New Explorer - Adds back Team Create selection indicators."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "New Explorer - Now returns temporary script settings."
     },
     {
@@ -68,6 +63,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a visual issue with the default `Class.TextChatService` UI that would sometimes flash a grey square on startup."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Explorer - Adds back Team Create selection indicators."
     },
     {
         "status": "Pending",
