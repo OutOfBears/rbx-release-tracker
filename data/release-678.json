@@ -62,11 +62,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a visual issue with the default `Class.TextChatService` UI that would sometimes flash a grey square on startup."
     },
     {

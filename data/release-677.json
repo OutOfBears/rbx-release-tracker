@@ -107,16 +107,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes the context menu sometimes opening in the 3D viewport while adjusting camera speed."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively."
     }
 ]

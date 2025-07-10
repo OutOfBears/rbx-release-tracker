@@ -29,6 +29,4 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the Next Gen Studio Preview beta feature, restores support for the <kbd>Shift</kbd><kbd>2</kbd> and <kbd>Alt</kbd><kbd>R</kbd> shortcuts to focus the **Move** increment spinbox and the **Rotate** increment spinbox, respectively. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio Settings not saving for users with non-ASCII characters in OS usernames. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.Sound.TimePosition` and `Class.AudioPlayer.TimePosition` advance while `Class.Sound.PlaybackSpeed` or `Class.AudioPlayer.PlaybackSpeed` is set to `0`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the context menu sometimes opening in the 3D viewport while adjusting camera speed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively. |

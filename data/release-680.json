@@ -1,0 +1,97 @@
+[
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.ScrollingFrame.TopImageContent`, `Class.ScrollingFrame.MidImageContent`, and `Class.ScrollingFrame.BottomImageContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds evaluation logic to UIContainerQuery."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves type checking for functions with generic type packs to more accurately report argument count and type mismatches."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Moving large selections of instances with the `bulkMove` method is now more performant, in particular when dragging in Studio. Set `Class.Workspace.SignalBehavior` to `Enum.SignalBehavior.Deferred` to see a noticeable improvement."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.GuiBase2d` items now always have their order within a child list preserved across the network.\n\nPreviously they had their _display/layout order_ preserved but not their actual child order. Now the position of the GUI item within the parent's child list will always be the same relative to other GUI items on the client as it was on the server."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves Studio's performance when dealing with large selections. This is one in a series of ongoing enhancements."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Makes the RSVP to event UI prompt more responsive and allows long event descriptions to be scrollable when necessary. "
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "A new option is available in the camera settings menu to disable the new scroll wheel behavior."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Fixes bug where trackpads would be seen as holding down the mouse, and hovering over expand arrows would force them to expand."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Updates the New Type Solver to correctly error suppress function calls with multiple nonviable overloads."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Layered clothing now reliably updates when either a character model's mesh part hierarchy changes or the welds connecting layered clothing accessories are added or removed."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where the `Class.WrapLayer` order of layered hair could be incorrectly set when using `Players.CreateHumanoidModelFromDescription`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the context menu sometimes opening in the 3D viewport while adjusting camera speed."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Explorer - Fixes bug where the Explorer sometimes wouldn't expand and scroll to selected instances after clearing search."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Explorer - Fixes bug with the increment names settings, so now a part with siblings `Part2` and `Part3` will be given the name `Part1` instead of just `Part`."
+    }
+]

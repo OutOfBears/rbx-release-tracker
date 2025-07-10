@@ -2,42 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Tunes the scaling behavior of Unified Lighting."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Luau autocomplete now prioritizes showing table properties in index expressions."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new `Class.Decal.TextureContent` property so that `EditableImage` can be used with decals. "
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.ScrollingFrame.TopImageContent`, `Class.ScrollingFrame.MidImageContent`, and `Class.ScrollingFrame.BottomImageContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a new Net Asset section to the Network Diagnostics Debug panel."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a \"Default\" device option when selecting input and output audio devices."
     },
     {
         "status": "Pending",
@@ -97,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue that caused the Studio camera to move when zooming in or out with the Avatar Setup camera."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue in the Next Gen Studio Preview beta where the Move Left and Move Right options on the buttons of a custom tab didn't always work on the first try."
     },
     {
@@ -108,20 +83,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Parts created on the client are now destroyed when they hit the killplane."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug that caused Studio to become unresponsive and crash if a script attempted to perform pathfinding when the `Class.Path` object's `WaypointSpacing` was set to zero. Also fixes a bug that caused path waypoints to be generated in the wrong direction if a script attempted to perform pathfinding when the `Class.Path` object's `WaypointSpacing` was set to a negative number. `WaypointSpacing` values near or less than zero are now clamped to a minimum spacing distance of `0.1`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that caused the Studio camera to move when zooming in or out with the Avatar Setup camera."
     }
 ]

@@ -1,0 +1,157 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Tunes the scaling behavior of Unified Lighting."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates selector syntax to handle ContainerQuery."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a new Net Asset section to the Network Diagnostics Debug panel."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a \"Default\" device option when selecting input and output audio devices."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Implements an `AudioGate` instance that you can use to remove portions of audio streams quieter than a specified threshold."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an issue with IAS mouse bindings triggering on touch and VR."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Makes `Class.VoiceChatService` automatically visible whenever \"Microphone\" is enabled via Game Settings > Communication."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows RBXL files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, non-strict mode will no longer report errors for function calls that refinements have proven to be unreachable."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improved scrolling performance of Explorer in hot cases."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Restores haptic support for wireless Xbox One gamepads on macOS >= `11.0` and adds haptic support for Xbox 360 gamepads on macOS >= `15.0`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "`Class.BasePart:GetRootPart()` is now deprecated."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes strings in the Accessory Fitting Tool."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed several cases in Explorer that would lead to \"NYI: Parented to nil\" errors in searching."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where pixels would shift on R15 humanoid heads in non-PBR cases. While final pixels on heads might render slightly offset, this is the correct and expected behavior, ensuring the result in terms of diffuse textures is the same whether a head is rendered with PBR or not."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug that caused Studio to become unresponsive and crash if a script attempted to perform pathfinding when the `Class.Path` object's `WaypointSpacing` was set to zero. Also fixes a bug that caused path waypoints to be generated in the wrong direction if a script attempted to perform pathfinding when the `Class.Path` object's `WaypointSpacing` was set to a negative number. `WaypointSpacing` values near or less than zero are now clamped to a minimum spacing distance of `0.1`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fix a bug that prevents non-strict mode from surfacing unknown symbol errors in conditionals and function calls."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Introduces a short volume ramp to newly-connected `Class.Wire|Wires` in order to avoid pops and clicks."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes table layouts not immediately rerendering after updating a cell's size"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Incremental autocomplete now provides better autofill suggestions when typing requires in scripts."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Provide richer completions for self types while using incremental autocomplete."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Prevented scroll movements from being recognized while panning with the middle mouse button, factored in the Pan Sensitivity setting to pan movements with the middle mouse button."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Next Gen Explorer: Fix bug where existing instances wouldn't show up in Explorer"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed a bug where holding down arrow keys in Explorer as you enter the search dropdown would cause the arrow keys to get stuck."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the Next Gen Studio Preview beta to respect the `Class.PluginToolbarButton.ClickableWhenViewportHidden` property."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue in the Next Gen Studio Preview beta where custom tabs with references to disabled/uninstalled plugins would not accurately reflect button states."
+    }
+]
