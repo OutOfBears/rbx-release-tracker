@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds a `Class.Sky.SkyboxOrientation|SkyboxOrientation` property to `Class.Sky`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates the type signature of the `getmetatable()` builtin to use the `getmetatable()` type function."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.MaterialVariant.ColorMapContent`, `Class.MaterialVariant.MetalnessMapContent`, `Class.MaterialVariant.NormalMapContent`, and `Class.MaterialVariant.RoughnessMapContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a `Class.Sky.SkyboxOrientation|SkyboxOrientation` property to `Class.Sky`."
     },
     {
         "status": "Pending",

@@ -32,17 +32,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Fixes some crashes around aliases containing type assertion expressions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes a crash that occurred when passing a function from another module as an argument to a generic function."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.TerrainDetail.ColorMapContent`, `Class.TerrainDetail.MetalnessMapContent`, `Class.TerrainDetail.NormalMapContent`, and `Class.TerrainDetail.RoughnessMapContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Fixes some crashes around aliases containing type assertion expressions."
     },
     {
         "status": "Pending",
