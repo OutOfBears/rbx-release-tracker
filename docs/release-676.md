@@ -22,7 +22,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where a freshly-created `Class.AudioEmitter` or `Class.AudioListener` that uses custom distance or angle attenuation curves produces an audible click. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Fixed a rare `direction == 0`, which would imply `target == anchor` bug. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in `Class.Textbox` where text is duplicated when long sequences of whitespace are present. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer\|WrapDeformers`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Makes accessories for R6 avatars have `Class.BasePart.AudioCanCollide` set to false by default. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves incremental autocomplete’s support for completions on union types in Luau’s old Type Solver. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where Sounds and AudioPlayers can fail to play properly when calling `Stop()` and `Play()` in quick succession. |

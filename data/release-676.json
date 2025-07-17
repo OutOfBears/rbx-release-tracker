@@ -72,11 +72,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Makes accessories for R6 avatars have `Class.BasePart.AudioCanCollide` set to false by default."
     },
     {

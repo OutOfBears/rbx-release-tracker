@@ -20,11 +20,11 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `CatalogSearchParams.AssetTypes` was mistakenly given the wrong type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where assigning a value to a read-only property would report an error saying "Property is not a valid member of Class" instead of "Property cannot be assigned to". |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `AudioRecorder`'s recordings could get garbage-collected before they had finished loading into an `AudioPlayer`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Type functions called on erroneous arguments no longer yield duplicate errors about the type function itself. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer Beta: Fixes "NYI: Parented to nil" and other errors when stopping and starting play solo with certain search terms. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Switching between bold and italic tags now updates visuals accordingly when you're working with Rich Text on Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Instances of "uninhabited type function" when using math in loops now occur considerably less often. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `AudioRecorder`'s recordings could get garbage-collected before they had finished loading into an `AudioPlayer`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer Beta: The instance picker no longer deactivates when switching tabs while panels are docked together, or moving the viewport camera. Also, instance picker no longer sets the instance to nil when deactivating.  |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer Beta: Scrolling the Next Gen Explorer while reparenting an Instance now works on Windows even if DPI scaling is not set to 100%. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where "Failed to apply `StyleRule` property" warnings appeared in the Output widget when you used the Next Gen Studio Preview beta feature. |

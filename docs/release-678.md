@@ -10,7 +10,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the Script Capability system to extend availability of instances under existing capabilities. See the DevForum announcement for specifics. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, improves error messages for table literals in assignments while still allowing imperative table updates. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: the true option will now auto-sort to the top when doing searches like `anchored=t`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Makes the camera speed lock in the "New Studio Camera Controls" beta persistent. |
 ## Fixes
 
 | Status | Note |

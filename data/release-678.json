@@ -30,11 +30,6 @@
         "content": "Next Gen Explorer beta: the true option will now auto-sort to the top when doing searches like `anchored=t`."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Makes the camera speed lock in the \"New Studio Camera Controls\" beta persistent."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Extends type checker in the New Type Solver to check associated generics of function types."
