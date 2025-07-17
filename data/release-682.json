@@ -1,0 +1,102 @@
+[
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for LR and ISR Metrics on the **Network Stats** diagnostic."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.SurfaceAppearance.AlphaMode` is now scriptable."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Studio Camera Controls beta, makes the camera speed lock persistent."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Makes drag-and-drop less sensitive in Explorer by making `Class.Plugin:StartDrag()` not start if the mouse button is already raised."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Minor improvements to search speeds and interactivity times in Explorer."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue that caused the Studio camera to move when zooming in or out with the **Avatar Setup** camera."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue in the Next Gen Studio Preview beta where disabling plugins would leave an extra divider in the **Plugins** tab."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you should no longer crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where errors that are produced by Studio's solid modeling **Separate** button weren't displayed to the user."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in the Acoustic Simulation beta feature causing frame drops when emitters and listeners move toward one another rapidly."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a bug where type refinements would sometimes erroneously produce an uninhabited type error when they have been determined to carry no actual refinement."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bug where Explorer arrow keys would sometimes get stuck while renaming an instance."
+    }
+]

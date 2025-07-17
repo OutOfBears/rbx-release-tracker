@@ -7,16 +7,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Updates selector syntax to handle ContainerQuery."
     },
     {
@@ -37,32 +27,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue with IAS mouse bindings triggering on touch and VR."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Makes `Class.VoiceChatService` automatically visible whenever \"Microphone\" is enabled via Game Settings > Communication."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows RBXL files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
     },
     {
         "status": "Pending",

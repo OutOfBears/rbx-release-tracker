@@ -5,18 +5,12 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Tunes the scaling behavior of Unified Lighting. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates selector syntax to handle ContainerQuery. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new Net Asset section to the Network Diagnostics Debug panel. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a "Default" device option when selecting input and output audio devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Implements an `AudioGate` instance that you can use to remove portions of audio streams quieter than a specified threshold. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with IAS mouse bindings triggering on touch and VR. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Makes `Class.VoiceChatService` automatically visible whenever "Microphone" is enabled via Game Settings > Communication. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows RBXL files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, non-strict mode will no longer report errors for function calls that refinements have proven to be unreachable. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improved scrolling performance of Explorer in hot cases. |
 ## Fixes
