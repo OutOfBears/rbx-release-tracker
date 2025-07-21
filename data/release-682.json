@@ -1,8 +1,8 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties."
+        "content": "Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
     },
     {
         "status": "Pending",
@@ -28,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
     },
     {
         "status": "Pending",
@@ -98,5 +93,10 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes bug where Explorer arrow keys would sometimes get stuck while renaming an instance."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in Studio where a focused TextBox would suppress the keyboard shortcut to toggle fullscreen mode."
     }
 ]

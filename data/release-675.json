@@ -42,6 +42,11 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Adds the `GetSize()` method to the `MemoryStoreQueue` data structure."
     },
     {

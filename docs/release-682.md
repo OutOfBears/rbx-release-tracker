@@ -4,13 +4,12 @@
 
 | Status | Note |
 |--------|------|
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.Bone.LocalCFrame` and `Class.Bone.WorldCFrame` properties. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with Input Action System mouse bindings triggering on touch and VR. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for LR and ISR Metrics on the **Network Stats** diagnostic. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.SurfaceAppearance.AlphaMode` is now scriptable. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Studio Camera Controls beta, makes the camera speed lock persistent. |
@@ -28,3 +27,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in the Acoustic Simulation beta feature causing frame drops when emitters and listeners move toward one another rapidly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a bug where type refinements would sometimes erroneously produce an uninhabited type error when they have been determined to carry no actual refinement. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug where Explorer arrow keys would sometimes get stuck while renaming an instance. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Studio where a focused TextBox would suppress the keyboard shortcut to toggle fullscreen mode. |
