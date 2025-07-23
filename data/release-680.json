@@ -1,5 +1,15 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves type checking for functions with generic type packs to more accurately report argument count and type mismatches."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves Studio's performance when dealing with large selections. This is one in a series of ongoing enhancements."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.ScrollingFrame.TopImageContent`, `Class.ScrollingFrame.MidImageContent`, and `Class.ScrollingFrame.BottomImageContent` properties."
@@ -8,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds evaluation logic to UIContainerQuery."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves type checking for functions with generic type packs to more accurately report argument count and type mismatches."
     },
     {
         "status": "Pending",
@@ -27,12 +32,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves Studio's performance when dealing with large selections. This is one in a series of ongoing enhancements."
+        "content": "Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Updates the New Type Solver to correctly error suppress function calls with multiple nonviable overloads."
     },
     {
         "status": "Live",
@@ -47,17 +52,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "New Explorer - Fixes bug where trackpads would be seen as holding down the mouse, and hovering over expand arrows would force them to expand."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Updates the New Type Solver to correctly error suppress function calls with multiple nonviable overloads."
     },
     {
         "status": "Pending",
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
     },
     {
         "status": "Pending",

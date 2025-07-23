@@ -2,7 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Implements an `AudioGate` instance that you can use to remove portions of audio streams quieter than a specified threshold."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Tunes the scaling behavior of Unified Lighting."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Makes `Class.VoiceChatService` automatically visible whenever \"Microphone\" is enabled via Game Settings > Communication."
     },
     {
         "status": "Pending",
@@ -22,17 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Implements an `AudioGate` instance that you can use to remove portions of audio streams quieter than a specified threshold."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Makes `Class.VoiceChatService` automatically visible whenever \"Microphone\" is enabled via Game Settings > Communication."
     },
     {
         "status": "Pending",
@@ -53,6 +53,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "`Class.BasePart:GetRootPart()` is now deprecated."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Introduces a short volume ramp to newly-connected `Class.Wire|Wires` in order to avoid pops and clicks."
     },
     {
         "status": "Live",
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fix a bug that prevents non-strict mode from surfacing unknown symbol errors in conditionals and function calls."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Introduces a short volume ramp to newly-connected `Class.Wire|Wires` in order to avoid pops and clicks."
     },
     {
         "status": "Pending",
