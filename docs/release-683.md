@@ -22,12 +22,12 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Modifies particle rendering so that particles are first rendered where they are spawned instead of rendering one simulation step ahead. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug where `Class.Players.BanningEnabled` was not set properly in Team Create sessions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer - Hover effects no longer occur while dragging the scroll bar. Box selecting also no longer starts from the scroll bar area. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes "Zoom to" not showing in the Explorer context menu for models and attachments. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Type Solver - Fixes some instances of table accesses like `Foo.Bar` being type `never` when written after an `if` statement. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Modifies particle rendering so that particles are first rendered where they are spawned instead of rendering one simulation step ahead. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with tables in the Watch window randomly displaying as 'nil'. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | GeometryService CSG operations on special mesh primitives now use the correct transformation for expected results. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.Constraint\|Constraints` don't affect `Class.Attachment\|Attachments` in `Class.Folder.Folders`, even if those `Class.Attachment\|Attachments` have an ancestral `Class.BasePart`. |

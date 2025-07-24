@@ -72,11 +72,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Modifies particle rendering so that particles are first rendered where they are spawned instead of rendering one simulation step ahead."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes bug where `Class.Players.BanningEnabled` was not set properly in Team Create sessions."
     },
     {
@@ -98,6 +93,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Modifies particle rendering so that particles are first rendered where they are spawned instead of rendering one simulation step ahead."
     },
     {
         "status": "Pending",
