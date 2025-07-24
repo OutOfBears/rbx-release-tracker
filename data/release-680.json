@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "`Class.GuiBase2d` items now always have their order within a child list preserved across the network.\n\nPreviously they had their _display/layout order_ preserved but not their actual child order. Now the position of the GUI item within the parent's child list will always be the same relative to other GUI items on the client as it was on the server."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves Studio's performance when dealing with large selections. This is one in a series of ongoing enhancements."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Moving large selections of instances with the `bulkMove` method is now more performant, in particular when dragging in Studio. Set `Class.Workspace.SignalBehavior` to `Enum.SignalBehavior.Deferred` to see a noticeable improvement."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.GuiBase2d` items now always have their order within a child list preserved across the network.\n\nPreviously they had their _display/layout order_ preserved but not their actual child order. Now the position of the GUI item within the parent's child list will always be the same relative to other GUI items on the client as it was on the server."
     },
     {
         "status": "Pending",

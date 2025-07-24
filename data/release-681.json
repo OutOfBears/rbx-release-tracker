@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates selector syntax to handle ContainerQuery."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds a new Net Asset section to the Network Diagnostics Debug panel."
     },
     {

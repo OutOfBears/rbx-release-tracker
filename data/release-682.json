@@ -7,22 +7,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "`Class.SurfaceAppearance.AlphaMode` is now scriptable."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Makes drag-and-drop less sensitive in Explorer by making `Class.Plugin:StartDrag()` not start if the mouse button is already raised."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
     },
     {
         "status": "Pending",
@@ -73,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash."
     },
     {
         "status": "Pending",

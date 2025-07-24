@@ -1,0 +1,167 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "`Class.SurfaceAppearance.AlphaMode` is now scriptable."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a preview widget to the `Class.AudioPlayer.Asset` property."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates selector syntax to handle ContainerQuery."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Performance improvements when rendering skinned EditableMeshes."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Type Solver - Fixes some cases where `if ... then ... else` expressions would not report errors when one of the branches has an incorrect type. Also fixes a regression in how table literals are type checked inside `if ... then ... else` expressions and `and` / `or` expressions.  "
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows `Class.AudioPlayer.Volume` to go up to `10` instead of `3`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "When using the New Type Solver in `--nonstrict` mode, if the _only_ error is \"Type inference failed to complete\" (an internal Luau error), the error will not be displayed in the Script Analysis widget nor in the Script Editor."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Next Gen Explorer - Adds `Show Orientation Indicator` back to the Explorer window's context menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Explorer - Adjusts selection, text, and scrollbar colors to be higher contrast."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Explorer - Decreases the height of the Explorer window's search bar."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Explorer - Moves the `Paste Into At Original Location` option out of the context menu submenu, and removes the `Paste At Original Location` option from the context menu."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Modifies particle rendering so that particles are first rendered where they are spawned instead of rendering one simulation step ahead."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes bug where `Class.Players.BanningEnabled` was not set properly in Team Create sessions."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Next Gen Explorer - Hover effects no longer occur while dragging the scroll bar. Box selecting also no longer starts from the scroll bar area."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes \"Zoom to\" not showing in the Explorer context menu for models and attachments."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Type Solver - Fixes some instances of table accesses like `Foo.Bar` being type `never` when written after an `if` statement."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with tables in the Watch window randomly displaying as 'nil'."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "GeometryService CSG operations on special mesh primitives now use the correct transformation for expected results."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `Class.Constraint|Constraints` don't affect `Class.Attachment|Attachments` in `Class.Folder.Folders`, even if those `Class.Attachment|Attachments` have an ancestral `Class.BasePart`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where light guides don't display in Studio when `Class.Light|Lights` are children of a Detached `Class.Attachment`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `Class.ParticleEmitter|ParticleEmitters` that are parented to Detached `Class.Attachment|Attachments` use a nonzero size."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in `Class.AudioRecorder` leading to corrupt audio recordings."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in Solid Modeling tools that caused incorrect colors in the result."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where the BasePart CSG API would crash if the input is `nil`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes consistency issues with ray casts involving convex decomposition. Rays which start inside of a mesh will now return no hit, which aligns with the behavior of other primitive parts."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the `ScriptEditorService:RegisterAutocompleteCallback()` error message for incorrect \"documentation\" field. When string is entered instead of object with value, the error displays \"object with value\" is missing instead of \"object with kind\" is missing."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Next Gen Explorer - Fixes a case of instances not being removed from the Explorer window when calling `Instance:Destroy()`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Next Gen Explorer - Fixes insert object menu sometimes displaying on the wrong monitor."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Next Gen Studio Preview beta - Fixes a bug where `Class.PluginToolbar` or `Class.PluginToolbarButton` objects with empty names would appear as blank entries in the Plugins system menu."
+    }
+]
