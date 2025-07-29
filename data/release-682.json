@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio."
     },
     {
         "status": "Pending",

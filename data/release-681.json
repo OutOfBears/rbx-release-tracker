@@ -15,6 +15,11 @@
         "content": "Makes `Class.VoiceChatService` automatically visible whenever \"Microphone\" is enabled via Game Settings > Communication."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, non-strict mode will no longer report errors for function calls that refinements have proven to be unreachable."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new Net Asset section to the Network Diagnostics Debug panel."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, non-strict mode will no longer report errors for function calls that refinements have proven to be unreachable."
     },
     {
         "status": "Pending",
@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, fix a bug that prevents non-strict mode from surfacing unknown symbol errors in conditionals and function calls."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Introduces a short volume ramp to newly-connected `Class.Wire|Wires` in order to avoid pops and clicks."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug that caused Studio to become unresponsive and crash if a script attempted to perform pathfinding when the `Class.Path` object's `WaypointSpacing` was set to zero. Also fixes a bug that caused path waypoints to be generated in the wrong direction if a script attempted to perform pathfinding when the `Class.Path` object's `WaypointSpacing` was set to a negative number. `WaypointSpacing` values near or less than zero are now clamped to a minimum spacing distance of `0.1`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fix a bug that prevents non-strict mode from surfacing unknown symbol errors in conditionals and function calls."
     },
     {
         "status": "Pending",

@@ -55,6 +55,11 @@
         "content": "New Explorer - Now returns temporary script settings."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue in which the \"You've made script changes while playing \" dialog keeps reappearing even after dismissed with no new script changes."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a visual issue with the default `Class.TextChatService` UI that would sometimes flash a grey square on startup."
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "New Explorer - Fixes several cases where context menu items could disappear."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue in which the \"You've made script changes while playing \" dialog keeps reappearing even after dismissed with no new script changes."
     },
     {
         "status": "Pending",
