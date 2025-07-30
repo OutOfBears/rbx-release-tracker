@@ -77,6 +77,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Class.ParticleEmitter|ParticleEmitters` that are parented to Detached `Class.Attachment|Attachments` use a nonzero size."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Next Gen Explorer - Hover effects no longer occur while dragging the scroll bar. Box selecting also no longer starts from the scroll bar area."
     },
     {
@@ -118,11 +123,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug where light guides don't display in Studio when `Class.Light|Lights` are children of a Detached `Class.Attachment`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.ParticleEmitter|ParticleEmitters` that are parented to Detached `Class.Attachment|Attachments` use a nonzero size."
     },
     {
         "status": "Pending",

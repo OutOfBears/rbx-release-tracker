@@ -27,7 +27,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes table layouts not immediately rerendering after updating a cell's size |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Incremental autocomplete now provides better autofill suggestions when typing requires in scripts. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Provide richer completions for self types while using incremental autocomplete. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Prevented scroll movements from being recognized while panning with the middle mouse button, factored in the Pan Sensitivity setting to pan movements with the middle mouse button. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Prevents scroll movements from being recognized while panning with the middle mouse button. Middle-mouse panning now respects the Pan Sensitivity setting. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer: Fix bug where existing instances wouldn't show up in Explorer |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed a bug where holding down arrow keys in Explorer as you enter the search dropdown would cause the arrow keys to get stuck. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the Next Gen Studio Preview beta to respect the `Class.PluginToolbarButton.ClickableWhenViewportHidden` property. |

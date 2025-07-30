@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "When a gamepad is used, the **X** button will now trigger the closest dialog that is **visible** on screen, rather than just the closest one."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates the type signature of the `getmetatable()` builtin to use the `getmetatable()` type function."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.MaterialVariant.ColorMapContent`, `Class.MaterialVariant.MetalnessMapContent`, `Class.MaterialVariant.NormalMapContent`, and `Class.MaterialVariant.RoughnessMapContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When a gamepad is used, the **X** button will now trigger the closest dialog that is **visible** on screen, rather than just the closest one."
     },
     {
         "status": "Pending",

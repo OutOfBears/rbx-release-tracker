@@ -23,6 +23,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug where `Class.Players.BanningEnabled` was not set properly in Team Create sessions. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Class.ParticleEmitter\|ParticleEmitters` that are parented to Detached `Class.Attachment\|Attachments` use a nonzero size. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer - Hover effects no longer occur while dragging the scroll bar. Box selecting also no longer starts from the scroll bar area. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes "Zoom to" not showing in the Explorer context menu for models and attachments. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Type Solver - Fixes some instances of table accesses like `Foo.Bar` being type `never` when written after an `if` statement. |
@@ -32,7 +33,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | GeometryService CSG operations on special mesh primitives now use the correct transformation for expected results. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.Constraint\|Constraints` don't affect `Class.Attachment\|Attachments` in `Class.Folder.Folders`, even if those `Class.Attachment\|Attachments` have an ancestral `Class.BasePart`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where light guides don't display in Studio when `Class.Light\|Lights` are children of a Detached `Class.Attachment`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.ParticleEmitter\|ParticleEmitters` that are parented to Detached `Class.Attachment\|Attachments` use a nonzero size. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in `Class.AudioRecorder` leading to corrupt audio recordings. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Solid Modeling tools that caused incorrect colors in the result. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where the BasePart CSG API would crash if the input is `nil`. |

@@ -97,7 +97,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Prevented scroll movements from being recognized while panning with the middle mouse button, factored in the Pan Sensitivity setting to pan movements with the middle mouse button."
+        "content": "Prevents scroll movements from being recognized while panning with the middle mouse button. Middle-mouse panning now respects the Pan Sensitivity setting."
     },
     {
         "status": "Pending",
