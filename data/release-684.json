@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reinstates \"OOF\" as the default death sound."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
@@ -22,22 +27,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a <TBD> API for creating layered Decals"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "New Type Solver - Fixes a bug where the system tried to check if a `TypePack` was a `GenericTypePack` without first trying to follow it."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "`AssetService:CreateSurfaceAppearance()` has been renamed to `AssetService:CreateSurfaceAppearanceAsync()` and is now yieldable."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Reinstates \"OOF\" as the default death sound."
     },
     {
         "status": "Pending",
