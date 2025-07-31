@@ -12,11 +12,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `UIContainerQuery` to Studio Explorer."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, fixes an instance where refining an intersection of tables resulted in the `never` type."
     },
     {

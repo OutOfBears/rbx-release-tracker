@@ -52,11 +52,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "New Explorer - Fixes bug where trackpads would be seen as holding down the mouse, and hovering over expand arrows would force them to expand."
     },
     {

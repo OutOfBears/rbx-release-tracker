@@ -97,11 +97,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Prevents scroll movements from being recognized while panning with the middle mouse button. Middle-mouse panning now respects the Pan Sensitivity setting."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Next Gen Explorer: Fix bug where existing instances wouldn't show up in Explorer"
     },
     {
