@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, autocomplete for assignments should provide more helpful suggestions. "
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updated the type signature of the `setmetatable` builtin to use the `setmetatable` type function."
     },
     {
@@ -30,11 +35,6 @@
         "content": "Fixes meshes not getting rendered on some GPUs running GLES3."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, autocomplete for assignments should provide more helpful suggestions. "
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fix scrolling of `Class.ScrollingFrame|ScrollingFrames` in `Class.BillboardGui|BillboardGuis` via the mouse wheel."
@@ -48,6 +48,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Makes `Class.AudioEcho.RampTime` use 50% less CPU."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Improves incremental autocomplete’s support for completions on union types in Luau’s old Type Solver."
     },
     {
         "status": "Live",
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Makes accessories for R6 avatars have `Class.BasePart.AudioCanCollide` set to false by default."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves incremental autocomplete’s support for completions on union types in Luau’s old Type Solver."
     },
     {
         "status": "Pending",

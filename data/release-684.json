@@ -27,17 +27,22 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "New Type Solver - Fixes a bug where the system tried to check if a `TypePack` was a `GenericTypePack` without first trying to follow it."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "`AssetService:CreateSurfaceAppearance()` has been renamed to `AssetService:CreateSurfaceAppearanceAsync()` and is now yieldable."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "`DraggerService` properties can now be set by Studio plugins, which allows plugin modification of the grid snap, collision settings, etc. Setting these properties changes the immediate behavior and the associated persistent Studio setting."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Restores Luau Heap snapshot grouping by `ModuleScript`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau Heap report now includes string object data overhead in the string object size."
     },
     {
         "status": "Live",
@@ -77,16 +82,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Restores Luau Heap snapshot grouping by `ModuleScript`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau Heap report now includes string object data overhead in the string object size."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Increases the maximum allowed length of the second `Metadata` parameter of `Class.TextChannel:SendAsync` from 200 to 1000."
     },
     {
@@ -103,6 +98,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes some corner cases in Explorer that would occasionally cause errors on startup."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "\"Show collaborator selections\" option in Live Collaborators window now syncs with the Visualization Modes panel's \"Collaborator highlights\" option."
     },
     {
         "status": "Pending",

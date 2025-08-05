@@ -17,6 +17,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau type solver, fixed some instances of un-reducible cyclic type functions when using compound assignment, for example `+=` or `-=`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, resolve some instances of generic types \"leaking\" into lambdas, creating unusable callbacks."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds two new APIs, `Class.SocialService:GetEventRsvpStatusAsync()` and `Class.SocialService:PromptRsvpToEventAsync()`, which allow experience events to be subscribed to in-experience."
     },
     {
@@ -28,16 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.MaterialVariant.ColorMapContent`, `Class.MaterialVariant.MetalnessMapContent`, `Class.MaterialVariant.NormalMapContent`, and `Class.MaterialVariant.RoughnessMapContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau type solver, fixed some instances of un-reducible cyclic type functions when using compound assignment, for example `+=` or `-=`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, resolve some instances of generic types \"leaking\" into lambdas, creating unusable callbacks."
     },
     {
         "status": "Live",

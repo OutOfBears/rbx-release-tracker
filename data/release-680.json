@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where the `Class.WrapLayer` order of layered hair could be incorrectly set when using `Players.CreateHumanoidModelFromDescription`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Makes the RSVP to event UI prompt more responsive and allows long event descriptions to be scrollable when necessary. "
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Layered clothing now reliably updates when either a character model's mesh part hierarchy changes or the welds connecting layered clothing accessories are added or removed."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where the `Class.WrapLayer` order of layered hair could be incorrectly set when using `Players.CreateHumanoidModelFromDescription`."
     },
     {
         "status": "Pending",

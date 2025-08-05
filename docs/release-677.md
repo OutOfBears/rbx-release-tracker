@@ -7,11 +7,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a `Class.Sky.SkyboxOrientation\|SkyboxOrientation` property to `Class.Sky`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When a gamepad is used, the **X** button will now trigger the closest dialog that is **visible** on screen, rather than just the closest one. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the type signature of the `getmetatable()` builtin to use the `getmetatable()` type function. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau type solver, fixed some instances of un-reducible cyclic type functions when using compound assignment, for example `+=` or `-=`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, resolve some instances of generic types "leaking" into lambdas, creating unusable callbacks. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds two new APIs, `Class.SocialService:GetEventRsvpStatusAsync()` and `Class.SocialService:PromptRsvpToEventAsync()`, which allow experience events to be subscribed to in-experience. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | On the Studio start page, the "@" symbol is no longer present in group names. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariant.ColorMapContent`, `Class.MaterialVariant.MetalnessMapContent`, `Class.MaterialVariant.NormalMapContent`, and `Class.MaterialVariant.RoughnessMapContent` properties. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau type solver, fixed some instances of un-reducible cyclic type functions when using compound assignment, for example `+=` or `-=`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, resolve some instances of generic types "leaking" into lambdas, creating unusable callbacks. |
 ## Fixes
 
 | Status | Note |

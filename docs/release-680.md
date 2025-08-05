@@ -16,12 +16,12 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the New Type Solver to correctly error suppress function calls with multiple nonviable overloads. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where the `Class.WrapLayer` order of layered hair could be incorrectly set when using `Players.CreateHumanoidModelFromDescription`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Makes the RSVP to event UI prompt more responsive and allows long event descriptions to be scrollable when necessary.  |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A new option is available in the camera settings menu to disable the new scroll wheel behavior. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Fixes bug where trackpads would be seen as holding down the mouse, and hovering over expand arrows would force them to expand. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Layered clothing now reliably updates when either a character model's mesh part hierarchy changes or the welds connecting layered clothing accessories are added or removed. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where the `Class.WrapLayer` order of layered hair could be incorrectly set when using `Players.CreateHumanoidModelFromDescription`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the context menu sometimes opening in the 3D viewport while adjusting camera speed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the Studio camera panning and tilting shortcuts to snap to 45-degree and 10-degree increments, respectively. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Explorer - Fixes bug where the Explorer sometimes wouldn't expand and scroll to selected instances after clearing search. |
