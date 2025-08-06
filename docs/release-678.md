@@ -6,9 +6,9 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Textures displaying `Class.EditableImage\|EditableImages` now switch to low resolution when the system is low on memory, with no changes to the actual image data. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a `Enum.InputActionType\|Direction3D` enum option for use with `Class.InputAction.Type`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, improves error messages for table literals in assignments while still allowing imperative table updates. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, autocomplete now suggests individual string literal keys for table index expressions when appropriate. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the Script Capability system to extend availability of instances under existing capabilities. See the DevForum announcement for specifics. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, improves error messages for table literals in assignments while still allowing imperative table updates. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: the true option will now auto-sort to the top when doing searches like `anchored=t`. |
 ## Fixes
 

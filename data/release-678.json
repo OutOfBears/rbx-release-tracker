@@ -12,17 +12,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, improves error messages for table literals in assignments while still allowing imperative table updates."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the New Luau Type Solver, autocomplete now suggests individual string literal keys for table index expressions when appropriate."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "Updates the Script Capability system to extend availability of instances under existing capabilities. See the DevForum announcement for specifics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, improves error messages for table literals in assignments while still allowing imperative table updates."
     },
     {
         "status": "Pending",

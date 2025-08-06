@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Incremental autocomplete now provides better autofill suggestions when typing requires in scripts."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes strings in the Accessory Fitting Tool."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes table layouts not immediately rerendering after updating a cell's size"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Incremental autocomplete now provides better autofill suggestions when typing requires in scripts."
     },
     {
         "status": "Pending",

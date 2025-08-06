@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Reinstates \"OOF\" as the default death sound."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `UIContainerQuery` to Studio Explorer."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
     },
     {
         "status": "Pending",
