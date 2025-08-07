@@ -1,0 +1,117 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Dramatically improves the memory usage of `Class.AudioAnalyzer`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "WrapDeformers can now be attached under layered clothing meshes (ie MeshParts that have WrapLayer children, rather than just WrapTarget children).\n\nThe difference between the WrapDeformer cage and WrapLayer outer cage will deform the mesh prior to any layered clothing fit. WrapDeformed layered clothing MeshParts can be published as they have been for WrapDeformed body part MeshParts."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Microprofiler: Adds a new category under xray mode which allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay in the Network menu. Then, when viewing the dump, select Network in the xray menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.GuiService.ViewportDisplaySize` to retrieve physical size(`Enum.DisplaySize`) of the viewport"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows any BasePart in `Class.GeometryService:CalculateConstraintsToPreserve`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Significant optimizations for the animation step."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves Luau’s New Type Solver's ability to recover from certain internal failure cases."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a new `VideoContent` property to `Class.VideoFrame`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, types indicative of an internal error no longer leak from modules, and instead raise a type checking error. Previously, this would result in unknown and surprising behavior across different modules."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Explorer: Pressing the down arrow key from the search bar now selects the first item. Pressing the up arrow key will refocus the search bar."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Removes the auto-open behavior of the Controller Emulator widget. This widget will now stay closed when closed and be independent from the Devices."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers. "
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "A proper error message now displays when the fallback engine font isn't loaded correctly."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bug with Occlusion Culling where SpecialMesh and BlockMesh with offsets would cause invalid occlusion."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with the Acoustic Simulation beta feature causing lag spikes when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` are deleted."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Weld instances no longer duplicate in the Avatar Settings preview when swapping between the Single Collider setting \"Use Parts / Colliders\"."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a timing bug with `Class.AudioPlayer` and `Class.AudioTextToSpeech` that can cause their assets to play at full-volume, ignoring connected wires."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Updates debug panels in Studio and Client to correctly show all the relevant information. Previously some values were not populated."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Camera speed properly clamps in Visualization Modes panel."
+    }
+]

@@ -12,11 +12,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `UIContainerQuery` to Studio Explorer."
     },
     {
@@ -37,6 +32,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Restores Luau Heap snapshot grouping by `ModuleScript`."
     },
     {
@@ -48,16 +48,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "A proper error message now displays when the fallback engine font isn't loaded correctly."
     },
     {
         "status": "Pending",

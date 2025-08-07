@@ -9,7 +9,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with Input Action System mouse bindings triggering on touch and VR. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for LR and ISR Metrics on the **Network Stats** diagnostic. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Studio Camera Controls beta, makes the camera speed lock persistent. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Minor improvements to search speeds and interactivity times in Explorer. |

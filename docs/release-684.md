@@ -6,7 +6,6 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reinstates "OOF" as the default death sound. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Attributes and tags on instances are now stored more efficiently, decreasing memory pressure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `UIContainerQuery` to Studio Explorer. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes `UIContainerQuery` so that the list of active CQs are rebuilt once per frame. This removes unnecessary computation when `GuiBase2d` instances are duplicated or deleted. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `AssetService:CreateSurfaceAppearance()` has been renamed to `AssetService:CreateSurfaceAppearanceAsync()` and is now yieldable. |
@@ -15,11 +14,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Restores Luau Heap snapshot grouping by `ModuleScript`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau Heap report now includes string object data overhead in the string object size. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A proper error message now displays when the fallback engine font isn't loaded correctly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Type Solver - Adds guardrails in subtyping of type packs to prevent infinite recursion and hangs. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes obsolete rows from physics debug panel. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Type Solver - Fixes some instances of script analysis never completing while Studio memory usage spikes. |

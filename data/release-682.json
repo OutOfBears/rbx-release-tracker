@@ -27,11 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds support for LR and ISR Metrics on the **Network Stats** diagnostic."
     },
     {
