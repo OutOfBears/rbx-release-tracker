@@ -7,7 +7,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.SurfaceAppearance.AlphaMode` is now scriptable. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Type Solver - Fixes some cases where `if ... then ... else` expressions would not report errors when one of the branches has an incorrect type. Also fixes a regression in how table literals are type checked inside `if ... then ... else` expressions and `and` / `or` expressions.   |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a preview widget to the `Class.AudioPlayer.Asset` property. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates selector syntax to handle ContainerQuery. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Performance improvements when rendering skinned EditableMeshes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows `Class.AudioPlayer.Volume` to go up to `10` instead of `3`. |

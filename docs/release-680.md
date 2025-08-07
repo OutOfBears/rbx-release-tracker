@@ -7,10 +7,10 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves type checking for functions with generic type packs to more accurately report argument count and type mismatches. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.GuiBase2d` items now always have their order within a child list preserved across the network.<br><br>Previously they had their _display/layout order_ preserved but not their actual child order. Now the position of the GUI item within the parent's child list will always be the same relative to other GUI items on the client as it was on the server. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves Studio's performance when dealing with large selections. This is one in a series of ongoing enhancements. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.ScrollingFrame.TopImageContent`, `Class.ScrollingFrame.MidImageContent`, and `Class.ScrollingFrame.BottomImageContent` properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds evaluation logic to UIContainerQuery. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Moving large selections of instances with the `bulkMove` method is now more performant, in particular when dragging in Studio. Set `Class.Workspace.SignalBehavior` to `Enum.SignalBehavior.Deferred` to see a noticeable improvement. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature. |
 ## Fixes
 
 | Status | Note |

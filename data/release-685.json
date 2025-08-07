@@ -72,6 +72,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue with the Acoustic Simulation beta feature causing lag spikes when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` are deleted."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a timing bug with `Class.AudioPlayer` and `Class.AudioTextToSpeech` that can cause their assets to play at full-volume, ignoring connected wires."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Removes the auto-open behavior of the Controller Emulator widget. This widget will now stay closed when closed and be independent from the Devices."
     },
     {
@@ -92,17 +102,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue with the Acoustic Simulation beta feature causing lag spikes when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` are deleted."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Weld instances no longer duplicate in the Avatar Settings preview when swapping between the Single Collider setting \"Use Parts / Colliders\"."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a timing bug with `Class.AudioPlayer` and `Class.AudioTextToSpeech` that can cause their assets to play at full-volume, ignoring connected wires."
     },
     {
         "status": "Pending",

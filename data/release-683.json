@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates selector syntax to handle ContainerQuery."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "`Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset."
     },
     {

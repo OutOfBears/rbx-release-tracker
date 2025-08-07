@@ -15,6 +15,11 @@
         "content": "Improves Studio's performance when dealing with large selections. This is one in a series of ongoing enhancements."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.ScrollingFrame.TopImageContent`, `Class.ScrollingFrame.MidImageContent`, and `Class.ScrollingFrame.BottomImageContent` properties."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Moving large selections of instances with the `bulkMove` method is now more performant, in particular when dragging in Studio. Set `Class.Workspace.SignalBehavior` to `Enum.SignalBehavior.Deferred` to see a noticeable improvement."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Exposes `AssetService:CreateSurfaceAppearance()` as a Studio beta feature."
     },
     {
         "status": "Live",
