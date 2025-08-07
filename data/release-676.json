@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue in `Class.Textbox` where text is duplicated when long sequences of whitespace are present."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "New Explorer - Fixed a rare `direction == 0`, which would imply `target == anchor` bug."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue in `Class.Textbox` where text is duplicated when long sequences of whitespace are present."
     },
     {
         "status": "Pending",

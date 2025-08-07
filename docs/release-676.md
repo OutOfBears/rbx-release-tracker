@@ -16,13 +16,13 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fix scrolling of `Class.ScrollingFrame\|ScrollingFrames` in `Class.BillboardGui\|BillboardGuis` via the mouse wheel. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue in `Class.Textbox` where text is duplicated when long sequences of whitespace are present. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bugs that could cause the pathfinding navigation mesh visualization to flicker or fail to render under certain conditions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Makes `Class.AudioEcho.RampTime` use 50% less CPU. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves incremental autocomplete’s support for completions on union types in Luau’s old Type Solver. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, fixes a bug where generic type packs would erroneously produce unknown symbol errors. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where a freshly-created `Class.AudioEmitter` or `Class.AudioListener` that uses custom distance or angle attenuation curves produces an audible click. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Explorer - Fixed a rare `direction == 0`, which would imply `target == anchor` bug. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in `Class.Textbox` where text is duplicated when long sequences of whitespace are present. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Makes accessories for R6 avatars have `Class.BasePart.AudioCanCollide` set to false by default. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where Sounds and AudioPlayers can fail to play properly when calling `Stop()` and `Play()` in quick succession. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds PackageLink as instance to ignore when cloning for Texture Generator |

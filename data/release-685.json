@@ -2,7 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Dramatically improves the memory usage of `Class.AudioAnalyzer`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop."
     },
     {
         "status": "Pending",
@@ -18,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
     },
     {
         "status": "Pending",
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, types indicative of an internal error no longer leak from modules, and instead raise a type checking error. Previously, this would result in unknown and surprising behavior across different modules."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop."
     },
     {
         "status": "Pending",
