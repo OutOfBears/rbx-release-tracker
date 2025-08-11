@@ -80,11 +80,6 @@
         "content": "Fixes a timing bug with `Class.AudioPlayer` and `Class.AudioTextToSpeech` that can cause their assets to play at full-volume, ignoring connected wires."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Removes the auto-open behavior of the Controller Emulator widget. This widget will now stay closed when closed and be independent from the Devices."
-    },
-    {
         "status": "Pending",
         "type": "Fixes",
         "content": "On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers. "
@@ -108,6 +103,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Updates debug panels in Studio and Client to correctly show all the relevant information. Previously some values were not populated."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Removes the auto-open behavior of the Controller Emulator widget. This widget will now stay closed when closed and be independent from the Devices."
     },
     {
         "status": "Pending",

@@ -4,9 +4,9 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, fixes an instance where refining an intersection of tables resulted in the `never` type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau autocomplete now prioritizes showing table properties in index expressions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.Decal.TextureContent` property so that `EditableImage` can be used with decals.  |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an instance where refining an intersection of tables resulted in the `never` type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, table literals within function calls now have more precise errors. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau type solver, the `keyof` type function now respects empty string properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer: Pressing tab/shift-tab while renaming now lets you rename the next/previous instance. |

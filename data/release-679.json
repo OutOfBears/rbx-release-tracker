@@ -2,17 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixes an instance where refining an intersection of tables resulted in the `never` type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau autocomplete now prioritizes showing table properties in index expressions."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new `Class.Decal.TextureContent` property so that `EditableImage` can be used with decals. "
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixes an instance where refining an intersection of tables resulted in the `never` type."
     },
     {
         "status": "Pending",
