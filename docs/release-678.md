@@ -24,3 +24,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a visual issue with the default `Class.TextChatService` UI that would sometimes flash a grey square on startup. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Explorer - Fixes an error where you could rename an object even if it was deleted before you clicked it in the Explorer window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Explorer - Fixes several cases where context menu items could disappear. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in the Next Gen Studio Beta where the "Reset all tabs" action in the Manage Tabs window did not work reliably |

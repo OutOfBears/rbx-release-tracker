@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Next Gen Explorer beta: Fixes bug where scrolling to selected instances would sometimes not occur after clearing a search."
     },
     {
@@ -103,10 +108,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where `Class.Sound.TimePosition` and `Class.AudioPlayer.TimePosition` advance while `Class.Sound.PlaybackSpeed` or `Class.AudioPlayer.PlaybackSpeed` is set to `0`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer."
     }
 ]

@@ -21,6 +21,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in the audio engine where playing thousands of `Class.AudioPlayer\|AudioPlayers` at once would not properly prioritize rendering the loudest ones. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Fixes performance drops when new search results would come in. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Box select can now be started from the blank space below the last instance in the hierarchy. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Fixes bug where scrolling to selected instances would sometimes not occur after clearing a search. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Fixes hangs related to instances being created/modified in bulk. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer beta: Fixes cases of errors throwing while searching if the instances are moved. |
@@ -29,4 +30,3 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the Next Gen Studio Preview beta feature, restores support for the <kbd>Shift</kbd><kbd>2</kbd> and <kbd>Alt</kbd><kbd>R</kbd> shortcuts to focus the **Move** increment spinbox and the **Rotate** increment spinbox, respectively. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio Settings not saving for users with non-ASCII characters in OS usernames. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.Sound.TimePosition` and `Class.AudioPlayer.TimePosition` advance while `Class.Sound.PlaybackSpeed` or `Class.AudioPlayer.PlaybackSpeed` is set to `0`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer beta: Fixes bug where hover effects wouldn't work on an undocked Explorer. |

@@ -78,5 +78,10 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "New Explorer - Fixes several cases where context menu items could disappear."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue in the Next Gen Studio Beta where the \"Reset all tabs\" action in the Manage Tabs window did not work reliably"
     }
 ]

@@ -20,6 +20,11 @@
         "content": "Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Explorer: Pressing the down arrow key from the search bar now selects the first item. Pressing the up arrow key will refocus the search bar."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "WrapDeformers can now be attached under layered clothing meshes (i.e. MeshParts that have WrapLayer children, rather than just WrapTarget children).\n\nThe difference between the WrapDeformer cage and WrapLayer outer cage will deform the mesh prior to any layered clothing fit. WrapDeformed layered clothing MeshParts can be published as they have been for WrapDeformed body part MeshParts."
@@ -67,7 +72,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Explorer: Pressing the down arrow key from the search bar now selects the first item. Pressing the up arrow key will refocus the search bar."
+        "content": "ProximityPrompt indicators"
     },
     {
         "status": "Live",
