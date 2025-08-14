@@ -25,16 +25,16 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an issue where a `X or Y` expression might erroneously be reported as having the wrong type when returned from a function. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | ProximityPrompt indicators |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Explorer - Adjusts the scroll bar UI. Clicking in the gutter above or below the scrollbar will now scroll by a page. Click and hold to scroll by page to the mouse. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes the legacy "One Stud Grid", "1/5 Stud Grid" and "Grid Off" actions in Studio.<br><br>A replacement community plugin is available here for creators who still want similar functionality: https://create.roblox.com/store/asset/133502991066075/Grid-Snap-Quick-Switcher |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes the legacy "One Stud Grid", "1/5 Stud Grid" and "Grid Off" actions in Studio. |
 ## Fixes
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed crashes when calling SharedTable:Clone. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Provide richer autofill suggestions inside of interpolated strings when using incremental autocomplete |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reduces the amount of time spent per-frame in the `Sound` task when there are many Audio instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `JumpPower`. Players would have to release and press the jump button again to reactivate jumping. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Checked function errors in the new Luau Type Solver will warn about erroneous argument usage using 1-indexed positions for the arguments instead of 0-indexed positions |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed crashes when calling SharedTable:Clone. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug that prevented incremental autocomplete from providing results in for loops. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Update the types of UserInputService's `GetGamepadState`, `GetKeysPressed`, and `GetMouseButtonsPressed` APIs to return a list of `Class.InputObject\|InputObjects`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Tag Editor now reinstantiates its folder in ServerStorage upon adding new tags. It will now find folders not managed by the plugin if the TagList folder hasn't already been created, so that it can be used with workflows like Rojo. |
