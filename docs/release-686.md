@@ -4,7 +4,7 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attributes and tags on instances are now stored more efficiently, decreasing memory pressure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves Acoustic Simulation's diffraction pathfinding when emitters or listeners are near obstacles |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | WrapDeformers can now be attached under layered clothing meshes (i.e. MeshParts that have WrapLayer children, rather than just WrapTarget children).<br><br>The difference between the WrapDeformer cage and WrapLayer outer cage will deform the mesh prior to any layered clothing fit. WrapDeformed layered clothing MeshParts can be published as they have been for WrapDeformed body part MeshParts. |
