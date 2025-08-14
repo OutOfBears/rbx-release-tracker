@@ -4,21 +4,13 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attributes and tags on instances are now stored more efficiently, decreasing memory pressure. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Dramatically improves the memory usage of `Class.AudioAnalyzer`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Explorer: Pressing the down arrow key from the search bar now selects the first item. Pressing the up arrow key will refocus the search bar. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | WrapDeformers can now be attached under layered clothing meshes (i.e. MeshParts that have WrapLayer children, rather than just WrapTarget children).<br><br>The difference between the WrapDeformer cage and WrapLayer outer cage will deform the mesh prior to any layered clothing fit. WrapDeformed layered clothing MeshParts can be published as they have been for WrapDeformed body part MeshParts. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.GuiService.ViewportDisplaySize` to retrieve physical size (`Enum.DisplaySize`) of the viewport |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows any BasePart in `Class.GeometryService:CalculateConstraintsToPreserve`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Significant optimizations for the animation step. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves Luau’s New Type Solver's ability to recover from certain internal failure cases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `VideoContent` property to `Class.VideoFrame`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, types indicative of an internal error no longer leak from modules, and instead raise a type checking error. Previously, this would result in unknown and surprising behavior across different modules. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | ProximityPrompt indicators |
 ## Fixes
 
 | Status | Note |
