@@ -10,6 +10,11 @@
         "content": "Reinstates \"OOF\" as the default death sound."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "`DraggerService` properties can now be set by Studio plugins, which allows plugin modification of the grid snap, collision settings, etc. Setting these properties changes the immediate behavior and the associated persistent Studio setting."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `UIContainerQuery` to Studio Explorer."
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "`AssetService:CreateSurfaceAppearance()` has been renamed to `AssetService:CreateSurfaceAppearanceAsync()` and is now yieldable."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`DraggerService` properties can now be set by Studio plugins, which allows plugin modification of the grid snap, collision settings, etc. Setting these properties changes the immediate behavior and the associated persistent Studio setting."
     },
     {
         "status": "Live",

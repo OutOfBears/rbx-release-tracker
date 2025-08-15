@@ -6,10 +6,10 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reinstates "OOF" as the default death sound. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `DraggerService` properties can now be set by Studio plugins, which allows plugin modification of the grid snap, collision settings, etc. Setting these properties changes the immediate behavior and the associated persistent Studio setting. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `UIContainerQuery` to Studio Explorer. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes `UIContainerQuery` so that the list of active CQs are rebuilt once per frame. This removes unnecessary computation when `GuiBase2d` instances are duplicated or deleted. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `AssetService:CreateSurfaceAppearance()` has been renamed to `AssetService:CreateSurfaceAppearanceAsync()` and is now yieldable. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `DraggerService` properties can now be set by Studio plugins, which allows plugin modification of the grid snap, collision settings, etc. Setting these properties changes the immediate behavior and the associated persistent Studio setting. |
 ## Fixes
 
 | Status | Note |

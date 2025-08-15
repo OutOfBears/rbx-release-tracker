@@ -1,6 +1,6 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu."
     },
