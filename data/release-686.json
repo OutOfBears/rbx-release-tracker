@@ -1,10 +1,5 @@
 [
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu."
-    },
-    {
         "status": "Live",
         "type": "Improvements",
         "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
@@ -33,6 +28,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `Enum.AdornShading` enum. Adds Box/Sphere/Cone/Cylinder HandleAdornment property: Shading."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu."
     },
     {
         "status": "Pending",
