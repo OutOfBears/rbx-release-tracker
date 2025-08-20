@@ -37,6 +37,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "New Type Solver - Adds guardrails in subtyping of type packs to prevent infinite recursion and hangs."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Removes obsolete rows from physics debug panel."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "New Type Solver - Adds guardrails in subtyping of type packs to prevent infinite recursion and hangs."
     },
     {
         "status": "Pending",

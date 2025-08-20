@@ -2,37 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves diffraction pathfinding in the \"Acoustic Simulation\" beta when emitters or listeners are near obstacles."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.WrapDeformer|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates in-experience convex decomposition to a technique that produces better results in most cases."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
+        "content": "Improves the quality of Acoustic Simulation's muffling/filtering."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `Enum.AdornShading` enum. Adds Box/Sphere/Cone/Cylinder HandleAdornment property: Shading."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the MicroProfiler, adds a new category under X-Ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay \"Network\" menu. When viewing the dump, select \"Network\" in the X-Ray menu."
     },
     {
         "status": "Pending",
@@ -47,17 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adaptive reverb in the beta \"Acoustic Simulation\" feature has been tweaked and improved slightly."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves Luau’s New Type Solver's ability to recover from certain internal failure cases."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
     },
     {
         "status": "Pending",
@@ -77,11 +42,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves the quality of Acoustic Simulation's muffling/filtering."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "`game.CoreGui` and other restricted instances and services will no longer be accessible in scripts which do not have a permission to use them. Instead, attempt to index or retrieve such an instance from Roblox API method will return 'nil'."
     },
     {
@@ -97,17 +57,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds visual cues that highlight the location of nearby `Class.ProximityPrompt|ProximityPrompts` for players."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Explorer - Adjusts the scroll bar UI. Clicking in the gutter above or below the scrollbar will now scroll by a page. Click and hold to scroll by page to the mouse."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Removes the legacy \"One Stud Grid,\" \"1/5 Stud Grid,\" and \"Grid Off\" actions in Studio."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Reduces the amount of time spent per-frame in the `Sound` task when there are many Audio instances."
     },
     {
         "status": "Live",
@@ -118,16 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Provide richer autofill suggestions inside of interpolated strings when using incremental autocomplete"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Reduces the amount of time spent per-frame in the `Sound` task when there are many Audio instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `Class.Humanoid.JumpPower|JumpPower`. Previously, players would have to release and press the jump button again to reactivate jumping."
     },
     {
         "status": "Pending",
@@ -153,10 +98,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Improve search performance in the Explorer. Broad searches like \"is:BasePart\" will lag less and specific searches like \"MySpecificModel\" will complete faster.\r\n\r\nFix a bug where using Studio with FPS set to 240Hz could cause hangs greater than a second when searching in the Explorer."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Addresses a crash from using the constraint scale slider in the \"Visualization Modes\" panel on some Windows machines."
     }
 ]

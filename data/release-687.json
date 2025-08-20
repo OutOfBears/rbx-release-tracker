@@ -1,0 +1,172 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds missing documentation for several `Class.EditableMesh` methods."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves diffraction pathfinding in the \"Acoustic Simulation\" beta when emitters or listeners are near obstacles."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.WrapDeformer|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes a crash in Luau’s New Type Solver for recursive type aliases."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates in-experience convex decomposition to a technique that produces better results in most cases."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the MicroProfiler, adds a new category under X-Ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay \"Network\" menu. When viewing the dump, select \"Network\" in the X-Ray menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a `Class.InputBinding.ResponseCurve|ResponseCurve` property to thumbstick `Class.InputBinding|InputBindings`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a bug where refinements from multipart conditions using `and` and `or` could sometimes cause Roblox built-in types to refine to `never`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adaptive reverb in the beta \"Acoustic Simulation\" feature has been tweaked and improved slightly."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau’s New Type Solver, short circuits unification in certain scenarios, improving inference for refined types."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for parametrized `@deprecated` attribute to Luau:\n`@[deprecated{ use = \"bar()\", reason = \"foo() is not secure\" }]`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "For Luau’s New Type Solver, fixes some internal compiler exceptions related to \"ConstraintSolver::unblock encountered a self-bound type!\"."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds property `Class.Stats.MemoryTrackingEnabled` to check validity of calling methods `Class.Stats:GetMemoryUsageMbForTag()` and  `Class.Stats:GetMemoryUsageMbAllCategories()` and to check validity of memory information in the MicroProfiler and Developer Console's \"Memory\" tab."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds visual cues that highlight the location of nearby `Class.ProximityPrompt|ProximityPrompts` for players."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an issue where the `Enum.Material.Glass|Glass` material sometimes did not get higher quality material shader on mobile."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Removes the legacy \"One Stud Grid,\" \"1/5 Stud Grid,\" and \"Grid Off\" actions in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The \"Save Place\" dialog now always displays on top when closing a place where the \"Add Tools\" window is open."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where the Next Gen Studio Preview beta fails to save custom tabs named with special characters, like `*` or `/`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue in the \"Next Gen Studio Preview\" beta where clicking on a tab's name in the Manage Tabs dialog toggled its visibility state instead of selecting it."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a bug that would mistakenly lead to generic type parameters to be overly permissive, and allows incompatible types for their instantiation."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `Class.Humanoid.JumpPower|JumpPower`. Previously, players would have to release and press the jump button again to reactivate jumping."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where Studio would crash when mouse is hovering the \"Help\" menu item of the MicroProfiler."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "MicroProfiler can now display more blocks on large zoom out without UI elements disappearing."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a rare crash when re-parenting detached `Class.Attachment|Attachments`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Addresses a crash from using the constraint scale slider in the \"Visualization Modes\" panel on some Windows machines."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "The non-legacy `Class.BaseScript.RunContext|RunContext` warning is now disabled for scripts that are disabled. "
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Prevent `Class.DraggerService.LinearSnapIncrement` and `Class.DraggerService.AngleSnapIncrement` from being set to zero. This avoids plugins having to check for a potential divide by zero as they implement snapping."
+    }
+]
