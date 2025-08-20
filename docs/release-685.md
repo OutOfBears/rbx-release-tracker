@@ -15,12 +15,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers.  |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug with Occlusion Culling where SpecialMesh and BlockMesh with offsets would cause invalid occlusion. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with the Acoustic Simulation beta feature causing lag spikes when `Class.AudioEmitter\|AudioEmitters` or `Class.AudioListener\|AudioListeners` are deleted. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a timing bug with `Class.AudioPlayer` and `Class.AudioTextToSpeech` that can cause their assets to play at full-volume, ignoring connected wires. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates debug panels in Studio and Client to correctly show all the relevant information. Previously some values were not populated. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers.  |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A proper error message now displays when the fallback engine font isn't loaded correctly. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug with Occlusion Culling where SpecialMesh and BlockMesh with offsets would cause invalid occlusion. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Weld instances no longer duplicate in the Avatar Settings preview when swapping between the Single Collider setting "Use Parts / Colliders". |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes the auto-open behavior of the Controller Emulator widget. This widget will now stay closed when closed and be independent from the Devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Camera speed properly clamps in Visualization Modes panel. |

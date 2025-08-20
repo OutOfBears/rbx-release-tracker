@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Makes `Class.VoiceChatService` automatically visible whenever \"Microphone\" is enabled via Game Settings > Communication."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a \"Default\" device option when selecting input and output audio devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments."
     },
     {
         "status": "Pending",

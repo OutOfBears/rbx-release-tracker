@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds `Class.MaterialVariant.ColorMapContent`, `Class.MaterialVariant.MetalnessMapContent`, `Class.MaterialVariant.NormalMapContent`, and `Class.MaterialVariant.RoughnessMapContent` properties."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds a `Class.Sky.SkyboxOrientation|SkyboxOrientation` property to `Class.Sky`."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "On the Studio start page, the \"@\" symbol is no longer present in group names."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.MaterialVariant.ColorMapContent`, `Class.MaterialVariant.MetalnessMapContent`, `Class.MaterialVariant.NormalMapContent`, and `Class.MaterialVariant.RoughnessMapContent` properties."
     },
     {
         "status": "Live",

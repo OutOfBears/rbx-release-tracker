@@ -16,11 +16,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where errors that are produced by Studio's solid modeling **Separate** button weren't displayed to the user. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in the Acoustic Simulation beta feature causing frame drops when emitters and listeners move toward one another rapidly. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue that caused the Studio camera to move when zooming in or out with the **Avatar Setup** camera. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue in the Next Gen Studio Preview beta where disabling plugins would leave an extra divider in the **Plugins** tab. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer\|WrapDeformers`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where errors that are produced by Studio's solid modeling **Separate** button weren't displayed to the user. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a bug where type refinements would sometimes erroneously produce an uninhabited type error when they have been determined to carry no actual refinement. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug where Explorer arrow keys would sometimes get stuck while renaming an instance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Studio where a focused TextBox would suppress the keyboard shortcut to toggle fullscreen mode. |

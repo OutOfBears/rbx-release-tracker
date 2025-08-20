@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, table literals within function calls now have more precise errors."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the New Luau type solver, the `keyof` type function now respects empty string properties."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new `Class.Decal.TextureContent` property so that `EditableImage` can be used with decals. "
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, table literals within function calls now have more precise errors."
     },
     {
         "status": "Pending",

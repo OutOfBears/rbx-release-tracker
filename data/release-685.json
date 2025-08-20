@@ -37,6 +37,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers. "
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes bug with Occlusion Culling where SpecialMesh and BlockMesh with offsets would cause invalid occlusion."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with the Acoustic Simulation beta feature causing lag spikes when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` are deleted."
     },
     {
@@ -52,17 +62,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers. "
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "A proper error message now displays when the fallback engine font isn't loaded correctly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes bug with Occlusion Culling where SpecialMesh and BlockMesh with offsets would cause invalid occlusion."
     },
     {
         "status": "Pending",

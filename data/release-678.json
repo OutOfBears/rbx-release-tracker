@@ -67,7 +67,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "The Save Place dialog now always displays on top when closing a place where the Add Tools window is open."
+        "content": "The \"Save Place\" dialog now always displays on top when closing a place where the \"Add Tools\" window is open."
     },
     {
         "status": "Pending",

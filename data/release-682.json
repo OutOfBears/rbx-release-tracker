@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where errors that are produced by Studio's solid modeling **Separate** button weren't displayed to the user."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug in the Acoustic Simulation beta feature causing frame drops when emitters and listeners move toward one another rapidly."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where errors that are produced by Studio's solid modeling **Separate** button weren't displayed to the user."
     },
     {
         "status": "Pending",

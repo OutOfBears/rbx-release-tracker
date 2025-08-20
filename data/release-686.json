@@ -7,22 +7,22 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves Acoustic Simulation's diffraction pathfinding when emitters or listeners are near obstacles"
+        "content": "Improves diffraction pathfinding in the \"Acoustic Simulation\" beta when emitters or listeners are near obstacles."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "WrapDeformers can now be attached under layered clothing meshes (i.e. MeshParts that have WrapLayer children, rather than just WrapTarget children).\n\nThe difference between the WrapDeformer cage and WrapLayer outer cage will deform the mesh prior to any layered clothing fit. WrapDeformed layered clothing MeshParts can be published as they have been for WrapDeformed body part MeshParts."
+        "content": "`Class.WrapDeformer|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updated in-experience convex decomposition to a technique that produces better results in most cases."
+        "content": "Updates in-experience convex decomposition to a technique that produces better results in most cases."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Add a ViewportPosition action type to Input Action System."
+        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
     },
     {
         "status": "Pending",
@@ -32,7 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "MicroProfiler: Adds a new category under x-ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay Network menu. When viewing the dump, select Network in the X-Ray menu."
+        "content": "In the MicroProfiler, adds a new category under X-Ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay \"Network\" menu. When viewing the dump, select \"Network\" in the X-Ray menu."
     },
     {
         "status": "Pending",
@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Beta Adaptive Reverb feature has been tweaked and improved slightly."
+        "content": "Adaptive reverb in the beta \"Acoustic Simulation\" feature has been tweaked and improved slightly."
     },
     {
         "status": "Pending",
@@ -97,7 +97,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "ProximityPrompt indicators"
+        "content": "Adds visual cues that highlight the location of nearby `Class.ProximityPrompt|ProximityPrompts` for players."
     },
     {
         "status": "Pending",
@@ -107,7 +107,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Removes the legacy \"One Stud Grid\", \"1/5 Stud Grid\" and \"Grid Off\" actions in Studio."
+        "content": "Removes the legacy \"One Stud Grid,\" \"1/5 Stud Grid,\" and \"Grid Off\" actions in Studio."
     },
     {
         "status": "Live",
@@ -127,7 +127,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `JumpPower`. Players would have to release and press the jump button again to reactivate jumping."
+        "content": "Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `Class.Humanoid.JumpPower|JumpPower`. Previously, players would have to release and press the jump button again to reactivate jumping."
     },
     {
         "status": "Pending",
@@ -157,6 +157,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Addresses a crash from using the constraint scale slider in the Visualization Modes panel on some Windows machines."
+        "content": "Addresses a crash from using the constraint scale slider in the \"Visualization Modes\" panel on some Windows machines."
     }
 ]
