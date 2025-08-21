@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Significant optimizations for the animation step."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type."
     },
     {
         "status": "Live",

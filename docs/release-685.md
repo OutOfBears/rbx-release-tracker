@@ -6,11 +6,11 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Dramatically improves the memory usage of `Class.AudioAnalyzer`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Explorer: Pressing the down arrow key from the search bar now selects the first item. Pressing the up arrow key will refocus the search bar. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows any BasePart in `Class.GeometryService:CalculateConstraintsToPreserve`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Significant optimizations for the animation step. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type. |
 ## Fixes
 
 | Status | Note |
