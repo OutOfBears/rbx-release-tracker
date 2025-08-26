@@ -60,6 +60,11 @@
         "content": "New Explorer - Fixes bug where trackpads would be seen as holding down the mouse, and hovering over expand arrows would force them to expand."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Explorer - Fixes bug with the increment names settings, so now a part with siblings `Part2` and `Part3` will be given the name `Part1` instead of just `Part`."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where some text in the `Class.AudioCompressor` editor renders incorrectly."
@@ -83,10 +88,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "New Explorer - Fixes bug where the Explorer sometimes wouldn't expand and scroll to selected instances after clearing search."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "New Explorer - Fixes bug with the increment names settings, so now a part with siblings `Part2` and `Part3` will be given the name `Part1` instead of just `Part`."
     }
 ]

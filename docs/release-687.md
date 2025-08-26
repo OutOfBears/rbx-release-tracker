@@ -31,14 +31,14 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where Studio would crash when mouse is hovering the "Help" menu item of the MicroProfiler. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | MicroProfiler can now display more blocks on large zoom out without UI elements disappearing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Prevent `Class.DraggerService.LinearSnapIncrement` and `Class.DraggerService.AngleSnapIncrement` from being set to zero. This avoids plugins having to check for a potential divide by zero as they implement snapping. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The "Save Place" dialog now always displays on top when closing a place where the "Add Tools" window is open. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the Next Gen Studio Preview beta fails to save custom tabs named with special characters, like `*` or `/`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue in the "Next Gen Studio Preview" beta where clicking on a tab's name in the Manage Tabs dialog toggled its visibility state instead of selecting it. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a bug that would mistakenly lead to generic type parameters to be overly permissive, and allows incompatible types for their instantiation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `Class.Humanoid.JumpPower\|JumpPower`. Previously, players would have to release and press the jump button again to reactivate jumping. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where Studio would crash when mouse is hovering the "Help" menu item of the MicroProfiler. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | MicroProfiler can now display more blocks on large zoom out without UI elements disappearing. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare crash when re-parenting detached `Class.Attachment\|Attachments`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Addresses a crash from using the constraint scale slider in the "Visualization Modes" panel on some Windows machines. |
