@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Performance improvements when rendering skinned EditableMeshes."
     },
     {
@@ -33,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "When using the New Type Solver in `--nonstrict` mode, if the _only_ error is \"Type inference failed to complete\" (an internal Luau error), the error will not be displayed in the Script Analysis widget nor in the Script Editor."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Next Gen Explorer - Adds `Show Orientation Indicator` back to the Explorer window's context menu."
     },
     {
         "status": "Pending",

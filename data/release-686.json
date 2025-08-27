@@ -70,6 +70,11 @@
         "content": "Fixed crashes when calling SharedTable:Clone."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug that prevented incremental autocomplete from providing results in for loops."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Provide richer autofill suggestions inside of interpolated strings when using incremental autocomplete"
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Checked function errors in the new Luau Type Solver will warn about erroneous argument usage using 1-indexed positions for the arguments instead of 0-indexed positions"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug that prevented incremental autocomplete from providing results in for loops."
     },
     {
         "status": "Pending",

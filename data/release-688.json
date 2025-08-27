@@ -1,0 +1,132 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Allows `DraggerService` properties to be set."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.Humanoid:BuildRigFromAttachments()` now respects the `AvatarJointUpgrade` rollout."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a new class of errors to Luau's New Type Solver which reports when generics would have be instantiated with impossible types."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Parallelizes `Class.AudioPlayer`, `Class.AudioEmitter`, and `Class.AudioListener` updates, which can dramatically improve framerate when there are many."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a new `Instance` type called `TextGenerator` that provides a method for getting LLM-generated text."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `vector.lerp` to the standard Luau library."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Autocomplete no longer suggests \"break\" and \"continue\" outside of loops."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Next Gen Explorer: Adds `Show Orientation Indicator` back to the Explorer window's context menu."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Users who register callbacks on `Class.DragDetector|DragDetectors` for `Class.DragDetector.MouseHoverEnter` and `Class.DragDetector.MouseHoverLeave` on touch devices will now only correctly see one set of calls to enter/leave when pressing and releasing (previously there were two sets of calls)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue that caused `UIGradient` flickers during certain setups."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes handling of triggers on Xbox Elite controller in the Xbox app."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`HandleAdornments` now respects Z index sorting."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves the error message thrown if `Actor:BindToMessage` is called in a ModuleScript."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where certain scripts could cause script analysis to fail."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue causing Voice Chat's echo cancellation to intermittently not work."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Prevents potential transient stream out when Multiple Replication Foci are moved large distances."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, tables that contain dictionary entries and array-like entries (such as: `{ foo = 32, \"bar\" }`) are now more permissive."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with the `UIDragDetectors` where drag would not terminate upon bringing up the settings menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where a setting enabled to false on a dragging `UIDragDetector` mid-drag wouldn't end the drag action properly."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Explorer: Fixes a bug where icons on instances and greyed out text for disabled scripts would sometimes fail to appear when searching."
+    }
+]

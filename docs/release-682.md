@@ -4,10 +4,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with Input Action System mouse bindings triggering on touch and VR. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Makes drag-and-drop less sensitive in Explorer by making `Class.Plugin:StartDrag()` not start if the mouse button is already raised. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with Input Action System mouse bindings triggering on touch and VR. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for LR and ISR Metrics on the **Network Stats** diagnostic. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Studio Camera Controls beta, makes the camera speed lock persistent. |

@@ -7,11 +7,9 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.SurfaceAppearance.AlphaMode` is now scriptable. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New Type Solver - Fixes some cases where `if ... then ... else` expressions would not report errors when one of the branches has an incorrect type. Also fixes a regression in how table literals are type checked inside `if ... then ... else` expressions and `and` / `or` expressions.   |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a preview widget to the `Class.AudioPlayer.Asset` property. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Performance improvements when rendering skinned EditableMeshes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows `Class.AudioPlayer.Volume` to go up to `10` instead of `3`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When using the New Type Solver in `--nonstrict` mode, if the _only_ error is "Type inference failed to complete" (an internal Luau error), the error will not be displayed in the Script Analysis widget nor in the Script Editor. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Next Gen Explorer - Adds `Show Orientation Indicator` back to the Explorer window's context menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Explorer - Adjusts selection, text, and scrollbar colors to be higher contrast. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Explorer - Decreases the height of the Explorer window's search bar. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Explorer - Moves the `Paste Into At Original Location` option out of the context menu submenu, and removes the `Paste At Original Location` option from the context menu. |

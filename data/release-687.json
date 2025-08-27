@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
     },
     {
@@ -28,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes a crash in Luau’s New Type Solver for recursive type aliases."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
     },
     {
         "status": "Pending",
@@ -62,17 +52,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adaptive reverb in the beta \"Acoustic Simulation\" feature has been tweaked and improved slightly."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
     },
     {
         "status": "Pending",
@@ -83,11 +63,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds support for parametrized `@deprecated` attribute to Luau:\n`@[deprecated{ use = \"bar()\", reason = \"foo() is not secure\" }]`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Parallelizes `Class.AudioPlayer`, `Class.AudioEmitter`, and `Class.AudioListener` updates, which can dramatically improve framerate when there are many."
     },
     {
         "status": "Pending",
@@ -113,6 +88,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Removes the legacy \"One Stud Grid,\" \"1/5 Stud Grid,\" and \"Grid Off\" actions in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `Class.Humanoid.JumpPower|JumpPower`. Previously, players would have to release and press the jump button again to reactivate jumping."
     },
     {
         "status": "Live",
@@ -148,11 +128,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fixes a bug that would mistakenly lead to generic type parameters to be overly permissive, and allows incompatible types for their instantiation."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that could cause the jump button to become deactivated when changing the humanoid's `Class.Humanoid.JumpPower|JumpPower`. Previously, players would have to release and press the jump button again to reactivate jumping."
     },
     {
         "status": "Pending",
