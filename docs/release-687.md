@@ -6,6 +6,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds missing documentation for several `Class.EditableMesh` methods. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the `Enum.Material.Glass\|Glass` material sometimes did not get higher quality material shader on mobile. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves diffraction pathfinding in the "Acoustic Simulation" beta when emitters or listeners are near obstacles. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.WrapDeformer\|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart\|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart\|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart\|MeshParts`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in Luau’s New Type Solver for recursive type aliases. |
@@ -20,7 +21,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | For Luau’s New Type Solver, fixes some internal compiler exceptions related to "ConstraintSolver::unblock encountered a self-bound type!". |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds property `Class.Stats.MemoryTrackingEnabled` to check validity of calling methods `Class.Stats:GetMemoryUsageMbForTag()` and  `Class.Stats:GetMemoryUsageMbAllCategories()` and to check validity of memory information in the MicroProfiler and Developer Console's "Memory" tab. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds visual cues that highlight the location of nearby `Class.ProximityPrompt\|ProximityPrompts` for players. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where the `Enum.Material.Glass\|Glass` material sometimes did not get higher quality material shader on mobile. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes the legacy "One Stud Grid," "1/5 Stud Grid," and "Grid Off" actions in Studio. |
 ## Fixes
 

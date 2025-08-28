@@ -10,6 +10,11 @@
         "content": "Adds missing documentation for several `Class.EditableMesh` methods."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue where the `Enum.Material.Glass|Glass` material sometimes did not get higher quality material shader on mobile."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves diffraction pathfinding in the \"Acoustic Simulation\" beta when emitters or listeners are near obstacles."
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds visual cues that highlight the location of nearby `Class.ProximityPrompt|ProximityPrompts` for players."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue where the `Enum.Material.Glass|Glass` material sometimes did not get higher quality material shader on mobile."
     },
     {
         "status": "Pending",

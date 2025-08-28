@@ -9,9 +9,9 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, function statements on tables now bidirectionally infer their arguments. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Makes `Class.VoiceChatService` automatically visible whenever "Microphone" is enabled via Game Settings > Communication. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, non-strict mode will no longer report errors for function calls that refinements have proven to be unreachable. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improved scrolling performance of Explorer in hot cases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new Net Asset section to the Network Diagnostics Debug panel. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a "Default" device option when selecting input and output audio devices. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improved scrolling performance of Explorer in hot cases. |
 ## Fixes
 
 | Status | Note |

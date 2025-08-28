@@ -25,6 +25,11 @@
         "content": "In Luau's New Type Solver, non-strict mode will no longer report errors for function calls that refinements have proven to be unreachable."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improved scrolling performance of Explorer in hot cases."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new Net Asset section to the Network Diagnostics Debug panel."
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a \"Default\" device option when selecting input and output audio devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improved scrolling performance of Explorer in hot cases."
     },
     {
         "status": "Live",
