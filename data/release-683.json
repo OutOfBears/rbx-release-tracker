@@ -72,6 +72,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where the BasePart CSG API would crash if the input is `nil`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Next Gen Explorer - Hover effects no longer occur while dragging the scroll bar. Box selecting also no longer starts from the scroll bar area."
     },
     {
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug in Solid Modeling tools that caused incorrect colors in the result."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where the BasePart CSG API would crash if the input is `nil`."
     },
     {
         "status": "Pending",

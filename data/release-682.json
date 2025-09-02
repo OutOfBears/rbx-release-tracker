@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Allows `.rbxl` files saved with Unified Lighting enabled to use the correct lighting technology on clients not yet running Unified Lighting."
     },
     {
@@ -18,6 +13,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "You can now visualize `Class.WrapTarget` cage mesh vertices before and after deformation with `Class.WrapDeformer`. By default, visualization shows post-deformation vertices, but the new debug visualization setting `Enum.WrapTargetDebugMode.PreWrapDeformerCage` lets you view the `Class.WrapTarget` cage vertices prior to deformation."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
     },
     {
         "status": "Pending",
