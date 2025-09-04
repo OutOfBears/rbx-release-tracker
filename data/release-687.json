@@ -37,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the MicroProfiler, adds a new category under X-Ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay \"Network\" menu. When viewing the dump, select \"Network\" in the X-Ray menu."
     },
     {
@@ -107,6 +102,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a rare crash when re-parenting detached `Class.Attachment|Attachments`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Prevent `Class.DraggerService.LinearSnapIncrement` and `Class.DraggerService.AngleSnapIncrement` from being set to zero. This avoids plugins having to check for a potential divide by zero as they implement snapping."
     },
     {
@@ -132,17 +132,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a rare crash when re-parenting detached `Class.Attachment|Attachments`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Addresses a crash from using the constraint scale slider in the \"Visualization Modes\" panel on some Windows machines."
     },
     {
         "status": "Pending",

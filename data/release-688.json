@@ -2,22 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Allows `DraggerService` properties to be set."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties."
     },
     {
         "status": "Pending",
@@ -37,27 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Parallelizes `Class.AudioPlayer`, `Class.AudioEmitter`, and `Class.AudioListener` updates, which can dramatically improve framerate when there are many."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a new `Instance` type called `TextGenerator` that provides a method for getting LLM-generated text."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `vector.lerp` to the standard Luau library."
     },
     {
         "status": "Pending",
@@ -92,22 +57,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes handling of triggers on Xbox Elite controller in the Xbox app."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "`HandleAdornments` now respects Z index sorting."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Improves the error message thrown if `Actor:BindToMessage` is called in a ModuleScript."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where certain scripts could cause script analysis to fail."
     },
     {
         "status": "Pending",

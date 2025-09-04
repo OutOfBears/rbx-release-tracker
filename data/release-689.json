@@ -1,0 +1,162 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "The `Class.StyleRule:SetProperty()` function now automatically handles the following color type conversions: A) converts a `Datatype.BrickColor` value to a `Datatype.Color3` when setting a `Datatype.Color3` property; B) converts a `Datatype.Color3` value to a `Datatype.ColorSequence` when setting a `Datatype.ColorSequence` property."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes an instance of getting an erroneous \"Type inference has failed to complete\" error when using user defined type functions."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the `Class.AudioTremolo` instance which works the same as `Class.TremoloSoundEffect` but for newer audio classes such as `Class.AudioPlayer` and `Class.Wire`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces a new property `Class.Workspace.AirTurbulenceIntensity` that controls the strength of turbulence present in the wind velocity field, affecting the aerodynamic force model."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Global.LuaGlobals.rawget()` now returns `nil` when queried key isn't present."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `vector.lerp()` to the standard Luau library."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Right-to-left text support is now permanently enabled."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives)."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the Explorer, double-clicking to expand will now use the system's double-click speed."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a potential infinite loop when re-capturing focus on the same text box."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes handling of triggers on Xbox Elite controller in the Xbox app."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where certain scripts could cause script analysis to fail."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes `Class.ScrollingFrame` scrollbar rendering issues with `Class.UICorner`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in Luau typechecking that could cause autocomplete to not provide suggestions when invoked near the length/unary minus operator."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, autocomplete now more accurately tracks refinement information when nesting multiple refinements."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes possible false occlusion from inactivated terrain meshes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash on typing an invalid `@[deprecated]` attribute."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Scripts cloned while in edit mode no longer have synchronized breakpoints."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Addresses a crash from using the constraint scale slider in the \"Visualization Modes\" panel on some Windows machines."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bug in the Explorer where nesting many `Class.Folder|Folders` and trying to open the \"insert object\" menu on the lowest one will hang Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes bug in the Explorer where, if the mouse's left and right buttons are swapped in system settings on Windows, drags in the Explorer won't work."
+    }
+]
