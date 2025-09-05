@@ -95,6 +95,11 @@
         "content": "In the Explorer, double-clicking to expand will now use the system's double-click speed."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes possible false occlusion from inactivated terrain meshes."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a potential infinite loop when re-capturing focus on the same text box."
@@ -128,11 +133,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, autocomplete now more accurately tracks refinement information when nesting multiple refinements."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes possible false occlusion from inactivated terrain meshes."
     },
     {
         "status": "Pending",
