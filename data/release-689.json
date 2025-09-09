@@ -32,7 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the `Class.AudioTremolo` instance which works the same as `Class.TremoloSoundEffect` but for newer audio classes such as `Class.AudioPlayer` and `Class.Wire`."
+        "content": "Adds the `Class.AudioTremolo` instance, which works the same as `Class.TremoloSoundEffect` but for newer audio classes such as `Class.AudioPlayer` and `Class.Wire`."
     },
     {
         "status": "Pending",

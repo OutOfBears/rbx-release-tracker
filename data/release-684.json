@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Improves performance of very large Atomic/PersistentPerPlayer models with streaming."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Restores Luau Heap snapshot grouping by `ModuleScript`."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "New Type Solver - Fixes some instances of script analysis never completing while Studio memory usage spikes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves performance of very large Atomic/PersistentPerPlayer models with streaming."
     },
     {
         "status": "Pending",

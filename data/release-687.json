@@ -2,6 +2,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes a crash in Luau’s New Type Solver for recursive type aliases."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau’s New Type Solver, short circuits unification in certain scenarios, improving inference for refined types."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
     },
     {
@@ -27,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes a crash in Luau’s New Type Solver for recursive type aliases."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Updates in-experience convex decomposition to a technique that produces better results in most cases."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau’s New Type Solver, short circuits unification in certain scenarios, improving inference for refined types."
     },
     {
         "status": "Pending",
@@ -107,6 +107,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "The non-legacy `Class.BaseScript.RunContext|RunContext` warning is now disabled for scripts that are disabled. "
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Prevent `Class.DraggerService.LinearSnapIncrement` and `Class.DraggerService.AngleSnapIncrement` from being set to zero. This avoids plugins having to check for a potential divide by zero as they implement snapping."
     },
     {
@@ -133,10 +138,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "The non-legacy `Class.BaseScript.RunContext|RunContext` warning is now disabled for scripts that are disabled. "
     }
 ]
