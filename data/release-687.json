@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds support for parametrized `@deprecated` attribute to Luau:\n`@[deprecated{ use = \"bar()\", reason = \"foo() is not secure\" }]`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves diffraction pathfinding in the \"Acoustic Simulation\" beta when emitters or listeners are near obstacles."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.WrapDeformer|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
     },
     {
         "status": "Pending",
@@ -58,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for parametrized `@deprecated` attribute to Luau:\n`@[deprecated{ use = \"bar()\", reason = \"foo() is not secure\" }]`."
     },
     {
         "status": "Pending",

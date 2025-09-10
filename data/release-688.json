@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Next Gen Explorer: Adds `Show Orientation Indicator` back to the Explorer window's context menu."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Allows `DraggerService` properties to be set."
     },
     {
@@ -30,9 +35,14 @@
         "content": "Autocomplete no longer suggests \"break\" and \"continue\" outside of loops."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Next Gen Explorer: Adds `Show Orientation Indicator` back to the Explorer window's context menu."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue causing Voice Chat's echo cancellation to intermittently not work."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Prevents potential transient stream out when Multiple Replication Foci are moved large distances."
     },
     {
         "status": "Live",
@@ -63,16 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Improves the error message thrown if `Actor:BindToMessage` is called in a ModuleScript."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue causing Voice Chat's echo cancellation to intermittently not work."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Prevents potential transient stream out when Multiple Replication Foci are moved large distances."
     },
     {
         "status": "Pending",

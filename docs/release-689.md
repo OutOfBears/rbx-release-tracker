@@ -4,22 +4,15 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attributes and tags on instances are now stored more efficiently, decreasing memory pressure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `Class.StyleRule:SetProperty()` function now automatically handles the following color type conversions: A) converts a `Datatype.BrickColor` value to a `Datatype.Color3` when setting a `Datatype.Color3` property; B) converts a `Datatype.Color3` value to a `Datatype.ColorSequence` when setting a `Datatype.ColorSequence` property. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a `Enum.InputActionType.ViewportPosition\|ViewportPosition` action type to the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes an instance of getting an erroneous "Type inference has failed to complete" error when using user defined type functions. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.AudioTremolo` instance, which works the same as `Class.TremoloSoundEffect` but for newer audio classes such as `Class.AudioPlayer` and `Class.Wire`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves adaptive reverb in the Acoustic Simulation beta feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer\|AudioPlayers` not playing at the correct volume. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces a new property `Class.Workspace.AirTurbulenceIntensity` that controls the strength of turbulence present in the wind velocity field, affecting the aerodynamic force model. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Global.LuaGlobals.rawget()` now returns `nil` when queried key isn't present. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `vector.lerp()` to the standard Luau library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom\|Custom` type, the waveform data is not correctly replicated from server to client. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Right-to-left text support is now permanently enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the Explorer, double-clicking to expand will now use the system's double-click speed. |
@@ -29,7 +22,6 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes possible false occlusion from inactivated terrain meshes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a potential infinite loop when re-capturing focus on the same text box. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes handling of triggers on Xbox Elite controller in the Xbox app. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where certain scripts could cause script analysis to fail. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.ScrollingFrame` scrollbar rendering issues with `Class.UICorner`. |

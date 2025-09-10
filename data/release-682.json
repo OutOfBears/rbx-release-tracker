@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves performance of collision detection algorithms which should help with the frame rate for large scenes and dragging large selections in Studio."
     },
     {
