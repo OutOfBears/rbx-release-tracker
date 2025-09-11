@@ -70,6 +70,11 @@
         "content": "Fixes handling of triggers on Xbox Elite controller in the Xbox app."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau native code generation has been improved to avoid cases of lowering failures on arm64. One failure case was compiling certain hashing algorithm implementations like Blake2b."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix a bug where the New Luau Type Solver would incorrectly warn on certain valid uses of xpcall."
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Improves error message for incompatible generic types in scripts typechecked with the new solver."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau native code generation has been improved to avoid cases of lowering failures on arm64. One failure case was compiling certain hashing algorithm implementations like Blake2b."
     },
     {
         "status": "Pending",
