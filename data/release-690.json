@@ -5,6 +5,11 @@
         "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.WrapDeformer|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the new Luau Type Solver, removed the ICE which occured when the Constraint Generator hit a recursion limit."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
     },
     {
         "status": "Pending",
