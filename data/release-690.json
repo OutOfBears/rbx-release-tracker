@@ -2,17 +2,27 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.WrapDeformer|WrapDeformers` can now be attached under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
     },
     {
         "status": "Pending",
@@ -27,17 +37,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Add support for occlusion culling lights."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
+        "content": "Adds support for occlusion culling lights."
     },
     {
         "status": "Pending",

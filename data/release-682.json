@@ -22,7 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for LR and ISR Metrics on the **Network Stats** diagnostic."
+        "content": "Adds support for LR and ISR metrics on the **Network Stats** diagnostic."
     },
     {
         "status": "Pending",
@@ -53,11 +53,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue in the Next Gen Studio Preview beta where disabling plugins would leave an extra divider in the **Plugins** tab."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
     },
     {
         "status": "Pending",

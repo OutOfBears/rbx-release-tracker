@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds a `Class.InputBinding.ResponseCurve|ResponseCurve` property to thumbstick `Class.InputBinding|InputBindings`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In Luau’s New Type Solver, short circuits unification in certain scenarios, improving inference for refined types."
     },
     {
@@ -47,11 +52,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a `Class.InputBinding.ResponseCurve|ResponseCurve` property to thumbstick `Class.InputBinding|InputBindings`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In Luau's New Type Solver, fixes a bug where refinements from multipart conditions using `and` and `or` could sometimes cause Roblox built-in types to refine to `never`."
     },
     {
@@ -78,6 +78,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Removes the legacy \"One Stud Grid,\" \"1/5 Stud Grid,\" and \"Grid Off\" actions in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, fixes a bug that would mistakenly lead to generic type parameters to be overly permissive, and allows incompatible types for their instantiation."
     },
     {
         "status": "Live",
@@ -123,11 +128,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue in the \"Next Gen Studio Preview\" beta where clicking on a tab's name in the Manage Tabs dialog toggled its visibility state instead of selecting it."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fixes a bug that would mistakenly lead to generic type parameters to be overly permissive, and allows incompatible types for their instantiation."
     },
     {
         "status": "Pending",

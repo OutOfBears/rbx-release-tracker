@@ -1,0 +1,102 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds autocomplete support for Luau function attributes."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.WrapDeformer|WrapDeformers` can attach under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for occlusion culling lights."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for LR and ISR metrics on the **Network Stats** diagnostic."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "When concat `..` operation is applied to constant strings, it's performed once during compilation time. "
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, improve instantiation of generics by allowing unions and intersections to be in their bounds."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, clarify the error message when a valid instantiation for a generic could not be inferred."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a bug where arguments to a function may not be inferred correctly when using a function with several optional arguments."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, aligns the behavior of type checking property access on the `table` type between if-else statements and if-else expressions."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Very large commands no longer save to the command bar history. "
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes collisions with very small triangle meshes with sizes less than 0.05."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "AirController adjusts to changes to ControllerManager.UpDirection even while active."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `typeof` with a vector value known at compile time would incorrectly return \"vector\" instead of \"Vector3\"."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves type-checking and autocomplete when using ObjectValues in `require`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where having many `Class.Sound|Sounds`, `Class.SoundGroup|SoundGroups`, `Class.AudioPlayer|AudioPlayers`, `Class.AudioAnalyzer|AudioAnalyzers`, or `Class.AudioTextToSpeech` could cause `Sound:Stop()` to be very slow."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Autocomplete correctly makes suggestions in unfinished `repeat` blocks when typing at the end of the file."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a case where another gamepad can't control the player after the first gamepad was disconnected on Xbox."
+    }
+]
