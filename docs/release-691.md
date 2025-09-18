@@ -5,9 +5,9 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attributes and tags on instances are now stored more efficiently, decreasing memory pressure. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for occlusion culling lights. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds autocomplete support for Luau function attributes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.WrapDeformer\|WrapDeformers` can attach under layered clothing meshes, for example `Class.MeshPart\|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart\|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart\|MeshParts`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for occlusion culling lights. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for LR and ISR metrics on the **Network Stats** diagnostic. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When concat `..` operation is applied to constant strings, it's performed once during compilation time.  |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions. |

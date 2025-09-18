@@ -7,16 +7,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
     },
     {
@@ -33,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for occlusion culling lights."
     },
     {
         "status": "Pending",

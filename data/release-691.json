@@ -5,6 +5,11 @@
         "content": "Attributes and tags on instances are now stored more efficiently, decreasing memory pressure."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support for occlusion culling lights."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds autocomplete support for Luau function attributes."
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.WrapDeformer|WrapDeformers` can attach under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for occlusion culling lights."
     },
     {
         "status": "Pending",

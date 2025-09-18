@@ -22,11 +22,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for LR and ISR metrics on the **Network Stats** diagnostic."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Studio Camera Controls beta, makes the camera speed lock persistent."
     },
     {
