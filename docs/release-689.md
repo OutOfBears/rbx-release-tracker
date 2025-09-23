@@ -20,15 +20,15 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where certain scripts could cause script analysis to fail. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `Class.ScrollingFrame` scrollbar rendering issues with `Class.UICorner`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes possible false occlusion from inactivated terrain meshes. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Scripts cloned while in edit mode no longer have synchronized breakpoints. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a potential infinite loop when re-capturing focus on the same text box. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where certain scripts could cause script analysis to fail. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Luau typechecking that could cause autocomplete to not provide suggestions when invoked near the length/unary minus operator. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, autocomplete now more accurately tracks refinement information when nesting multiple refinements. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash on typing an invalid `@[deprecated]` attribute. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Scripts cloned while in edit mode no longer have synchronized breakpoints. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Addresses a crash from using the constraint scale slider in the "Visualization Modes" panel on some Windows machines. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug in the Explorer where nesting many `Class.Folder\|Folders` and trying to open the "insert object" menu on the lowest one will hang Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug in the Explorer where, if the mouse's left and right buttons are swapped in system settings on Windows, drags in the Explorer won't work. |

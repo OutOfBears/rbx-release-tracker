@@ -62,12 +62,22 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where certain scripts could cause script analysis to fail."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes `Class.ScrollingFrame` scrollbar rendering issues with `Class.UICorner`."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes possible false occlusion from inactivated terrain meshes."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Scripts cloned while in edit mode no longer have synchronized breakpoints."
     },
     {
         "status": "Pending",
@@ -78,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where certain scripts could cause script analysis to fail."
     },
     {
         "status": "Pending",
@@ -98,11 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash on typing an invalid `@[deprecated]` attribute."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Scripts cloned while in edit mode no longer have synchronized breakpoints."
     },
     {
         "status": "Pending",

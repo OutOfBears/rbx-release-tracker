@@ -5,10 +5,10 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attributes and tags on instances are now stored more efficiently, decreasing memory pressure. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for occlusion culling lights. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for LR and ISR metrics on the **Network Stats** diagnostic. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds autocomplete support for Luau function attributes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.WrapDeformer\|WrapDeformers` can attach under layered clothing meshes, for example `Class.MeshPart\|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart\|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart\|MeshParts`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for LR and ISR metrics on the **Network Stats** diagnostic. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for occlusion culling lights. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When concat `..` operation is applied to constant strings, it's performed once during compilation time.  |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, improve instantiation of generics by allowing unions and intersections to be in their bounds. |
@@ -20,11 +20,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where having many `Class.Sound\|Sounds`, `Class.SoundGroup\|SoundGroups`, `Class.AudioPlayer\|AudioPlayers`, `Class.AudioAnalyzer\|AudioAnalyzers`, or `Class.AudioTextToSpeech` could cause `Sound:Stop()` to be very slow. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer\|WrapDeformers`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes collisions with very small triangle meshes with sizes less than 0.05. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | AirController adjusts to changes to ControllerManager.UpDirection even while active. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `typeof` with a vector value known at compile time would incorrectly return "vector" instead of "Vector3". |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves type-checking and autocomplete when using ObjectValues in `require`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where having many `Class.Sound\|Sounds`, `Class.SoundGroup\|SoundGroups`, `Class.AudioPlayer\|AudioPlayers`, `Class.AudioAnalyzer\|AudioAnalyzers`, or `Class.AudioTextToSpeech` could cause `Sound:Stop()` to be very slow. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Autocomplete correctly makes suggestions in unfinished `repeat` blocks when typing at the end of the file. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where another gamepad can't control the player after the first gamepad was disconnected on Xbox. |

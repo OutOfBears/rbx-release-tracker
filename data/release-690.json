@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the new Luau Type Solver, removed the ICE which occured when the Constraint Generator hit a recursion limit."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the new Luau Type Solver, removed the ICE which occured when the Constraint Generator hit a recursion limit."
     },
     {
         "status": "Pending",

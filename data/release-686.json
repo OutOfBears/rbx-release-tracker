@@ -10,6 +10,11 @@
         "content": "`game.CoreGui` and other restricted instances and services will no longer be accessible in scripts which do not have a permission to use them. Instead, attempt to index or retrieve such an instance from Roblox API method will return 'nil'."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fix bug where UIContainerQuery doesn't work on load."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `Enum.AdornShading` enum. Adds Box/Sphere/Cone/Cylinder HandleAdornment property: Shading."
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixed a bug in the New Luau Type Solver that would cause type checking to fail on certain patterns of OO-styled code."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fix bug where UIContainerQuery doesn't work on load."
     },
     {
         "status": "Pending",
