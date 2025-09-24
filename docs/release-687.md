@@ -17,7 +17,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the MicroProfiler, adds a new category under X-Ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay "Network" menu. When viewing the dump, select "Network" in the X-Ray menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | For Luau’s New Type Solver, fixes some internal compiler exceptions related to "ConstraintSolver::unblock encountered a self-bound type!". |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the Memory tab of the MicroProfiler and the Developer Console. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds visual cues that highlight the location of nearby `Class.ProximityPrompt\|ProximityPrompts` for players. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes the legacy "One Stud Grid," "1/5 Stud Grid," and "Grid Off" actions in Studio. |
 ## Fixes

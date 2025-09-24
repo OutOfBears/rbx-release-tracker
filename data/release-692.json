@@ -1,0 +1,117 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The different between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows for nested pseudo instances such as ::UIStroke::UIGradient.  "
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes a bug in the Input Action System where the thumbsticks could override other bindings while in the deadzone."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the Memory tab of the MicroProfiler and the Developer Console."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "When applied to constant strings, concat `..` operations are performed once during compilation time."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "When the expression inside an interpolated string is known to be a string, it's embedded into a formatting string during compilation. If an interpolated string contains only constant strings, it’s replaced with a single constant."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes a bug with type inference when accessing a property of a table whose type is a union of intersections."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes some instances of spurious errors when invoking methods that are accessed via metatables."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Type Solver: Comparison operators such as `<=` and `>` no longer use type functions, and instead apply a constraint that their arguments must have the same type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a \"Custom\" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds preview for `Class.AudioPlayer.AudioContent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "N/A. Bug fix for unreleased advanced command bar."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "N/A. Unreleased feature for upcoming advanced command bar."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where cylinders/spheres with a diameter of <0.05 studs were sent to void when dragged."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where updating Acoustic Simulation's adaptive reverb could cause long audio mix times or poor framerate."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "N/A. Bugfix for the unreleased advanced command bar."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Speeds up selection when the Insert Object window is open."
+    }
+]

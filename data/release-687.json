@@ -67,11 +67,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the Memory tab of the MicroProfiler and the Developer Console."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds visual cues that highlight the location of nearby `Class.ProximityPrompt|ProximityPrompts` for players."
     },
     {
