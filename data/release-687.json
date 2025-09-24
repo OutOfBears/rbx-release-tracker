@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a bug where refinements from multipart conditions using `and` and `or` could sometimes cause Roblox built-in types to refine to `never`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In Luau’s New Type Solver, short circuits unification in certain scenarios, improving inference for refined types."
     },
     {
@@ -52,11 +57,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, fixes a bug where refinements from multipart conditions using `and` and `or` could sometimes cause Roblox built-in types to refine to `never`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete."
     },
     {
@@ -67,7 +67,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds property `Class.Stats.MemoryTrackingEnabled` to check validity of calling methods `Class.Stats:GetMemoryUsageMbForTag()` and  `Class.Stats:GetMemoryUsageMbAllCategories()` and to check validity of memory information in the MicroProfiler and Developer Console's \"Memory\" tab."
+        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the Memory tab of the MicroProfiler and the Developer Console."
     },
     {
         "status": "Pending",

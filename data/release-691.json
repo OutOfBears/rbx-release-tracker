@@ -17,7 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Class.WrapDeformer|WrapDeformers` can attach under layered clothing meshes, for example `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children rather than just `Class.WrapTarget` children. The difference between the `Class.WrapDeformer` cage and `Class.WrapLayer` outer cage will deform the mesh prior to any layered clothing fit. Layered clothing `Class.MeshPart|MeshParts` deformed through `Class.WrapDeformer` can be published as they have been for deformed body part `Class.MeshPart|MeshParts`."
+        "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The different between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
     },
     {
         "status": "Pending",
@@ -27,7 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "When concat `..` operation is applied to constant strings, it's performed once during compilation time. "
+        "content": "When applied to constant strings, concat `..` operations are performed once during compilation time."
     },
     {
         "status": "Pending",
@@ -77,7 +77,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "AirController adjusts to changes to ControllerManager.UpDirection even while active."
+        "content": "`Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active."
     },
     {
         "status": "Pending",

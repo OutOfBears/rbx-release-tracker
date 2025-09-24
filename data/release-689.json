@@ -1,8 +1,13 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "The `Class.StyleRule:SetProperty()` function now automatically handles the following color type conversions: A) converts a `Datatype.BrickColor` value to a `Datatype.Color3` when setting a `Datatype.Color3` property; B) converts a `Datatype.Color3` value to a `Datatype.ColorSequence` when setting a `Datatype.ColorSequence` property."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
     },
     {
         "status": "Pending",
@@ -38,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
     },
     {
         "status": "Pending",
