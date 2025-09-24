@@ -70,16 +70,6 @@
         "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "N/A. Bug fix for unreleased advanced command bar."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "N/A. Unreleased feature for upcoming advanced command bar."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where cylinders/spheres with a diameter of <0.05 studs were sent to void when dragged."
@@ -98,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where updating Acoustic Simulation's adaptive reverb could cause long audio mix times or poor framerate."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "N/A. Bugfix for the unreleased advanced command bar."
     },
     {
         "status": "Pending",

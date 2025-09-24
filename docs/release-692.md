@@ -18,8 +18,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds preview for `Class.AudioPlayer.AudioContent`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | N/A. Bug fix for unreleased advanced command bar. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | N/A. Unreleased feature for upcoming advanced command bar. |
 ## Fixes
 
 | Status | Note |
@@ -28,6 +26,5 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where updating Acoustic Simulation's adaptive reverb could cause long audio mix times or poor framerate. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | N/A. Bugfix for the unreleased advanced command bar. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Speeds up selection when the Insert Object window is open. |
