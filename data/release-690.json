@@ -60,6 +60,11 @@
         "content": "Luau native code generation has been improved to avoid cases of lowering failures on arm64. One failure case was compiling certain hashing algorithm implementations like Blake2b."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Audio Discovery tool now works with contemporary randomized assetIds and AudioPlayers."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix a bug where the New Luau Type Solver would incorrectly warn on certain valid uses of xpcall."

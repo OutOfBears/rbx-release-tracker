@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Autocomplete no longer suggests \"break\" and \"continue\" outside of loops."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Next Gen Explorer: Adds `Show Orientation Indicator` back to the Explorer window's context menu."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Parallelizes `Class.AudioPlayer`, `Class.AudioEmitter`, and `Class.AudioListener` updates, which can dramatically improve framerate when there are many."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Autocomplete no longer suggests \"break\" and \"continue\" outside of loops."
     },
     {
         "status": "Live",

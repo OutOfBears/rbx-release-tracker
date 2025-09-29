@@ -10,6 +10,16 @@
         "content": "Adds support for LR and ISR metrics on the **Network Stats** diagnostic."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, improve instantiation of generics by allowing unions and intersections to be in their bounds."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, clarify the error message when a valid instantiation for a generic could not be inferred."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds autocomplete support for Luau function attributes."
@@ -23,16 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, improve instantiation of generics by allowing unions and intersections to be in their bounds."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, clarify the error message when a valid instantiation for a generic could not be inferred."
     },
     {
         "status": "Pending",
@@ -52,17 +52,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes collisions with very small triangle meshes with sizes less than 0.05."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where having many `Class.Sound|Sounds`, `Class.SoundGroup|SoundGroups`, `Class.AudioPlayer|AudioPlayers`, `Class.AudioAnalyzer|AudioAnalyzers`, or `Class.AudioTextToSpeech` could cause `Sound:Stop()` to be very slow."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes collisions with very small triangle meshes with sizes less than 0.05."
     },
     {
         "status": "Pending",

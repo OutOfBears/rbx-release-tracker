@@ -65,6 +65,11 @@
         "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "\"Show collaborator selections\" option in Live Collaborators window now syncs with the Visualization Modes panel's \"Collaborator highlights\" option."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "New Type Solver - Fixes some instances of script analysis never completing while Studio memory usage spikes."
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes some corner cases in Explorer that would occasionally cause errors on startup."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "\"Show collaborator selections\" option in Live Collaborators window now syncs with the Visualization Modes panel's \"Collaborator highlights\" option."
     },
     {
         "status": "Pending",

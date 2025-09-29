@@ -5,12 +5,12 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a new class of errors to Luau's New Type Solver which reports when generics would have be instantiated with impossible types. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Autocomplete no longer suggests "break" and "continue" outside of loops. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Next Gen Explorer: Adds `Show Orientation Indicator` back to the Explorer window's context menu. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows `DraggerService` properties to be set. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Humanoid:BuildRigFromAttachments()` now respects the `AvatarJointUpgrade` rollout. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Decal` and `Class.Texture` now have properties for a Normal, Roughness, and Metalness map. `Class.Decal` UVs support a scale and offset. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Parallelizes `Class.AudioPlayer`, `Class.AudioEmitter`, and `Class.AudioListener` updates, which can dramatically improve framerate when there are many. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Autocomplete no longer suggests "break" and "continue" outside of loops. |
 ## Fixes
 
 | Status | Note |

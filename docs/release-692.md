@@ -22,8 +22,9 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where cylinders/spheres with a diameter of <0.05 studs were sent to void when dragged. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates `Class.UserInputService.OnScreenKeyboardPosition` to use `Enum.ScreenInsets.DeviceSafeInsets` coordinates. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where updating Acoustic Simulation's adaptive reverb could cause long audio mix times or poor framerate. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks. |

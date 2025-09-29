@@ -72,12 +72,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where cylinders/spheres with a diameter of <0.05 studs were sent to void when dragged."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
+        "content": "Updates `Class.UserInputService.OnScreenKeyboardPosition` to use `Enum.ScreenInsets.DeviceSafeInsets` coordinates."
     },
     {
         "status": "Pending",
