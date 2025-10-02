@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the new Luau Type Solver, removed the ICE which occured when the Constraint Generator hit a recursion limit."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `Class.AudioTremolo` instance, which works the same as `Class.TremoloSoundEffect` but for newer audio classes such as `Class.AudioPlayer` and `Class.Wire`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
     },
     {
         "status": "Pending",

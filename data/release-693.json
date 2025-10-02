@@ -1,0 +1,142 @@
+[
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The difference between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes a bug in the Input Action System where thumbsticks could override other bindings while in the deadzone."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Loads Pathfinding Tiles by Bounding cylinder of the FindPath Extent."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the Memory tab of the MicroProfiler and the Developer Console."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes UV issues on SLIM built-in materials"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a \"Custom\" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: suppresses errors for overloads with arities that don't match the function call."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows 255 highlights in one scene."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves Decal support for SLIM."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds preview for `Class.AudioPlayer.AudioContent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: updates primitive tables to be subtypes of generic tables."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Using Luau 'pcall' and 'xpcall' functions no longer counts towards the C call stack limit, extending potential recursion depth with protected calls from 200 to 20000 (note that 'pcall'/'xpcall' call itself still counts towards the Luau call stack limit)."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: refining tables with indexers against external types (such as builtin Roblox types) no longer drops the table portion."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: fixes an issue where iterating over a function that returns an empty pack would cause type inference to fail to complete."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Allows entity based culling of Models set as `StreamingMesh`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "BillboardGui CurrentDistance and DistanceStep are now properly implemented according to the documentation.  Properties DistanceLowerLimit, and DistanceUpperLimit will now be officially deprecated."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "A UIScale object now correctly scales its parent ImageLabel or ImageButton without affecting the TileSize property."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `PreferredInput` changing. "
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes simulation slowdown when adding and removing child instances."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with Multiple Replication Foci that can prevent stream out of regions in some situations."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes InputActionSytem Direction3D forward/backward to use right handed coordinate system."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes issue where modified attributes on the root of a package were not showing up in bold."
+    }
+]

@@ -90,7 +90,7 @@
         "content": "Update the types of UserInputService's `GetGamepadState`, `GetKeysPressed`, and `GetMouseButtonsPressed` APIs to return a list of `Class.InputObject|InputObjects`."
     },
     {
-        "status": "Live",
+        "status": "Pending",
         "type": "Fixes",
         "content": "Tag Editor now reinstantiates its folder in ServerStorage upon adding new tags. It will now find folders not managed by the plugin if the TagList folder hasn't already been created, so that it can be used with workflows like Rojo."
     },
