@@ -6,6 +6,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Class.StyleRule:SetProperty()` function now automatically handles the following color type conversions: A) converts a `Datatype.BrickColor` value to a `Datatype.Color3` when setting a `Datatype.Color3` property; B) converts a `Datatype.Color3` value to a `Datatype.ColorSequence` when setting a `Datatype.ColorSequence` property. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom\|Custom` type, the waveform data is not correctly replicated from server to client. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the Explorer, double-clicking to expand will now use the system's double-click speed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes an instance of getting an erroneous "Type inference has failed to complete" error when using user defined type functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer\|AudioPlayers` not playing at the correct volume. |
@@ -15,7 +16,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives). |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the Explorer, double-clicking to expand will now use the system's double-click speed. |
 ## Fixes
 
 | Status | Note |

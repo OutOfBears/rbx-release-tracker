@@ -24,13 +24,13 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes simulation slowdown when adding and removing child instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows entity based culling of Models set as `StreamingMesh`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | BillboardGui CurrentDistance and DistanceStep are now properly implemented according to the documentation.  Properties DistanceLowerLimit, and DistanceUpperLimit will now be officially deprecated. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A UIScale object now correctly scales its parent ImageLabel or ImageButton without affecting the TileSize property. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `PreferredInput` changing.  |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes simulation slowdown when adding and removing child instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with Multiple Replication Foci that can prevent stream out of regions in some situations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session. |

@@ -80,6 +80,16 @@
         "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes simulation slowdown when adding and removing child instances."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Allows entity based culling of Models set as `StreamingMesh`."
@@ -88,11 +98,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "BillboardGui CurrentDistance and DistanceStep are now properly implemented according to the documentation.  Properties DistanceLowerLimit, and DistanceUpperLimit will now be officially deprecated."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`."
     },
     {
         "status": "Pending",
@@ -108,11 +113,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `PreferredInput` changing. "
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes simulation slowdown when adding and removing child instances."
     },
     {
         "status": "Pending",

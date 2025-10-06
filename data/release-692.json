@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120."
     },
     {
@@ -37,11 +42,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
     },
     {
@@ -55,6 +55,11 @@
         "content": "Fixes an issue where cylinders/spheres with a diameter of <0.05 studs were sent to void when dragged."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Speeds up selection when the Insert Object window is open."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Updates `Class.UserInputService.OnScreenKeyboardPosition` to use `Enum.ScreenInsets.DeviceSafeInsets` coordinates."
@@ -63,10 +68,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Speeds up selection when the Insert Object window is open."
     }
 ]

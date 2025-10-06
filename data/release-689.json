@@ -10,6 +10,11 @@
         "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the Explorer, double-clicking to expand will now use the system's double-click speed."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties."
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the Explorer, double-clicking to expand will now use the system's double-click speed."
     },
     {
         "status": "Live",
