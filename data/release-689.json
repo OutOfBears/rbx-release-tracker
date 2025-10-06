@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives)."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the Explorer, double-clicking to expand will now use the system's double-click speed."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives)."
     },
     {
         "status": "Live",
