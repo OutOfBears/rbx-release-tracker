@@ -1,5 +1,20 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: suppresses errors for overloads with arities that don't match the function call."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: updates primitive tables to be subtypes of generic tables."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The difference between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
@@ -22,17 +37,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes UV issues on SLIM built-in materials"
+        "content": "Fixes UV issues on SLIM built-in materials."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a \"Custom\" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: suppresses errors for overloads with arities that don't match the function call."
     },
     {
         "status": "Pending",
@@ -52,11 +62,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: updates primitive tables to be subtypes of generic tables."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Using Luau 'pcall' and 'xpcall' functions no longer counts towards the C call stack limit, extending potential recursion depth with protected calls from 200 to 20000 (note that 'pcall'/'xpcall' call itself still counts towards the Luau call stack limit)."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau's New Type Solver: fixes an issue where iterating over a function that returns an empty pack would cause type inference to fail to complete."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category."
     },
     {
         "status": "Live",
@@ -88,6 +88,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes simulation slowdown when adding and removing child instances."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session."
     },
     {
         "status": "Pending",
@@ -112,7 +117,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `PreferredInput` changing. "
+        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing. "
     },
     {
         "status": "Pending",
@@ -122,12 +127,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue with Multiple Replication Foci that can prevent stream out of regions in some situations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session."
+        "content": "Fixes an issue with multiple replication foci that can prevent stream out of regions in some situations."
     },
     {
         "status": "Pending",
