@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Improves error messages for uninstantiated generic types in scripts typechecked with the new solver."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Luau native code generation has been improved to avoid cases of lowering failures on arm64. One failure case was compiling certain hashing algorithm implementations like Blake2b."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix a case where the New Luau Type Solver could erroneously warn when passing a table literal to a function."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves error messages for uninstantiated generic types in scripts typechecked with the new solver."
     },
     {
         "status": "Pending",

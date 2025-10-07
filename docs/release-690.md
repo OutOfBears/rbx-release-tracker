@@ -19,11 +19,11 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes handling of triggers on Xbox Elite controller in the Xbox app. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves error messages for uninstantiated generic types in scripts typechecked with the new solver. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau native code generation has been improved to avoid cases of lowering failures on arm64. One failure case was compiling certain hashing algorithm implementations like Blake2b. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Audio Discovery tool now works with contemporary randomized assetIds and AudioPlayers. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix a bug where the New Luau Type Solver would incorrectly warn on certain valid uses of xpcall. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix a case where the New Luau Type Solver could erroneously warn when passing a table literal to a function. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves error messages for uninstantiated generic types in scripts typechecked with the new solver. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves error message for incompatible generic types in scripts typechecked with the new solver. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.EditableImage\|EditableImages` with `Class.SurfaceApperance.AlphaMode` set to `Transparency`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in Roblox Studio that occurred when using the "Compare Package Versions" feature with packages containing UIDragDetector objects. |

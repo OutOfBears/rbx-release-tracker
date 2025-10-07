@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, types indicative of an internal error no longer leak from modules, and instead raise a type checking error. Previously, this would result in unknown and surprising behavior across different modules."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves the quality of Acoustic Simulation's muffling/filtering."
     },
     {
@@ -13,6 +18,11 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Fix bug where UIContainerQuery doesn't work on load."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixes an issue where a `X or Y` expression might erroneously be reported as having the wrong type when returned from a function."
     },
     {
         "status": "Pending",
@@ -42,17 +52,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, types indicative of an internal error no longer leak from modules, and instead raise a type checking error. Previously, this would result in unknown and surprising behavior across different modules."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixed a bug in the New Luau Type Solver that would cause type checking to fail on certain patterns of OO-styled code."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixes an issue where a `X or Y` expression might erroneously be reported as having the wrong type when returned from a function."
     },
     {
         "status": "Pending",
