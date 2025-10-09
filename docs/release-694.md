@@ -5,7 +5,6 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows 255 highlights in one scene. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type solver, resolve a regression where passing a string literal to a function accepting a generic and a string singleton would not force said literal to be a singleton type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category. |
@@ -16,6 +15,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `vector.lerp()` to the standard Luau library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes UV issues on SLIM built-in materials. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a "Custom" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds preview for `Class.AudioPlayer.AudioContent`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fix some instances where refinements would cause function calls to report a false positive type error. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adjust script analysis warnings and type hover from Luau to refer to the top type of foreign function types (e.g. from the Roblox API) as `userdata`. |

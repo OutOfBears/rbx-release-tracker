@@ -7,11 +7,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Allows 255 highlights in one scene."
     },
     {
@@ -58,6 +53,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a \"Custom\" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
     },
     {
         "status": "Pending",
