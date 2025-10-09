@@ -47,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `vector.lerp()` to the standard Luau library."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out."
     },
     {
@@ -78,11 +73,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Scripts cloned while in edit mode no longer have synchronized breakpoints."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a potential infinite loop when re-capturing focus on the same text box."
     },
     {
         "status": "Pending",

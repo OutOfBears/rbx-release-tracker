@@ -27,7 +27,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
+        "content": "For Luau’s New Type Solver, fixes some internal compiler exceptions related to \"ConstraintSolver::unblock encountered a self-bound type!\"."
     },
     {
         "status": "Live",
@@ -58,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "For Luau’s New Type Solver, fixes some internal compiler exceptions related to \"ConstraintSolver::unblock encountered a self-bound type!\"."
     },
     {
         "status": "Pending",

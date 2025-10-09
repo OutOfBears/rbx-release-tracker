@@ -13,7 +13,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer\|AudioPlayers` not playing at the correct volume. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces a new property `Class.Workspace.AirTurbulenceIntensity` that controls the strength of turbulence present in the wind velocity field, affecting the aerodynamic force model. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Global.LuaGlobals.rawget()` now returns `nil` when queried key isn't present. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `vector.lerp()` to the standard Luau library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches. |
 ## Fixes
@@ -24,7 +23,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `Class.ScrollingFrame` scrollbar rendering issues with `Class.UICorner`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes possible false occlusion from inactivated terrain meshes. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Scripts cloned while in edit mode no longer have synchronized breakpoints. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a potential infinite loop when re-capturing focus on the same text box. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Luau typechecking that could cause autocomplete to not provide suggestions when invoked near the length/unary minus operator. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, autocomplete now more accurately tracks refinement information when nesting multiple refinements. |

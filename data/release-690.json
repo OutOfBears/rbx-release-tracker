@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fix a bug where the New Luau Type Solver would incorrectly warn on certain valid uses of xpcall."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes handling of triggers on Xbox Elite controller in the Xbox app."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Audio Discovery tool now works with contemporary randomized assetIds and AudioPlayers."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fix a bug where the New Luau Type Solver would incorrectly warn on certain valid uses of xpcall."
     },
     {
         "status": "Pending",

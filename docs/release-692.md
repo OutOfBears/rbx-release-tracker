@@ -4,7 +4,6 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows for nested pseudo instances such as ::UIStroke::UIGradient.   |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When applied to constant strings, concat `..` operations are performed once during compilation time. |

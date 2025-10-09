@@ -57,11 +57,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "On Windows, Studio no longer generates sporadic `InputState.Begin` event for a key when releasing Shift/Ctrl/Alt modifiers. "
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "A proper error message now displays when the fallback engine font isn't loaded correctly."
     },
     {

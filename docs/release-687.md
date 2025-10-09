@@ -9,14 +9,13 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, fixes a bug where refinements from multipart conditions using `and` and `or` could sometimes cause Roblox built-in types to refine to `never`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau’s New Type Solver, short circuits unification in certain scenarios, improving inference for refined types. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for parametrized `@deprecated` attribute to Luau:<br>`@[deprecated{ use = "bar()", reason = "foo() is not secure" }]`. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | For Luau’s New Type Solver, fixes some internal compiler exceptions related to "ConstraintSolver::unblock encountered a self-bound type!". |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds missing documentation for several `Class.EditableMesh` methods. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the `Enum.Material.Glass\|Glass` material sometimes did not get higher quality material shader on mobile. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves diffraction pathfinding in the "Acoustic Simulation" beta when emitters or listeners are near obstacles. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates in-experience convex decomposition to a technique that produces better results in most cases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the MicroProfiler, adds a new category under X-Ray mode that allows you to view network traffic. Before generating a dump, select a verbosity level in the MicroProfiler overlay "Network" menu. When viewing the dump, select "Network" in the X-Ray menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau’s New Type Solver, reduces the incidence of internal compiler exceptions due to recursion limits being hit, as well as general unresponsiveness of script analysis and autocomplete. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | For Luau’s New Type Solver, fixes some internal compiler exceptions related to "ConstraintSolver::unblock encountered a self-bound type!". |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds visual cues that highlight the location of nearby `Class.ProximityPrompt\|ProximityPrompts` for players. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes the legacy "One Stud Grid," "1/5 Stud Grid," and "Grid Off" actions in Studio. |
 ## Fixes

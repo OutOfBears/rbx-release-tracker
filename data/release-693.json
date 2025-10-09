@@ -2,27 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes a bug in the Input Action System where thumbsticks could override other bindings while in the deadzone."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau's New Type Solver: suppresses errors for overloads with arities that don't match the function call."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "Luau's New Type Solver: updates primitive tables to be subtypes of generic tables."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The difference between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes a bug in the Input Action System where thumbsticks could override other bindings while in the deadzone."
     },
     {
         "status": "Pending",
@@ -32,32 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the Memory tab of the MicroProfiler and the Developer Console."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes UV issues on SLIM built-in materials."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a \"Custom\" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows 255 highlights in one scene."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves Decal support for SLIM."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds preview for `Class.AudioPlayer.AudioContent`."
     },
     {
         "status": "Pending",
@@ -77,11 +42,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`."
     },
     {
@@ -93,6 +53,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes InputActionSytem Direction3D forward/backward to use right handed coordinate system."
     },
     {
         "status": "Pending",
@@ -117,22 +82,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing. "
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "`Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with multiple replication foci that can prevent stream out of regions in some situations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes InputActionSytem Direction3D forward/backward to use right handed coordinate system."
     },
     {
         "status": "Pending",
