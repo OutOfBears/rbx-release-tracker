@@ -22,7 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves Decal support for SLIM."
+        "content": "Improves `Class.Decal` support for SLIM."
     },
     {
         "status": "Pending",
@@ -43,11 +43,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes simulation slowdown when adding and removing child instances."
     },
     {
         "status": "Live",
@@ -78,6 +73,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes simulation slowdown when adding and removing child instances."
     },
     {
         "status": "Pending",

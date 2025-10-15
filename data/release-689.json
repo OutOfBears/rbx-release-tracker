@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "`Global.LuaGlobals.rawget()` now returns `nil` when queried key isn't present."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
     },
     {
@@ -42,17 +47,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Global.LuaGlobals.rawget()` now returns `nil` when queried key isn't present."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`."
     },
     {
         "status": "Live",
@@ -73,11 +78,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Scripts cloned while in edit mode no longer have synchronized breakpoints."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes `Class.ImageLabel.SliceCenter` warnings when using negative `Class.ImageLabel.ImageRectSize`."
     },
     {
         "status": "Pending",
