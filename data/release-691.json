@@ -67,11 +67,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where `typeof` with a vector value known at compile time would incorrectly return \"vector\" instead of \"Vector3\"."
     },
     {

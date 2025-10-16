@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The difference between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
     },
     {
@@ -42,27 +37,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the **Memory** tab of the MicroProfiler and the Developer Console."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `vector.lerp()` to the standard Luau library."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes UV issues on SLIM built-in materials."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds preview for `Class.AudioPlayer.AudioContent`."
     },
     {
         "status": "Pending",
@@ -87,11 +62,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a second argument to the `Class.Players.PlayerRemoving` signal to specify the exit reason for the removing player. For now, the specifications are coarse (`Enum.PlayerExitReason|CreatorKick`, `Enum.PlayerExitReason|PlatformKick`, `Enum.PlayerExitReason|Unknown`) and may be expanded in the future."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Added 'I' as a hotkey to zoom in."
     },
     {
@@ -102,17 +72,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
+        "content": "Fixes an issue where sounds with `Class.Sound.PlayOnRemove` enabled can play unmuted after leaving an experience."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue with multiple replication foci that can prevent stream out of regions in some situations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where sounds can be audibly played after closing an experience."
     },
     {
         "status": "Pending",
@@ -127,22 +92,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "On Windows, Studio no longer generates sporadic `Enum.UserInputState.Begin` events for a key when releasing <kbd>Shift</kbd>/<kbd>Ctrl</kbd>/<kbd>Alt</kbd> modifiers. "
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "`Instance.Sandboxed` property can once again be set on the `Class.Workspace`."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing. "
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where sounds with `Class.Sound.PlayOnRemove` enabled can play unmuted after leaving an experience."
     },
     {
         "status": "Pending",

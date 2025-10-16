@@ -8,7 +8,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: suppresses errors for overloads with arities that don't match the function call. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: updates primitive tables to be subtypes of generic tables. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Loads Pathfinding Tiles by Bounding cylinder of the FindPath Extent. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves `Class.Decal` support for SLIM. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Using Luau 'pcall' and 'xpcall' functions no longer counts towards the C call stack limit, extending potential recursion depth with protected calls from 200 to 20000 (note that 'pcall'/'xpcall' call itself still counts towards the Luau call stack limit). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: refining tables with indexers against external types (such as builtin Roblox types) no longer drops the table portion. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: fixes an issue where iterating over a function that returns an empty pack would cause type inference to fail to complete. |

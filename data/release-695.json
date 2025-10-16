@@ -1,0 +1,137 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Makes the 6db lowpass filter for `Class.AudioFilter` 25% faster."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a second argument to the `Class.Players.PlayerRemoving` signal to specify the exit reason for the removing player. For now, the specifications are coarse (`Enum.PlayerExitReason|CreatorKick`, `Enum.PlayerExitReason|PlatformKick`, `Enum.PlayerExitReason|Unknown`) and may be expanded in the future."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes various `Class.VideoPlayer` auto-load issues."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Increased `Class.SpecialMesh` support for SLIM. `Class.CylinderMesh` support for SLIM."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Deprecates support for OpenGL ES 2.0 (legacy mobile graphics API)."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The difference between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the **Memory** tab of the MicroProfiler and the Developer Console."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes UV issues on SLIM built-in materials."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves `Class.Decal` support for SLIM."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds preview for `Class.AudioPlayer.AudioContent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes incorrect coloring of SLIM models."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds frame rate cap options of 160, 165, 180, and 200 to the **Maximum Frame Rate** picker in the experience settings menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Changes behavior of the sun to slowly fade in/out during sunrise/sunset."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes drag in on-screen MicroProfiler when using touch input."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where sounds can be audibly played after closing an experience."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the `MaxVisibleGraphemes` property for `Class.TextLabel`, `Class.TextButton`, and `Class.TextBox` used with text containing right-to-left characters."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes collision detection issues with `Class.PhysicsService:CollisionGroupSetCollidable()` for nearby objects."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "On Windows, Studio no longer generates sporadic `Enum.UserInputState.Begin` events for a key when releasing <kbd>Shift</kbd>/<kbd>Ctrl</kbd>/<kbd>Alt</kbd> modifiers. "
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes `Class.BasePart.CanCollide` changes not being respected when a part is inside another's bounding box."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`Class.UISizeConstraint` no longer blocks setting `Class.UISizeConstraint.MinSize|MinSize` larger than `Class.UISizeConstraint.MaxSize|MaxSize`, and no longer outputs a warning. If in an invalid state, then the constraint will be ignored."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes `Class.AudioEmitter` spatial offset bug for systems with high default channel count."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes false culling for skinned meshes in some scenarios."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes incorrect `vector.lerp()` behavior for some inputs in Luau Native Code Generation."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Bounding boxes for cylinders and spheres will once again render the logical extent of the part rather than the physical size for better editing mechanics."
+    }
+]

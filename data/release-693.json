@@ -22,11 +22,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves `Class.Decal` support for SLIM."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Using Luau 'pcall' and 'xpcall' functions no longer counts towards the C call stack limit, extending potential recursion depth with protected calls from 200 to 20000 (note that 'pcall'/'xpcall' call itself still counts towards the Luau call stack limit)."
     },
     {

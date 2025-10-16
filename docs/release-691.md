@@ -21,7 +21,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes collisions with very small triangle meshes with sizes less than 0.05. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where having many `Class.Sound\|Sounds`, `Class.SoundGroup\|SoundGroups`, `Class.AudioPlayer\|AudioPlayers`, `Class.AudioAnalyzer\|AudioAnalyzers`, or `Class.AudioTextToSpeech` could cause `Sound:Stop()` to be very slow. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a case where another gamepad can't control the player after the first gamepad was disconnected on Xbox. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer\|WrapDeformers`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `typeof` with a vector value known at compile time would incorrectly return "vector" instead of "Vector3". |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves type-checking and autocomplete when using ObjectValues in `require`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Autocomplete correctly makes suggestions in unfinished `repeat` blocks when typing at the end of the file. |
