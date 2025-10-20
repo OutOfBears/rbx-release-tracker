@@ -30,6 +30,16 @@
         "content": "Errors that are thrown before Luau thread was able to start like 'C stack overflow', 'Not running script because past shutdown deadline' and others will now include information about the call target."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Script error tooltip will now display information about all errors at that location instead of showing only the first one."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "If Luau native code generation is not available on the device, only a single error message will be reported.\r\n"
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixed an issue where `Instance.Clone` failed with a security capability error when performed inside `Instance.Sandboxed` containers."
@@ -52,22 +62,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Script error tooltip will now display information about all errors at that location instead of showing only the first one."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "If Luau native code generation is not available on the device, only a single error message will be reported.\r\n"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Added 'I' as a hotkey to zoom in."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Update the styling of toast notifications in Studio to align with the Next Gen Studio Preview beta's styling."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "`Instance.Sandboxed` property can once again be set on the `Class.Workspace`."
     },
     {
         "status": "Live",
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a potential infinite loop when re-capturing focus on the same text box."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`Instance.Sandboxed` property can once again be set on the `Class.Workspace`."
     },
     {
         "status": "Pending",
