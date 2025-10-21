@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Improves type-checking and autocomplete when using ObjectValues in `require`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where having many `Class.Sound|Sounds`, `Class.SoundGroup|SoundGroups`, `Class.AudioPlayer|AudioPlayers`, `Class.AudioAnalyzer|AudioAnalyzers`, or `Class.AudioTextToSpeech` could cause `Sound:Stop()` to be very slow."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where `typeof` with a vector value known at compile time would incorrectly return \"vector\" instead of \"Vector3\"."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves type-checking and autocomplete when using ObjectValues in `require`."
     },
     {
         "status": "Pending",

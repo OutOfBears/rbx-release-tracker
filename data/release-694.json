@@ -85,6 +85,11 @@
         "content": "Fixes an issue with multiple replication foci that can prevent stream out of regions in some situations."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with the Acoustic Simulation beta feature where rapidly creating `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` can cause frametime spikes"
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where scroll bar transparency changes were ignored when the ScrollingFrame was not interactable."
@@ -113,11 +118,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "MicroProfiler: When the on-screen UI is switched to Hidden mode, clicks now pass through it as expected."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with the Acoustic Simulation beta feature where rapidly creating `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` can cause frametime spikes"
     },
     {
         "status": "Pending",
