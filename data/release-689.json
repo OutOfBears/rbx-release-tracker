@@ -7,7 +7,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "`Global.LuaGlobals.rawget()` now returns `nil` when queried key isn't present."
+        "content": "`Global.LuaGlobals.rawget()` now returns `nil` when the queried key isn't present."
     },
     {
         "status": "Live",

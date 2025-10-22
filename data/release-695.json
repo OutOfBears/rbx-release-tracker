@@ -22,7 +22,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Increased `Class.SpecialMesh` support for SLIM. `Class.CylinderMesh` support for SLIM."
+        "content": "Increases `Class.SpecialMesh` support for SLIM, and confirms `Class.CylinderMesh` support for SLIM."
     },
     {
         "status": "Pending",
