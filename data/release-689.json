@@ -7,11 +7,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "`Global.LuaGlobals.rawget()` now returns `nil` when the queried key isn't present."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
     },
     {

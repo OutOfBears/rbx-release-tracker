@@ -97,7 +97,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "The non-legacy `Class.BaseScript.RunContext|RunContext` warning is now disabled for scripts that are disabled. "
+        "content": "The non-legacy `Class.BaseScript.RunContext|RunContext` warning is now disabled for scripts that are disabled."
     },
     {
         "status": "Live",

@@ -37,7 +37,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "If Luau native code generation is not available on the device, only a single error message will be reported.\r\n"
+        "content": "If Luau native code generation is not available on the device, only a single error message will be reported."
     },
     {
         "status": "Pending",
@@ -87,6 +87,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where the Acoustic Simulation beta feature can slow down physics updates, leading to worse framerates."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with the Acoustic Simulation beta feature where rapidly creating `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` can cause frametime spikes"
     },
     {
@@ -102,17 +107,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing. "
+        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fix some instances where autocomplete/script analysis would fail to ever appear, and Studio would hang on closing."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where the Acoustic Simulation beta feature can slow down physics updates, leading to worse framerates."
     },
     {
         "status": "Pending",

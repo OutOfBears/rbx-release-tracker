@@ -13,7 +13,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a bug where arguments to a function may not be inferred correctly when using a function with several optional arguments. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, aligns the behavior of type checking property access on the `table` type between if-else statements and if-else expressions. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Very large commands no longer save to the command bar history.  |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Very large commands no longer save to the command bar history. |
 ## Fixes
 
 | Status | Note |

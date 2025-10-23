@@ -5,7 +5,6 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Class.StyleRule:SetProperty()` function now automatically handles the following color type conversions: A) converts a `Datatype.BrickColor` value to a `Datatype.Color3` when setting a `Datatype.Color3` property; B) converts a `Datatype.Color3` value to a `Datatype.ColorSequence` when setting a `Datatype.ColorSequence` property. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Global.LuaGlobals.rawget()` now returns `nil` when the queried key isn't present. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom\|Custom` type, the waveform data is not correctly replicated from server to client. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Autocomplete now suggests hot comments, also known as [comment directives](/luau/comments#comment-directives). |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the Explorer, double-clicking to expand will now use the system's double-click speed. |

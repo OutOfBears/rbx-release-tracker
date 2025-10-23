@@ -7,7 +7,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows for nested pseudo instances such as ::UIStroke::UIGradient.  "
+        "content": "Allows for nested pseudo instances such as ::UIStroke::UIGradient."
     },
     {
         "status": "Pending",

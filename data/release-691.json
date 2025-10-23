@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Very large commands no longer save to the command bar history. "
+        "content": "Very large commands no longer save to the command bar history."
     },
     {
         "status": "Live",
