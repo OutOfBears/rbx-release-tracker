@@ -50,6 +50,11 @@
         "content": "Fixes `Class.BasePart.CanCollide` changes not being respected when a part is inside another's bounding box."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Bounding boxes for cylinders and spheres will once again render the logical extent of the part rather than the physical size for better editing mechanics."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where sounds can be audibly played after closing an experience."
@@ -83,10 +88,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes incorrect `vector.lerp()` behavior for some inputs in Luau Native Code Generation."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Bounding boxes for cylinders and spheres will once again render the logical extent of the part rather than the physical size for better editing mechanics."
     }
 ]
