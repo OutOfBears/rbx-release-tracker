@@ -7,11 +7,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows for nested pseudo instances such as ::UIStroke::UIGradient."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "When applied to constant strings, concat `..` operations are performed once during compilation time."
     },
     {

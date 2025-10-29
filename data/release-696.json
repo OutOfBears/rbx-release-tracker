@@ -42,16 +42,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds new Thumbstick Directional Keycodes to be used for direction separation in the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "New Type Solver: Fixes assert refinements for top table types."
     },
     {
@@ -82,22 +72,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "To mitigate network traffic, only updates that differ from the existing direction by a nontrivial amount are enacted for experiences where `Class.ControllerManager.FacingDirection|FacingDirection`, `Class.ControllerManager.MovingDirection|MovingDirection`, and `Class.ControllerManager.UpDirection|UpDirection` are updated very frequently."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a crash when setting `Class.UIGridLayout.CellSize|CellSize` to zero."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Reduces `memory_aps` (allocations per second) for `gui/TextLayout`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where the hardware mic indicator remained turned on despite the mic being muted."
     },
     {
         "status": "Pending",

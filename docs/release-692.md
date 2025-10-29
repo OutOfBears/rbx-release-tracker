@@ -5,7 +5,6 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows for nested pseudo instances such as ::UIStroke::UIGradient. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When applied to constant strings, concat `..` operations are performed once during compilation time. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When the expression inside an interpolated string is known to be a string, it's embedded into a formatting string during compilation. If an interpolated string contains only constant strings, it’s replaced with a single constant. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | New Type Solver: Fixes a bug with type inference when accessing a property of a table whose type is a union of intersections. |
