@@ -42,12 +42,22 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes the `MaxVisibleGraphemes` property for `Class.TextLabel`, `Class.TextButton`, and `Class.TextBox` used with text containing right-to-left characters."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes collision detection issues with `Class.PhysicsService:CollisionGroupSetCollidable()` for nearby objects."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes `Class.BasePart.CanCollide` changes not being respected when a part is inside another's bounding box."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "`Class.UISizeConstraint` no longer blocks setting `Class.UISizeConstraint.MinSize|MinSize` larger than `Class.UISizeConstraint.MaxSize|MaxSize`, and no longer outputs a warning. If in an invalid state, then the constraint will be ignored."
     },
     {
         "status": "Live",
@@ -62,17 +72,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes the `MaxVisibleGraphemes` property for `Class.TextLabel`, `Class.TextButton`, and `Class.TextBox` used with text containing right-to-left characters."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "On Windows, Studio no longer generates sporadic `Enum.UserInputState.Begin` events for a key when releasing <kbd>Shift</kbd>/<kbd>Ctrl</kbd>/<kbd>Alt</kbd> modifiers."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`Class.UISizeConstraint` no longer blocks setting `Class.UISizeConstraint.MinSize|MinSize` larger than `Class.UISizeConstraint.MaxSize|MaxSize`, and no longer outputs a warning. If in an invalid state, then the constraint will be ignored."
     },
     {
         "status": "Pending",

@@ -27,9 +27,9 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where Studio would crash when mouse is hovering the "Help" menu item of the MicroProfiler. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | MicroProfiler can now display more blocks on large zoom out without UI elements disappearing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a rare crash when re-parenting detached `Class.Attachment\|Attachments`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The non-legacy `Class.BaseScript.RunContext\|RunContext` warning is now disabled for scripts that are disabled. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Prevent `Class.DraggerService.LinearSnapIncrement` and `Class.DraggerService.AngleSnapIncrement` from being set to zero. This avoids plugins having to check for a potential divide by zero as they implement snapping. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The "Save Place" dialog now always displays on top when closing a place where the "Add Tools" window is open. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the Next Gen Studio Preview beta fails to save custom tabs named with special characters, like `*` or `/`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue in the "Next Gen Studio Preview" beta where clicking on a tab's name in the Manage Tabs dialog toggled its visibility state instead of selecting it. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox. |

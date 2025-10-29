@@ -97,6 +97,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "The non-legacy `Class.BaseScript.RunContext|RunContext` warning is now disabled for scripts that are disabled."
     },
     {
@@ -118,10 +123,5 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue in the \"Next Gen Studio Preview\" beta where clicking on a tab's name in the Manage Tabs dialog toggled its visibility state instead of selecting it."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes bug where copy and paste would apply to instances in the Explorer instead of applying to the currently focused textbox."
     }
 ]
