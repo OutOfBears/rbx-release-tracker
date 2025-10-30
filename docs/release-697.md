@@ -6,7 +6,6 @@
 |--------|------|
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows for nested pseudo instances such as `::UIStroke::UIGradient`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new Thumbstick Directional Keycodes to be used for direction separation in the Input Action System. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows plugin StyleSheets to be edited in the Style Editor. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds several capabilities to the `SecurityCapabilities` enum. These new values only describe engine API access control; they aren't available to use for Sandboxed instances. |
