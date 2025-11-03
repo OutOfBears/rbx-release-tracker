@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixed an issue where `Instance.Clone` failed with a security capability error when performed inside `Instance.Sandboxed` containers."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console."
     },
     {
@@ -38,11 +43,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Update the styling of toast notifications in Studio to align with the Next Gen Studio Preview beta's styling."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixed an issue where `Instance.Clone` failed with a security capability error when performed inside `Instance.Sandboxed` containers."
     },
     {
         "status": "Pending",

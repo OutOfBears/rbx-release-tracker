@@ -4,6 +4,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed an issue where `Instance.Clone` failed with a security capability error when performed inside `Instance.Sandboxed` containers. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where `Enum.Material.ForceField` outlines from backface don't appear on desktop and console. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a "Custom" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows 255 highlights in one scene. |
@@ -12,7 +13,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Script error tooltip will now display information about all errors at that location instead of showing only the first one. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | If Luau native code generation is not available on the device, only a single error message will be reported. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Update the styling of toast notifications in Studio to align with the Next Gen Studio Preview beta's styling. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue where `Instance.Clone` failed with a security capability error when performed inside `Instance.Sandboxed` containers. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `vector.lerp()` to the standard Luau library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fix some instances where refinements would cause function calls to report a false positive type error. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adjust script analysis warnings and type hover from Luau to refer to the top type of foreign function types (e.g. from the Roblox API) as `userdata`. |
