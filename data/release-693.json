@@ -62,7 +62,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "BillboardGui CurrentDistance and DistanceStep are now properly implemented according to the documentation.  Properties DistanceLowerLimit, and DistanceUpperLimit will now be officially deprecated."
+        "content": "`Class.BillboardGui` `CurrentDistance` and `DistanceStep` are now properly implemented according to the documentation.  Properties `DistanceLowerLimit` and `DistanceUpperLimit` will now be officially deprecated."
     },
     {
         "status": "Pending",

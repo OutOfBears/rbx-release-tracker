@@ -20,6 +20,16 @@
         "content": "In Luau's New Type Solver, clarify the error message when a valid instantiation for a generic could not be inferred."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a bug where arguments to a function may not be inferred correctly when using a function with several optional arguments."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, aligns the behavior of type checking property access on the `table` type between if-else statements and if-else expressions."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds autocomplete support for Luau function attributes."
@@ -33,16 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, fixes a bug where arguments to a function may not be inferred correctly when using a function with several optional arguments."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, aligns the behavior of type checking property access on the `table` type between if-else statements and if-else expressions."
     },
     {
         "status": "Pending",

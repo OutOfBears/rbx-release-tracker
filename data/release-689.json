@@ -7,7 +7,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes an instance of getting an erroneous \"Type inference has failed to complete\" error when using user defined type functions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches."
     },
     {
         "status": "Live",
@@ -27,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In Luau's New Type Solver, fixes an instance of getting an erroneous \"Type inference has failed to complete\" error when using user defined type functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
     },
     {
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Ensures the order of speech-to-text responses matches the spoken order even with different server latencies per event. Drops responses that time out."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, better handles intersections of tables when checking for table literal type mismatches."
     },
     {
         "status": "Live",

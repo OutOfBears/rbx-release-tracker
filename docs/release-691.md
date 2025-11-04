@@ -8,11 +8,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for LR and ISR metrics on the **Network Stats** diagnostic. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, improve instantiation of generics by allowing unions and intersections to be in their bounds. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, clarify the error message when a valid instantiation for a generic could not be inferred. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, fixes a bug where arguments to a function may not be inferred correctly when using a function with several optional arguments. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, aligns the behavior of type checking property access on the `table` type between if-else statements and if-else expressions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds autocomplete support for Luau function attributes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for occlusion culling lights. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes a bug where arguments to a function may not be inferred correctly when using a function with several optional arguments. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, aligns the behavior of type checking property access on the `table` type between if-else statements and if-else expressions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Very large commands no longer save to the command bar history. |
 ## Fixes
 
