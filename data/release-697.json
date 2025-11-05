@@ -52,12 +52,22 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where shadows did not respect the texture offsets on transparent materials."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "To mitigate network traffic, only updates that differ from the existing direction by a nontrivial amount are enacted for experiences where `Class.ControllerManager.FacingDirection|FacingDirection`, `Class.ControllerManager.MovingDirection|MovingDirection`, and `Class.ControllerManager.UpDirection|UpDirection` are updated very frequently."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes a bug where shadows did not respect the texture offsets on transparent materials."
+        "content": "Reduces the frame time spent updating `Class.AudioEmitter|AudioEmitters` and `Class.AudioListener|AudioListeners` when the \"Acoustic Simulation\" beta feature is enabled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false."
     },
     {
         "status": "Pending",
@@ -82,11 +92,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Reduces the frame time spent updating `Class.AudioEmitter|AudioEmitters` and `Class.AudioListener|AudioListeners` when the \"Acoustic Simulation\" beta feature is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a rare crash in `Class.AudioPlayer` when updating them in parallel."
     },
     {
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Attempting to set breakpoints on a old script versions no longer leads to a crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false."
     },
     {
         "status": "Pending",

@@ -21,7 +21,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.Handles` and `Class.ArcHandles` now work correctly with Cylinder parts that have different X/Y sizes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer\|WrapDeformers`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash when setting `Class.UIGridLayout.CellSize\|CellSize` to zero. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reduces `memory_aps` (allocations per second) for `gui/TextLayout`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Handles` and `Class.ArcHandles` now work correctly with Cylinder parts that have different X/Y sizes. |

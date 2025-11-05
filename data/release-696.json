@@ -65,6 +65,11 @@
         "content": "The `Class.GuiObject.MouseEnter` signal no longer fires before `Class.GuiObject.MouseLeave` when you quickly move the mouse from one `Class.GuiObject` to another `Class.GuiObject`."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "`Class.Handles` and `Class.ArcHandles` now work correctly with Cylinder parts that have different X/Y sizes."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Smooth-skinned avatars no longer have seams at part boundaries when undergoing deformation by `Class.WrapDeformer|WrapDeformers`."
@@ -78,10 +83,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Reduces `memory_aps` (allocations per second) for `gui/TextLayout`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`Class.Handles` and `Class.ArcHandles` now work correctly with Cylinder parts that have different X/Y sizes."
     }
 ]
