@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In Luau's New Type Solver, improve instantiation of generics by allowing unions and intersections to be in their bounds."
     },
     {
@@ -38,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds support for occlusion culling lights."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, non strict mode will no longer issue warnings for usages of unreduced type functions."
     },
     {
         "status": "Pending",

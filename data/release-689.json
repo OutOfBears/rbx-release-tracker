@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes an issue where, when setting `Class.HapticEffect` to `Enum.HapticEffectType.Custom|Custom` type, the waveform data is not correctly replicated from server to client."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.UIDragDetector.ActivatedCursorIconContent`, `Class.UIDragDetector.CursorIconContent`, `Class.UserInputService.MouseIconContent`, `Class.ClickDetector.CursorIconContent`, `Class.DragDetector.ActivatedCursorIconContent`, `Class.Mouse.IconContent`, and `Class.BackpackItem.TextureContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.SoundService.AudioPlayerVolumeFix` to rollout a fix for an issue with `Class.AudioPlayer|AudioPlayers` not playing at the correct volume."
     },
     {
         "status": "Pending",
