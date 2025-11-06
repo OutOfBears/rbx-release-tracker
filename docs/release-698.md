@@ -15,12 +15,12 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The view selector has been updated, and may be toggled independently of the camera speed slider. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added 'I' as a hotkey to zoom in. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added an option for logging input to the StudioCameraService to assist with debugging. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The view selector has been updated, and may be toggled independently of the camera speed slider. |
 ## Fixes
 
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed a bug where decals would at times not update correctly. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fix an issue that UIScale does not correctly scale the border stroke offset. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Enum.ScaleType.Fit` scaling past AbsoluteSize bounds on flipped ImageLabels and ImageButtons. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.BillboardGui` `CurrentDistance` and `DistanceStep` are now properly implemented according to the documentation.  Properties `DistanceLowerLimit` and `DistanceUpperLimit` will now be officially deprecated. |
@@ -30,7 +30,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Implements a "sleep" system for `Class.AudioEmitter\|AudioEmitters` meaning that they use no CPU time when all of their inputs are silent. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix an issue that when inspecting the gui/fontdata memory category in the developer console, the client would crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue that caused MicroProfiler to capture too few frames. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix an issue that UIScale does not correctly scale the border stroke offset. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed a crash when exporting OBJs with emissive maps beta enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Logpoints are no longer ignored in non-yieldable code. |

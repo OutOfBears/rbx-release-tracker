@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces `Class.EncodingService` with functions to perform Base64 encode/decode, computation of Blake/Md5/Sha family hashes and zstd compression. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows for nested pseudo instances such as `::UIStroke::UIGradient`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new Thumbstick Directional Keycodes to be used for direction separation in the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds several capabilities to the `SecurityCapabilities` enum. These new values only describe engine API access control; they aren't available to use for Sandboxed instances. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces `Class.EncodingService` with functions to perform Base64 encode/decode, computation of Blake/Md5/Sha family hashes and zstd compression. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a guard to prevent script analysis from causing Roblox Studio to crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Improves non-strict type checking performance for large function calls and function definitions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Improves inference speed for some math heavy code. |

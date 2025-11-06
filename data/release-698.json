@@ -55,14 +55,14 @@
         "content": "Added an option for logging input to the StudioCameraService to assist with debugging."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "The view selector has been updated, and may be toggled independently of the camera speed slider."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed a bug where decals would at times not update correctly."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixed a bug where decals would at times not update correctly."
+        "content": "Fix an issue that UIScale does not correctly scale the border stroke offset."
     },
     {
         "status": "Live",
@@ -108,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixed an issue that caused MicroProfiler to capture too few frames."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fix an issue that UIScale does not correctly scale the border stroke offset."
     },
     {
         "status": "Pending",

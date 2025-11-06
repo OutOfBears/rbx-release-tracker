@@ -1,5 +1,15 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Introduces `Class.EncodingService` with functions to perform Base64 encode/decode, computation of Blake/Md5/Sha family hashes and zstd compression."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Allows for nested pseudo instances such as `::UIStroke::UIGradient`."
@@ -17,17 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds several capabilities to the `SecurityCapabilities` enum. These new values only describe engine API access control; they aren't available to use for Sandboxed instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces `Class.EncodingService` with functions to perform Base64 encode/decode, computation of Blake/Md5/Sha family hashes and zstd compression."
     },
     {
         "status": "Pending",
