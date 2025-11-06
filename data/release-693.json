@@ -62,11 +62,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "`Class.BillboardGui` `CurrentDistance` and `DistanceStep` are now properly implemented according to the documentation.  Properties `DistanceLowerLimit` and `DistanceUpperLimit` will now be officially deprecated."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "A UIScale object now correctly scales its parent ImageLabel or ImageButton without affecting the TileSize property."
     },
     {

@@ -65,11 +65,6 @@
         "content": "In the New Luau Type solver, resolve a regression where passing a string literal to a function accepting a generic and a string singleton would not force said literal to be a singleton type."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Added 'I' as a hotkey to zoom in."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "`Instance.Sandboxed` property can once again be set on the `Class.Workspace`."
