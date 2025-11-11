@@ -4,7 +4,7 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | [https://luau.org/demo](https://luau.org/demo) now supports type checking. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | https://luau.org/demo now supports type checking. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the new Luau type solver, resolve more instances of type checking becoming unresponsive. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.VideoSampler` object for getting image frames from a video content. |

@@ -2,7 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "[https://luau.org/demo](https://luau.org/demo) now supports type checking."
+        "content": "https://luau.org/demo now supports type checking."
     },
     {
         "status": "Pending",
