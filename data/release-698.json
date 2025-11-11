@@ -1,13 +1,13 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner."
+        "content": "luau.org/demo now supports type checking."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "luau.org/demo now supports type checking."
+        "content": "In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner."
     },
     {
         "status": "Pending",
@@ -17,7 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Add a new VideoSampler object for getting image frames from a video content."
+        "content": "Adds a new `Class.VideoSampler` object for getting image frames from a video content."
     },
     {
         "status": "Pending",
@@ -38,6 +38,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves the per-frame performance of `Class.AudioPlayer` while `IsPlaying` is true."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Resolves issue with being unable to load rbxlx files in some cases."
     },
     {
         "status": "Pending",
@@ -117,7 +122,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed a crash when exporting OBJs with emissive maps beta enabled."
+        "content": "Fixes a crash when exporting OBJs with emissive maps beta enabled."
     },
     {
         "status": "Pending",
@@ -137,6 +142,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Re-adds missing Down Arrow icon in the Developer Console"
+        "content": "Re-adds missing \"down arrow\" icon in the Developer Console."
     }
 ]
