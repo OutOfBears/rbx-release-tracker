@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds new thumbstick directional keycodes to be used for direction separation in the Input Action System."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Allows for nested pseudo instances such as `::UIStroke::UIGradient`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds new Thumbstick Directional Keycodes to be used for direction separation in the Input Action System."
     },
     {
         "status": "Pending",

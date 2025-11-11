@@ -2,7 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "luau.org/demo now supports type checking."
+        "content": "[https://luau.org/demo](https://luau.org/demo) now supports type checking."
     },
     {
         "status": "Pending",
@@ -42,7 +42,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Resolves issue with being unable to load rbxlx files in some cases."
+        "content": "Resolves issue of being unable to load `.rbxlx` files in some cases."
     },
     {
         "status": "Pending",
