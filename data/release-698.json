@@ -1,10 +1,5 @@
 [
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "https://luau.org/demo now supports type checking."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner."
@@ -13,11 +8,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the new Luau type solver, resolve more instances of type checking becoming unresponsive."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a new `Class.VideoSampler` object for getting image frames from a video content."
     },
     {
         "status": "Pending",
@@ -38,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves the per-frame performance of `Class.AudioPlayer` while `IsPlaying` is true."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Resolves issue of being unable to load `.rbxlx` files in some cases."
     },
     {
         "status": "Pending",
@@ -122,11 +107,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a crash when exporting OBJs with emissive maps beta enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Logpoints are no longer ignored in non-yieldable code."
     },
     {
@@ -138,10 +118,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes image upload within Material Manager for group experiences."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Re-adds missing \"down arrow\" icon in the Developer Console."
     }
 ]

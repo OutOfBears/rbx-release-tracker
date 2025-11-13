@@ -72,11 +72,11 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes a case where another gamepad can't control the player after the first gamepad was disconnected on Xbox."
+        "content": "Autocomplete correctly makes suggestions in unfinished `repeat` blocks when typing at the end of the file."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Autocomplete correctly makes suggestions in unfinished `repeat` blocks when typing at the end of the file."
+        "content": "Fixes a case where another gamepad can't control the player after the first gamepad was disconnected on Xbox."
     }
 ]

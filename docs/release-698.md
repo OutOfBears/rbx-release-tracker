@@ -4,15 +4,12 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | https://luau.org/demo now supports type checking. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the new Luau type solver, resolve more instances of type checking becoming unresponsive. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.VideoSampler` object for getting image frames from a video content. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the new Luau type solver, fix an instance where refining a variable with the type `any` would cause it to become `unknown` instead. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, improve the wording of error messages in non-strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The MicroProfiler's bottom-right line graph is now synchronized with the main profiler view. Your selected frame range is now highlighted in green on this graph, and you can left-click anywhere on it to instantly re-center the main profiler to that specific frame, making it much faster to find and inspect performance spikes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the per-frame performance of `Class.AudioPlayer` while `IsPlaying` is true. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Resolves issue of being unable to load `.rbxlx` files in some cases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The view selector has been updated, and may be toggled independently of the camera speed slider. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added 'I' as a hotkey to zoom in. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added an option for logging input to the StudioCameraService to assist with debugging. |
@@ -32,8 +29,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix an issue that when inspecting the gui/fontdata memory category in the developer console, the client would crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue that caused MicroProfiler to capture too few frames. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash when exporting OBJs with emissive maps beta enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Logpoints are no longer ignored in non-yieldable code. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Watch expressions are no longer cleared on place save. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes image upload within Material Manager for group experiences. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Re-adds missing "down arrow" icon in the Developer Console. |
