@@ -25,6 +25,11 @@
         "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fix a bug where the New Luau Type Solver was not warning on incorrect use of a generic function."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes an infrequent error in the Luau typechecking that could cause type inference to fail when typechecking generics with default parameters"
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Right-to-left text support is now permanently enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fix a bug where the New Luau Type Solver was not warning on incorrect use of a generic function."
     },
     {
         "status": "Live",

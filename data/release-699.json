@@ -5,6 +5,11 @@
         "content": "[https://luau.org/demo](https://luau.org/demo) now supports type checking."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reduces the size of `Class.Instance` on 64-bit systems by 8 bytes. Will generally save a few MBs of memory in games due to the number of instances."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.AudioPlayer.AutoPlay`, allowing `Class.AudioPlayer|AudioPlayers` to be played on startup automatically."
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes `Rx` \"Batch Data\" network events not expanding properly in the Microprofiler (`Tx` still not supported)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Reduces the size of `Class.Instance` on 64-bit systems by 8 bytes. Will generally save a few MBs of memory in games due to the number of instances."
     },
     {
         "status": "Pending",
@@ -52,12 +52,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Fixed an issue where MicroProfiler and Performance panel text display was corrupted."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Fixes Studio bug with `Datatype.Content` formatting in the Explorer."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves performance of `Class.Instance` by 30% with extra improvements for `Class.Instance:GetDescendants()` and `Class.Instance:QueryDescendants()` where large arrays are returned."
+        "content": "Improves performance of `Class.Instance` return by 30% with extra improvements for `Class.Instance:GetDescendants()` and `Class.Instance:QueryDescendants()` where large arrays are returned."
     },
     {
         "status": "Pending",

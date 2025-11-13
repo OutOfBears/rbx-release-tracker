@@ -1,6 +1,6 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner."
     },
