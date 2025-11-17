@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where scroll bar transparency changes were ignored when the `Class.ScrollingFrame` was not interactable."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "`Instance.Sandboxed` property can once again be set on the `Class.Workspace`."
     },
     {
@@ -93,11 +98,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Rather than deactivating itself, the UI Editor now clears the selection but remains activated when clicking over empty space in viewport, allowing subsequent GUI object selections.\n\nSelecting non-GUI objects or clearing the selection through other means than the UI Editor will still cause it to deactivate."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where scroll bar transparency changes were ignored when the ScrollingFrame was not interactable."
     },
     {
         "status": "Pending",
