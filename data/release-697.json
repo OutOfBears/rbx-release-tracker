@@ -15,6 +15,11 @@
         "content": "Introduces `Class.EncodingService` with functions to perform Base64 encode/decode, computation of Blake/Md5/Sha family hashes and zstd compression."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a guard to prevent script analysis from causing Roblox Studio to crash."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Allows for nested pseudo instances such as `::UIStroke::UIGradient`."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds several capabilities to the `SecurityCapabilities` enum. These new values only describe engine API access control; they aren't available to use for Sandboxed instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a guard to prevent script analysis from causing Roblox Studio to crash."
     },
     {
         "status": "Pending",

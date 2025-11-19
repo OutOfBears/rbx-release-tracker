@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "New Type Solver: Fixes a bug with type inference when accessing a property of a table whose type is a union of intersections."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "When the expression inside an interpolated string is known to be a string, it's embedded into a formatting string during compilation. If an interpolated string contains only constant strings, it’s replaced with a single constant."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New Type Solver: Fixes a bug with type inference when accessing a property of a table whose type is a union of intersections."
     },
     {
         "status": "Pending",

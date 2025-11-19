@@ -5,6 +5,11 @@
         "content": "In the New Luau Type Solver, lambdas will have their argument types inferred more precisely when placed inside well typed tables, and will now have their return types inferred in the same manner."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "The MicroProfiler's bottom-right line graph is now synchronized with the main profiler view. Your selected frame range is now highlighted in green on this graph, and you can left-click anywhere on it to instantly re-center the main profiler to that specific frame, making it much faster to find and inspect performance spikes."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the new Luau type solver, resolve more instances of type checking becoming unresponsive."
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, improve the wording of error messages in non-strict mode."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "The MicroProfiler's bottom-right line graph is now synchronized with the main profiler view. Your selected frame range is now highlighted in green on this graph, and you can left-click anywhere on it to instantly re-center the main profiler to that specific frame, making it much faster to find and inspect performance spikes."
     },
     {
         "status": "Pending",
@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes `Enum.ScaleType.Fit` scaling past AbsoluteSize bounds on flipped ImageLabels and ImageButtons."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixed a bug where decals would at times not update correctly."
     },
     {
@@ -57,12 +62,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false."
+        "content": "Logpoints are no longer ignored in non-yieldable code."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes `Enum.ScaleType.Fit` scaling past AbsoluteSize bounds on flipped ImageLabels and ImageButtons."
+        "content": "Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false."
     },
     {
         "status": "Pending",
@@ -98,16 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixed an issue that caused MicroProfiler to capture too few frames."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Logpoints are no longer ignored in non-yieldable code."
     },
     {
         "status": "Pending",

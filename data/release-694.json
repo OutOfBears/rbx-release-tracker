@@ -72,6 +72,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a potential infinite loop when re-capturing focus on the same text box."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "`Instance.Sandboxed` property can once again be set on the `Class.Workspace`."
     },
     {
@@ -98,11 +103,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Rather than deactivating itself, the UI Editor now clears the selection but remains activated when clicking over empty space in viewport, allowing subsequent GUI object selections.\n\nSelecting non-GUI objects or clearing the selection through other means than the UI Editor will still cause it to deactivate."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a potential infinite loop when re-capturing focus on the same text box."
     },
     {
         "status": "Pending",

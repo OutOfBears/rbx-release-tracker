@@ -20,7 +20,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added memory tracking stats for SLIM. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio bug with `Datatype.Content` formatting in the Explorer. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Splits up the Microprofiler `Sound` scope into more meaningful phases of execution. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Resolves issue of being unable to load `.rbxlx` files in some cases. |
 ## Fixes
 
 | Status | Note |
