@@ -72,6 +72,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Changes `Class.SurfaceLight` to not make grass glow excessively when placed on large parts."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Updates the return type of `Class.Teams:GetTeams()` to an array of `Class.Team` objects instead of generic `Class.Instance|Instances`."
     },
     {
@@ -98,11 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes bug where `Class.DataModel.Close` signals weren't being executed if using deferred signals."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Changes `Class.SurfaceLight` to not make grass glow excessively when placed on large parts."
     },
     {
         "status": "Pending",

@@ -22,13 +22,13 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Changes `Class.SurfaceLight` to not make grass glow excessively when placed on large parts. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the return type of `Class.Teams:GetTeams()` to an array of `Class.Team` objects instead of generic `Class.Instance\|Instances`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an autocomplete issue where anonymous functions with generic types were incorrectly suggested as arguments to higher-order functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Table `__tostring` metamethod will now be called for table keys in Output and other locations where a string representation is required. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.UIScale` may sometimes not apply to some UI instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes bug where `Class.DataModel.Close` signals weren't being executed if using deferred signals. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes `Class.SurfaceLight` to not make grass glow excessively when placed on large parts. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, changes the signature for `types.newtable` to allow optional parameters. |
