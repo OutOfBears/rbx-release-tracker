@@ -82,6 +82,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Class.UIStroke` line join mode is not respected when the `Class.GuiObject` has rounded corners."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely)."
     },
     {
@@ -118,11 +123,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, changes the signature for `types.newtable` to allow optional parameters."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.UIStroke` line join mode is not respected when the `Class.GuiObject` has rounded corners."
     },
     {
         "status": "Pending",
