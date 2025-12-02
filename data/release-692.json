@@ -7,7 +7,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "New Type Solver: Comparison operators such as `<=` and `>` no longer use type functions, and instead apply a constraint that their arguments must have the same type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
     },
     {
         "status": "Pending",
@@ -23,16 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "New Type Solver: Fixes some instances of spurious errors when invoking methods that are accessed via metatables."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New Type Solver: Comparison operators such as `<=` and `>` no longer use type functions, and instead apply a constraint that their arguments must have the same type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
     },
     {
         "status": "Live",

@@ -10,6 +10,11 @@
         "content": "The MicroProfiler's bottom-right line graph is now synchronized with the main profiler view. Your selected frame range is now highlighted in green on this graph, and you can left-click anywhere on it to instantly re-center the main profiler to that specific frame, making it much faster to find and inspect performance spikes."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves the per-frame performance of `Class.AudioPlayer` while `IsPlaying` is true."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the new Luau type solver, resolve more instances of type checking becoming unresponsive."
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, improve the wording of error messages in non-strict mode."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the per-frame performance of `Class.AudioPlayer` while `IsPlaying` is true."
     },
     {
         "status": "Pending",
@@ -52,7 +52,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where emitter particles would disappear early."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixed a bug where decals would at times not update correctly."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Implements a \"sleep\" system for `Class.AudioEmitter|AudioEmitters` meaning that they use no CPU time when all of their inputs are silent."
     },
     {
         "status": "Live",
@@ -82,17 +92,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where emitter particles would disappear early."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where the hardware mic indicator remained turned on despite the mic being muted."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Implements a \"sleep\" system for `Class.AudioEmitter|AudioEmitters` meaning that they use no CPU time when all of their inputs are silent."
     },
     {
         "status": "Pending",

@@ -1,5 +1,25 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "When the \"Acoustic Simulation\" beta feature is enabled, reduces the overhead from moving parts."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support for `:not(...)`, `:has(...)` and `[$AttributeExists]` selectors to `Class.Instance:QueryDescendants()`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a built-in require-by-string alias that always points to the root of the `Class.DataModel`: `@game`."
@@ -8,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, `Library.table.isfrozen()` and `Library.table.clear()` functions should now more consistently accept unions of tables."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When the \"Acoustic Simulation\" beta feature is enabled, reduces the overhead from moving parts."
     },
     {
         "status": "Pending",
@@ -28,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Resolves issue of being unable to load `.rbxlx` files in some cases."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for `:not(...)`, `:has(...)` and `[$AttributeExists]` selectors to `Class.Instance:QueryDescendants()`."
     },
     {
         "status": "Pending",
@@ -57,17 +67,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Table `__tostring` metamethod will now be called for table keys in Output and other locations where a string representation is required."
     },
     {
         "status": "Live",
@@ -87,17 +92,27 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely)."
+        "content": "Caches `Class.AudioEmitter` and `Class.AudioListener` `CFrames` per-frame to speed up panning-related 3D math."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug where `Class.AudioEmitter|AudioEmitters` and `Class.AudioListener|AudioListeners` parented to `Class.Camera|Cameras` would use their `CFrame` instead of their rendering-`CFrame`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes the link in warning pop-up regarding unsupported graphics configurations."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes Explorer not working with debugger if a breakpoint hit on startup."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an autocomplete issue where anonymous functions with generic types were incorrectly suggested as arguments to higher-order functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Table `__tostring` metamethod will now be called for table keys in Output and other locations where a string representation is required."
     },
     {
         "status": "Pending",
@@ -127,26 +142,11 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Caches `Class.AudioEmitter` and `Class.AudioListener` `CFrames` per-frame to speed up panning-related 3D math."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where `Class.AudioEmitter|AudioEmitters` and `Class.AudioListener|AudioListeners` parented to `Class.Camera|Cameras` would use their `CFrame` instead of their rendering-`CFrame`."
+        "content": "In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely)."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes incorrect autocomplete suggestions for manually renamed services in require-by-string paths."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes the link in warning pop-up regarding unsupported graphics configurations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes Explorer not working with debugger if a breakpoint hit on startup."
     }
 ]

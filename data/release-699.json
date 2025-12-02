@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Allows `Class.StyleSheet|StyleSheets` in `Class.Plugin|Plugins` to be styled."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "[https://luau.org/demo](https://luau.org/demo) now supports type checking."
     },
     {
@@ -13,6 +18,11 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Changes the source of \"Ping\" in the Performance Stats UI to match `Class.Player:GetNetworkPing()`, which better represents current network conditions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Added memory tracking stats for SLIM."
     },
     {
         "status": "Live",
@@ -30,14 +40,14 @@
         "content": "`Class.Instance:QueryDescendants()` call with `[ClassName=name]` property match is now 2x faster."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Adds `Class.AudioPlayer.AutoPlay`, allowing `Class.AudioPlayer|AudioPlayers` to be played on startup automatically."
+        "content": "Splits up the Microprofiler `Sound` scope into more meaningful phases of execution."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows `Class.StyleSheet|StyleSheets` in `Class.Plugin|Plugins` to be styled."
+        "content": "Adds `Class.AudioPlayer.AutoPlay`, allowing `Class.AudioPlayer|AudioPlayers` to be played on startup automatically."
     },
     {
         "status": "Pending",
@@ -67,17 +77,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Added memory tracking stats for SLIM."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes Studio bug with `Datatype.Content` formatting in the Explorer."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Splits up the Microprofiler `Sound` scope into more meaningful phases of execution."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Adds the flexibility to define `Class.ParticleEmitter` flipbook layouts without any limitations on texture size."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a rare crash when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` finish their acoustic simulation work too quickly."
     },
     {
         "status": "Pending",
@@ -97,22 +107,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds the flexibility to define `Class.ParticleEmitter` flipbook layouts without any limitations on texture size."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a crash when exporting OBJs with emissive maps beta enabled."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug in Luau's type checking where `Library.table.clone()` would sometimes erroneously error when provided a value from a returning function."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a rare crash when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` finish their acoustic simulation work too quickly."
     },
     {
         "status": "Pending",

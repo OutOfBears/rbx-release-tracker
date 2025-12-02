@@ -15,6 +15,16 @@
         "content": "Luau's New Type Solver: updates primitive tables to be subtypes of generic tables."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: refining tables with indexers against external types (such as builtin Roblox types) no longer drops the table portion."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: fixes an issue where iterating over a function that returns an empty pack would cause type inference to fail to complete."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Loads Pathfinding Tiles by Bounding cylinder of the FindPath Extent."
@@ -23,16 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Using Luau 'pcall' and 'xpcall' functions no longer counts towards the C call stack limit, extending potential recursion depth with protected calls from 200 to 20000 (note that 'pcall'/'xpcall' call itself still counts towards the Luau call stack limit)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: refining tables with indexers against external types (such as builtin Roblox types) no longer drops the table portion."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: fixes an issue where iterating over a function that returns an empty pack would cause type inference to fail to complete."
     },
     {
         "status": "Live",
