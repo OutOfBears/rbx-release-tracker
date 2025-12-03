@@ -8,7 +8,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | [https://luau.org/demo](https://luau.org/demo) now supports type checking. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reduces the size of `Class.Instance` on 64-bit systems by 8 bytes. Will generally save a few MBs of memory in games due to the number of instances. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Changes the source of "Ping" in the Performance Stats UI to match `Class.Player:GetNetworkPing()`, which better represents current network conditions. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Added memory tracking stats for SLIM. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed an issue where MicroProfiler and Performance panel text display was corrupted. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves performance of `Class.Instance` return by 30% with extra improvements for `Class.Instance:GetDescendants()` and `Class.Instance:QueryDescendants()` where large arrays are returned. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.Instance:QueryDescendants()` call with `[ClassName=name]` property match is now 2x faster. |

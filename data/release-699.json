@@ -22,11 +22,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Added memory tracking stats for SLIM."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Fixed an issue where MicroProfiler and Performance panel text display was corrupted."
     },
     {

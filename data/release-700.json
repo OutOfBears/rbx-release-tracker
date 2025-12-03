@@ -15,11 +15,6 @@
         "content": "Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%."
     },
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a built-in require-by-string alias that always points to the root of the `Class.DataModel`: `@game`."
@@ -102,11 +97,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes the link in warning pop-up regarding unsupported graphics configurations."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes Explorer not working with debugger if a breakpoint hit on startup."
     },
     {
@@ -128,11 +118,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops."
     },
     {
         "status": "Pending",

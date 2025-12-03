@@ -1,0 +1,107 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Added memory tracking stats for SLIM."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance by lowering the cost of `updateInstancedCluster2` when using SLIM."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces three-phase rollout for fixed simulation frequency."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, generic user-defined type functions now infer types more consistently. Previously, constraints involving generic UDTFs could be incorrectly forced, causing type inference to give inconsistent results."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance of `Class.Instance:GetChildren()` by 30-65%."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves property access performance in Luau `--!native` code for `Vector2`, `CFrame`, `RaycastResult`, `UDim`, `Color3`, and `NumberRange` type values when locals are properly type-annotated. This can make property access performance up to 20x faster."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `math.isnan`, `math.isinf` and `math.isfinite` functions based on the Luau [math.isnan, math.isinf and math.isfinite for Math Library]([https://rfcs.luau.org/math-isnan-isfinite-isinf.html](https://rfcs.luau.org/math-isnan-isfinite-isinf.html)) RFC."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates the default `ScriptEditor` font to Builder Mono. Font size is now 12 for MacOS."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes the link in warning pop-up regarding unsupported graphics configurations."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the UV scaling for wedge model textures."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds mouse support to iPadOS."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a rare script analysis crash in Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug that caused `Axes.new` to fail to type check when valid arguments were passed in."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves the Acoustic Simulation feature's pathfinding in wide-open spaces."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where creating or destroying a `HapticEffect` inside a non-deferred Lua signal could lead to a crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, type refinements resulting from comparisons are now more consistent, and should result in less inferences of `any`."
+    }
+]

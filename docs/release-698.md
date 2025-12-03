@@ -23,11 +23,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements a "sleep" system for `Class.AudioEmitter\|AudioEmitters` meaning that they use no CPU time when all of their inputs are silent. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fix an issue that UIScale does not correctly scale the border stroke offset. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Logpoints are no longer ignored in non-yieldable code. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Watch expressions are no longer cleared on place save. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.BillboardGui` `CurrentDistance` and `DistanceStep` are now properly implemented according to the documentation.  Properties `DistanceLowerLimit` and `DistanceUpperLimit` will now be officially deprecated. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where Studio can hang when selecting a UI element inside a `Class.UITableLayout` with multiple `Class.UISizeConstraint` child elements. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where the hardware mic indicator remained turned on despite the mic being muted. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix an issue that when inspecting the gui/fontdata memory category in the developer console, the client would crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue that caused MicroProfiler to capture too few frames. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Watch expressions are no longer cleared on place save. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes image upload within Material Manager for group experiences. |
