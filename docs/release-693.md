@@ -16,11 +16,11 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes simulation slowdown when adding and removing child instances. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes InputActionSytem Direction3D forward/backward to use right handed coordinate system. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows entity based culling of Models set as `StreamingMesh`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A UIScale object now correctly scales its parent ImageLabel or ImageButton without affecting the TileSize property. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where modified attributes on the root of a package were not showing up in bold. |

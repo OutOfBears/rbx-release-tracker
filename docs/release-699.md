@@ -26,10 +26,10 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds the flexibility to define `Class.ParticleEmitter` flipbook layouts without any limitations on texture size. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a rare crash when `Class.AudioEmitter\|AudioEmitters` or `Class.AudioListener\|AudioListeners` finish their acoustic simulation work too quickly. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes buttons to open the Material Manager and Material Generator from the Material picker in the toolbar. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where, if a `Class.TextBox` receives focus and then gets parented to `nil`, its `Class.TextBox.Text\|Text` property may be cleared, even if `Class.TextBox.ClearTextOnFocus` is `false`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Sets a limit on the number of nested deferred events that can be executed per-source in a single frame. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where Luau's type system would lose track of some components of an intersection type when using `Library.table.clone()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash when exporting OBJs with emissive maps beta enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in Luau's type checking where `Library.table.clone()` would sometimes erroneously error when provided a value from a returning function. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes buttons to open the Material Manager and Material Generator from the Material picker in the toolbar. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Re-adds missing "down arrow" icon in the Developer Console. |

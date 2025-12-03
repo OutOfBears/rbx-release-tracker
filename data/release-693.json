@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes simulation slowdown when adding and removing child instances."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "A UIScale object now correctly scales its parent ImageLabel or ImageButton without affecting the TileSize property."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create."
     },
     {
         "status": "Pending",
