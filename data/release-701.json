@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `math.isnan`, `math.isinf` and `math.isfinite` functions based on the Luau [math.isnan, math.isinf and math.isfinite for Math Library](https://rfcs.luau.org/math-isnan-isfinite-isinf.html) RFC."
+        "content": "Adds `math.isnan`, `math.isinf` and `math.isfinite` functions based on the Luau [math.isnan, math.isinf and math.isfinite for Math Library]([https://rfcs.luau.org/math-isnan-isfinite-isinf.html](https://rfcs.luau.org/math-isnan-isfinite-isinf.html)) RFC."
     },
     {
         "status": "Pending",

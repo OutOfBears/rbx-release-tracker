@@ -2,6 +2,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "When applied to constant strings, concat `..` operations are performed once during compilation time."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "When the expression inside an interpolated string is known to be a string, it's embedded into a formatting string during compilation. If an interpolated string contains only constant strings, it’s replaced with a single constant."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "New Type Solver: Fixes a bug with type inference when accessing a property of a table whose type is a union of intersections."
     },
     {
@@ -18,16 +28,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When applied to constant strings, concat `..` operations are performed once during compilation time."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When the expression inside an interpolated string is known to be a string, it's embedded into a formatting string during compilation. If an interpolated string contains only constant strings, it’s replaced with a single constant."
     },
     {
         "status": "Pending",

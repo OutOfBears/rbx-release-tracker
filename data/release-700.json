@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, generics will be instantiated to more specific types when valid."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%."
     },
     {
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Supports require-by-string access to non-service instances that are parented directly to the root of the `Class.DataModel`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, generics will be instantiated to more specific types when valid."
     },
     {
         "status": "Pending",

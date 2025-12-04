@@ -22,6 +22,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, fix some instances where refinements would cause function calls to report a false positive type error."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `vector.lerp()` to the standard Luau library."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, fix some instances where refinements would cause function calls to report a false positive type error."
     },
     {
         "status": "Pending",
