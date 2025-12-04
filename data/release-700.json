@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds `Class.GroupService:PromptJoinAsync()` to prompt a player to join a community in-experience."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes a bug where `Class.EncodingService:Base64Decode()` allowed malformed data to be successfully decoded with no error."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.GroupService:PromptJoinAsync()` to prompt a player to join a community in-experience."
     },
     {
         "status": "Pending",
