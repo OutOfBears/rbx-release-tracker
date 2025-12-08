@@ -19,9 +19,9 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes the UV scaling for wedge model textures. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes the link in warning pop-up regarding unsupported graphics configurations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the UV scaling for wedge model textures. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds mouse support to iPadOS. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare script analysis crash in Studio. |

@@ -27,6 +27,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type solver, resolve a regression where passing a string literal to a function accepting a generic and a string singleton would not force said literal to be a singleton type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "MicroProfiler counters now display a breakdown of Luau Heap memory use of each DataModel and VM group. Additionally, execution time of each VM will be displayed. 'lua/heap' group has been split into 'Luau/heap' and 'Luau/heap_core' to exclude plugin and core script memory use from the existing memory category."
     },
     {
@@ -60,11 +65,6 @@
         "content": "Adjust script analysis warnings and type hover from Luau to refer to the top type of foreign function types (e.g. from the Roblox API) as `userdata`."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type solver, resolve a regression where passing a string literal to a function accepting a generic and a string singleton would not force said literal to be a singleton type."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where scroll bar transparency changes were ignored when the `Class.ScrollingFrame` was not interactable."
@@ -92,6 +92,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, fix some instances where autocomplete/script analysis would fail to ever appear, and Studio would hang on closing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where the Acoustic Simulation beta feature can slow down physics updates, leading to worse framerates."
     },
     {
@@ -108,11 +113,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, fix some instances where autocomplete/script analysis would fail to ever appear, and Studio would hang on closing."
     },
     {
         "status": "Pending",

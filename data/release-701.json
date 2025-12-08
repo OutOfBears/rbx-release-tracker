@@ -57,17 +57,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes the UV scaling for wedge model textures."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes the link in warning pop-up regarding unsupported graphics configurations."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes the UV scaling for wedge model textures."
     },
     {
         "status": "Pending",
