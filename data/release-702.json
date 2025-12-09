@@ -1,0 +1,162 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, resolve a potential crash when using type instantiation expressions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, overload resolution is now slightly more principled during type inference. Prior we would attempt to unify arguments with all of the possible overloads, which would often select an overload at random."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds Touch as a KeyCode for the Input Action System"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Studio: Added AlphaMode to MaterialVariants and added Opaque mode to AlphaMode field."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves performance by lowering the cost of `updateInstancedCluster2` when using SLIM."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces three-phase rollout for fixed simulation frequency."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`.\n\nFor example, if you have defined a function like:\n\n```\nlocal function array<T>(): {T}\nreturn {}\nend\n```\n\nYou can now call it with a specific type by calling `array<<number>>()` to get a result of the type `{number}`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Removes clipping/distortion from `Class.AudioListener` when `Class.AudioEmitter|AudioEmitters` are not creating feedback loops."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the Luau New Type Solver, indexing into a table with an indexer who's keys are string singletons will now infer the indexer result type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau autocomplete will now show string singleton keys when indexing into tables with a name expression, as in `A.B`"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, updates the behavior of type functions to not signal an irreducible error when there's already a more specific error from the type function."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`string.char` and `string.sub` function calls can now be optimized to a string constant if the arguments are constants."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau compiler will inline function calls with constant arguments more often if those constants considerably simplify the called method body (cause branches to be removed)."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, the error message associated with indexing into a union where a member is not a table is now slightly more informative."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Optimized the animation system for large articulated rigs."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix an issue with particles looking washed out on avatar thumbnails (such as from the Periastron gear series)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed a bug where players would push each other off moving platforms even when their collision groups are set not to collide."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds mouse support to iPadOS."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix flakiness in AudioSpeechToText instantiation."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Meshes with corrupted collision data can no longer have arbitrarily large ExtentsSize. ExtentsSize is now clamped to 2048 studs in all directions."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix staggered particle emission in continuous particle streams."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed Smoothing Angle not functioning in Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, refinements against types no longer cause spurious errors in nonstrict mode, such as being unable to pass a refined `string` to string library methods"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed an issue where text in Microprofiler and performance windows could take a long time to appear."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix a crash when importing a 3D model with missing files or broken content while enrolled in emissive maps Studio beta."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, fix hangs that could occur when trying to infer exceptionally large intersection types."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes false culling for some skinned meshes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue that allowed players to send messages with excessive amounts of whitespace."
+    }
+]

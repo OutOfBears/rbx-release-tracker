@@ -5,31 +5,6 @@
         "content": "Added memory tracking stats for SLIM."
     },
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves performance by lowering the cost of `updateInstancedCluster2` when using SLIM."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces three-phase rollout for fixed simulation frequency."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, generic user-defined type functions now infer types more consistently. Previously, constraints involving generic UDTFs could be incorrectly forced, causing type inference to give inconsistent results."
@@ -68,16 +43,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops."
     },
     {
         "status": "Pending",
