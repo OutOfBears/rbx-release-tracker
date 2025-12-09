@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Creates new, separate 2500 requests/minute limit in `Class.HttpService` for Open Cloud requests."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds support for `:not(...)`, `:has(...)` and `[$AttributeExists]` selectors to `Class.Instance:QueryDescendants()`."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, `Library.table.isfrozen()` and `Library.table.clear()` functions should now more consistently accept unions of tables."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Creates new, separate 2500 requests/minute limit in `Class.HttpService` for Open Cloud requests."
     },
     {
         "status": "Pending",
