@@ -22,7 +22,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `Class.BasePart.CanCollide` changes not being respected when a part is inside another's bounding box. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.UISizeConstraint` no longer blocks setting `Class.UISizeConstraint.MinSize\|MinSize` larger than `Class.UISizeConstraint.MaxSize\|MaxSize`, and no longer outputs a warning. If in an invalid state, then the constraint will be ignored. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling for skinned meshes in some scenarios. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes incorrect `vector.lerp()` behavior for some inputs in Luau Native Code Generation. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Bounding boxes for cylinders and spheres will once again render the logical extent of the part rather than the physical size for better editing mechanics. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where sounds can be audibly played after closing an experience. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.AudioEmitter` spatial offset bug for systems with high default channel count. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes incorrect `vector.lerp()` behavior for some inputs in Luau Native Code Generation. |

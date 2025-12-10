@@ -90,6 +90,11 @@
         "content": "Optimized the animation system for large articulated rigs."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes false culling for some skinned meshes."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix an issue with particles looking washed out on avatar thumbnails (such as from the Periastron gear series)."
@@ -148,11 +153,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fix hangs that could occur when trying to infer exceptionally large intersection types."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes false culling for some skinned meshes."
     },
     {
         "status": "Pending",

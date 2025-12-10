@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds `vector.lerp()` to the standard Luau library."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds a \"Custom\" option for particle flipbook layouts, allowing you to define custom numbers of columns and rows."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Update the styling of toast notifications in Studio to align with the Next Gen Studio Preview beta's styling."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `vector.lerp()` to the standard Luau library."
     },
     {
         "status": "Pending",

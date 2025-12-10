@@ -26,6 +26,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling for some skinned meshes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix an issue with particles looking washed out on avatar thumbnails (such as from the Periastron gear series). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed a bug where players would push each other off moving platforms even when their collision groups are set not to collide. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds mouse support to iPadOS. |
@@ -38,5 +39,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue where text in Microprofiler and performance windows could take a long time to appear. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix a crash when importing a 3D model with missing files or broken content while enrolled in emissive maps Studio beta. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fix hangs that could occur when trying to infer exceptionally large intersection types. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes false culling for some skinned meshes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that allowed players to send messages with excessive amounts of whitespace. |
