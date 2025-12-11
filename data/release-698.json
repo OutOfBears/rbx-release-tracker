@@ -15,6 +15,11 @@
         "content": "Improves the per-frame performance of `Class.AudioPlayer` while `IsPlaying` is true."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Added an option for logging input to the StudioCameraService to assist with debugging."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the new Luau type solver, resolve more instances of type checking becoming unresponsive."
@@ -38,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Added 'I' as a hotkey to zoom in."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Added an option for logging input to the StudioCameraService to assist with debugging."
     },
     {
         "status": "Live",
