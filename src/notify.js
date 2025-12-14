@@ -24,7 +24,7 @@ async function getChangedFiles() {
   try {
     diffText = await git.diff(["HEAD", "HEAD~1", "--name-only"]);
   } catch {
-    // e.g. first commit, shallow checkout, or missing HEAD~1
+    // first commit / shallow clone / no HEAD~1
     return allDiffs;
   }
 
@@ -36,8 +36,13 @@ async function getChangedFiles() {
 
   await Promise.all(
     files.map(async (file) => {
-      // Prevent crash if some other .json file changed 
-      const m = file.match(/data\/release-(\d+)\.json$/);
+      // Matches:
+      // - data/release-702.json
+      // - data/Old/release-679.json
+      // Ignores:
+      // - data/New.json
+      // - package.json
+      const m = file.match(/data\/(?:Old\/)?release-(\d+)\.json$/);
       if (!m) return;
       const release = m[1];
 
@@ -49,13 +54,13 @@ async function getChangedFiles() {
       }
 
       const cachedContent = await client.get(release);
-
       if (newContent === cachedContent) return;
+
       await client.set(release, newContent);
 
       let present;
       try {
-        present = JSON.parse(newContent); // don’t git.show twice
+        present = JSON.parse(newContent);
       } catch {
         logger.warn({ file }, "invalid JSON in HEAD, skipping");
         return;
@@ -126,7 +131,6 @@ async function run() {
 
     process.exitCode = 0;
   } finally {
-    // be nice and close connections
     await Promise.allSettled([client.quit(), pubSubClient.quit()]);
   }
 }
