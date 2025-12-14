@@ -19,25 +19,49 @@ const client = redis.createClient({
 
 async function getChangedFiles() {
   const allDiffs = {};
-  const files = (await git.diff(["HEAD", "HEAD~1", "--name-only"]))
+
+  let diffText = "";
+  try {
+    diffText = await git.diff(["HEAD", "HEAD~1", "--name-only"]);
+  } catch {
+    // e.g. first commit, shallow checkout, or missing HEAD~1
+    return allDiffs;
+  }
+
+  const files = diffText
     .trim()
     .split("\n")
+    .filter(Boolean)
     .filter((file) => file.endsWith(".json"));
 
   await Promise.all(
     files.map(async (file) => {
-      const release = file.match(/data\/release-(\d+)\.json/)[1];
-      if (!release) return;
+      // Prevent crash if some other .json file changed 
+      const m = file.match(/data\/release-(\d+)\.json$/);
+      if (!m) return;
+      const release = m[1];
 
-      const newContent = await git.show([`HEAD:${file}`]);
+      let newContent;
+      try {
+        newContent = await git.show([`HEAD:${file}`]);
+      } catch {
+        return;
+      }
+
       const cachedContent = await client.get(release);
 
       if (newContent === cachedContent) return;
       await client.set(release, newContent);
 
-      let past = [];
-      const present = JSON.parse(await git.show([`HEAD:${file}`]));
+      let present;
+      try {
+        present = JSON.parse(newContent); // don’t git.show twice
+      } catch {
+        logger.warn({ file }, "invalid JSON in HEAD, skipping");
+        return;
+      }
 
+      let past = [];
       try {
         past = JSON.parse(await git.show([`HEAD~1:${file}`]));
       } catch {
@@ -58,18 +82,12 @@ async function getChangedFiles() {
         const existed = past.find((item) => item.content === content);
 
         if (!existed) diffs.added.push(value);
-        else {
-          if (existed.content === content && status !== existed.status) {
-            diffs.modified.push({ value, oldStatus: existed.status });
-          }
+        else if (status !== existed.status) {
+          diffs.modified.push({ value, oldStatus: existed.status });
         }
       });
 
-      if (
-        !diffs.added.length &&
-        !diffs.removed.length &&
-        !diffs.modified.length
-      )
+      if (!diffs.added.length && !diffs.removed.length && !diffs.modified.length)
         return;
 
       allDiffs[release] = diffs;
@@ -84,36 +102,41 @@ async function run() {
   await pubSubClient.connect();
   logger.info("connected to Redis");
 
-  const changedFiles = await getChangedFiles();
-  const changeVersions = Object.keys(changedFiles);
+  try {
+    const changedFiles = await getChangedFiles();
+    const changeVersions = Object.keys(changedFiles);
 
-  if (!changeVersions.length) {
-    logger.info("no changed files, aborting...");
-    process.exit(-1);
-    return;
+    if (!changeVersions.length) {
+      logger.info("no changed files, aborting...");
+      process.exitCode = 1;
+      return;
+    }
+
+    logger.info(`versions changed: ${changeVersions.join(", ")}`);
+
+    for (const release of changeVersions) {
+      const diffs = changedFiles[release];
+
+      logger.info(
+        `publishing diffs for release ${release} (#${diffs.added.length} added, #${diffs.removed.length} removed, #${diffs.modified.length} modified)`
+      );
+
+      await pubSubClient.publish("update", JSON.stringify({ release, diffs }));
+    }
+
+    process.exitCode = 0;
+  } finally {
+    // be nice and close connections
+    await Promise.allSettled([client.quit(), pubSubClient.quit()]);
   }
-
-  logger.info(`versions changed: ${changeVersions.join(", ")}`);
-
-  for (const release in changedFiles) {
-    const diffs = changedFiles[release];
-
-    logger.info(
-      `publishing diffs for release ${release} (#${diffs.added.length} added, #${diffs.removed.length} removed, #${diffs.modified.length} modified)`
-    );
-
-    await pubSubClient.publish("update", JSON.stringify({ release, diffs }));
-  }
-
-  process.exit(0);
 }
 
-if (process.env.REDIS_URL)
+if (process.env.REDIS_URL) {
   run().catch((err) => {
     logger.error(err);
-    process.exit(-1);
+    process.exit(1);
   });
-else {
+} else {
   logger.error("No Redis URL provided");
-  process.exit(-1);
+  process.exit(1);
 }
