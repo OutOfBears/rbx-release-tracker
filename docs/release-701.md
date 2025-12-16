@@ -6,8 +6,8 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Added memory tracking stats for SLIM. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves performance of `Class.Instance:GetChildren()` by 30-65%. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves property access performance in Luau `--!native` code for `Vector2`, `CFrame`, `RaycastResult`, `UDim`, `Color3`, and `NumberRange` type values when locals are properly type-annotated. This can make property access performance up to 20x faster. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, generic user-defined type functions now infer types more consistently. Previously, constraints involving generic UDTFs could be incorrectly forced, causing type inference to give inconsistent results. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves property access performance in Luau `--!native` code for `Vector2`, `CFrame`, `RaycastResult`, `UDim`, `Color3`, and `NumberRange` type values when locals are properly type-annotated. This can make property access performance up to 20x faster. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `math.isnan`, `math.isinf` and `math.isfinite` functions based on the Luau [math.isnan, math.isinf and math.isfinite for Math Library](https://rfcs.luau.org/math-isnan-isfinite-isinf.html) RFC. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the default `ScriptEditor` font to Builder Mono. Font size is now 12 for MacOS. |
 ## Fixes

@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Allows for nested pseudo instances such as `::UIStroke::UIGradient`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds new thumbstick directional keycodes to be used for direction separation in the Input Action System."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Luau's New Type Solver: Improves inference speed for some math heavy code."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows for nested pseudo instances such as `::UIStroke::UIGradient`."
     },
     {
         "status": "Pending",

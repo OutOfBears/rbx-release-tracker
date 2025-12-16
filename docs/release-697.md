@@ -4,6 +4,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Allows for nested pseudo instances such as `::UIStroke::UIGradient`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds new thumbstick directional keycodes to be used for direction separation in the Input Action System. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an `Class.Instance.QueryDescendants` method which allows descendant lookup using a query selector string, similar to selectors in UI styling. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds several capabilities to the `SecurityCapabilities` enum. These new values only describe engine API access control; they aren't available to use for Sandboxed instances. |
@@ -11,7 +12,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a guard to prevent script analysis from causing Roblox Studio to crash. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Improves non-strict type checking performance for large function calls and function definitions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Improves inference speed for some math heavy code. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows for nested pseudo instances such as `::UIStroke::UIGradient`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for emissive maps in `Class.SurfaceAppearance`, `Class.MaterialVariant`, and `Class.TerrainDetail`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | PS4: Updates the Strength in Numbers trophy text to "You followed a Roblox connection into a Roblox experience!". |
 ## Fixes
