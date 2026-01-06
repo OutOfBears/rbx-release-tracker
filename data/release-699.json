@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, `Global.LuaGlobals.getmetatable()`now works on refined instances of an `any` type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Changes the source of \"Ping\" in the Performance Stats UI to match `Class.Player:GetNetworkPing()`, which better represents current network conditions."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes `Rx` \"Batch Data\" network events not expanding properly in the Microprofiler (`Tx` still not supported)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, `Global.LuaGlobals.getmetatable()`now works on refined instances of an `any` type."
     },
     {
         "status": "Pending",

@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the new Luau type solver, fix an instance where refining a variable with the type `any` would cause it to become `unknown` instead."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "The MicroProfiler's bottom-right line graph is now synchronized with the main profiler view. Your selected frame range is now highlighted in green on this graph, and you can left-click anywhere on it to instantly re-center the main profiler to that specific frame, making it much faster to find and inspect performance spikes."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the new Luau type solver, resolve more instances of type checking becoming unresponsive."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the new Luau type solver, fix an instance where refining a variable with the type `any` would cause it to become `unknown` instead."
     },
     {
         "status": "Pending",

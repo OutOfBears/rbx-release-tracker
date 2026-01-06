@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "New Type Solver: String singletons in tables are now more consistently inferred when singletons are in the indexer."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes incorrect coloring of SLIM models."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "New Type Solver: Fixes assert refinements for top table types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "New Type Solver: String singletons in tables are now more consistently inferred when singletons are in the indexer."
     },
     {
         "status": "Pending",
