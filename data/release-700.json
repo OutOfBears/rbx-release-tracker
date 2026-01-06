@@ -22,6 +22,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes a bug where `Class.EncodingService:Base64Decode()` allowed malformed data to be successfully decoded with no error."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds `Class.GroupService:PromptJoinAsync()` to prompt a player to join a community in-experience."
     },
     {
@@ -57,12 +62,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes a bug where `Class.EncodingService:Base64Decode()` allowed malformed data to be successfully decoded with no error."
+        "content": "Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an autocomplete issue where anonymous functions with generic types were incorrectly suggested as arguments to higher-order functions."
     },
     {
         "status": "Live",
@@ -97,12 +102,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes Explorer not working with debugger if a breakpoint hit on startup."
+        "content": "Fixes incorrect autocomplete suggestions for manually renamed services in require-by-string paths."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an autocomplete issue where anonymous functions with generic types were incorrectly suggested as arguments to higher-order functions."
+        "content": "Fixes Explorer not working with debugger if a breakpoint hit on startup."
     },
     {
         "status": "Pending",
@@ -128,10 +133,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes incorrect autocomplete suggestions for manually renamed services in require-by-string paths."
     }
 ]
