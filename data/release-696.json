@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Reduces `memory_aps` (allocations per second) for `gui/TextLayout`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "`Class.Handles` and `Class.ArcHandles` now work correctly with Cylinder parts that have different X/Y sizes."
     },
     {
@@ -78,10 +83,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash when setting `Class.UIGridLayout.CellSize|CellSize` to zero."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Reduces `memory_aps` (allocations per second) for `gui/TextLayout`."
     }
 ]

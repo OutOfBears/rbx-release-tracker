@@ -7,7 +7,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, resolve a potential crash when using type instantiation expressions."
+        "content": "Luau's New Type Solver: Updates the behavior of type functions to not signal an irreducible error when there's already a more specific error from the type function."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Resolves a potential crash when using type instantiation expressions."
     },
     {
         "status": "Live",
@@ -22,17 +27,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, overload resolution is now slightly more principled during type inference. Prior we would attempt to unify arguments with all of the possible overloads, which would often select an overload at random."
+        "content": "Luau's New Type Solver: Overload resolution is now slightly more principled during type inference. Previously would attempt to unify arguments with all of the possible overloads, which would often select an overload at random."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds Touch as a KeyCode for the Input Action System"
+        "content": "Adds `Touch` as a KeyCode for the Input Action System"
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Studio: Added AlphaMode to MaterialVariants and added Opaque mode to AlphaMode field."
+        "content": "Studio: Adds `AlphaMode` to MaterialVariants and adds `Opaque` mode to `AlphaMode` field."
     },
     {
         "status": "Pending",
@@ -57,17 +62,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the Luau New Type Solver, indexing into a table with an indexer who's keys are string singletons will now infer the indexer result type."
+        "content": "Luau's New Type Solver: Indexing into a table with an indexer who's keys are string singletons will now infer the indexer result type."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau autocomplete will now show string singleton keys when indexing into tables with a name expression, as in `A.B`"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, updates the behavior of type functions to not signal an irreducible error when there's already a more specific error from the type function."
     },
     {
         "status": "Pending",
@@ -82,17 +82,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, the error message associated with indexing into a union where a member is not a table is now slightly more informative."
+        "content": "Luau's New Type Solver: Improves error message associated with indexing into a union where a member is not a table."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Optimized the animation system for large articulated rigs."
+        "content": "Optimizes the animation system for large articulated rigs."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixed a bug where players would push each other off moving platforms even when their collision groups are set not to collide."
+        "content": "Fixes a bug where players would push each other off moving platforms even when their collision groups are set not to collide."
     },
     {
         "status": "Live",
@@ -102,7 +102,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix an issue with particles looking washed out on avatar thumbnails (such as from the Periastron gear series)."
+        "content": "Fixes particles looking washed out on avatar thumbnails (such as from the Periastron gear series)."
     },
     {
         "status": "Pending",
@@ -112,47 +112,47 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds memory tracking log throttling to help avoid negative performance impact from ill-formed memory checks in game code loops."
+        "content": "Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in game code loops."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix flakiness in AudioSpeechToText instantiation."
+        "content": "Fixes flakiness in `AudioSpeechToText` instantiation."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Meshes with corrupted collision data can no longer have arbitrarily large ExtentsSize. ExtentsSize is now clamped to 2048 studs in all directions."
+        "content": "Meshes with corrupted collision data can no longer have arbitrarily large `ExtentsSize`. `ExtentsSize` is now clamped to 2048 studs in all directions."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix staggered particle emission in continuous particle streams."
+        "content": "Fixes staggered particle emission in continuous particle streams."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed Smoothing Angle not functioning in Studio."
+        "content": "Fixes Smoothing Angle not functioning in Studio."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In the New Luau Type Solver, refinements against types no longer cause spurious errors in nonstrict mode, such as being unable to pass a refined `string` to string library methods"
+        "content": "Luau's New Type Solver: refinements against types no longer cause spurious errors in nonstrict mode, such as being unable to pass a refined `string` to string library methods"
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed an issue where text in Microprofiler and performance windows could take a long time to appear."
+        "content": "Fixes an issue where text in Microprofiler and performance windows could take a long time to appear."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix a crash when importing a 3D model with missing files or broken content while enrolled in emissive maps Studio beta."
+        "content": "Emissive maps beta: Fixes a crash when importing a 3D model with missing files or broken content."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In the New Luau Type Solver, fix hangs that could occur when trying to infer exceptionally large intersection types."
+        "content": "Luau's New Type Solver: Fixes hangs that could occur when trying to infer exceptionally large intersection types."
     },
     {
         "status": "Pending",

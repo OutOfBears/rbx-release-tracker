@@ -32,6 +32,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adjust script analysis warnings and type hover from Luau to refer to the top type of foreign function types (e.g. from the Roblox API) as `userdata`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In the New Luau Type solver, resolve a regression where passing a string literal to a function accepting a generic and a string singleton would not force said literal to be a singleton type."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Update the styling of toast notifications in Studio to align with the Next Gen Studio Preview beta's styling."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adjust script analysis warnings and type hover from Luau to refer to the top type of foreign function types (e.g. from the Roblox API) as `userdata`."
     },
     {
         "status": "Live",
