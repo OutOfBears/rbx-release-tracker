@@ -7,11 +7,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Makes the 6db lowpass filter for `Class.AudioFilter` 25% faster. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a second argument to the `Class.Players.PlayerRemoving` signal to specify the exit reason for the removing player. For now, the specifications are coarse (`Enum.PlayerExitReason\|CreatorKick`, `Enum.PlayerExitReason\|PlatformKick`, `Enum.PlayerExitReason\|Unknown`) and may be expanded in the future. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes various `Class.VideoPlayer` auto-load issues. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes drag in on-screen MicroProfiler when using touch input. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Deprecates support for OpenGL ES 2.0 (legacy mobile graphics API). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the property `Class.Stats.MemoryTrackingEnabled`. This property checks the validity of the `Class.Stats:GetMemoryUsageMbForTag()` and `Class.Stats:GetMemoryUsageMbAllCategories()` methods, and the validity of the memory information in the **Memory** tab of the MicroProfiler and the Developer Console. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds preview for `Class.AudioPlayer.AudioContent`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes behavior of the sun to slowly fade in/out during sunrise/sunset. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes drag in on-screen MicroProfiler when using touch input. |
 ## Fixes
 
 | Status | Note |

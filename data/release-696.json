@@ -37,6 +37,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Allows `Class.Wire|Wires` to connect to `Class.AudioCompressor`’s Sidechain pin even when it creates a loop."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "MicroProfiler and Performance Panels now render using DPI-aware fonts and support multiple font sizes."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "New Type Solver: Fixes assert refinements for top table types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows `Class.Wire|Wires` to connect to `Class.AudioCompressor`’s Sidechain pin even when it creates a loop."
     },
     {
         "status": "Live",

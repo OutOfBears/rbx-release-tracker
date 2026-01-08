@@ -1,0 +1,177 @@
+[
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes issue with IAS registering mouse clicks on UI buttons and in menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Touch` as a KeyCode for the Input Action System"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Studio: Adds `AlphaMode` to MaterialVariants and adds `Opaque` mode to `AlphaMode` field."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates the phrasing on Luau's type mismatch errors to be both clearer, and more succinct."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Indexing into the result of the `setmetatable` type function is less likely to infer to `any`"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Fixes some instances of \"Type inference failed to complete\" when trying to infer the types of globals captured by multiple functions."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Luau type functions, the `unionof` and `intersectionof` functions will now flatten nested instances of their respective types. For example, `types.unionof(types.unionof(types.number, types.string), types.boolean)` will produce `number | string | boolean` as a single resultant union type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds autocomplete support for the built-in `@game` require alias."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds new `game.RunService` property so that developers no longer have to type out `game[\"Run Service\"]` or `game:GetService(\"RunService\")`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Adjusts generic instantiation to never select `never` or `unknown`, ensuring user always gets a useful type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Functions that accept nilable functions now have said types \"pushed\" into function literals."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "When printed as a value in a Luau table, the `SecurityCapabilities` enum now displays the represented security state as a string instead of a numeric value."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: function statements that are assigning a member to a predefined table type are now checked."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes a bug where passing too many arguments to certain functions would not be properly flagged as a Script Analysis warning."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds HashChecks line to debug Network - LR Metrics."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In Roblox Studio's Script Analysis Widget, errors within a module now sort numerically rather than lexically. For example, an error on line 67 will now be listed before an error on line 127."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates the save place dialog when closing a place with a new look, making it feel fresh and more modern!"
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where changing `Class.AudioFilter.FilterType` to `Lowpass6dB` while the filter is in-use caused it to become unstable."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Ensure microprofiler displays memory categories when memory tracking is enabled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed Explorer firing SelectionChanged more often than necessary"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Luau's New Type Solver: Fixes a bug where explicit type annotations on `for ... in` loop variables were not being respected."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes particles looking washed out on avatar thumbnails (such as from the Periastron gear series)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Mouse cursor no longer changes to a pointing hand icon when clicking on inactive `GuiButton`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where malicious actors could use badly formed active:// animation ids to print malicious strings in the console of connected players."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes animation bug where animations weren't loaded on some clients on late join in some context when streaming was on."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Executing remote events that are not attached to the DataModel will now not have an error message"
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in game code loops."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Meshes with corrupted collision data can no longer have arbitrarily large `ExtentsSize`. `ExtentsSize` is now clamped to 2048 studs in all directions."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in Luau's type system where type functions that returned types with generic type packs would sometimes cause Roblox Studio to crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Server Authority Studio Beta: immediate descendants of Workspace now will be properly automatically predicted."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Having an invalid Default Instances Dir will no longer cause Studio to crash on start under the User Provided Default Instances beta feature. This could happen if you had chosen a network drive which later became unavailable."
+    }
+]

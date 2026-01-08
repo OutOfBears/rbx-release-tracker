@@ -15,6 +15,11 @@
         "content": "Fixes various `Class.VideoPlayer` auto-load issues."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes drag in on-screen MicroProfiler when using touch input."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Deprecates support for OpenGL ES 2.0 (legacy mobile graphics API)."
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Changes behavior of the sun to slowly fade in/out during sunrise/sunset."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes drag in on-screen MicroProfiler when using touch input."
     },
     {
         "status": "Live",
