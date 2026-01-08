@@ -2,6 +2,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Overload resolution is now slightly more principled during type inference. Previously would attempt to unify arguments with all of the possible overloads, which would often select an overload at random."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`.\n\nFor example, if you have defined a function like:\n\n```\nlocal function array<T>(): {T}\nreturn {}\nend\n```\n\nYou can now call it with a specific type by calling `array<<number>>()` to get a result of the type `{number}`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Removes clipping/distortion from `Class.AudioListener` when `Class.AudioEmitter|AudioEmitters` are not creating feedback loops."
     },
     {
@@ -27,22 +37,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: Overload resolution is now slightly more principled during type inference. Previously would attempt to unify arguments with all of the possible overloads, which would often select an overload at random."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves performance by lowering the cost of `updateInstancedCluster2` when using SLIM."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces three-phase rollout for fixed simulation frequency."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`.\n\nFor example, if you have defined a function like:\n\n```\nlocal function array<T>(): {T}\nreturn {}\nend\n```\n\nYou can now call it with a specific type by calling `array<<number>>()` to get a result of the type `{number}`."
     },
     {
         "status": "Pending",
