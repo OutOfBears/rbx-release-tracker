@@ -40,6 +40,11 @@
         "content": "Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, `Library.table.isfrozen()` and `Library.table.clear()` functions should now more consistently accept unions of tables."
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Resolves issue of being unable to load `.rbxlx` files in some cases."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities."
     },
     {
         "status": "Live",

@@ -17,12 +17,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Touch` as a KeyCode for the Input Action System"
+        "content": "Adds `Touch` as a KeyCode for the Input Action System."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Studio: Adds `AlphaMode` to MaterialVariants and adds `Opaque` mode to `AlphaMode` field."
+        "content": "Adds `Class.MaterialVariants.AlphaMode` and the `Opaque` value to `Enum.AlphaMode`."
     },
     {
         "status": "Pending",
@@ -107,6 +107,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Luau's New Type Solver: Fixes a bug where explicit type annotations on `for ... in` loop variables were not being respected."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where changing `Class.AudioFilter.FilterType` to `Lowpass6dB` while the filter is in-use caused it to become unstable."
     },
     {
@@ -118,11 +123,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixed Explorer firing SelectionChanged more often than necessary"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: Fixes a bug where explicit type annotations on `for ... in` loop variables were not being respected."
     },
     {
         "status": "Pending",

@@ -57,12 +57,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixed a bug where decals would at times not update correctly."
+        "content": "Implements a \"sleep\" system for `Class.AudioEmitter|AudioEmitters` meaning that they use no CPU time when all of their inputs are silent."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Implements a \"sleep\" system for `Class.AudioEmitter|AudioEmitters` meaning that they use no CPU time when all of their inputs are silent."
+        "content": "Fix an issue that when inspecting the gui/fontdata memory category in the developer console, the client would crash."
     },
     {
         "status": "Live",
@@ -98,11 +98,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where the hardware mic indicator remained turned on despite the mic being muted."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fix an issue that when inspecting the gui/fontdata memory category in the developer console, the client would crash."
     },
     {
         "status": "Pending",

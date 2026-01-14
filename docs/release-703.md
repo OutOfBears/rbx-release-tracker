@@ -7,8 +7,8 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent\|MoonTextureContent`, `Class.Sky.SkyboxBackContent\|SkyboxBackContent`, `Class.Sky.SkyboxDownContent\|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent\|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent\|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent\|SkyboxRightContent`, `Class.Sky.SkyboxUpContent\|SkyboxUpContent`, and `Class.Sky.SunTextureContent\|SunTextureContent`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with IAS registering mouse clicks on UI buttons and in menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Touch` as a KeyCode for the Input Action System |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Studio: Adds `AlphaMode` to MaterialVariants and adds `Opaque` mode to `AlphaMode` field. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Touch` as a KeyCode for the Input Action System. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariants.AlphaMode` and the `Opaque` value to `Enum.AlphaMode`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the phrasing on Luau's type mismatch errors to be both clearer, and more succinct. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Indexing into the result of the `setmetatable` type function is less likely to infer to `any` |
@@ -29,10 +29,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Fixes a bug where explicit type annotations on `for ... in` loop variables were not being respected. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where changing `Class.AudioFilter.FilterType` to `Lowpass6dB` while the filter is in-use caused it to become unstable. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Ensure microprofiler displays memory categories when memory tracking is enabled. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed Explorer firing SelectionChanged more often than necessary |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes a bug where explicit type annotations on `for ... in` loop variables were not being respected. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes particles looking washed out on avatar thumbnails (such as from the Periastron gear series). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Mouse cursor no longer changes to a pointing hand icon when clicking on inactive `GuiButton`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where malicious actors could use badly formed active:// animation ids to print malicious strings in the console of connected players. |

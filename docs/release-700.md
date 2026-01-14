@@ -12,11 +12,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where `Class.EncodingService:Base64Decode()` allowed malformed data to be successfully decoded with no error. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Class.GroupService:PromptJoinAsync()` to prompt a player to join a community in-experience. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves Luau buffer handling speed in `Class.HttpService:JSONEncode()` by 20-70% and in `Class.HttpService:JSONDecode()` by 20-140%. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, `Library.table.isfrozen()` and `Library.table.clear()` functions should now more consistently accept unions of tables. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Creates new, separate 2500 requests/minute limit in `Class.HttpService` for Open Cloud requests. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, prevents a class of crashes during inference when dealing with exceptionally large types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Resolves issue of being unable to load `.rbxlx` files in some cases. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities. |
 ## Fixes
 
 | Status | Note |

@@ -27,6 +27,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau compiler will inline function calls with constant arguments more often if those constants considerably simplify the called method body (cause branches to be removed)."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau's New Type Solver: Resolves a potential crash when using type instantiation expressions."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau autocomplete will now show string singleton keys when indexing into tables with a name expression, as in `A.B`"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau compiler will inline function calls with constant arguments more often if those constants considerably simplify the called method body (cause branches to be removed)."
     },
     {
         "status": "Pending",
