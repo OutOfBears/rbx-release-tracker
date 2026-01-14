@@ -77,6 +77,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Class.UIScale` may sometimes not apply to some UI instances."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes bug where `Class.DataModel.Close` signals weren't being executed if using deferred signals."
     },
     {
@@ -113,11 +118,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes Explorer not working with debugger if a breakpoint hit on startup."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.UIScale` may sometimes not apply to some UI instances."
     },
     {
         "status": "Pending",

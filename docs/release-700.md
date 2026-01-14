@@ -23,6 +23,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an autocomplete issue where anonymous functions with generic types were incorrectly suggested as arguments to higher-order functions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Table `__tostring` metamethod will now be called for table keys in Output and other locations where a string representation is required. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Class.UIScale` may sometimes not apply to some UI instances. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug where `Class.DataModel.Close` signals weren't being executed if using deferred signals. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Changes `Class.SurfaceLight` to not make grass glow excessively when placed on large parts. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the return type of `Class.Teams:GetTeams()` to an array of `Class.Team` objects instead of generic `Class.Instance\|Instances`. |
@@ -31,7 +32,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where `Class.AudioEmitter\|AudioEmitters` and `Class.AudioListener\|AudioListeners` parented to `Class.Camera\|Cameras` would use their `CFrame` instead of their rendering-`CFrame`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes incorrect autocomplete suggestions for manually renamed services in require-by-string paths. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Explorer not working with debugger if a breakpoint hit on startup. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.UIScale` may sometimes not apply to some UI instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, changes the signature for `types.newtable` to allow optional parameters. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely). |

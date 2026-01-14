@@ -77,6 +77,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where, if a `Class.TextBox` receives focus and then gets parented to `nil`, its `Class.TextBox.Text|Text` property may be cleared, even if `Class.TextBox.ClearTextOnFocus` is `false`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Adds the flexibility to define `Class.ParticleEmitter` flipbook layouts without any limitations on texture size."
     },
     {
@@ -88,11 +93,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes buttons to open the Material Manager and Material Generator from the Material picker in the toolbar."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where, if a `Class.TextBox` receives focus and then gets parented to `nil`, its `Class.TextBox.Text|Text` property may be cleared, even if `Class.TextBox.ClearTextOnFocus` is `false`."
     },
     {
         "status": "Pending",

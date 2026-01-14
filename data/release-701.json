@@ -50,6 +50,11 @@
         "content": "Fixes a bug that caused `Axes.new` to fail to type check when valid arguments were passed in."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where creating or destroying a `HapticEffect` inside a non-deferred Lua signal could lead to a crash."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Improves the Acoustic Simulation feature's pathfinding in wide-open spaces."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where creating or destroying a `HapticEffect` inside a non-deferred Lua signal could lead to a crash."
     },
     {
         "status": "Pending",
