@@ -110,6 +110,11 @@
         "content": "Fixed Explorer firing SelectionChanged more often than necessary"
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Having an invalid Default Instances Dir will no longer cause Studio to crash on start under the User Provided Default Instances beta feature. This could happen if you had chosen a network drive which later became unavailable."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Mouse cursor no longer changes to a pointing hand icon when clicking on inactive `GuiButton`."
@@ -143,10 +148,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Server Authority Studio Beta: immediate descendants of Workspace now will be properly automatically predicted."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Having an invalid Default Instances Dir will no longer cause Studio to crash on start under the User Provided Default Instances beta feature. This could happen if you had chosen a network drive which later became unavailable."
     }
 ]

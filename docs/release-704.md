@@ -5,10 +5,10 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes the `reason` argument from the `NetworkClient.ConnectionFailed` event. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reimport now supports Decal instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Touch` as a KeyCode for the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariants.AlphaMode` and the `Opaque` value to `Enum.AlphaMode`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Making `Class.InputAction:GetState()` threadsafe soon. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | WrapTextureTransfer will change the internal algorithm for occluding parts of a mesh to better fit cages that do not cover the entire mesh. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics. |

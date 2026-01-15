@@ -5,6 +5,11 @@
         "content": "Removes the `reason` argument from the `NetworkClient.ConnectionFailed` event."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Reimport now supports Decal instances."
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.MaterialVariants.AlphaMode` and the `Opaque` value to `Enum.AlphaMode`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
     },
     {
         "status": "Pending",
