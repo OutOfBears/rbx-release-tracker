@@ -24,7 +24,6 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where players would push each other off moving platforms even when their collision groups are set not to collide. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling for some skinned meshes. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds mouse support to iPadOS. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes flakiness in `AudioSpeechToText` instantiation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes staggered particle emission in continuous particle streams. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Smoothing Angle not functioning in Studio. |

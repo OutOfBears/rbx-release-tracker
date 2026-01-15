@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds new `game.RunService` property so that developers no longer have to type out `game[\"Run Service\"]` or `game:GetService(\"RunService\")`."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
@@ -13,21 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Touch` as a KeyCode for the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.MaterialVariants.AlphaMode` and the `Opaque` value to `Enum.AlphaMode`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Vector3Scale` to individually scale composite directions for `InputActions` with a `Direction3D` action type."
     },
     {
         "status": "Pending",
@@ -53,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds autocomplete support for the built-in `@game` require alias."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds new `game.RunService` property so that developers no longer have to type out `game[\"Run Service\"]` or `game:GetService(\"RunService\")`."
     },
     {
         "status": "Pending",
@@ -127,11 +112,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes particles looking washed out on avatar thumbnails (such as from the Periastron gear series)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Mouse cursor no longer changes to a pointing hand icon when clicking on inactive `GuiButton`."
     },
     {
@@ -148,11 +128,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Executing remote events that are not attached to the DataModel will now not have an error message"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in game code loops."
     },
     {
         "status": "Pending",

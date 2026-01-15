@@ -82,11 +82,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes flakiness in `AudioSpeechToText` instantiation."
     },
     {

@@ -7,8 +7,8 @@
 
 ## Quick Links
 
-- **[Jump to Current Version](/docs/release-703.md)**
-- **[Current Version JSON](/data/release-703.json)**
+- **[Jump to Current Version](/docs/release-704.md)**
+- **[Current Version JSON](/data/release-704.json)**
 
 ## Overview
 
