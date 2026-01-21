@@ -97,6 +97,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In Luau's New Type Solver, changes the signature for `types.newtable` to allow optional parameters."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where `Class.UIStroke` line join mode is not respected when the `Class.GuiObject` has rounded corners."
     },
     {
@@ -123,11 +128,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In Luau's New Type Solver, changes the signature for `types.newtable` to allow optional parameters."
     },
     {
         "status": "Pending",

@@ -2,6 +2,21 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Updates the phrasing on Luau's type mismatch errors to be both clearer, and more succinct."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau type functions, the `unionof` and `intersectionof` functions will now flatten nested instances of their respective types. For example, `types.unionof(types.unionof(types.number, types.string), types.boolean)` will produce `number | string | boolean` as a single resultant union type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds autocomplete support for the built-in `@game` require alias."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds new `game.RunService` property so that developers no longer have to type out `game[\"Run Service\"]` or `game:GetService(\"RunService\")`."
     },
     {
@@ -22,27 +37,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates the phrasing on Luau's type mismatch errors to be both clearer, and more succinct."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Luau's New Type Solver: Indexing into the result of the `setmetatable` type function is less likely to infer to `any`"
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau's New Type Solver: Fixes some instances of \"Type inference failed to complete\" when trying to infer the types of globals captured by multiple functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau type functions, the `unionof` and `intersectionof` functions will now flatten nested instances of their respective types. For example, `types.unionof(types.unionof(types.number, types.string), types.boolean)` will produce `number | string | boolean` as a single resultant union type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds autocomplete support for the built-in `@game` require alias."
     },
     {
         "status": "Pending",
@@ -97,6 +97,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug in Luau's type system where type functions that returned types with generic type packs would sometimes cause Roblox Studio to crash."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where changing `Class.AudioFilter.FilterType` to `Lowpass6dB` while the filter is in-use caused it to become unstable."
     },
     {
@@ -138,11 +143,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Meshes with corrupted collision data can no longer have arbitrarily large `ExtentsSize`. `ExtentsSize` is now clamped to 2048 studs in all directions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in Luau's type system where type functions that returned types with generic type packs would sometimes cause Roblox Studio to crash."
     },
     {
         "status": "Pending",

@@ -32,6 +32,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes Studio bug with `Datatype.Content` formatting in the Explorer."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves performance of `Class.Instance` return by 30% with extra improvements for `Class.Instance:GetDescendants()` and `Class.Instance:QueryDescendants()` where large arrays are returned."
     },
     {
@@ -70,11 +75,6 @@
         "content": "Adds the `Class.GenerationService:GenerateModelAsync()` function to `Class.GenerationService`."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes Studio bug with `Datatype.Content` formatting in the Explorer."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where, if a `Class.TextBox` receives focus and then gets parented to `nil`, its `Class.TextBox.Text|Text` property may be cleared, even if `Class.TextBox.ClearTextOnFocus` is `false`."
@@ -82,7 +82,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where Luau's type system would lose track of some components of an intersection type when using `Library.table.clone()`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Adds the flexibility to define `Class.ParticleEmitter` flipbook layouts without any limitations on texture size."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug in Luau's type checking where `Library.table.clone()` would sometimes erroneously error when provided a value from a returning function."
     },
     {
         "status": "Live",
@@ -102,17 +112,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug where Luau's type system would lose track of some components of an intersection type when using `Library.table.clone()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a crash when exporting OBJs with emissive maps beta enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in Luau's type checking where `Library.table.clone()` would sometimes erroneously error when provided a value from a returning function."
     },
     {
         "status": "Pending",
