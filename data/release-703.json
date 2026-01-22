@@ -27,11 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes issue with IAS registering mouse clicks on UI buttons and in menu."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd."
     },
     {
@@ -73,11 +68,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds HashChecks line to debug Network - LR Metrics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out."
     },
     {
         "status": "Pending",

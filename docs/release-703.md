@@ -9,7 +9,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds autocomplete support for the built-in `@game` require alias. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds new `game.RunService` property so that developers no longer have to type out `game["Run Service"]` or `game:GetService("RunService")`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent\|MoonTextureContent`, `Class.Sky.SkyboxBackContent\|SkyboxBackContent`, `Class.Sky.SkyboxDownContent\|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent\|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent\|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent\|SkyboxRightContent`, `Class.Sky.SkyboxUpContent\|SkyboxUpContent`, and `Class.Sky.SunTextureContent\|SunTextureContent`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with IAS registering mouse clicks on UI buttons and in menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Indexing into the result of the `setmetatable` type function is less likely to infer to `any` |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: Fixes some instances of "Type inference failed to complete" when trying to infer the types of globals captured by multiple functions. |
@@ -19,7 +18,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: function statements that are assigning a member to a predefined table type are now checked. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where passing too many arguments to certain functions would not be properly flagged as a Script Analysis warning. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds HashChecks line to debug Network - LR Metrics. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Roblox Studio's Script Analysis Widget, errors within a module now sort numerically rather than lexically. For example, an error on line 67 will now be listed before an error on line 127. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the save place dialog when closing a place with a new look, making it feel fresh and more modern! |
 ## Fixes
