@@ -21,6 +21,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where shadows did not respect the texture offsets on transparent materials. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | To mitigate network traffic, only updates that differ from the existing direction by a nontrivial amount are enacted for experiences where `Class.ControllerManager.FacingDirection\|FacingDirection`, `Class.ControllerManager.MovingDirection\|MovingDirection`, and `Class.ControllerManager.UpDirection\|UpDirection` are updated very frequently. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reduces the frame time spent updating `Class.AudioEmitter\|AudioEmitters` and `Class.AudioListener\|AudioListeners` when the "Acoustic Simulation" beta feature is enabled. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attempting to set breakpoints on a old script versions no longer leads to a crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where saved audio device selections were not restoring properly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.CompressorSoundEffect` issue that could cause it to produce invalid audio data |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare crash in `Class.AudioPlayer` when updating them in parallel. |

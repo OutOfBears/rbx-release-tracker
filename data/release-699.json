@@ -105,11 +105,6 @@
         "content": "Fixes buttons to open the Material Manager and Material Generator from the Material picker in the toolbar."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Re-adds missing \"down arrow\" icon in the Developer Console."
-    },
-    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Sets a limit on the number of nested deferred events that can be executed per-source in a single frame."
@@ -118,5 +113,10 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash when exporting OBJs with emissive maps beta enabled."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Re-adds missing \"down arrow\" icon in the Developer Console."
     }
 ]
