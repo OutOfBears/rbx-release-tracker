@@ -2,22 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Removes the `reason` argument from the `NetworkClient.ConnectionFailed` event."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds `Vector3Scale` to individually scale composite directions for `Class.InputAction|InputActions` of `Enum.InputActionType.Direction3D` action type."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Reimport now supports `Class.Decal` instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Touch` as a KeyCode for the Input Action System."
     },
     {
         "status": "Pending",
@@ -37,17 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, using a generic type pack as an annotation for a lambda will no longer cause said annotation to leak out of the function when called."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes a spurious strict mode script analysis warning that would pop up when calling `Datatype.UDim2.new()`."
     },
     {
         "status": "Pending",
@@ -58,21 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, inference of function calls with generic type packs should be more consistent."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds **Next-Gen Draggers** beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, the error \"Recursive type being used with different parameters\" is now more precise."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
     },
     {
         "status": "Pending",
@@ -92,27 +57,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in game code loops."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "When `Class.UITextSizeConstraint.MaxTextSize` is smaller than `Class.UITextSizeConstraint.MinTextSize|MinTextSize`, restricts text to that minimum instead of printing a warning."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash in the Script Editor caused by attempting to access a property in a read-only way on a table where the property is write-only."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In the New Luau Type Solver, fixes a class of performance issues related to processing exceptionally large type aliases."
     },
     {
         "status": "Pending",
@@ -127,22 +77,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes for a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some of the functionality of Studio being broken."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "In the New Luau Type Solver, subtyping between Roblox API types and table types now respect indexers. This fixes some recent reports of ambiguous overloads."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In the New Luau Type Solver, bidirectional inference of booleans is now more consistent, resulting in more singleton types of `true` and `false` when appropriate."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where the input audio device selection gets reset between play sessions."
     },
     {
         "status": "Pending",

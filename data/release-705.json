@@ -1,0 +1,207 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Binary size reduction, varies by platform."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Removes the `reason` argument from the `Class.NetworkClient.ConnectionFailed` event."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`print(meshPart.MeshContent)` will now include the `Datatype.Content` source type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves support for importing an emissive map from `.fbx` files."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates hover types to be less verbose."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Type functions will no longer allow you to attempt to mutate top-level type aliases. This was never possible but you could previously write code that, confusingly, looked like it would do so. This will now raise an error."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes a spurious strict mode script analysis warning that would pop up when calling `Datatype.UDim2.new()`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Ensures that moving/rotating/scaling parts in Studio still works as expected with the next-gen design and draggers."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, the error \"Recursive type being used with different parameters\" is now more precise."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, hover type will now be more accurate with respect to overloaded functions that can take type packs."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves error message around `Class.AnimationTrack` limit being reached."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds <kbd>I</kbd> as a hotkey to zoom in."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes the Input Action System `Enum.InputActionType.Direction3D` forward/backward to use right-handed coordinate system."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, Roblox types will now participate in bidirectional inference of function statements."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Logpoints are no longer ignored in non-yieldable code."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Attempting to set breakpoints on old script versions no longer leads to a crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Setting accessories on a `Class.Humanoid` with an `Class.AccessoryDescription` will no longer use `Class.AccessoryDescription.IsLayered|IsLayered` set in the accessory data, and instead will rely on a `Class.WrapLayer` existing under the `Handle`. This fixes a bug where `Class.AccessoryDescription.IsLayered|IsLayered` should not be considered while setting."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds mouse support to iPadOS."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in code loops."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes dialog choices sometimes not showing up on Windows laptops with touch screen."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a case where script analysis was not properly suppressing type errors between values of type \"any.\""
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, `Library.table.freeze()` now accepts `any` as an argument."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, fixes a class of performance issues related to processing exceptionally large type aliases."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some functionality of Studio being broken."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, bidirectional inference of booleans is now more consistent, resulting in more singleton types of `true` and `false` when appropriate."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where the input audio device selection gets reset between play sessions."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, refinements of unions of table members no longer erroneously simplify to a table with a union."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where calling `Class.AudioPlayer:GetWaveformAsync()` on a compressed in-memory asset could cause the playback to skip-ahead or rewind."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an exploit that allowed users to send their position updates to the server, but block forwarding to other players."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug that caused Luau's New Type Solver to mistakenly report missing optional properties as type mismatch errors."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a hypothetical vulnerability in physics data forwarding from server to clients."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Generic type parameters now show in Studio's hover tooltips."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Dragging objects from the **Toolbox** into the 3D viewport should no longer disrupt the position of an object you already had selected when starting the drag."
+    }
+]
