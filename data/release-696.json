@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes an issue in the Properties Panel where instance properties that shared a name with pseudo-instance properties were marked as **Influenced by** the StyleRules selecting the pseudo-instance."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "`Global.LuaGlobals.rawget()` now returns `nil` when the queried key isn't present."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.WrapDeformer|WrapDeformers` can now attach under layered clothing meshes (for example, `Class.MeshPart|MeshParts` that have `Class.WrapLayer` children instead of just `Class.WrapTarget` children). The difference between the `Class.WrapDeformer` cage and the `Class.WrapLayer` outer cage will deform the mesh before any layered clothing fitting. Layered clothing `Class.MeshPart|MeshParts` deformed through the `Class.WrapDeformer` can be published just like deformed body-part `Class.MeshPart|MeshParts`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue in the Properties Panel where instance properties that shared a name with pseudo-instance properties were marked as **Influenced by** the StyleRules selecting the pseudo-instance."
     },
     {
         "status": "Live",

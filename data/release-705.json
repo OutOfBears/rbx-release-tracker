@@ -57,11 +57,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Ensures that moving/rotating/scaling parts in Studio still works as expected with the next-gen design and draggers."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, the error \"Recursive type being used with different parameters\" is now more precise."
     },
     {
@@ -108,6 +103,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, Roblox types will now participate in bidirectional inference of function statements."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where the input audio device selection gets reset between play sessions."
     },
     {
         "status": "Live",
@@ -163,11 +163,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, bidirectional inference of booleans is now more consistent, resulting in more singleton types of `true` and `false` when appropriate."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where the input audio device selection gets reset between play sessions."
     },
     {
         "status": "Pending",

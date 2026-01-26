@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates the phrasing on Luau's type mismatch errors to be both clearer, and more succinct."
     },
     {
@@ -20,14 +25,14 @@
         "content": "Adds new `game.RunService` property so that developers no longer have to type out `game[\"Run Service\"]` or `game:GetService(\"RunService\")`."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
+        "content": "When printed as a value in a Luau table, the `SecurityCapabilities` enum now displays the represented security state as a string instead of a numeric value."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds KeyCode properties PrimaryModifier and SecondaryModifier on InputBindings to trigger an action only when the modifier keys are presesd."
+        "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
     },
     {
         "status": "Pending",
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau's New Type Solver: Functions that accept nilable functions now have said types \"pushed\" into function literals."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When printed as a value in a Luau table, the `SecurityCapabilities` enum now displays the represented security state as a string instead of a numeric value."
     },
     {
         "status": "Pending",
@@ -102,6 +102,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Server Authority Studio Beta: immediate descendants of Workspace now will be properly automatically predicted."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixed Explorer firing SelectionChanged more often than necessary"
     },
     {
@@ -133,10 +138,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Meshes with corrupted collision data can no longer have arbitrarily large `ExtentsSize`. `ExtentsSize` is now clamped to 2048 studs in all directions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Server Authority Studio Beta: immediate descendants of Workspace now will be properly automatically predicted."
     }
 ]
