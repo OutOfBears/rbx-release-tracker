@@ -82,7 +82,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Add a type alias for `Class.HumanoidDescription:SetAccessories()` and `Class.HumanoidDescription:GetAccessories()|GetAccessories()` to enable better autocomplete."
+        "content": "Adds a type alias for `Class.HumanoidDescription:SetAccessories()|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()|GetAccessories()` to enable better autocomplete."
     },
     {
         "status": "Pending",

@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves error message around `Class.AnimationTrack` limit being reached."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
     },
     {
@@ -67,12 +72,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, hover type will now be more accurate with respect to overloaded functions that can take type packs."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves error message around `Class.AnimationTrack` limit being reached."
+        "content": "In the New Luau Type Solver, hover type are now more accurate with respect to overloaded functions that can take type packs."
     },
     {
         "status": "Pending",
@@ -107,11 +107,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "In the New Luau Type Solver, Roblox types will now participate in bidirectional inference of function statements."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes an issue where the input audio device selection gets reset between play sessions."
     },
     {
@@ -127,7 +122,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Setting accessories on a `Class.Humanoid` with an `Class.AccessoryDescription` will no longer use `Class.AccessoryDescription.IsLayered|IsLayered` set in the accessory data, and instead will rely on a `Class.WrapLayer` existing under the `Handle`. This fixes a bug where `Class.AccessoryDescription.IsLayered|IsLayered` should not be considered while setting."
+        "content": "Setting accessories on a `Class.Humanoid` with an `Class.AccessoryDescription` no longer uses `Class.AccessoryDescription.IsLayered|IsLayered` set in the accessory data, and instead relies on a `Class.WrapLayer` existing under the `Handle`. This fixes a bug where `Class.AccessoryDescription.IsLayered|IsLayered` should not be considered while setting."
     },
     {
         "status": "Pending",
@@ -158,6 +153,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes a class of performance issues related to processing exceptionally large type aliases."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, Roblox types will now participate in bidirectional inference of function statements."
     },
     {
         "status": "Pending",

@@ -24,5 +24,5 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where loading an empty plugin into Studio could cause a crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes particles looking washed out on avatar thumbnails. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When `Class.UITextSizeConstraint.MaxTextSize` is smaller than `Class.UITextSizeConstraint.MinTextSize\|MinTextSize`, restricts text to that minimum instead of printing a warning. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Add a type alias for `Class.HumanoidDescription:SetAccessories()` and `Class.HumanoidDescription:GetAccessories()\|GetAccessories()` to enable better autocomplete. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a type alias for `Class.HumanoidDescription:SetAccessories()\|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()\|GetAccessories()` to enable better autocomplete. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, subtyping between Roblox API types and table types now respect indexers. This fixes some recent reports of ambiguous overloads. |
