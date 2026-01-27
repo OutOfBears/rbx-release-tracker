@@ -28,6 +28,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes the Input Action System `Enum.InputActionType.Direction3D` forward/backward to use right-handed coordinate system. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some functionality of Studio being broken. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, Roblox types will now participate in bidirectional inference of function statements. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the input audio device selection gets reset between play sessions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Logpoints are no longer ignored in non-yieldable code. |
@@ -39,7 +40,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where script analysis was not properly suppressing type errors between values of type "any." |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, `Library.table.freeze()` now accepts `any` as an argument. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a class of performance issues related to processing exceptionally large type aliases. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some functionality of Studio being broken. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, bidirectional inference of booleans is now more consistent, resulting in more singleton types of `true` and `false` when appropriate. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, refinements of unions of table members no longer erroneously simplify to a table with a union. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where calling `Class.AudioPlayer:GetWaveformAsync()` on a compressed in-memory asset could cause the playback to skip-ahead or rewind. |

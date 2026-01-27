@@ -52,7 +52,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue with the **Acoustic Simulation** beta feature causing all audio to fall silent when huge values were passed into pathfinding calculations."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a case where script analysis would warn on assignments to `Class.Instance.Parent` in strict mode."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes for a crash occurring in the **Server Authority Core API** Studio beta."
     },
     {
         "status": "Live",
@@ -77,16 +87,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue with the **Acoustic Simulation** beta feature causing all audio to fall silent when huge values were passed into pathfinding calculations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "In the New Luau Type Solver, subtyping between Roblox API types and table types now respect indexers. This fixes some recent reports of ambiguous overloads."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes for a crash occurring in the **Server Authority Core API** Studio beta."
     }
 ]
