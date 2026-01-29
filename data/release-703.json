@@ -30,6 +30,11 @@
         "content": "When printed as a value in a Luau table, the `SecurityCapabilities` enum now displays the represented security state as a string instead of a numeric value."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes a bug where passing too many arguments to certain functions would not be properly flagged as a Script Analysis warning."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau's New Type Solver: function statements that are assigning a member to a predefined table type are now checked."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes a bug where passing too many arguments to certain functions would not be properly flagged as a Script Analysis warning."
     },
     {
         "status": "Pending",

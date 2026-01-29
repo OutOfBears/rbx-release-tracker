@@ -112,6 +112,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an exploit that allowed users to send their position updates to the server, but block forwarding to other players."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a hypothetical vulnerability in physics data forwarding from server to clients."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Logpoints are no longer ignored in non-yieldable code."
     },
     {
@@ -177,17 +187,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an exploit that allowed users to send their position updates to the server, but block forwarding to other players."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a bug that caused Luau's New Type Solver to mistakenly report missing optional properties as type mismatch errors."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a hypothetical vulnerability in physics data forwarding from server to clients."
     },
     {
         "status": "Pending",
