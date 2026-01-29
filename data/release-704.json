@@ -2,12 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds `Vector3Scale` to individually scale composite directions for `Class.InputAction|InputActions` of `Enum.InputActionType.Direction3D` action type."
+        "content": "Reimport now supports `Class.Decal` instances."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Reimport now supports `Class.Decal` instances."
+        "content": "Adds `Vector3Scale` to individually scale composite directions for `Class.InputAction|InputActions` of `Enum.InputActionType.Direction3D` action type."
     },
     {
         "status": "Pending",
@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Adds a type alias for `Class.HumanoidDescription:SetAccessories()|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()|GetAccessories()` to enable better autocomplete."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with the **Acoustic Simulation** beta feature causing all audio to fall silent when huge values were passed into pathfinding calculations."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "When `Class.UITextSizeConstraint.MaxTextSize` is smaller than `Class.UITextSizeConstraint.MinTextSize|MinTextSize`, restricts text to that minimum instead of printing a warning."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds a type alias for `Class.HumanoidDescription:SetAccessories()|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()|GetAccessories()` to enable better autocomplete."
     },
     {
         "status": "Pending",

@@ -12,11 +12,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Improves error message around `Class.AnimationTrack` limit being reached."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
     },
     {
@@ -28,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
     },
     {
         "status": "Pending",
@@ -57,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes a spurious strict mode script analysis warning that would pop up when calling `Datatype.UDim2.new()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, the error \"Recursive type being used with different parameters\" is now more precise."
     },
     {
@@ -72,22 +57,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, hover type are now more accurate with respect to overloaded functions that can take type packs."
+        "content": "In Luau's New Type Solver, hover types are now more accurate with respect to overloaded functions that can take type packs."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out."
     },
     {
         "status": "Pending",
@@ -117,32 +92,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes a hypothetical vulnerability in physics data forwarding from server to clients."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Logpoints are no longer ignored in non-yieldable code."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Attempting to set breakpoints on old script versions no longer leads to a crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Setting accessories on a `Class.Humanoid` with an `Class.AccessoryDescription` no longer uses `Class.AccessoryDescription.IsLayered|IsLayered` set in the accessory data, and instead relies on a `Class.WrapLayer` existing under the `Handle`. This fixes a bug where `Class.AccessoryDescription.IsLayered|IsLayered` should not be considered while setting."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in code loops."
     },
     {
         "status": "Pending",
