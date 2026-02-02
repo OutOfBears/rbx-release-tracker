@@ -14,6 +14,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves performance of `Class.Instance` return by 30% with extra improvements for `Class.Instance:GetDescendants()` and `Class.Instance:QueryDescendants()` where large arrays are returned. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.Instance:QueryDescendants()` call with `[ClassName=name]` property match is now 2x faster. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Splits up the Microprofiler `Sound` scope into more meaningful phases of execution. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode MouseDelta to be used in the Input Action System as a transformed velocity under a Direction2D action type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AudioPlayer.AutoPlay`, allowing `Class.AudioPlayer\|AudioPlayers` to be played on startup automatically. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Rx` "Batch Data" network events not expanding properly in the Microprofiler (`Tx` still not supported). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.VideoSampler` object for getting image frames from a video content. |

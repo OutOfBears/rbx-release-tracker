@@ -52,6 +52,11 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Adds KeyCode MouseDelta to be used in the Input Action System as a transformed velocity under a Direction2D action type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Adds `Class.AudioPlayer.AutoPlay`, allowing `Class.AudioPlayer|AudioPlayers` to be played on startup automatically."
     },
     {

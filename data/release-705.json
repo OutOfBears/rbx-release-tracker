@@ -52,16 +52,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, hover types are now more accurate with respect to overloaded functions that can take type packs."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
     },
     {

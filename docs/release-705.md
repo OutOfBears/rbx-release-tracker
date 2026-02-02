@@ -14,8 +14,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates hover types to be less verbose. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Type functions will no longer allow you to attempt to mutate top-level type aliases. This was never possible but you could previously write code that, confusingly, looked like it would do so. This will now raise an error. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, the error "Recursive type being used with different parameters" is now more precise. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, hover types are now more accurate with respect to overloaded functions that can take type packs. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <kbd>I</kbd> as a hotkey to zoom in. |
 ## Fixes

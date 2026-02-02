@@ -18,7 +18,6 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash in the Script Editor caused by attempting to access a property in a read-only way on a table where the property is write-only. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a type alias for `Class.HumanoidDescription:SetAccessories()\|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()\|GetAccessories()` to enable better autocomplete. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with the **Acoustic Simulation** beta feature causing all audio to fall silent when huge values were passed into pathfinding calculations. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a case where script analysis would warn on assignments to `Class.Instance.Parent` in strict mode. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes for a crash occurring in the **Server Authority Core API** Studio beta. |

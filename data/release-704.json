@@ -52,11 +52,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Adds a type alias for `Class.HumanoidDescription:SetAccessories()|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()|GetAccessories()` to enable better autocomplete."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes an issue with the **Acoustic Simulation** beta feature causing all audio to fall silent when huge values were passed into pathfinding calculations."
     },
     {
