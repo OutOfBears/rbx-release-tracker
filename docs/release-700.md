@@ -35,3 +35,4 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Explorer not working with debugger if a breakpoint hit on startup. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely). |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The Move / Scale tools will now handle Snap to Parts correctly for primitive parts smaller than 0.05 studs, no longer leaving a gap. |

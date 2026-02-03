@@ -21,12 +21,12 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes the Input Action System `Enum.InputActionType.Direction3D` forward/backward to use right-handed coordinate system. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes dialog choices sometimes not showing up on Windows laptops with touch screen. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some functionality of Studio being broken. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the input audio device selection gets reset between play sessions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an exploit that allowed users to send their position updates to the server, but block forwarding to other players. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Logpoints are no longer ignored in non-yieldable code. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attempting to set breakpoints on old script versions no longer leads to a crash. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes dialog choices sometimes not showing up on Windows laptops with touch screen. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where script analysis was not properly suppressing type errors between values of type "any." |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, `Library.table.freeze()` now accepts `any` as an argument. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a class of performance issues related to processing exceptionally large type aliases. |

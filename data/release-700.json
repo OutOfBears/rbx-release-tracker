@@ -133,5 +133,10 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "The Move / Scale tools will now handle Snap to Parts correctly for primitive parts smaller than 0.05 studs, no longer leaving a gap."
     }
 ]
