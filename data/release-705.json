@@ -22,11 +22,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics."
     },
     {

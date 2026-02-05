@@ -62,11 +62,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Watch expressions are no longer cleared on place save."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes an issue where the drag events would receive the wrong position vector when `Class.ScreenGui.IgnoreGuiInset` is false."
     },
     {

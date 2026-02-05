@@ -127,11 +127,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "In Luau's New Type Solver, explicitly defined generic pack arguments are now respected (previously they were ignored entirely)."
     },
     {

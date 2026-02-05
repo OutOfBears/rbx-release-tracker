@@ -27,11 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, using a generic type pack as an annotation for a lambda will no longer cause said annotation to leak out of the function when called."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "On Windows, Roblox and Roblox Studio will now update any taskbar entries you might have, no longer requiring they be updated every week."
     },
     {

@@ -8,7 +8,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes the `reason` argument from the `Class.NetworkClient.ConnectionFailed` event. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an option for logging input to the Studio camera service to assist with debugging. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `print(meshPart.MeshContent)` will now include the `Datatype.Content` source type. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves support for importing an emissive map from `.fbx` files. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates hover types to be less verbose. |

@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Improves error message around `Class.AnimationTrack` limit being reached."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "In Luau's New Type Solver, adds \"subtyping driven unification:\". This uses the solver's understanding of subtyping to drive unification for some internal callsites and is a broad change that should result in more consistent inference."
     },
     {
@@ -17,52 +12,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes a spurious strict mode script analysis warning that would pop up when calling `Datatype.UDim2.new()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In Luau's New Type Solver, hover types are now more accurate with respect to overloaded functions that can take type packs."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes an issue in script debugging so that when a debugger break is hit, all other Luau threads immediately stop executing to keep the experience's state consistent. All threads resume normal execution when the debugger continues."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Replaces the legacy implementation of `Class.Sound|Sounds` with internal audio wiring API instances when the **Sound as a Shim** beta feature is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Updates the tag for embedder-provided types (like Roblox API types) in type functions from `class` to `extern`. You may need to make small revisions to type functions to not produce incorrect type errors if you were explicitly testing against this tag."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out."
     },
     {
         "status": "Pending",
@@ -90,19 +45,14 @@
         "content": "Fixes a hypothetical vulnerability in physics data forwarding from server to clients."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Humanoid health bar no longer renders \"negative\" health, which can be observed as a health bar that extends leftward."
+        "content": "Fixes invalid errors in the Luau typechecker when multiple user-defined type functions are defined and some of them were using type aliases."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Setting accessories on a `Class.Humanoid` with an `Class.AccessoryDescription` no longer uses `Class.AccessoryDescription.IsLayered|IsLayered` set in the accessory data, and instead relies on a `Class.WrapLayer` existing under the `Handle`. This fixes a bug where `Class.AccessoryDescription.IsLayered|IsLayered` should not be considered while setting."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
     },
     {
         "status": "Pending",
@@ -123,25 +73,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug that prevented autocomplete from displaying suggestions for require‑by‑string aliases like `@game` and `@self`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where disabling and re-enabling `Class.IKControl` with `Class.IKControl.Type|Type` of `Enum.IKControlType.LookAt` led to initial jitter on the part."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes invalid errors in the Luau typechecker when multiple user-defined type functions are defined and some of them were using type aliases."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes viewport issues when the **Device Emulator** is active."
     }
 ]

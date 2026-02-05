@@ -9,7 +9,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariant.AlphaMode` and the `Enum.AlphaMode\|Opaque` value to `Enum.AlphaMode`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Making `Class.InputAction:GetState()` threadsafe soon. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the algorithm for `Class.WrapTextureTransfer` for occluding parts of a mesh to better fit cages that do not cover the entire mesh. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, using a generic type pack as an annotation for a lambda will no longer cause said annotation to leak out of the function when called. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | On Windows, Roblox and Roblox Studio will now update any taskbar entries you might have, no longer requiring they be updated every week. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, inference of function calls with generic type packs should be more consistent. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`. This will allow you to, for example, instantiate a generic function named `array` with the type `<T>() -> {T}` by writing an expression like `array<<number>>()`. The resulting type would be `{number}` in this case. |
