@@ -2,7 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
+        "content": "Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window."
     },
     {
         "status": "Live",
@@ -17,17 +17,22 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Allow shared assets to be loaded to Editables"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under Direction action types."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Input Action System:  Touch keycode can now be used in InputBinding to trigger InputAction of type bool."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window."
     },
     {
         "status": "Pending",

@@ -10,6 +10,11 @@
         "content": "Add 18 new Capabilities for scripts & assigns additional classes to existing Capabilities."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves tab switching performance for the new Studio ribbon."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In Luau's New Type Solver, hover types are now more accurate with respect to overloaded functions that can take type packs."

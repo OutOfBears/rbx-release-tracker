@@ -4,12 +4,13 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves error message around `Class.AnimationTrack` limit being reached. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds tooltip descriptions to new Capability groups. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allow shared assets to be loaded to Editables |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under Direction action types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Input Action System:  Touch keycode can now be used in InputBinding to trigger InputAction of type bool. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.Touch` for the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | When a script running in a Sandboxed instance with `AccessOutsideWrite` capability attempts to re-parent something outside the isolated container, it no longer throws an error and will instead make child Sandboxed with the same capabilities. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, using a generic type pack as an annotation for a lambda will no longer cause said annotation to leak out of the function when called. |
