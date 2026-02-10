@@ -23,6 +23,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes dialog choices sometimes not showing up on Windows laptops with touch screen. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some functionality of Studio being broken. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the input audio device selection gets reset between play sessions. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where calling `Class.AudioPlayer:GetWaveformAsync()` on a compressed in-memory asset could cause the playback to skip-ahead or rewind. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an exploit that allowed users to send their position updates to the server, but block forwarding to other players. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Logpoints are no longer ignored in non-yieldable code. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Attempting to set breakpoints on old script versions no longer leads to a crash. |
@@ -32,7 +33,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, Roblox types will now participate in bidirectional inference of function statements. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, bidirectional inference of booleans is now more consistent, resulting in more singleton types of `true` and `false` when appropriate. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, refinements of unions of table members no longer erroneously simplify to a table with a union. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where calling `Class.AudioPlayer:GetWaveformAsync()` on a compressed in-memory asset could cause the playback to skip-ahead or rewind. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug that caused Luau's New Type Solver to mistakenly report missing optional properties as type mismatch errors. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Generic type parameters now show in Studio's hover tooltips. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Dragging objects from the **Toolbox** into the 3D viewport should no longer disrupt the position of an object you already had selected when starting the drag. |
