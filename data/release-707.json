@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds tooltip descriptions to new Capability groups."
     },
     {
@@ -27,7 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under Direction action types."
+        "content": "Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under the `Direction` action types."
     },
     {
         "status": "Pending",
@@ -72,11 +77,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Solid modeling now attempts to remove unnecessary geometry, reducing triangle counts in many cases."
     },
     {
@@ -107,7 +107,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Passing a server-accessible only `Object` (non-`Instance`) via `RemoteEvent` or `RemoteFunction` no longer throws an error; the client receives `Nil` for the corresponding argument."
+        "content": "Passing a server-accessible only `Object` (non-`Instance`) via a `Class.RemoteEvent` or `Class.RemoteFunction` no longer throws an error; the client receives `Nil` for the corresponding argument."
     },
     {
         "status": "Pending",
@@ -137,7 +137,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes regression where StarterCharacter `Humanoid.HipHeight` was overridden with negative values."
+        "content": "Fixes regression where StarterCharacter `Class.Humanoid.HipHeight` was overridden with negative values."
     },
     {
         "status": "Pending",

@@ -57,7 +57,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds KeyCode MouseDelta to be used in the Input Action System as a transformed velocity under a Direction2D action type."
+        "content": "Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type."
     },
     {
         "status": "Pending",

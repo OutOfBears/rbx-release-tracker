@@ -25,11 +25,6 @@
         "content": "Alphabetizes the list of Capabilities for scripts in the **Properties** window."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves tab switching performance for the new Studio ribbon."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes color gradients forming across triangles during solid modeling."

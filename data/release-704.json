@@ -10,6 +10,11 @@
         "content": "Adds `Vector3Scale` to individually scale composite directions for `Class.InputAction|InputActions` of `Enum.InputActionType.Direction3D` action type."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`. This will allow you to, for example, instantiate a generic function named `array` with the type `<T>() -> {T}` by writing an expression like `array<<number>>()`. The resulting type would be `{number}` in this case."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.MaterialVariant.AlphaMode` and the `Enum.AlphaMode|Opaque` value to `Enum.AlphaMode`."
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, inference of function calls with generic type packs should be more consistent."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`. This will allow you to, for example, instantiate a generic function named `array` with the type `<T>() -> {T}` by writing an expression like `array<<number>>()`. The resulting type would be `{number}` in this case."
     },
     {
         "status": "Live",

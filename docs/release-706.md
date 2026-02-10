@@ -9,7 +9,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, hover types are now more accurate with respect to overloaded functions that can take type packs. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the tag for embedder-provided types (like Roblox API types) in type functions from `class` to `extern`. You may need to make small revisions to type functions to not produce incorrect type errors if you were explicitly testing against this tag. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Alphabetizes the list of Capabilities for scripts in the **Properties** window. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves tab switching performance for the new Studio ribbon. |
 ## Fixes
 
 | Status | Note |
