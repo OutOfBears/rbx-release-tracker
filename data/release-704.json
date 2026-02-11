@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "When `Class.UITextSizeConstraint.MaxTextSize` is smaller than `Class.UITextSizeConstraint.MinTextSize|MinTextSize`, restricts text to that minimum instead of printing a warning."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a crash in the Script Editor caused by attempting to access a property in a read-only way on a table where the property is write-only."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes particles looking washed out on avatar thumbnails."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "When `Class.UITextSizeConstraint.MaxTextSize` is smaller than `Class.UITextSizeConstraint.MinTextSize|MinTextSize`, restricts text to that minimum instead of printing a warning."
     },
     {
         "status": "Pending",

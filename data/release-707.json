@@ -12,11 +12,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds tooltip descriptions to new Capability groups."
     },
     {
@@ -32,17 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under the `Direction` action types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Input Action System:  Touch keycode can now be used in InputBinding to trigger InputAction of type bool."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
     },
     {
         "status": "Pending",
@@ -58,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes a spurious strict mode script analysis warning that would pop up when calling `Datatype.UDim2.new()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
     },
     {
         "status": "Pending",
@@ -97,32 +77,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Humanoid health bar no longer renders \"negative\" health, which can be observed as a health bar that extends leftward."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Passing a server-accessible only `Object` (non-`Instance`) via a `Class.RemoteEvent` or `Class.RemoteFunction` no longer throws an error; the client receives `Nil` for the corresponding argument."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a division-by-zero error during wedge UV calculations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac."
     },
     {
         "status": "Pending",
@@ -133,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes potential false culling of parts and characters that are far from the origin."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes regression where StarterCharacter `Class.Humanoid.HipHeight` was overridden with negative values."
     },
     {
         "status": "Pending",

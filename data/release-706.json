@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Class.AvatarEditorService:CheckApplyDefaultClothingAsync()|CheckApplyDefaultClothingAsync()` would crash if `Class.Instance.Archivable|Archivable` was set to `false` in `Class.HumanoidDescription`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a hypothetical vulnerability in physics data forwarding from server to clients."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fixes **Go to Definition** on exported types from modules."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AvatarEditorService:CheckApplyDefaultClothingAsync()|CheckApplyDefaultClothingAsync()` would crash if `Class.Instance.Archivable|Archivable` was set to `false` in `Class.HumanoidDescription`."
     },
     {
         "status": "Pending",
