@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "When a script running in a Sandboxed instance with `AccessOutsideWrite` capability attempts to re-parent something outside the isolated container, it no longer throws an error and will instead make child Sandboxed with the same capabilities."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves error message around `Class.AnimationTrack` limit being reached."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Input Action System:  Touch keycode can now be used in InputBinding to trigger InputAction of type bool."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When a script running in a Sandboxed instance with `AccessOutsideWrite` capability attempts to re-parent something outside the isolated container, it no longer throws an error and will instead make child Sandboxed with the same capabilities."
     },
     {
         "status": "Pending",
@@ -72,6 +72,21 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes Incorrect Occlusion Culling For SpecialMeshes with Negative Scaling."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes viewport issues when the **Device Emulator** is active."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes Device Emulator dropdown menu from truncating text."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Watch expressions are no longer cleared on place save."
     },
     {
@@ -93,21 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes potential false culling of parts and characters that are far from the origin."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes Incorrect Occlusion Culling For SpecialMeshes with Negative Scaling."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes viewport issues when the **Device Emulator** is active."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes Device Emulator dropdown menu from truncating text."
     },
     {
         "status": "Pending",

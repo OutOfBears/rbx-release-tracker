@@ -4,8 +4,8 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes the `AstExprInstantiate` visitor to not unconditionally visit its expression. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | ScrollingFrame scroll rate when using a mouse wheel has been decreased down to a value more in line with native platform behavior. The scroll rate was adjusted gradually over the past few months, with the current scroll rate being the final one it will be kept at. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under the `Direction` action types. |
@@ -13,7 +13,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds Doppler simulation to Sounds when the "Sound as a Shim" beta feature is enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added support for upcoming require("@rbx/AvatarAbilities") library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, recursive functions defined on table members are now more consistently inferred. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, naming aliases the same as built in types such as `number` is now disallowed. |
 ## Fixes
 

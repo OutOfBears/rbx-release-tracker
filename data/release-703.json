@@ -12,6 +12,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Indexing into the result of the `setmetatable` type function is less likely to infer to `any`"
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Fixes some instances of \"Type inference failed to complete\" when trying to infer the types of globals captured by multiple functions."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In Luau type functions, the `unionof` and `intersectionof` functions will now flatten nested instances of their respective types. For example, `types.unionof(types.unionof(types.number, types.string), types.boolean)` will produce `number | string | boolean` as a single resultant union type."
     },
     {
@@ -38,16 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the following properties to the Sky object: `Class.Sky.MoonTextureContent|MoonTextureContent`, `Class.Sky.SkyboxBackContent|SkyboxBackContent`, `Class.Sky.SkyboxDownContent|SkyboxDownContent`, `Class.Sky.SkyboxFrontContent|SkyboxFrontContent`, `Class.Sky.SkyboxLeftContent|SkyboxLeftContent`, `Class.Sky.SkyboxRightContent|SkyboxRightContent`, `Class.Sky.SkyboxUpContent|SkyboxUpContent`, and `Class.Sky.SunTextureContent|SunTextureContent`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Indexing into the result of the `setmetatable` type function is less likely to infer to `any`"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Fixes some instances of \"Type inference failed to complete\" when trying to infer the types of globals captured by multiple functions."
     },
     {
         "status": "Pending",

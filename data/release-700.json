@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In Luau's New Type Solver, `Library.table.isfrozen()` and `Library.table.clear()` functions should now more consistently accept unions of tables."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "When the \"Acoustic Simulation\" beta feature is enabled, reduces the overhead from moving parts."
     },
     {
@@ -43,11 +48,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Fixes an issue where a `Class.ModuleScript` could have been parented outside of the Sandbox container without sufficient capabilities."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Luau's New Type Solver, `Library.table.isfrozen()` and `Library.table.clear()` functions should now more consistently accept unions of tables."
     },
     {
         "status": "Pending",

@@ -2,12 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
+        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixes the `AstExprInstantiate` visitor to not unconditionally visit its expression."
+        "content": "Adds a `Serialized` boolean to classes and the `Owner` classname to properties output by `Class.ReflectionService`."
     },
     {
         "status": "Live",
@@ -43,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, recursive functions defined on table members are now more consistently inferred."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
     },
     {
         "status": "Pending",

@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau autocomplete will now show string singleton keys when indexing into tables with a name expression, as in `A.B`"
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau's New Type Solver: Updates the behavior of type functions to not signal an irreducible error when there's already a more specific error from the type function."
     },
     {
@@ -28,6 +33,11 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Luau compiler will inline function calls with constant arguments more often if those constants considerably simplify the called method body (cause branches to be removed)."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Improves error message associated with indexing into a union where a member is not a table."
     },
     {
         "status": "Live",
@@ -53,16 +63,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Luau's New Type Solver: Indexing into a table with an indexer who's keys are string singletons will now infer the indexer result type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau autocomplete will now show string singleton keys when indexing into tables with a name expression, as in `A.B`"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Improves error message associated with indexing into a union where a member is not a table."
     },
     {
         "status": "Pending",
