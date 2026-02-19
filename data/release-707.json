@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "When a script running in a Sandboxed instance with `AccessOutsideWrite` capability attempts to re-parent something outside the isolated container, it no longer throws an error and will instead make child Sandboxed with the same capabilities."
     },
     {
@@ -22,17 +17,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allow shared assets to be loaded to Editables"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Input Action System:  Touch keycode can now be used in InputBinding to trigger InputAction of type bool."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window."
     },
     {
         "status": "Pending",

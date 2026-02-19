@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under the `Direction` action types."
     },
     {
@@ -37,17 +32,17 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Added support for upcoming require(\"@rbx/AvatarAbilities\") library."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, recursive functions defined on table members are now more consistently inferred."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, naming aliases the same as built in types such as `number` is now disallowed."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed a rare crash in Acoustic Simulation's diffraction pathfinding."
     },
     {
         "status": "Live",
@@ -83,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes regression where StarterCharacter `Class.Humanoid.HipHeight` was overridden with negative values."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed a rare crash in Acoustic Simulation's diffraction pathfinding."
     },
     {
         "status": "Pending",

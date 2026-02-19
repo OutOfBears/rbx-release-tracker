@@ -1,0 +1,102 @@
+[
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows shared assets to be loaded to Editables."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds support for upcoming `require(\"@rbx/AvatarAbilities\")` library."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "SLIM support for Classic Clothing on Platform Avatars."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, fixes a bug where partially annotated local variable initialization would incorrectly infer types for unannotated locals."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Removes the option to disable the Debugger in Roblox Studio."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Reassigns Capabilities for `MaterialVariant`, `Humanoid`, `RayValue`, and `AnalyticsService`. Also assigns Capabilities to more classes."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "More classes are now accessible to sandboxed instances."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes blurry text rendering caused when `Class.TextLabel.TextSize|TextSize` is set to a non-integer value by a `Class.StyleRule`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug in the Adaptive Animation Beta program where parts attached to the Root part couldn't be animated."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `:Clone`ing a `Class.Wire` would print an error message, even if the wire hasn't yet been parented into the DataModel."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Calling `UIPageLayout:JumpTo(nil)` no longer causes a crash."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In the New Luau Type Solver, simplification of table types has been rewritten. The downstream effect should be fewer \"unreduced\" types like { x: number } | { x: number }, especially for data-like arrays (extremely large tables that have the same element of a given type)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves Acoustic Simulation performance in very part-dense scenes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves tab switching performance for the new Studio ribbon."
+    }
+]

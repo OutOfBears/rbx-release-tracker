@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug that prevented autocomplete from displaying suggestions for require‑by‑string aliases like `@game` and `@self`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes invalid errors in the Luau typechecker when multiple user-defined type functions are defined and some of them were using type aliases."
     },
     {
@@ -68,10 +73,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In Luau's New Type Solver, fixes **Go to Definition** on exported types from modules."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug that prevented autocomplete from displaying suggestions for require‑by‑string aliases like `@game` and `@self`."
     }
 ]
