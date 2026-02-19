@@ -21,6 +21,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes potential false culling of parts and characters that are far from the origin. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Incorrect Occlusion Culling For SpecialMeshes with Negative Scaling. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes viewport issues when the **Device Emulator** is active. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Device Emulator dropdown menu from truncating text. |
@@ -28,5 +29,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds mouse support to iPadOS. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where disabling and re-enabling `Class.IKControl` with `Class.IKControl.Type\|Type` of `Enum.IKControlType.LookAt` led to initial jitter on the part. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes potential false culling of parts and characters that are far from the origin. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates several error messages incorrectly referring to "Game Settings" to "Experience Settings". |

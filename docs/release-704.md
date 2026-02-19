@@ -6,9 +6,9 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reimport now supports `Class.Decal` instances. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Vector3Scale` to individually scale composite directions for `Class.InputAction\|InputActions` of `Enum.InputActionType.Direction3D` action type. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Making `Class.InputAction:GetState()` threadsafe soon. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`. This will allow you to, for example, instantiate a generic function named `array` with the type `<T>() -> {T}` by writing an expression like `array<<number>>()`. The resulting type would be `{number}` in this case. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.MaterialVariant.AlphaMode` and the `Enum.AlphaMode\|Opaque` value to `Enum.AlphaMode`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Making `Class.InputAction:GetState()` threadsafe soon. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the algorithm for `Class.WrapTextureTransfer` for occluding parts of a mesh to better fit cages that do not cover the entire mesh. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | On Windows, Roblox and Roblox Studio will now update any taskbar entries you might have, no longer requiring they be updated every week. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, inference of function calls with generic type packs should be more consistent. |

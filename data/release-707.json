@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes potential false culling of parts and characters that are far from the origin."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes Incorrect Occlusion Culling For SpecialMeshes with Negative Scaling."
     },
     {
@@ -98,11 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug where disabling and re-enabling `Class.IKControl` with `Class.IKControl.Type|Type` of `Enum.IKControlType.LookAt` led to initial jitter on the part."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes potential false culling of parts and characters that are far from the origin."
     },
     {
         "status": "Pending",

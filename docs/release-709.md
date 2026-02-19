@@ -7,7 +7,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows shared assets to be loaded to Editables. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for upcoming `require("@rbx/AvatarAbilities")` library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | SLIM support for Classic Clothing on Platform Avatars. |

@@ -17,7 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`."
+        "content": "Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`."
     },
     {
         "status": "Pending",
