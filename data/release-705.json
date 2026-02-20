@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a case where script analysis was not properly suppressing type errors between values of type \"any.\""
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug caused by a `Class.FluidForceSensor` attached to an anchored part which led to some functionality of Studio being broken."
     },
     {
@@ -93,11 +98,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Attempting to set breakpoints on old script versions no longer leads to a crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a case where script analysis was not properly suppressing type errors between values of type \"any.\""
     },
     {
         "status": "Pending",
