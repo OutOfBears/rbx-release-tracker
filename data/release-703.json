@@ -37,12 +37,32 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "When printed as a value in a Luau table, the `SecurityCapabilities` enum now displays the represented security state as a string instead of a numeric value."
+        "content": "Luau's New Type Solver: Adjusts generic instantiation to never select `never` or `unknown`, ensuring user always gets a useful type."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Fixes a bug where passing too many arguments to certain functions would not be properly flagged as a Script Analysis warning."
+        "content": "Luau's New Type Solver: Functions that accept nilable functions now have said types \"pushed\" into function literals."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Adjusts generic instantiation to never select `never` or `unknown`, ensuring user always gets a useful type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: Functions that accept nilable functions now have said types \"pushed\" into function literals."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Roblox Studio's Script Analysis Widget, errors within a module now sort numerically rather than lexically. For example, an error on line 67 will now be listed before an error on line 127."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "When printed as a value in a Luau table, the `SecurityCapabilities` enum now displays the represented security state as a string instead of a numeric value."
     },
     {
         "status": "Pending",
@@ -52,27 +72,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: Adjusts generic instantiation to never select `never` or `unknown`, ensuring user always gets a useful type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Luau's New Type Solver: Functions that accept nilable functions now have said types \"pushed\" into function literals."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Luau's New Type Solver: function statements that are assigning a member to a predefined table type are now checked."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds HashChecks line to debug Network - LR Metrics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In Roblox Studio's Script Analysis Widget, errors within a module now sort numerically rather than lexically. For example, an error on line 67 will now be listed before an error on line 127."
     },
     {
         "status": "Pending",

@@ -1,0 +1,112 @@
+[
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows shared assets to be loaded to Editables."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the `Rotation` property to `Class.Texture` and `Class.Decal` instances to support UV map rotations."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where skinned meshes could explode when positioned far from the origin."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `UITableLayout` sometimes incorrectly sized descendants when `FillEmptySpaceRows` or `FillEmptySpaceColumns` was set to `true`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Removes invisible sun reflection artifacts on glass when a highlight is applied."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where trails far from the origin would render with fewer segments and appear low resolution."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes shading with normal maps."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`SpecialMeshes` now correctly show their assigned materials and `MaterialVariants`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the incorrect `ParticleEmitter` orientation in `VelocityPerpendicular` mode."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes blurry text rendering caused when `Class.TextLabel.TextSize|TextSize` is set to a non-integer value by a `Class.StyleRule`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes rendering of transparent avatars with highlights."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, allows intersection types that extend the shape of a given Roblox API type. For example, `Accessory & { Handle: BasePart }` is now treated as an `Accessory` extending with a `Handle` property of the type `BasePart`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves accounting of texture memory in the Developer Console."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where downsampling thin water voxels could cause water to be removed."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where rapidly changing a part’s `CFrame` could cause incorrect culling."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes potential false culling of parts and characters."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash in autocomplete that could occur when using user-defined type functions to create tables with write-only properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where sometimes calling `StudioTestService:EndTest()` on the first frame of a test session failed to end the test."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds support for saving `AnimationGraphEditor` instances (`AssetType::Animation`)."
+    }
+]

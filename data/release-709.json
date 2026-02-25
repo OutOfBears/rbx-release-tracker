@@ -1,13 +1,13 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`."
+        "content": "Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Allows shared assets to be loaded to Editables."
+        "content": "Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`."
     },
     {
         "status": "Pending",
@@ -18,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped."
     },
     {
         "status": "Pending",
@@ -42,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Removes the option to disable the Debugger in Roblox Studio."
     },
     {
@@ -62,12 +52,17 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
+        "content": "Calling `UIPageLayout:JumpTo(nil)` no longer causes a crash."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes blurry text rendering caused when `Class.TextLabel.TextSize|TextSize` is set to a non-integer value by a `Class.StyleRule`."
+        "content": "Calling `UIPageLayout:JumpTo(nil)` no longer causes a crash."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
     },
     {
         "status": "Pending",
@@ -78,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where `:Clone`ing a `Class.Wire` would print an error message, even if the wire hasn't yet been parented into the DataModel."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Calling `UIPageLayout:JumpTo(nil)` no longer causes a crash."
     },
     {
         "status": "Pending",

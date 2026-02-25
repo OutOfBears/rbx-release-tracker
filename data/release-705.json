@@ -12,22 +12,32 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "`print(meshPart.MeshContent)` will now include the `Datatype.Content` source type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "`print(meshPart.MeshContent)` will now include the `Datatype.Content` source type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves support for importing an emissive map from `.fbx` files."
     },
     {
         "status": "Pending",
@@ -43,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, the error \"Recursive type being used with different parameters\" is now more precise."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
     },
     {
         "status": "Pending",

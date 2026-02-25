@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Adds tooltip descriptions to new Capability groups."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue with the Input Action System registering mouse clicks on UI buttons and in-menu."
     },
     {
         "status": "Pending",
@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where disabling and re-enabling `Class.IKControl` with `Class.IKControl.Type|Type` of `Enum.IKControlType.LookAt` led to initial jitter on the part."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes potential false culling of parts and characters that are far from the origin."
     },
     {
@@ -98,11 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where disabling and re-enabling `Class.IKControl` with `Class.IKControl.Type|Type` of `Enum.IKControlType.LookAt` led to initial jitter on the part."
     },
     {
         "status": "Pending",

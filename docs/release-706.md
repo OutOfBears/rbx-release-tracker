@@ -13,7 +13,6 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes color gradients forming across triangles during solid modeling. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a type alias for `Class.HumanoidDescription:SetAccessories()\|SetAccessories()` and `Class.HumanoidDescription:GetAccessories()\|GetAccessories()` to enable better autocomplete. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed an issue with **Performance** and **MicroProfiler** text display being corrupted. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Class.AvatarEditorService:CheckApplyDefaultClothingAsync()\|CheckApplyDefaultClothingAsync()` would crash if `Class.Instance.Archivable\|Archivable` was set to `false` in `Class.HumanoidDescription`. |
@@ -22,4 +21,5 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes invalid errors in the Luau typechecker when multiple user-defined type functions are defined and some of them were using type aliases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Setting accessories on a `Class.Humanoid` with an `Class.AccessoryDescription` no longer uses `Class.AccessoryDescription.IsLayered\|IsLayered` set in the accessory data, and instead relies on a `Class.WrapLayer` existing under the `Handle`. This fixes a bug where `Class.AccessoryDescription.IsLayered\|IsLayered` should not be considered while setting. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds throttling to memory tracking logs to help avoid negative performance impact from ill-formed memory checks in code loops. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes color gradients forming across triangles during solid modeling. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, fixes **Go to Definition** on exported types from modules. |

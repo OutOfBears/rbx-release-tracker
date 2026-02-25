@@ -17,7 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` to be used in the Input Action System as transformed velocities under the `Direction` action types."
+        "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
     },
     {
         "status": "Pending",
@@ -42,12 +42,17 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixed a rare crash in Acoustic Simulation's diffraction pathfinding."
+        "content": "Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac."
     },
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes exploding skinned meshes issues when skinned meshes are positioned very far from the origin."
+        "content": "Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where skinned meshes could explode when positioned far from the origin."
     },
     {
         "status": "Pending",
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a division-by-zero error during wedge UV calculations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac."
     },
     {
         "status": "Pending",

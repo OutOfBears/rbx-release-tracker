@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Luau's New Type Solver: Indexing into a table with an indexer who's keys are string singletons will now infer the indexer result type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau autocomplete will now show string singleton keys when indexing into tables with a name expression, as in `A.B`"
     },
     {
@@ -62,11 +67,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Luau's New Type Solver: Indexing into a table with an indexer who's keys are string singletons will now infer the indexer result type."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Optimizes the animation system for large articulated rigs."
     },
     {
@@ -77,12 +77,17 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes false culling for some skinned meshes."
+        "content": "Fixes flakiness in `AudioSpeechToText` instantiation."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes flakiness in `AudioSpeechToText` instantiation."
+        "content": "Emissive maps beta: Fixes a crash when importing a 3D model with missing files or broken content."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes false culling for some skinned meshes."
     },
     {
         "status": "Pending",
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where text in Microprofiler and performance windows could take a long time to appear."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Emissive maps beta: Fixes a crash when importing a 3D model with missing files or broken content."
     },
     {
         "status": "Pending",
