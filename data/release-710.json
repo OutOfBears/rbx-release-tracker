@@ -72,7 +72,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "In Luau's New Type Solver, allows intersection types that extend the shape of a given Roblox API type. For example, `Accessory & { Handle: BasePart }` is now treated as an `Accessory` extending with a `Handle` property of the type `BasePart`."
+        "content": "In Luau's New Type Solver, allows intersection types that extend the shape of a given Roblox API type. For example, `Accessory & { Handle: BasePart }` is now treated as an `Accessory` extended with a `Handle` property of the type `BasePart`."
     },
     {
         "status": "Pending",

@@ -22,7 +22,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the incorrect `ParticleEmitter` orientation in `VelocityPerpendicular` mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes blurry text rendering caused when `Class.TextLabel.TextSize\|TextSize` is set to a non-integer value by a `Class.StyleRule`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes rendering of transparent avatars with highlights. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, allows intersection types that extend the shape of a given Roblox API type. For example, `Accessory & { Handle: BasePart }` is now treated as an `Accessory` extending with a `Handle` property of the type `BasePart`. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In Luau's New Type Solver, allows intersection types that extend the shape of a given Roblox API type. For example, `Accessory & { Handle: BasePart }` is now treated as an `Accessory` extended with a `Handle` property of the type `BasePart`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves accounting of texture memory in the Developer Console. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where downsampling thin water voxels could cause water to be removed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where rapidly changing a part’s `CFrame` could cause incorrect culling. |

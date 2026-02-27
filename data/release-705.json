@@ -12,17 +12,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`."
+        "content": "In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics."
     },
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "`print(meshPart.MeshContent)` will now include the `Datatype.Content` source type."
+        "content": "Improves support for importing an emissive map from `.fbx` files."
     },
     {
         "status": "Live",

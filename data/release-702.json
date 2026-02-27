@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves performance by lowering the cost of `updateInstancedCluster2` when using SLIM."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds support to Luau for instantiating generic type parameters on functions by writing syntax like `f<<T, U>>`.\n\nFor example, if you have defined a function like:\n\n```\nlocal function array<T>(): {T}\nreturn {}\nend\n```\n\nYou can now call it with a specific type by calling `array<<number>>()` to get a result of the type `{number}`."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves performance by lowering the cost of `updateInstancedCluster2` when using SLIM."
     },
     {
         "status": "Pending",

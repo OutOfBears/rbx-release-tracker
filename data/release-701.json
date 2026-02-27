@@ -32,6 +32,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes the UV scaling for wedge model textures."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where creating or destroying a `HapticEffect` inside a non-deferred Lua signal could lead to a crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
     },
     {
         "status": "Pending",

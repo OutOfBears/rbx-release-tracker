@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
     },
     {
@@ -47,12 +42,7 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes an issue where skinned meshes could explode when positioned far from the origin."
+        "content": "Fixed a rare crash in Acoustic Simulation's diffraction pathfinding."
     },
     {
         "status": "Pending",
