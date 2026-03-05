@@ -80,6 +80,11 @@
         "content": "Luau's New Type Solver: fixes a class of bugs where Luau would not retain reasonable upper or lower bounds on free types, resulting in types snapping to never or unknown despite having obvious bounds."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face"
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue with clouds shadows looking noisy during sunrise and sunset."
@@ -128,10 +133,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes potential false culling of parts and characters."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face"
     }
 ]
