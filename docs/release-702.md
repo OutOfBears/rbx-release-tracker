@@ -15,9 +15,9 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau compiler will inline function calls with constant arguments more often if those constants considerably simplify the called method body (cause branches to be removed). |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Improves error message associated with indexing into a union where a member is not a table. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: Resolves a potential crash when using type instantiation expressions. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces three-phase rollout for fixed simulation frequency. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes the animation system for large articulated rigs. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name. |
 ## Fixes
 
 | Status | Note |

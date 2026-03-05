@@ -52,6 +52,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug in the Adaptive Animation Beta program where parts attached to the Root part couldn't be animated."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where `:Clone`ing a `Class.Wire` would print an error message, even if the wire hasn't yet been parented into the DataModel."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Calling `UIPageLayout:JumpTo(nil)` no longer causes a crash."
     },
     {
@@ -63,21 +73,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in the Adaptive Animation Beta program where parts attached to the Root part couldn't be animated."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `:Clone`ing a `Class.Wire` would print an error message, even if the wire hasn't yet been parented into the DataModel."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In the New Luau Type Solver, simplification of table types has been rewritten. The downstream effect should be fewer \"unreduced\" types like { x: number } | { x: number }, especially for data-like arrays (extremely large tables that have the same element of a given type)."
     },
     {
         "status": "Pending",

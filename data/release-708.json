@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, recursive functions defined on table members are now more consistently inferred."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds `Class.MaterialVariant.AlphaMode` beta feature to Studio."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds Doppler simulation to Sounds when the \"Sound as a Shim\" beta feature is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, recursive functions defined on table members are now more consistently inferred."
     },
     {
         "status": "Pending",

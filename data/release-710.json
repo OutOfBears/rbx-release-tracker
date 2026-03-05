@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Allows shared assets to be loaded to Editables."
@@ -7,22 +12,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds the `Rotation` property to `Class.Texture` and `Class.Decal` instances to support UV map rotations."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where trails far from the origin would render with fewer segments and appear low resolution."
     },
     {
         "status": "Live",
@@ -38,21 +33,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Removes invisible sun reflection artifacts on glass when a highlight is applied."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where trails far from the origin would render with fewer segments and appear low resolution."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes shading with normal maps."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`SpecialMeshes` now correctly show their assigned materials and `MaterialVariants`."
     },
     {
         "status": "Pending",
@@ -88,11 +68,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where rapidly changing a part’s `CFrame` could cause incorrect culling."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes potential false culling of parts and characters."
     },
     {
         "status": "Pending",

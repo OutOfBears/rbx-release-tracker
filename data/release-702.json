@@ -55,11 +55,6 @@
         "content": "Luau's New Type Solver: Resolves a potential crash when using type instantiation expressions."
     },
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces three-phase rollout for fixed simulation frequency."
@@ -68,6 +63,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Optimizes the animation system for large articulated rigs."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Deprecates nearly all yielding methods that did not end with `Async` and provides equivalent methods with `Async` in the name."
     },
     {
         "status": "Live",

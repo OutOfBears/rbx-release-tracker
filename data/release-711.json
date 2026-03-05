@@ -1,0 +1,137 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Renames two Capabilities: \"Avatar\" -> \"AvatarAppearance\" and \"AssetRequire\" -> \"LoadUnownedAsset\"."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reassigns four classes' security from Avatar to AvatarBehavior."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Releases beta version of device blocking for the Creator BAN API."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting and should be significantly faster."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.Workspace.LayeredClothingCacheOptimizations` property."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Implements several new math constants: `math.nan`, `math.e`, `math.phi`, `math.sqrt2`,  and `math.tau`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`Class.Instance:GetFullName()` is slightly faster and can handle arbitrarily deep instance hierarchies."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.ParticleEmitter.FlipbookBlendFrames` property."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: `string.format` no longer produces a type error when an unknown string is provided as the format string."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the `FIntRenderTextureDebugVisualization` variable to control the render texture debug visualization mode."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau's New Type Solver: fixes a class of bugs where Luau would not retain reasonable upper or lower bounds on free types, resulting in types snapping to never or unknown despite having obvious bounds."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with clouds shadows looking noisy during sunrise and sunset."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes shading with normal maps."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Executing remote events that are not attached to the DataModel no longer has an error message."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `LockedToPart` property on `Class.ParticleEmitter` didn't work correctly in all cases."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`SpecialMeshes` now correctly show their assigned materials and `MaterialVariants`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Luau's New Type Solver: resolves an issue where \"attempting to modify bounds of a potentially visited generic\" could occur when working with sufficiently complex generic types."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes false culling on VR."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `ViewportDisplaySize` could report incorrect sizes on large-screen devices."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Luau's New Type Solver: simplification of table types has been rewritten. The downstream effect should be fewer \"unreduced\" types like { x: number } | { x: number }, especially for data-like arrays (extremely large tables that have the same element of a given type)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes potential false culling of parts and characters."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face"
+    }
+]

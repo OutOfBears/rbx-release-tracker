@@ -92,6 +92,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Meshes with corrupted collision data can no longer have arbitrarily large `ExtentsSize`. `ExtentsSize` is now clamped to 2048 studs in all directions."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug in Luau's type system where type functions that returned types with generic type packs would sometimes cause Roblox Studio to crash."
     },
     {
@@ -128,15 +133,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes animation bug where animations weren't loaded on some clients on late join in some context when streaming was on."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Executing remote events that are not attached to the DataModel will now not have an error message"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Meshes with corrupted collision data can no longer have arbitrarily large `ExtentsSize`. `ExtentsSize` is now clamped to 2048 studs in all directions."
     }
 ]

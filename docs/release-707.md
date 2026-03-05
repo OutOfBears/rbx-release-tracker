@@ -8,6 +8,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Opaque `*Content` in Studio is now shown as `Content` instead of blank in the **Properties** window. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When a script running in a Sandboxed instance with `AccessOutsideWrite` capability attempts to re-parent something outside the isolated container, it no longer throws an error and will instead make child Sandboxed with the same capabilities. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves error message around `Class.AnimationTrack` limit being reached. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds tooltip descriptions to new Capability groups. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Input Action System:  Touch keycode can now be used in InputBinding to trigger InputAction of type bool. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, using a generic type pack as an annotation for a lambda will no longer cause said annotation to leak out of the function when called. |
@@ -16,7 +17,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Replaces the legacy implementation of `Class.Sound\|Sounds` with internal audio wiring API instances when the **Sound as a Shim** beta feature is enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Solid modeling now attempts to remove unnecessary geometry, reducing triangle counts in many cases. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `GetMethodsOfClass` and `GetEventsOfClass` to `Class.ReflectionService`, which return reflection information about instance methods and events. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the appearance of thumbnails with transparent materials (like ice) to look more accurate and less washed out. |
 ## Fixes
 
 | Status | Note |
@@ -27,6 +27,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes viewport issues when the **Device Emulator** is active. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Device Emulator dropdown menu from truncating text. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Watch expressions are no longer cleared on place save. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates several error messages incorrectly referring to "Game Settings" to "Experience Settings". |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with `Class.WireframeHandleAdornment` text not being relative to the adornee. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds mouse support to iPadOS. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates several error messages incorrectly referring to "Game Settings" to "Experience Settings". |
