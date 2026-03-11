@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "SLIM support for Classic Clothing on Platform Avatars."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds support for upcoming `require(\"@rbx/AvatarAbilities\")` library."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "SLIM support for Classic Clothing on Platform Avatars."
     },
     {
         "status": "Pending",
