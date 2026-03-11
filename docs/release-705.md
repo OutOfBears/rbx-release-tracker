@@ -4,6 +4,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `print(meshPart.MeshContent)` will now include the `Datatype.Content` source type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Binary size reduction, varies by platform. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes the `reason` argument from the `Class.NetworkClient.ConnectionFailed` event. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, bidirectional inference of lambdas are now slightly less sensitive to generics. |
@@ -11,7 +12,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates hover types to be less verbose. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver's `strict` mode, no warning is issued when `nil` is assigned to `Class.Instance.Parent`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an option for logging input to the Studio camera service to assist with debugging. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `print(meshPart.MeshContent)` will now include the `Datatype.Content` source type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Type functions will no longer allow you to attempt to mutate top-level type aliases. This was never possible but you could previously write code that, confusingly, looked like it would do so. This will now raise an error. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, the error "Recursive type being used with different parameters" is now more precise. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds <kbd>I</kbd> as a hotkey to zoom in. |

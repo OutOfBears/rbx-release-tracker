@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "SLIM support for Classic Clothing on Platform Avatars."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type."
     },
     {
         "status": "Pending",

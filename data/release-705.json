@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "`print(meshPart.MeshContent)` will now include the `Datatype.Content` source type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Binary size reduction, varies by platform."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Adds an option for logging input to the Studio camera service to assist with debugging."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`print(meshPart.MeshContent)` will now include the `Datatype.Content` source type."
     },
     {
         "status": "Pending",

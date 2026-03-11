@@ -4,10 +4,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | SLIM support for Classic Clothing on Platform Avatars. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode `MouseDelta` to be used in the Input Action System as a transformed velocity under a `Direction2D` action type. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for upcoming `require("@rbx/AvatarAbilities")` library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a bug where partially annotated local variable initialization would incorrectly infer types for unannotated locals. |
