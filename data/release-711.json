@@ -27,26 +27,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Releases beta version of device blocking for the Creator Ban API."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting and should be significantly faster."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Implements several new math constants: `math.nan`, `math.e`, `math.phi`, `math.sqrt2`,  and `math.tau`."
     },
     {
@@ -77,11 +57,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes false culling on VR."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Luau's New Type Solver: fixes a class of bugs where Luau would not retain reasonable upper or lower bounds on free types, resulting in types snapping to never or unknown despite having obvious bounds."
     },
     {
@@ -102,11 +77,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Executing remote events that are not attached to the DataModel no longer has an error message."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where `LockedToPart` property on `Class.ParticleEmitter` didn't work correctly in all cases."
     },
     {
@@ -122,16 +92,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where `Class.GuiService.ViewportDisplaySize` could report incorrect sizes on large-screen devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Luau's New Type Solver: simplification of table types has been rewritten. The downstream effect should be fewer \"unreduced\" types like { x: number } | { x: number }, especially for data-like arrays (extremely large tables that have the same element of a given type)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes potential false culling of parts and characters."
     }
 ]
