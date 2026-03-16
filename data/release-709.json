@@ -15,6 +15,16 @@
         "content": "Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reassigns Capabilities for `MaterialVariant`, `Humanoid`, `RayValue`, and `AnalyticsService`. Also assigns Capabilities to more classes."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "More classes are now accessible to sandboxed instances."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds ability to change server-level Data Stores rate limits per `DataStoreRequestType`."
@@ -38,16 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Removes the option to disable the Debugger in Roblox Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Reassigns Capabilities for `MaterialVariant`, `Humanoid`, `RayValue`, and `AnalyticsService`. Also assigns Capabilities to more classes."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "More classes are now accessible to sandboxed instances."
     },
     {
         "status": "Live",

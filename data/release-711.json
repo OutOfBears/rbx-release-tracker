@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Luau's New Type Solver: `string.format` no longer produces a type error when an unknown string is provided as the format string."
     },
     {
@@ -42,17 +47,22 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds the `FIntRenderTextureDebugVisualization` variable to control the render texture debug visualization mode."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Reparenting a `Class.ViewportFrame` to `nil` and back no longer stops the `ViewportFrame` from rendering."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with clouds shadows looking noisy during sunrise and sunset."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where `LockedToPart` property on `Class.ParticleEmitter` didn't work correctly in all cases."
     },
     {
         "status": "Live",
@@ -67,17 +77,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue with clouds shadows looking noisy during sunrise and sunset."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes shading with normal maps."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `LockedToPart` property on `Class.ParticleEmitter` didn't work correctly in all cases."
     },
     {
         "status": "Pending",
