@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Implements several new math constants: `math.nan`, `math.e`, `math.phi`, `math.sqrt2`,  and `math.tau`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Implements several new math constants: `math.nan`, `math.e`, `math.phi`, `math.sqrt2`,  and `math.tau`."
     },
     {
         "status": "Pending",

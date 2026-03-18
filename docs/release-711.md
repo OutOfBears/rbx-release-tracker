@@ -5,12 +5,12 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Class.Workspace.LayeredClothingCacheOptimizations` property. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements several new math constants: `math.nan`, `math.e`, `math.phi`, `math.sqrt2`,  and `math.tau`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: `string.format` no longer produces a type error when an unknown string is provided as the format string. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renames two Capabilities: "Avatar" -> "AvatarAppearance" and "AssetRequire" -> "LoadUnownedAsset". |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reassigns four classes' security from Avatar to AvatarBehavior. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Implements several new math constants: `math.nan`, `math.e`, `math.phi`, `math.sqrt2`,  and `math.tau`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Instance:GetFullName()` is slightly faster and can handle arbitrarily deep instance hierarchies. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.ParticleEmitter.FlipbookBlendFrames` property. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `FIntRenderTextureDebugVisualization` variable to control the render texture debug visualization mode. |

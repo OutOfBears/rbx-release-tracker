@@ -25,11 +25,11 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling on VR. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes potential false culling of parts and characters. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes floating grass geometry. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed an issue on some objects looking emissive incorrectly when exporting to OBJ format. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Executing remote events that are not attached to the DataModel no longer has an error message. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.GuiService.ViewportDisplaySize` could report incorrect sizes on large-screen devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue with cylinder part UVs being stretched on the left face. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue on some objects looking emissive incorrectly when exporting to OBJ format. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed a bug with `Class.MeshPart.DoubleSided\|double-sided meshes` rendering as single-sided in 3D thumbnails. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a fix for an audio crash on Mac. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.AudioPitchShifter` plays a small portion of the previous audio stream when a new audio stream is played through it. |

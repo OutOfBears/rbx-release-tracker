@@ -17,6 +17,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Removes the option to disable the Debugger in Roblox Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Reassigns Capabilities for `MaterialVariant`, `Humanoid`, `RayValue`, and `AnalyticsService`. Also assigns Capabilities to more classes."
     },
     {
@@ -43,11 +48,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, fixes a bug where partially annotated local variable initialization would incorrectly infer types for unannotated locals."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Removes the option to disable the Debugger in Roblox Studio."
     },
     {
         "status": "Live",
