@@ -17,37 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Releases beta version of device blocking for the Creator Ban API."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, generic functions that take tables are now more permissive when passing in table literals, and autocomplete on generic functions is improved."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improved the UX of enabling Server Authority under Workspace."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting and should be significantly faster."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Further minor memory usage improvements for Attachment and Constraint."
     },
     {
         "status": "Pending",
@@ -92,37 +62,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Executing remote events that are not attached to the DataModel no longer has an error message."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.GuiService.ViewportDisplaySize` could report incorrect sizes on large-screen devices."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed an issue with cylinder part UVs being stretched on the left face."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixed a bug with `Class.MeshPart.DoubleSided|double-sided meshes` rendering as single-sided in 3D thumbnails."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds a fix for an audio crash on Mac."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPitchShifter` plays a small portion of the previous audio stream when a new audio stream is played through it."
     },
     {
         "status": "Pending",
