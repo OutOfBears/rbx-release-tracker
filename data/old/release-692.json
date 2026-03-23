@@ -1,0 +1,62 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "When applied to constant strings, concat `..` operations are performed once during compilation time."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "When the expression inside an interpolated string is known to be a string, it's embedded into a formatting string during compilation. If an interpolated string contains only constant strings, it’s replaced with a single constant."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes a bug with type inference when accessing a property of a table whose type is a union of intersections."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Type Solver: Comparison operators such as `<=` and `>` no longer use type functions, and instead apply a constraint that their arguments must have the same type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Increases the range slider maximum for `Class.PointLight`, `Class.SpotLight`, and `Class.SurfaceLight` to 120."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes a crash that occurred when a function definition was unterminated in a call to `typeof` in a type context."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "New Type Solver: Fixes some instances of spurious errors when invoking methods that are accessed via metatables."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where updating Acoustic Simulation's adaptive reverb could cause long audio mix times or poor framerate."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where cylinders/spheres with a diameter of <0.05 studs were sent to void when dragged."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Speeds up selection when the Insert Object window is open."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Updates `Class.UserInputService.OnScreenKeyboardPosition` to use `Enum.ScreenInsets.DeviceSafeInsets` coordinates."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks."
+    }
+]

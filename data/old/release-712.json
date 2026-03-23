@@ -1,0 +1,72 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Assign Capabilities to more classes"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Marks `Class.DataStore:RemoveVersionAsync()` as deprecated."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, generic functions that take tables are now more permissive when passing in table literals, and autocomplete on generic functions is improved."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Reduces the size of each `Class.Bone` instance by 48 bytes."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Luau Type Solver, fix a bug where type function reduction would get \"stuck\" at the end of type inference when dealing with recursive type functions like `t1 where t1 = add<t1 | number, t1 | number>`. This should help somewhat with memory pressure and marginally speed up type checking."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`QueryDescendants` can now match enumeration properties to a string value."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "In the New Studio Camera Controls beta, makes the camera speed lock persistent."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes false culling on VR."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes potential false culling of parts and characters."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes floating grass geometry."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed an issue on some objects looking emissive incorrectly when exporting to OBJ format."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed a bug with `Class.MeshPart.DoubleSided|double-sided meshes` rendering as single-sided in 3D thumbnails."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixed issue with saving escaped strings in plugin settings."
+    }
+]

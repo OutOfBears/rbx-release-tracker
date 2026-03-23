@@ -1,0 +1,77 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Optimizes raycast functions against all part types. The performance improvements range from 25-50% depending on the part type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Dramatically improves the memory usage of `Class.AudioAnalyzer`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In Luau's New Type Solver, fixes a crash that would sometimes occur when calling a function with an incomplete type."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes issue where forcefield outlines don't appear on LightingStyle::Soft in Desktop."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Explorer: Pressing the down arrow key from the search bar now selects the first item. Pressing the up arrow key will refocus the search bar."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows any BasePart in `Class.GeometryService:CalculateConstraintsToPreserve`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Significant optimizations for the animation step."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes bug with Occlusion Culling where SpecialMesh and BlockMesh with offsets would cause invalid occlusion."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with the Acoustic Simulation beta feature causing lag spikes when `Class.AudioEmitter|AudioEmitters` or `Class.AudioListener|AudioListeners` are deleted."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a timing bug with `Class.AudioPlayer` and `Class.AudioTextToSpeech` that can cause their assets to play at full-volume, ignoring connected wires."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Updates debug panels in Studio and Client to correctly show all the relevant information. Previously some values were not populated."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "A proper error message now displays when the fallback engine font isn't loaded correctly."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Weld instances no longer duplicate in the Avatar Settings preview when swapping between the Single Collider setting \"Use Parts / Colliders\"."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Removes the auto-open behavior of the Controller Emulator widget. This widget will now stay closed when closed and be independent from the Devices."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Camera speed properly clamps in Visualization Modes panel."
+    }
+]

@@ -1,0 +1,87 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Allows shared assets to be loaded to Editables."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the `Rotation` property to `Class.Texture` and `Class.Decal` instances to support UV map rotations."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where trails far from the origin would render with fewer segments and appear low resolution."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes blurry text rendering caused when `Class.TextLabel.TextSize|TextSize` is set to a non-integer value by a `Class.StyleRule`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "In Luau's New Type Solver, allows intersection types that extend the shape of a given Roblox API type. For example, `Accessory & { Handle: BasePart }` is now treated as an `Accessory` extended with a `Handle` property of the type `BasePart`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where skinned meshes could explode when positioned far from the origin."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where rapidly changing a part’s `CFrame` could cause incorrect culling."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug where sometimes calling `StudioTestService:EndTest()` on the first frame of a test session failed to end the test."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `UITableLayout` sometimes incorrectly sized descendants when `FillEmptySpaceRows` or `FillEmptySpaceColumns` was set to `true`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Removes invisible sun reflection artifacts on glass when a highlight is applied."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes the incorrect `ParticleEmitter` orientation in `VelocityPerpendicular` mode."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes rendering of transparent avatars with highlights."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Improves accounting of texture memory in the Developer Console."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where downsampling thin water voxels could cause water to be removed."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash in autocomplete that could occur when using user-defined type functions to create tables with write-only properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Adds support for saving `AnimationGraphEditor` instances (`AssetType::Animation`)."
+    }
+]

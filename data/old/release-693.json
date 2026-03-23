@@ -1,0 +1,82 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes a bug in the Input Action System where thumbsticks could override other bindings while in the deadzone."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: suppresses errors for overloads with arities that don't match the function call."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: updates primitive tables to be subtypes of generic tables."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: refining tables with indexers against external types (such as builtin Roblox types) no longer drops the table portion."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Luau's New Type Solver: fixes an issue where iterating over a function that returns an empty pack would cause type inference to fail to complete."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Loads Pathfinding Tiles by Bounding cylinder of the FindPath Extent."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Using Luau 'pcall' and 'xpcall' functions no longer counts towards the C call stack limit, extending potential recursion depth with protected calls from 200 to 20000 (note that 'pcall'/'xpcall' call itself still counts towards the Luau call stack limit)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Renames `Enum.DeveloperMemoryTag.PhysicsParts` to `Enum.DeveloperMemoryTag.BaseParts`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue that could cause pasted Shirt and Pants instances to desync their ShirtTemplate and PantsTemplate properties in Team Create."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes simulation slowdown when adding and removing child instances."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Microprofiler no longer incurs additional CPU overhead when turned off when previously enabled in the same client session."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes InputActionSytem Direction3D forward/backward to use right handed coordinate system."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Allows entity based culling of Models set as `StreamingMesh`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "A UIScale object now correctly scales its parent ImageLabel or ImageButton without affecting the TileSize property."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "`Class.AirController` now adjusts to `Class.ControllerManager.UpDirection` changes, even while active."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes issue where modified attributes on the root of a package were not showing up in bold."
+    }
+]

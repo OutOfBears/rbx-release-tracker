@@ -1,0 +1,97 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a `Enum.InputActionType.ViewportPosition|ViewportPosition` action type to the Input Action System."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue with Input Action System mouse bindings triggering on touch and VR."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Improves adaptive reverb in the Acoustic Simulation beta feature."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "In the new Luau Type Solver, removed the ICE which occured when the Constraint Generator hit a recursion limit."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds a new `Class.Instance` type called `Class.TextGenerator` that provides a method for getting LLM-generated text."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fix a bug where the New Luau Type Solver was not warning on incorrect use of a generic function."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an infrequent error in the Luau typechecking that could cause type inference to fail when typechecking generics with default parameters"
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.AudioPlayer.SoundContent`, `Class.Sound.SoundContent`, and `Class.VideoPlayer.VideoContent` properties."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds the `Class.AudioTremolo` instance, which works the same as `Class.TremoloSoundEffect` but for newer audio classes such as `Class.AudioPlayer` and `Class.Wire`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Right-to-left text support is now permanently enabled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fix a bug where the New Luau Type Solver would incorrectly warn on certain valid uses of xpcall."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes handling of triggers on Xbox Elite controller in the Xbox app."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Improves error messages for uninstantiated generic types in scripts typechecked with the new solver."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Improves error message for incompatible generic types in scripts typechecked with the new solver."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau native code generation has been improved to avoid cases of lowering failures on arm64. One failure case was compiling certain hashing algorithm implementations like Blake2b."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Audio Discovery tool now works with contemporary randomized assetIds and AudioPlayers."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fix a case where the New Luau Type Solver could erroneously warn when passing a table literal to a function."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes `Class.EditableImage|EditableImages` with `Class.SurfaceApperance.AlphaMode` set to `Transparency`."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a crash in Roblox Studio that occurred when using the \"Compare Package Versions\" feature with packages containing UIDragDetector objects."
+    }
+]

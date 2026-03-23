@@ -1,0 +1,107 @@
+[
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "The `Info` section of MicroProfiler dumps has been reformatted, being properly encoded when exporting as JSON."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reinstates \"OOF\" as the default death sound."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "`DraggerService` properties can now be set by Studio plugins, which allows plugin modification of the grid snap, collision settings, etc. Setting these properties changes the immediate behavior and the associated persistent Studio setting."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `UIContainerQuery` to Studio Explorer."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Optimizes `UIContainerQuery` so that the list of active CQs are rebuilt once per frame. This removes unnecessary computation when `GuiBase2d` instances are duplicated or deleted."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "`AssetService:CreateSurfaceAppearance()` has been renamed to `AssetService:CreateSurfaceAppearanceAsync()` and is now yieldable."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Calling `Class.Players.CreateLocalPlayer()` on the server after a player has joined you no longer causes Studio to crash."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "New Type Solver - Adds guardrails in subtyping of type packs to prevent infinite recursion and hangs."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Removes obsolete rows from physics debug panel."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Improves performance of very large Atomic/PersistentPerPlayer models with streaming."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Restores Luau Heap snapshot grouping by `ModuleScript`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau Heap report now includes string object data overhead in the string object size."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Adjusts the zoom function for the new studio camera to allow zooming in toward smaller objects."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "\"Show collaborator selections\" option in Live Collaborators window now syncs with the Visualization Modes panel's \"Collaborator highlights\" option."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "New Type Solver - Fixes some instances of script analysis never completing while Studio memory usage spikes."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Increases the maximum allowed length of the second `Metadata` parameter of `Class.TextChannel:SendAsync` from 200 to 1000."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes more cases of actions sometimes not showing up when they should in Explorer (especially file sync)."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Prevents scroll movements from being recognized while panning with the middle mouse button. Middle-mouse panning now respects the Pan Sensitivity setting."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes some corner cases in Explorer that would occasionally cause errors on startup."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Explorer - Updates the text color of selected disabled instances to be easier to read."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where you were unable to drag instances out of the toolbox into the viewport."
+    }
+]
