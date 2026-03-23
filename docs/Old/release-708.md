@@ -10,6 +10,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | ScrollingFrame scroll rate when using a mouse wheel has been decreased down to a value more in line with native platform behavior. The scroll rate was adjusted gradually over the past few months, with the current scroll rate being the final one it will be kept at. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds Doppler simulation to Sounds when the "Sound as a Shim" beta feature is enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, naming aliases the same as built in types such as `number` is now disallowed. |
+
 ## Fixes
 
 | Status | Note |
@@ -24,3 +25,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in game pass ownership checks, improving server stability for experiences using game passes. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | MaterialVariant AlphaMode: Fix transparency behavior with Opaque mode and SurfaceAppearance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The F key can once again be used to focus on the selection in server views of a place while testing. |
+

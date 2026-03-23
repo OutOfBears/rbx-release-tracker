@@ -14,6 +14,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.Instance:GetFullName()` is slightly faster and can handle arbitrarily deep instance hierarchies. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.ParticleEmitter.FlipbookBlendFrames` property. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `FIntRenderTextureDebugVisualization` variable to control the render texture debug visualization mode. |
+
 ## Fixes
 
 | Status | Note |
@@ -27,3 +28,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `SpecialMeshes` now correctly show their assigned materials and `MaterialVariants`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: resolves an issue where "attempting to modify bounds of a potentially visited generic" could occur when working with sufficiently complex generic types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: simplification of table types has been rewritten. The downstream effect should be fewer "unreduced" types like { x: number } \| { x: number }, especially for data-like arrays (extremely large tables that have the same element of a given type). |
+

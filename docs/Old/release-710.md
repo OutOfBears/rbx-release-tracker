@@ -7,6 +7,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds property `ClampMagnitudeToOne` on `Class.InputBinding` to control whether composite direction calculations are clamped. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Allows shared assets to be loaded to Editables. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Rotation` property to `Class.Texture` and `Class.Decal` instances to support UV map rotations. |
+
 ## Fixes
 
 | Status | Note |
@@ -25,3 +26,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where downsampling thin water voxels could cause water to be removed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in autocomplete that could occur when using user-defined type functions to create tables with write-only properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for saving `AnimationGraphEditor` instances (`AssetType::Animation`). |
+

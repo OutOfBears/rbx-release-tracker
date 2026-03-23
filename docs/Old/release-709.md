@@ -14,6 +14,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AccessoryDescription.AssetId`, `Class.Pants.PantsTemplate`, `Class.Shirt.ShirtTemplate`, `Class.ShirtGraphic.Graphic`, `Class.BodyPartDescription.AssetId`, `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`, `Class.Clothing.Outfit1`, and `Class.Clothing.Outfit2`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for upcoming `require("@rbx/AvatarAbilities")` library. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a bug where partially annotated local variable initialization would incorrectly infer types for unannotated locals. |
+
 ## Fixes
 
 | Status | Note |
@@ -24,3 +25,4 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves Acoustic Simulation performance in very part-dense scenes. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where switching `Enum.CollisionFidelity` could cause Studio to be unresponsive on slow networks. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves tab switching performance for the new Studio ribbon. |
+
