@@ -139,8 +139,8 @@ const fetchVersionData = async (version) => {
 function ensureDirs() {
   fs.mkdirSync("data", { recursive: true });
   fs.mkdirSync("docs", { recursive: true });
-  fs.mkdirSync("data/Old", { recursive: true });
-  fs.mkdirSync("docs/Old", { recursive: true });
+  fs.mkdirSync("data/old", { recursive: true });
+  fs.mkdirSync("docs/old", { recursive: true });
 }
 
 function moveExistingRootReleasesToOld(latestVersion) {
@@ -149,7 +149,7 @@ function moveExistingRootReleasesToOld(latestVersion) {
     const m = f.match(/^release-(\d+)\.json$/);
     if (m && Number(m[1]) !== latestVersion) {
       const src = `data/${f}`;
-      const dst = `data/Old/${f}`;
+      const dst = `data/old/${f}`;
       try { fs.rmSync(dst); } catch {}
       fs.renameSync(src, dst);
     }
@@ -159,7 +159,7 @@ function moveExistingRootReleasesToOld(latestVersion) {
     const m = f.match(/^release-(\d+)\.md$/);
     if (m && Number(m[1]) !== latestVersion) {
       const src = `docs/${f}`;
-      const dst = `docs/Old/${f}`;
+      const dst = `docs/old/${f}`;
       try { fs.rmSync(dst); } catch {}
       fs.renameSync(src, dst);
     }
@@ -198,19 +198,19 @@ async function main() {
 
     const dataPath = isLatest
       ? `data/release-${version}.json`
-      : `data/Old/release-${version}.json`;
+      : `data/old/release-${version}.json`;
 
     const docsPath = isLatest
       ? `docs/release-${version}.md`
-      : `docs/Old/release-${version}.md`;
+      : `docs/old/release-${version}.md`;
 
     fs.writeFileSync(dataPath, JSON.stringify(data, null, 4));
     fs.writeFileSync(docsPath, contentsToMarkdown(version, data));
   });
 
   // Stable "latest" aliases (super easy to find)
-  fs.writeFileSync("data/New.json", JSON.stringify(versionsData[0].data, null, 4));
-  fs.writeFileSync("docs/New.md", contentsToMarkdown(latestVersion, versionsData[0].data));
+  fs.writeFileSync("data/new.json", JSON.stringify(versionsData[0].data, null, 4));
+  fs.writeFileSync("docs/new.md", contentsToMarkdown(latestVersion, versionsData[0].data));
 }
 
 main().catch(console.error);
