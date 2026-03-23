@@ -5,6 +5,11 @@
         "content": "In Luau's New Type Solver, memory usage for subtyping has been generally optimized. This should result in faster time to Luau interaction (time until script analysis warnings / autocomplete) and less instances of Roblox Studio running out of memory."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Optimize updates to Grass length and density."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Releases beta version of device blocking for the Creator Ban API."
@@ -38,11 +43,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "The AssetImporter now supports an additional scaling factor when importing models and animations. The stud-to-meter conversion factor will be updated from (20:1) to (25:7)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Optimize updates to Grass length and density."
     },
     {
         "status": "Pending",

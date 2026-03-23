@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "`Class.Instance:GetFullName()` is slightly faster and can handle arbitrarily deep instance hierarchies."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates `ComposeDecalAsync` to a `void` function that takes in a `Decal` in input parameters. Only available in the Studio Makeup Beta."
     },
     {
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the KeyCodes `MouseWheel`, `TrackpadPan`, and `TrackpadPinch` for use in the Input Action System as transformed velocities under the `Direction` action types."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.Instance:GetFullName()` is slightly faster and can handle arbitrarily deep instance hierarchies."
     },
     {
         "status": "Pending",

@@ -5,6 +5,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, memory usage for subtyping has been generally optimized. This should result in faster time to Luau interaction (time until script analysis warnings / autocomplete) and less instances of Roblox Studio running out of memory. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Optimize updates to Grass length and density. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Releases beta version of device blocking for the Creator Ban API. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the UX of enabling Server Authority under Workspace. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances. |
@@ -12,7 +13,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Scaling an avatar with layered clothing no longer retriggers layered clothing fitting and should be significantly faster. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Further minor memory usage improvements for `Class.Attachment` and `Class.Constraint` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The AssetImporter now supports an additional scaling factor when importing models and animations. The stud-to-meter conversion factor will be updated from (20:1) to (25:7). |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimize updates to Grass length and density. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables `ko-KR`, `zh-CN`, `zh-HK`, `zh-TW` in the Xbox package's application manifest. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes receiving Lua output from the RCC server while in Team Test mode. |
 
