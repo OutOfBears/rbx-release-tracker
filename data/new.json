@@ -32,7 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting and should be significantly faster."
+        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
     },
     {
         "status": "Pending",
@@ -58,6 +58,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where `Class.GuiService.ViewportDisplaySize` could report incorrect sizes on large-screen devices."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model."
     },
     {
         "status": "Live",
@@ -92,11 +97,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a bug that caused a crash by setting a breakpoint on native compiled function."
     },
     {
@@ -107,7 +107,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPitchShifter` plays a small portion of the previous audio stream when a new audio stream is played through it."
+        "content": "Fixes an issue where `Class.AudioPitchShifter` would briefly play a portion of the previous audio stream when a new stream was played."
     },
     {
         "status": "Pending",

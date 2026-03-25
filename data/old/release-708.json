@@ -32,6 +32,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a division-by-zero error during wedge UV calculations."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Humanoid health bar no longer renders \"negative\" health, which can be observed as a health bar that extends leftward."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing."
     },
     {
         "status": "Pending",

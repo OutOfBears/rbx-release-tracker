@@ -15,11 +15,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a division-by-zero error during wedge UV calculations. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes incorrect reporting of <kbd>Command</kbd> keys on Mac. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed a rare crash in Acoustic Simulation's diffraction pathfinding. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Humanoid health bar no longer renders "negative" health, which can be observed as a health bar that extends leftward. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where zoom level gets reset in vehicles and VR cameras upon `Class.UserInputService.PreferredInput` changing. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Passing a server-accessible only `Object` (non-`Instance`) via a `Class.RemoteEvent` or `Class.RemoteFunction` no longer throws an error; the client receives `Nil` for the corresponding argument. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes regression where StarterCharacter `Class.Humanoid.HipHeight` was overridden with negative values. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in game pass ownership checks, improving server stability for experiences using game passes. |

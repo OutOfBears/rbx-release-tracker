@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where `UITableLayout` sometimes incorrectly sized descendants when `FillEmptySpaceRows` or `FillEmptySpaceColumns` was set to `true`."
+        "content": "Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `FillEmptySpaceRows` or `FillEmptySpaceColumns` was set to `true`."
     },
     {
         "status": "Pending",
