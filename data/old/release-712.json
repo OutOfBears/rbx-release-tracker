@@ -37,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "TBD"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Studio Camera Controls beta, makes the camera speed lock persistent."
     },
     {
