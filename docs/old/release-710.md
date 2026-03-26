@@ -18,7 +18,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where skinned meshes could explode when positioned far from the origin. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where rapidly changing a part’s `CFrame` could cause incorrect culling. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where sometimes calling `StudioTestService:EndTest()` on the first frame of a test session failed to end the test. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `FillEmptySpaceRows` or `FillEmptySpaceColumns` was set to `true`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes invisible sun reflection artifacts on glass when a highlight is applied. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes the incorrect `ParticleEmitter` orientation in `VelocityPerpendicular` mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes rendering of transparent avatars with highlights. |

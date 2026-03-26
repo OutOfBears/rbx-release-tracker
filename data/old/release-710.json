@@ -47,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `FillEmptySpaceRows` or `FillEmptySpaceColumns` was set to `true`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Removes invisible sun reflection artifacts on glass when a highlight is applied."
     },
     {

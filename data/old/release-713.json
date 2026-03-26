@@ -12,27 +12,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Releases beta version of device blocking for the Creator Ban API."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the UX of enabling Server Authority under Workspace."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
     },
     {
         "status": "Pending",
@@ -72,16 +52,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Executing remote events that are not attached to the DataModel no longer has an error message."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes SLIM handling of legacy Surface Types on `Class.SpecialMesh` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where the same drag gesture on a `Class.ScrollingFrame` may produce different inertial velocities on different devices."
     },
     {
@@ -97,32 +67,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug that caused a crash by setting a breakpoint on native compiled function."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds a fix for an audio crash on Mac."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPitchShifter` would briefly play a portion of the previous audio stream when a new stream was played."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes duplicate TexturePack requests when loading `Class.MaterialVariant` objects."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue in IAS where engine sunk analog inputs like gamepad thumbsticks and triggers did not reset as expected."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a small volume boost in the pitch shifter effects."
     },
     {
         "status": "Pending",
