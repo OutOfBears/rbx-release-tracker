@@ -50,6 +50,11 @@
         "content": "Fixes an issue with cylinder part UVs being stretched on the left face."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Improves an error message when engine APIs like `task.spawn` call `require` directly."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where the same drag gesture on a `Class.ScrollingFrame` may produce different inertial velocities on different devices."
@@ -78,10 +83,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where the root bone would not animate on certain imported character configurations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Improves an error message when engine APIs like `task.spawn` call `require` directly."
     }
 ]
