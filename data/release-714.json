@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes an issue where the Audio API's `WiringChanged` events often receive a `nil` wire."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Releases beta version of device blocking for the Creator Ban API."
@@ -32,11 +37,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes an issue where the Audio API's `WiringChanged` events often receive a `nil` wire."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `Class.SoundService.GetMixerTime|GetMixerTime` and optional timestamps to `Class.AudioPlayer.Play|Play` and `Class.AudioPlayer.Stop|Stop`. This allows audio to be scheduled to start and stop at sample-accurate, frame rate-independent times."
     },
     {
@@ -48,6 +48,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new `RenderBreakdown` category to the `Class.Stats` service, including new triangle and draw call breakdowns such as Opaque, Transparent, Terrain, Grass, and Particles."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adding \"Graph Editor\" ribbon button in Avatar tab"
     },
     {
         "status": "Pending",

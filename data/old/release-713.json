@@ -10,6 +10,11 @@
         "content": "Optimize updates to Grass length and density."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Enables `ko-KR`, `zh-CN`, `zh-HK`, `zh-TW` in the Xbox package's application manifest."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "The AssetImporter now supports an additional scaling factor when importing models and animations. The stud-to-meter conversion factor will be updated from (20:1) to (25:7)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Enables `ko-KR`, `zh-CN`, `zh-HK`, `zh-TW` in the Xbox package's application manifest."
     },
     {
         "status": "Pending",

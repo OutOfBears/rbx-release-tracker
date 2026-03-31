@@ -6,10 +6,10 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In Luau's New Type Solver, memory usage for subtyping has been generally optimized. This should result in faster time to Luau interaction (time until script analysis warnings / autocomplete) and less instances of Roblox Studio running out of memory. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Optimize updates to Grass length and density. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Enables `ko-KR`, `zh-CN`, `zh-HK`, `zh-TW` in the Xbox package's application manifest. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Further minor memory usage improvements for `Class.Attachment` and `Class.Constraint` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The AssetImporter now supports an additional scaling factor when importing models and animations. The stud-to-meter conversion factor will be updated from (20:1) to (25:7). |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Enables `ko-KR`, `zh-CN`, `zh-HK`, `zh-TW` in the Xbox package's application manifest. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes receiving Lua output from the RCC server while in Team Test mode. |
 
 ## Fixes

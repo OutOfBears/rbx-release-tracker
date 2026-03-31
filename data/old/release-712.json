@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, generic functions that take tables are now more permissive when passing in table literals, and autocomplete on generic functions is improved."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Assign Capabilities to more classes"
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Enum.KeyCode.Touch` for the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, generic functions that take tables are now more permissive when passing in table literals, and autocomplete on generic functions is improved."
     },
     {
         "status": "Pending",

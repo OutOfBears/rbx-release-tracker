@@ -4,16 +4,17 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the Audio API's `WiringChanged` events often receive a `nil` wire. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Releases beta version of device blocking for the Creator Ban API. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the UX of enabling Server Authority under Workspace. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `SensedMaterial` to `Class.ControllerManager.GroundSensor\|GroundSensor`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Significantly improves performance for large filter lists that use `ExcludeInstances` or `IgnoreInstances`, with up to 10x faster performance than FilterDescendantsInstances when using 10,000 instances in `ExcludeInstances`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where the Audio API's `WiringChanged` events often receive a `nil` wire. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.SoundService.GetMixerTime\|GetMixerTime` and optional timestamps to `Class.AudioPlayer.Play\|Play` and `Class.AudioPlayer.Stop\|Stop`. This allows audio to be scheduled to start and stop at sample-accurate, frame rate-independent times. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the error message in `ContentBridge::fromObject` when you try to create ` Content`  from `nil` . |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `RenderBreakdown` category to the `Class.Stats` service, including new triangle and draw call breakdowns such as Opaque, Transparent, Terrain, Grass, and Particles. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adding "Graph Editor" ribbon button in Avatar tab |
 
 ## Fixes
 
