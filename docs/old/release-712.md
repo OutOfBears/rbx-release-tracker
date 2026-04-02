@@ -21,6 +21,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes potential false culling of parts and characters. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes floating grass geometry. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed an issue on some objects looking emissive incorrectly when exporting to OBJ format. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed a bug with `Class.MeshPart.DoubleSided\|double-sided meshes` rendering as single-sided in 3D thumbnails. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixed a bug with `Class.MeshPart.DoubleSided\|double-sided meshes` rendering as single-sided in 3D thumbnails. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed issue with saving escaped strings in plugin settings. |
 
