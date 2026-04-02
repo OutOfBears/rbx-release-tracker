@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Further minor memory usage improvements for `Class.Attachment` and `Class.Constraint` objects."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "In Luau's New Type Solver, memory usage for subtyping has been generally optimized. This should result in faster time to Luau interaction (time until script analysis warnings / autocomplete) and less instances of Roblox Studio running out of memory."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Further minor memory usage improvements for `Class.Attachment` and `Class.Constraint` objects."
     },
     {
         "status": "Pending",
