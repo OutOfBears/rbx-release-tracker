@@ -1,0 +1,23 @@
+# Release notes for 714
+
+## Improvements
+
+| Status | Note |
+|--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the Audio API's `WiringChanged` events often receive a `nil` wire. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `RenderBreakdown` category to the `Class.Stats` service, including new triangle and draw call breakdowns such as Opaque, Transparent, Terrain, Grass, and Particles. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adding "Graph Editor" ribbon button in Avatar tab |
+
+## Fixes
+
+| Status | Note |
+|--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where filtered-out links in the Output Window were still clickable. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.ScreenGui\|ScreenGuis` with nested `Class.UIPadding` and `Class.UIScale` would add unintended right and bottom padding when only left and top padding were set and the `UIScale` value was not 1. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Executing remote events that are not attached to the DataModel no longer has an error message. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug that caused a crash by setting a breakpoint on native compiled function. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau's New Type Solver: read-only properties now produce type errors when written to via a compound assignment. For example, `dog.barks += 67`. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the option to pre-select the owner group in Studio's "Save to Roblox" dialog. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Explorer now more consistently shows the correct context menu, especially when right-clicking previously unselected instances. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adding an Attachment parented directly to the Workspace no longer causes performance issues in larger places. |
+
