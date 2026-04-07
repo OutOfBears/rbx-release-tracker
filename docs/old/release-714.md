@@ -6,7 +6,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the Audio API's `WiringChanged` events often receive a `nil` wire. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `RenderBreakdown` category to the `Class.Stats` service, including new triangle and draw call breakdowns such as Opaque, Transparent, Terrain, Grass, and Particles. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adding "Graph Editor" ribbon button in Avatar tab |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds "Graph Editor" button in Avatar tab of Studio's toolbar. |
 
 ## Fixes
 

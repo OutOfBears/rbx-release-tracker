@@ -12,7 +12,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adding \"Graph Editor\" ribbon button in Avatar tab"
+        "content": "Adds \"Graph Editor\" button in Avatar tab of Studio's toolbar."
     },
     {
         "status": "Live",

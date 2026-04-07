@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Significantly improves performance for large filter lists that use `ExcludeInstances` or `IgnoreInstances`, with up to 10x faster performance than FilterDescendantsInstances when using 10,000 instances in `ExcludeInstances`."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Releases beta version of device blocking for the Creator Ban API."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `SensedMaterial` to `Class.ControllerManager.GroundSensor|GroundSensor`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Significantly improves performance for large filter lists that use `ExcludeInstances` or `IgnoreInstances`, with up to 10x faster performance than FilterDescendantsInstances when using 10,000 instances in `ExcludeInstances`."
     },
     {
         "status": "Pending",
@@ -72,7 +72,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "TextBounds property should now be correct for text Instances parented to a `Class.BillboardGui`."
+        "content": "`TextBounds` property should now be correct for text instances parented to a `Class.BillboardGui`."
     },
     {
         "status": "Pending",
@@ -153,5 +153,10 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a rare crash that can occurr when `AudioPlayer:GetWaveformAsync` aggressively downsamples long files."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where `Class.Player.CharacterAppearanceLoaded` did not fire for avatars with makeup equipped."
     }
 ]
