@@ -10,9 +10,9 @@
         "content": "Adds a new `RenderBreakdown` category to the `Class.Stats` service, including new triangle and draw call breakdowns such as Opaque, Transparent, Terrain, Grass, and Particles."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds \"Graph Editor\" button in Avatar tab of Studio's toolbar."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau's New Type Solver: read-only properties now produce type errors when written to via a compound assignment. For example, `dog.barks += 67`."
     },
     {
         "status": "Live",
@@ -33,11 +33,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug that caused a crash by setting a breakpoint on native compiled function."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: read-only properties now produce type errors when written to via a compound assignment. For example, `dog.barks += 67`."
     },
     {
         "status": "Pending",
