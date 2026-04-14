@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Class.ControllerPartSensor.SensedMaterial\|SensedMaterial` to `Class.ControllerPartSensor`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds **Graph Editor** button to the **Avatar** tab of Studio's toolbar. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.Touch` for the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the UX of enabling Server Authority under `Class.Workspace`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AvatarEditorService:PromptSaveAvatar()` and `Class.AvatarEditorService:NoPromptSaveAvatar()` will now make a single HTTP call to update the given user's platform avatar instead of up to 4 calls. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.ControllerPartSensor.SensedMaterial\|SensedMaterial` to `Class.ControllerPartSensor`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds structured logging methods to `Class.LogService`: `Class.LogService:Output()\|Output()`, `Class.LogService:Info()\|Info()`, `Class.LogService:Warn()\|Warn()`, `Class.LogService:Error()\|Error()`, and `Class.LogService:Log()\|Log()`. These methods accept a template string with `{key}` placeholders and a context table. `Class.LogService:Error()\|Error()` also halts execution and throws a structured error catchable via `Global.LuaGlobals.pcall()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.SurfaceAppearance.ResampleMode\|ResampleMode` for `Class.SurfaceAppearance`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates error messages in `Class.AssetService:ComposeDecalAsync()`. |

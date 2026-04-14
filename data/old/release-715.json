@@ -5,6 +5,11 @@
         "content": "Significantly improves performance for large filter lists that use `ExcludeInstances` or `IgnoreInstances`, with up to 10x faster performance than FilterDescendantsInstances when using 10,000 instances in `ExcludeInstances`."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Updates the error message in `ContentBridge::fromObject` when you try to create `Content`  from `nil` ."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Releases beta version of device blocking for the Creator Ban API."
@@ -27,11 +32,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates the error message in `ContentBridge::fromObject` when you try to create `Content`  from `nil` ."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the Luau New Type Solver, fixes a crash that could occur when using generics and type functions, specifically the `index` and `keyof` type functions."
     },
     {
@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Caps stack depth of in-game microprofiler to avoid buffer overrun crash."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Automatically selects the `RobustRetargeter` when `Class.HumanoidRigDescription` data is present in an `AnimationRig`, while maintaining backward compatibility with legacy rigs."
     },
     {
@@ -55,14 +60,24 @@
         "content": "Fixes a crash that would happen when exporting ` .obj`  files."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Fixes geometry of ball-shaped `Part` instances that are parented to the player."
+        "content": "Fixes an issue where `Class.AudioPlayer.TimePosition` and `Class.Sound.TimePosition` could get stuck at `Class.Sound.PlaybackRegion.Max` and `Class.AudioPlayer.PlaybackRegion.Max`, respectively."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where Acoustic Simulation's diffraction pathfinding would sometimes path through walls without applying any muffling."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a rare crash that can occurr when `AudioPlayer:GetWaveformAsync` aggressively downsamples long files."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Caps stack depth of in-game microprofiler to avoid buffer overrun crash."
+        "content": "Fixes geometry of ball-shaped `Part` instances that are parented to the player."
     },
     {
         "status": "Pending",
@@ -73,20 +88,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where very large mesh parts could be treated as persistent in streaming enabled experiences."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPlayer.TimePosition` and `Class.Sound.TimePosition` could get stuck at `Class.Sound.PlaybackRegion.Max` and `Class.AudioPlayer.PlaybackRegion.Max`, respectively."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where Acoustic Simulation's diffraction pathfinding would sometimes path through walls without applying any muffling."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a rare crash that can occurr when `AudioPlayer:GetWaveformAsync` aggressively downsamples long files."
     }
 ]
