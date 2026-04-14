@@ -14,8 +14,8 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.SurfaceAppearance.ResampleMode\|ResampleMode` for `Class.SurfaceAppearance`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates error messages in `Class.AssetService:ComposeDecalAsync()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where avatar makeup layers occasionally appear darker than intended. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature). |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions. |
 
 ## Fixes
 

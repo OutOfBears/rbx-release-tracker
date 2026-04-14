@@ -52,12 +52,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions."
+        "content": "Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature)."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature)."
+        "content": "Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions."
     },
     {
         "status": "Live",

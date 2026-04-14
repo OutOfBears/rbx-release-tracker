@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Automatically selects the `RobustRetargeter` when `Class.HumanoidRigDescription` data is present in an `AnimationRig`, while maintaining backward compatibility with legacy rigs."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a crash that would happen when exporting ` .obj`  files."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Caps stack depth of in-game microprofiler to avoid buffer overrun crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Automatically selects the `RobustRetargeter` when `Class.HumanoidRigDescription` data is present in an `AnimationRig`, while maintaining backward compatibility with legacy rigs."
     },
     {
         "status": "Pending",
