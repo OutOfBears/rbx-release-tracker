@@ -2,11 +2,6 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds `Class.ControllerPartSensor.SensedMaterial|SensedMaterial` to `Class.ControllerPartSensor`."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Adds **Graph Editor** button to the **Avatar** tab of Studio's toolbar."
     },
     {
@@ -28,6 +23,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.AvatarEditorService:PromptSaveAvatar()` and `Class.AvatarEditorService:NoPromptSaveAvatar()` will now make a single HTTP call to update the given user's platform avatar instead of up to 4 calls."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.ControllerPartSensor.SensedMaterial|SensedMaterial` to `Class.ControllerPartSensor`."
     },
     {
         "status": "Pending",
