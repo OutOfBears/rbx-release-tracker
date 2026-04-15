@@ -20,6 +20,11 @@
         "content": "Enables `ko-KR`, `zh-CN`, `zh-HK`, `zh-TW` in the Xbox package's application manifest."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes receiving Lua output from the RCC server while in Team Test mode."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Introduces new `const` keyword for declaring local variables. It can be used in any position `local` is used. After variable is declared, it cannot be reassigned later but can be shadowed with new declaration. More details in RFC: [https://github.com/luau-lang/rfcs/pull/166](https://github.com/luau-lang/rfcs/pull/166)."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "The AssetImporter now supports an additional scaling factor when importing models and animations. The stud-to-meter conversion factor will be updated from (20:1) to (25:7)."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes receiving Lua output from the RCC server while in Team Test mode."
     },
     {
         "status": "Live",
@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue in IAS where engine sunk analog inputs like gamepad thumbsticks and triggers did not reset as expected."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Improves an error message when engine APIs like `task.spawn` call `require` directly."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes duplicate TexturePack requests when loading `Class.MaterialVariant` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue in IAS where engine sunk analog inputs like gamepad thumbsticks and triggers did not reset as expected."
     },
     {
         "status": "Pending",

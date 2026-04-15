@@ -7,7 +7,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Significantly improves performance for large filter lists that use `ExcludeInstances` or `IgnoreInstances`, with up to 10x faster performance than FilterDescendantsInstances when using 10,000 instances in `ExcludeInstances`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the error message in `ContentBridge::fromObject` when you try to create `Content`  from `nil` . |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Releases beta version of device blocking for the Creator Ban API. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the messages for Data Store Request Queued Warning. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.SoundService.GetMixerTime\|GetMixerTime` and optional timestamps to `Class.AudioPlayer.Play\|Play` and `Class.AudioPlayer.Stop\|Stop`. This allows audio to be scheduled to start and stop at sample-accurate, frame rate-independent times. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the Luau New Type Solver, fixes a crash that could occur when using generics and type functions, specifically the `index` and `keyof` type functions. |

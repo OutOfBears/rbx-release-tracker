@@ -12,32 +12,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Improves the UX of enabling Server Authority under `Class.Workspace`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.AvatarEditorService:PromptSaveAvatar()` and `Class.AvatarEditorService:NoPromptSaveAvatar()` will now make a single HTTP call to update the given user's platform avatar instead of up to 4 calls."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `Class.ControllerPartSensor.SensedMaterial|SensedMaterial` to `Class.ControllerPartSensor`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds structured logging methods to `Class.LogService`: `Class.LogService:Output()|Output()`, `Class.LogService:Info()|Info()`, `Class.LogService:Warn()|Warn()`, `Class.LogService:Error()|Error()`, and `Class.LogService:Log()|Log()`. These methods accept a template string with `{key}` placeholders and a context table. `Class.LogService:Error()|Error()` also halts execution and throws a structured error catchable via `Global.LuaGlobals.pcall()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a new `Class.SurfaceAppearance.ResampleMode|ResampleMode` for `Class.SurfaceAppearance`."
     },
     {
         "status": "Pending",
@@ -82,22 +57,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `Class.UITableLayout.FillEmptySpaceRows|FillEmptySpaceRows` or `Class.UITableLayout.FillEmptySpaceColumns|FillEmptySpaceColumns` was set to `true`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "A `Class.GuiObject` influenced by a `Class.UIScale` no longer has its `Class.GuiObject.Size|Size` property uneditable in the **Properties** window."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes `Class.ImageHandleAdornment` edge sampling."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Significant broadphase optimizations for geometry-dense maps, especially when large objects are moving (such as during dragging operations in Studio)."
     },
     {
         "status": "Pending",
@@ -107,52 +67,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes shading of `Class.HandleAdornment|HandleAdornments` that have `Class.HandleAdornment.AlwaysOnTop|AlwaysOnTop` set to `true`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes SLIM handling of legacy surface types on `Class.SpecialMesh` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Respect the `transparency` parameter for `Class.EditableImage` operations with the `combineType` parameter set to `Enum.ImageCombineType.Add`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes lighting bug where parts would not be properly shadowed if the occluders were scaled and rotated in a specific way."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an audio crash on Mac."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPitchShifter` would briefly play a portion of the previous audio stream when a new stream was played."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a small volume boost in the pitch shifter effects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes night sky star twinkle rate at high FPS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes incorrect ambient occlusions for transparent materials, and fixes ambient occlusion artifacts for `Class.MaterialVariant.AlphaMode|AlphaMode`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state."
     },
     {
         "status": "Pending",
@@ -168,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes an internal compiler exception that occurred when trying to write an uninitialized `const` variable."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds syntax highlighting for `const` keyword."
     },
     {
         "status": "Pending",

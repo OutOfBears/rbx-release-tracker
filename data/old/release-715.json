@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves the messages for Data Store Request Queued Warning."
     },
     {
