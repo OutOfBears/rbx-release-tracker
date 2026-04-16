@@ -5,7 +5,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds **Graph Editor** button to the **Avatar** tab of Studio's toolbar. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.Touch` for the Input Action System. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.TouchPosition` for the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.ControllerPartSensor.SensedMaterial\|SensedMaterial` to `Class.ControllerPartSensor`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates error messages in `Class.AssetService:ComposeDecalAsync()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where avatar makeup layers occasionally appear darker than intended. |
