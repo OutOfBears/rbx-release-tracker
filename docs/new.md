@@ -21,10 +21,10 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `Class.UITableLayout.FillEmptySpaceRows\|FillEmptySpaceRows` or `Class.UITableLayout.FillEmptySpaceColumns\|FillEmptySpaceColumns` was set to `true`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix blurry or smudged text when using TextScaled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Input on GuiObjects within BillboardGui or SurfaceGui will now record the correct local position instead of a position offset by topbar or hardware insets. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `Class.UITableLayout.FillEmptySpaceRows\|FillEmptySpaceRows` or `Class.UITableLayout.FillEmptySpaceColumns\|FillEmptySpaceColumns` was set to `true`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `UIScale` causing `ScrollingFrame` scroll bar to not clip its children. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A `Class.GuiObject` influenced by a `Class.UIScale` no longer has its `Class.GuiObject.Size\|Size` property uneditable in the **Properties** window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where rotating a shadowed spot light can produce black artifacts along the edge. |

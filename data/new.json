@@ -62,11 +62,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `Class.UITableLayout.FillEmptySpaceRows|FillEmptySpaceRows` or `Class.UITableLayout.FillEmptySpaceColumns|FillEmptySpaceColumns` was set to `true`."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature."
     },
     {
@@ -78,6 +73,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Input on GuiObjects within BillboardGui or SurfaceGui will now record the correct local position instead of a position offset by topbar or hardware insets."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `Class.UITableLayout.FillEmptySpaceRows|FillEmptySpaceRows` or `Class.UITableLayout.FillEmptySpaceColumns|FillEmptySpaceColumns` was set to `true`."
     },
     {
         "status": "Pending",
