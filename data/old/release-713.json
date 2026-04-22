@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Luau Script Analysis will no longer warn when pcall is passed a function that does not return anything."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where `Class.GuiService.ViewportDisplaySize` could report incorrect sizes on large-screen devices."
     },
     {
@@ -63,11 +68,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Improves an error message when engine APIs like `task.spawn` call `require` directly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau Script Analysis will no longer warn when pcall is passed a function that does not return anything."
     },
     {
         "status": "Pending",

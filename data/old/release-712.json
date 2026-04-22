@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "In the New Luau Type Solver, fix a bug where type function reduction would get \"stuck\" at the end of type inference when dealing with recursive type functions like `t1 where t1 = add<t1 | number, t1 | number>`. This should help somewhat with memory pressure and marginally speed up type checking."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "`QueryDescendants` can now match enumeration properties to a string value."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Marks `Class.DataStore:RemoveVersionAsync()` as deprecated."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "In the New Luau Type Solver, fix a bug where type function reduction would get \"stuck\" at the end of type inference when dealing with recursive type functions like `t1 where t1 = add<t1 | number, t1 | number>`. This should help somewhat with memory pressure and marginally speed up type checking."
     },
     {
         "status": "Pending",

@@ -21,6 +21,9 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes log spam of "Failed to play animation: [http://www.roblox.com/asset/?id=<assetid](http://www.roblox.com/asset/?id=%3Cassetid)>. AnimationTrack limit of 64 tracks exceeded for 'SelfAvatar', new animations will not be played." |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an audio crash on Mac. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a small volume boost in the pitch shifter effects. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix blurry or smudged text when using TextScaled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Input on GuiObjects within BillboardGui or SurfaceGui will now record the correct local position instead of a position offset by topbar or hardware insets. |
@@ -33,11 +36,8 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes shading of `Class.HandleAdornment\|HandleAdornments` that have `Class.HandleAdornment.AlwaysOnTop\|AlwaysOnTop` set to `true`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes SLIM handling of legacy surface types on `Class.SpecialMesh` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Respect the `transparency` parameter for `Class.EditableImage` operations with the `combineType` parameter set to `Enum.ImageCombineType.Add`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Removes log spam of "Failed to play animation: [http://www.roblox.com/asset/?id=<assetid](http://www.roblox.com/asset/?id=%3Cassetid)>. AnimationTrack limit of 64 tracks exceeded for 'SelfAvatar', new animations will not be played." |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed frame spikes when using high polling mice. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an audio crash on Mac. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.AudioPitchShifter` would briefly play a portion of the previous audio stream when a new stream was played. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a small volume boost in the pitch shifter effects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes night sky star twinkle rate at high FPS. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds syntax highlighting for `const` keyword. |
