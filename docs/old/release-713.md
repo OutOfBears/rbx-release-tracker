@@ -25,5 +25,4 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves an error message when engine APIs like `task.spawn` call `require` directly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes duplicate TexturePack requests when loading `Class.MaterialVariant` objects. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where the root bone would not animate on certain imported character configurations. |
 

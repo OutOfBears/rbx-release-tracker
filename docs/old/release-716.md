@@ -5,26 +5,23 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds **Graph Editor** button to the **Avatar** tab of Studio's toolbar. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.TouchPosition` for the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.ControllerPartSensor.SensedMaterial\|SensedMaterial` to `Class.ControllerPartSensor`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates error messages in `Class.AssetService:ComposeDecalAsync()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where avatar makeup layers occasionally appear darker than intended. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions. |
 
 ## Fixes
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X**. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes legacy `rbxasset://` paths for SLIM avatar meshes. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling of `Class.PartOperation\|PartOperations`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X**. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `TextBounds` property should now be correct for text instances parented to a `Class.BillboardGui`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.ImageHandleAdornment` edge sampling. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.UIScale` objects now correctly scale their parent `Class.ImageLabel` or `Class.ImageButton` without affecting the `TileSize` property. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes lighting bug where parts would not be properly shadowed if the occluders were scaled and rotated in a specific way. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes incorrect ambient occlusions for transparent materials, and fixes ambient occlusion artifacts for `Class.MaterialVariant.AlphaMode\|AlphaMode`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a precision issue in `Library.math.noise()` for very large input values. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where auto-skinning enabled accessories sometimes wouldn't display in avatar thumbnails. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an internal compiler exception that occurred when trying to write an uninitialized `const` variable. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where `Class.Player.CharacterAppearanceLoaded` did not fire for avatars with makeup equipped. |

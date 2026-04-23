@@ -78,10 +78,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes duplicate TexturePack requests when loading `Class.MaterialVariant` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where the root bone would not animate on certain imported character configurations."
     }
 ]

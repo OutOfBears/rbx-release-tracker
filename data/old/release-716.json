@@ -7,11 +7,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.TouchPosition` for the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `Class.ControllerPartSensor.SensedMaterial|SensedMaterial` to `Class.ControllerPartSensor`."
     },
     {
@@ -27,12 +22,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature)."
+        "content": "Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds new **Copy As** submenu in the **Explorer** and 3D view context menus, containing **Copy Path** and **Copy Unique ID** actions."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **X** can no longer set non-zero `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **X**."
     },
     {
         "status": "Live",
@@ -43,11 +38,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes false culling of `Class.PartOperation|PartOperations`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **X** can no longer set non-zero `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **X**."
     },
     {
         "status": "Pending",
@@ -73,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes incorrect ambient occlusions for transparent materials, and fixes ambient occlusion artifacts for `Class.MaterialVariant.AlphaMode|AlphaMode`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a precision issue in `Library.math.noise()` for very large input values."
     },
     {
         "status": "Pending",
