@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with cylinder part UVs being stretched on the left face."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Improves an error message when engine APIs like `task.spawn` call `require` directly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug in the Adaptive Animation Beta where scaling a model causes incorrect translation on the root when animating the model."
     },
     {
         "status": "Pending",

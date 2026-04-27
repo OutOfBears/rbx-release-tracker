@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Introduces `AnimationClip.Length` to allow easy access to the duration of an AnimationClip instance."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes a crash with `SetResolutionAsync`."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds a new `Class.SurfaceAppearance.ResampleMode|ResampleMode` for `Class.SurfaceAppearance`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Introduces `AnimationClip.Length` to allow easy access to the duration of an AnimationClip instance."
     },
     {
         "status": "Pending",

@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces `AnimationClip.Length` to allow easy access to the duration of an AnimationClip instance. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash with `SetResolutionAsync`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Input Action System: `TouchPosition` keycode can now be used in InputBinding to trigger InputAction of type bool. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.TouchPosition` for the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.SurfaceAppearance.ResampleMode\|ResampleMode` for `Class.SurfaceAppearance`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces `AnimationClip.Length` to allow easy access to the duration of an AnimationClip instance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, non-strict mode no longer reports type checking errors for `**error-type**`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | EditableImage:ReadPixelsBuffer and EditableImage:WritePixelsBuffer now support the max size of the EditableImage instead of being capped to 1024x1024. |

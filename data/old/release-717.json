@@ -57,7 +57,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature."
+        "content": "Fixes two bugs in `CompressorSoundEffect` and `EqualizerSoundEffect`, respectively, which could cause bursts of loud noise on Windows."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an bug where using the move/rotate/scale tools to reposition an `Attachment` could also reposition its parent `Model`, resulting in \"doubled\" movement."
     },
     {
         "status": "Pending",
@@ -107,12 +112,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes two bugs in `CompressorSoundEffect` and `EqualizerSoundEffect`, respectively, which could cause bursts of loud noise on Windows."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an bug where using the move/rotate/scale tools to reposition an `Attachment` could also reposition its parent `Model`, resulting in \"doubled\" movement."
+        "content": "Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature."
     },
     {
         "status": "Pending",

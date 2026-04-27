@@ -2,22 +2,22 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Updates error messages in `Class.AssetService:ComposeDecalAsync()`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes issue where avatar makeup layers occasionally appear darker than intended."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds **Graph Editor** button to the **Avatar** tab of Studio's toolbar."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.ControllerPartSensor.SensedMaterial|SensedMaterial` to `Class.ControllerPartSensor`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates error messages in `Class.AssetService:ComposeDecalAsync()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue where avatar makeup layers occasionally appear darker than intended."
     },
     {
         "status": "Pending",
@@ -38,6 +38,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes false culling of `Class.PartOperation|PartOperations`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug where `Class.Player.CharacterAppearanceLoaded` did not fire for avatars with makeup equipped."
     },
     {
         "status": "Pending",
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes an internal compiler exception that occurred when trying to write an uninitialized `const` variable."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where `Class.Player.CharacterAppearanceLoaded` did not fire for avatars with makeup equipped."
     },
     {
         "status": "Pending",
