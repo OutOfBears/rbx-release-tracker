@@ -12,7 +12,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Input Action System: `TouchPosition` keycode can now be used in InputBinding to trigger InputAction of type bool."
+        "content": "Input Action System: `TouchPosition` keycode can now be used in `Class.InputBinding` to trigger `Class.InputAction` of type `bool`."
     },
     {
         "status": "Pending",
@@ -42,17 +42,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "EditableImage:ReadPixelsBuffer and EditableImage:WritePixelsBuffer now support the max size of the EditableImage instead of being capped to 1024x1024."
+        "content": "`Class.EditableImage:ReadPixelsBuffer|ReadPixelsBuffer` and `Class.EditableImage:WritePixelsBuffer|WritePixelsBuffer` now support the max size of the `EditableImage` instead of being capped to 1024x1024."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds improvements for reporting in Global Chat."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds Scene Analysis to Roblox Studio. This feature gives creators feedback on Script Memory, Audio Memory, Animation Memory, Instances and other project resource usage. See the developer forums for the full announcement."
+        "content": "Adds Scene Analysis to Roblox Studio. This feature gives creators feedback on Script Memory, Audio Memory, Animation Memory, Instances and other project resource usage. See the developer forum for the full announcement."
     },
     {
         "status": "Pending",
@@ -75,6 +70,11 @@
         "content": "Fixes a small volume boost in the pitch shifter effects."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds extra validation to `Terrain:CopyRegion`. An error will be output rather than a script time out when the region extents are empty or inverted."
@@ -87,17 +87,17 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug where rotating a shadowed spot light can produce black artifacts along the edge."
+        "content": "Fixes a bug where rotating a shadowed spot light could produce black artifacts along the edge."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes dark lighting that could occur when the sun is precisely in the center of the sky."
+        "content": "Fixes dark lighting that can occur when the sun is precisely in the center of the sky."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds `EditableImage` `antiAliased` parameter to `DrawCircle` and `DrawLine` to support drawing hard edges."
+        "content": "Adds `Class.EditableImage` `antiAliased` parameter to `DrawCircle` and `DrawLine` to support drawing hard edges."
     },
     {
         "status": "Pending",
@@ -117,7 +117,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes issue where with certain configurations IKControls would not work."
+        "content": "Fixes issue where with certain configurations `Class.IKControl|IKControls` would not work."
     },
     {
         "status": "Pending",
@@ -128,11 +128,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes night sky star twinkle rate at high FPS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state."
     },
     {
         "status": "Pending",
@@ -157,32 +152,32 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Updates SoundService.CharacterSoundsUseNewApi script to fix latent issue with character loading."
+        "content": "Updates `Class.SoundService.CharacterSoundsUseNewApi|CharacterSoundsUseNewApi` script to fix latent issue with character loading."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug in the animation graph Sequence node (AnimationNodeType.SequenceNode) where the Trigger field does not advance the sequence."
+        "content": "Fixes a bug in the animation graph Sequence node (`AnimationNodeType.SequenceNode`) where the Trigger field does not advance the sequence."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue in AdaptiveAnimations where translation weight wasn't properly respected in Animator when combined track weights are less than 1.0."
+        "content": "Fixes an issue in AdaptiveAnimations where translation weight wasn't properly respected by Animator when combined track weights were less than 1.0."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Optimizes Studio Output Window performance when only receiving output in contexts that are hidden."
+        "content": "Optimizes Studio Output window performance when output is received only in hidden contexts."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes rare timing issue with Studio Output window that would result in bad ordering for print statements when using task.defer."
+        "content": "Fixes rare timing issue with Studio Output window that would result in bad ordering for print statements when using `task.defer`."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes issue with printing complex tables with __tostring metamethods crashing Studio."
+        "content": "Fixes issue where printing complex tables with `__tostring` metamethods crashed Studio."
     },
     {
         "status": "Pending",

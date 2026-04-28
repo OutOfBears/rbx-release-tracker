@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds `Class.SoundService.GetMixerTime|GetMixerTime` and optional timestamps to `Class.AudioPlayer.Play|Play` and `Class.AudioPlayer.Stop|Stop`. This allows audio to be scheduled to start and stop at sample-accurate, frame rate-independent times."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Updates the error message in `ContentBridge::fromObject` when you try to create `Content`  from `nil` ."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves the messages for Data Store Request Queued Warning."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.SoundService.GetMixerTime|GetMixerTime` and optional timestamps to `Class.AudioPlayer.Play|Play` and `Class.AudioPlayer.Stop|Stop`. This allows audio to be scheduled to start and stop at sample-accurate, frame rate-independent times."
     },
     {
         "status": "Pending",

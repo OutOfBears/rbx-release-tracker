@@ -14,7 +14,7 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X**. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X**. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes legacy `rbxasset://` paths for SLIM avatar meshes. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling of `Class.PartOperation\|PartOperations`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where `Class.Player.CharacterAppearanceLoaded` did not fire for avatars with makeup equipped. |

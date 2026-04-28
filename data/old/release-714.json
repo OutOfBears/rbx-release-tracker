@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Class.ScreenGui|ScreenGuis` with nested `Class.UIPadding` and `Class.UIScale` would add unintended right and bottom padding when only left and top padding were set and the `UIScale` value was not 1."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Luau's New Type Solver: read-only properties now produce type errors when written to via a compound assignment. For example, `dog.barks += 67`."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Explorer now more consistently shows the correct context menu, especially when right-clicking previously unselected instances."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.ScreenGui|ScreenGuis` with nested `Class.UIPadding` and `Class.UIScale` would add unintended right and bottom padding when only left and top padding were set and the `UIScale` value was not 1."
     },
     {
         "status": "Pending",

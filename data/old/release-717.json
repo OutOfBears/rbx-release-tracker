@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Significant broadphase optimizations for geometry-dense maps, especially when large objects are moving (such as during dragging operations in Studio)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an audio crash on Mac."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "A `Class.GuiObject` influenced by a `Class.UIScale` no longer has its `Class.GuiObject.Size|Size` property uneditable in the **Properties** window."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Significant broadphase optimizations for geometry-dense maps, especially when large objects are moving (such as during dragging operations in Studio)."
     },
     {
         "status": "Pending",
