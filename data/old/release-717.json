@@ -92,11 +92,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes shading of `Class.HandleAdornment|HandleAdornments` that have `Class.HandleAdornment.AlwaysOnTop|AlwaysOnTop` set to `true`."
     },
     {
@@ -107,12 +102,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes frame spikes when using high polling mice."
+        "content": "Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature."
+        "content": "Fixed an issue where IKControl parented to the model could cause character positions to stop replicating."
     },
     {
         "status": "Pending",

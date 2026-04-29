@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.TouchPosition` to the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
     },
     {
@@ -42,22 +37,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Class.EditableImage:ReadPixelsBuffer|ReadPixelsBuffer` and `Class.EditableImage:WritePixelsBuffer|WritePixelsBuffer` now support the max size of the `EditableImage` instead of being capped to 1024x1024."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds Scene Analysis to Roblox Studio. This feature gives creators feedback on Script Memory, Audio Memory, Animation Memory, Instances and other project resource usage. See the developer forum for the full announcement."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "With New Camera Controls beta enabled, the studio camera can now be rotated and zoomed using the keypad. <br /><br />\n\n<ul>\n<li><kbd>1</kbd>: View Front </li>\n<li><kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>1</kbd>: View Back </li>\n<li><kbd>2</kbd>: Tilt/Orbit down </li>\n<li><kbd>3</kbd>: View Right </li>\n<li><kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>3</kbd>: View Left </li>\n<li><kbd>4</kbd>: Pan/Orbit left </li>\n<li><kbd>6</kbd>: Pan/Orbit Right </li>\n<li><kbd>7</kbd>: View Top </li>\n<li><kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>7</kbd>: View Bottom </li>\n<li><kbd>8</kbd>: Tilt/Orbit up </li>\n<li><kbd>+</kbd>: Zoom in </li>\n<li><kbd>-</kbd>: Zoom out </li>\n</ul>"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates the open place dialog with a new look."
     },
     {
         "status": "Live",
@@ -68,6 +48,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes a small volume boost in the pitch shifter effects."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes night sky star twinkle rate at high FPS."
     },
     {
         "status": "Pending",
@@ -82,17 +67,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug where rotating a shadowed spot light could produce black artifacts along the edge."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes dark lighting that can occur when the sun is precisely in the center of the sky."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds an `antiAliased` parameter to `Class.EditableImage.DrawCircle|DrawCircle` and `Class.EditableImage.DrawLine|DrawLine` to support drawing hard edges."
     },
     {
         "status": "Pending",
@@ -122,11 +97,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes night sky star twinkle rate at high FPS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state."
     },
     {
@@ -148,11 +118,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes occasional frame spike when a USB device disconnects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Updates `Class.SoundService.CharacterSoundsUseNewApi|CharacterSoundsUseNewApi` script to fix latent issue with character loading."
     },
     {
         "status": "Pending",

@@ -42,11 +42,6 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes geometry of ball-shaped `Part` instances that are parented to the player."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Caps stack depth of in-game microprofiler to avoid buffer overrun crash."
     },
     {
@@ -78,6 +73,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes a rare crash that can occurr when `AudioPlayer:GetWaveformAsync` aggressively downsamples long files."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes geometry of ball-shaped `Part` instances that are parented to the player."
     },
     {
         "status": "Pending",

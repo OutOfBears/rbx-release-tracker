@@ -14,7 +14,6 @@
 
 | Status | Note |
 |--------|------|
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and a Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X** values. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes legacy `rbxasset://` paths for SLIM avatar meshes. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where auto-skinning enabled accessories sometimes wouldn't display in avatar thumbnails. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling of `Class.PartOperation\|PartOperations`. |
