@@ -52,6 +52,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fix blurry or smudged text when using TextScaled."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Significant broadphase optimizations for geometry-dense maps, especially when large objects are moving (such as during dragging operations in Studio)."
     },
     {
@@ -68,11 +73,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an bug where using the move/rotate/scale tools to reposition an `Attachment` could also reposition its parent `Model`, resulting in \"doubled\" movement."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fix blurry or smudged text when using TextScaled."
     },
     {
         "status": "Pending",
@@ -107,7 +107,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed frame spikes when using high polling mice."
+        "content": "Fixes frame spikes when using high polling mice."
     },
     {
         "status": "Pending",

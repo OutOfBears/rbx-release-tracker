@@ -30,6 +30,11 @@
         "content": "Explorer now more consistently shows the correct context menu, especially when right-clicking previously unselected instances."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Adding an Attachment parented directly to the Workspace no longer causes performance issues in larger places."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Executing remote events that are not attached to the DataModel no longer has an error message."
@@ -43,10 +48,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds the option to pre-select the owner group in Studio's \"Save to Roblox\" dialog."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adding an Attachment parented directly to the Workspace no longer causes performance issues in larger places."
     }
 ]

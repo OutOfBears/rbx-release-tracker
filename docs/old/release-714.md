@@ -15,8 +15,8 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Luau's New Type Solver: read-only properties now produce type errors when written to via a compound assignment. For example, `dog.barks += 67`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where filtered-out links in the Output Window were still clickable. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Explorer now more consistently shows the correct context menu, especially when right-clicking previously unselected instances. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adding an Attachment parented directly to the Workspace no longer causes performance issues in larger places. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Executing remote events that are not attached to the DataModel no longer has an error message. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug that caused a crash by setting a breakpoint on native compiled function. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the option to pre-select the owner group in Studio's "Save to Roblox" dialog. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adding an Attachment parented directly to the Workspace no longer causes performance issues in larger places. |
 

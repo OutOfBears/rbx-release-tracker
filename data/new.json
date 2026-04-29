@@ -2,7 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Introduces `AnimationClip.Length` to allow easy access to the duration of an AnimationClip instance."
+        "content": "Introduces `Class.AnimationClip.Length|Length` to allow easy access to the duration of an `AnimationClip` instance."
     },
     {
         "status": "Live",
@@ -17,7 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.TouchPosition` for the Input Action System."
+        "content": "Adds `Enum.KeyCode.TouchPosition` to the Input Action System."
     },
     {
         "status": "Pending",
@@ -37,7 +37,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes (Animation Graph is currently a beta feature)."
+        "content": "Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes. Animation Graph is currently a beta feature."
     },
     {
         "status": "Pending",
@@ -70,11 +70,6 @@
         "content": "Fixes a small volume boost in the pitch shifter effects."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state."
-    },
-    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds extra validation to `Terrain:CopyRegion`. An error will be output rather than a script time out when the region extents are empty or inverted."
@@ -97,7 +92,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds `Class.EditableImage` `antiAliased` parameter to `DrawCircle` and `DrawLine` to support drawing hard edges."
+        "content": "Adds an `antiAliased` parameter to `Class.EditableImage.DrawCircle|DrawCircle` and `Class.EditableImage.DrawLine|DrawLine` to support drawing hard edges."
     },
     {
         "status": "Pending",
@@ -128,6 +123,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes night sky star twinkle rate at high FPS."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state."
     },
     {
         "status": "Pending",
@@ -182,6 +182,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Resolves issue with using script breakpoints on local plugins while in Play mode."
+        "content": "Fixes issue with using script breakpoints on local plugins while in Play mode."
     }
 ]

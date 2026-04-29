@@ -27,12 +27,17 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **X** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **Y** values, and same for `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **Y** and `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **X**."
+        "content": "A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **X** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **Y** values, and a Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection|ScrollingDirection` **Y** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition|CanvasPosition` **X** values."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes legacy `rbxasset://` paths for SLIM avatar meshes."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where auto-skinning enabled accessories sometimes wouldn't display in avatar thumbnails."
     },
     {
         "status": "Live",
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes incorrect ambient occlusions for transparent materials, and fixes ambient occlusion artifacts for `Class.MaterialVariant.AlphaMode|AlphaMode`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where auto-skinning enabled accessories sometimes wouldn't display in avatar thumbnails."
     },
     {
         "status": "Pending",
