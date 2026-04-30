@@ -4,10 +4,10 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces `Class.AnimationClip.Length\|Length` to allow easy access to the duration of an `AnimationClip` instance. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash with `SetResolutionAsync`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Input Action System: `TouchPosition` keycode can now be used in `Class.InputBinding` to trigger `Class.InputAction` of type `bool`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a new `Class.SurfaceAppearance.ResampleMode\|ResampleMode` for `Class.SurfaceAppearance`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, non-strict mode no longer reports type checking errors for `**error-type**`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for negative speed in `Enum.AnimationNodeType.ClipNode` and `Enum.AnimationNodeType.SpeedNode` animation graph nodes. Animation Graph is currently a beta feature. |
@@ -17,11 +17,13 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `UIScale` causing `ScrollingFrame` scroll bar to not clip its children. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes log spam of "Failed to play animation: [http://www.roblox.com/asset/?id=<assetid](http://www.roblox.com/asset/?id=%3Cassetid)>. AnimationTrack limit of 64 tracks exceeded for 'SelfAvatar', new animations will not be played." |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a small volume boost in the pitch shifter effects. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes night sky star twinkle rate at high FPS. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Optimizes Studio Output window performance when output is received only in hidden contexts. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where printing complex tables with `__tostring` metamethods crashed Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds extra validation to `Terrain:CopyRegion`. An error will be output rather than a script time out when the region extents are empty or inverted. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `UIScale` causing `ScrollingFrame` scroll bar to not clip its children. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes dark lighting that can occur when the sun is precisely in the center of the sky. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes SLIM handling of legacy surface types on `Class.SpecialMesh` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where script analysis would not warn on invalid assignments. |
@@ -35,8 +37,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes occasional frame spike when a USB device disconnects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug in the animation graph Sequence node (`AnimationNodeType.SequenceNode`) where the Trigger field does not advance the sequence. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in AdaptiveAnimations where translation weight wasn't properly respected by Animator when combined track weights were less than 1.0. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizes Studio Output window performance when output is received only in hidden contexts. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes rare timing issue with Studio Output window that would result in bad ordering for print statements when using `task.defer`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where printing complex tables with `__tostring` metamethods crashed Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue with using script breakpoints on local plugins while in Play mode. |
 

@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Introduces `Class.AnimationClip.Length|Length` to allow easy access to the duration of an `AnimationClip` instance."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Input Action System: `TouchPosition` keycode can now be used in `Class.InputBinding` to trigger `Class.InputAction` of type `bool`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
     },
     {
         "status": "Pending",
@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes `UIScale` causing `ScrollingFrame` scroll bar to not clip its children."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Removes log spam of \"Failed to play animation: [http://www.roblox.com/asset/?id=<assetid](http://www.roblox.com/asset/?id=%3Cassetid)>. AnimationTrack limit of 64 tracks exceeded for 'SelfAvatar', new animations will not be played.\""
     },
     {
@@ -55,14 +60,19 @@
         "content": "Fixes night sky star twinkle rate at high FPS."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Adds extra validation to `Terrain:CopyRegion`. An error will be output rather than a script time out when the region extents are empty or inverted."
+        "content": "Optimizes Studio Output window performance when output is received only in hidden contexts."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issue where printing complex tables with `__tostring` metamethods crashed Studio."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes `UIScale` causing `ScrollingFrame` scroll bar to not clip its children."
+        "content": "Adds extra validation to `Terrain:CopyRegion`. An error will be output rather than a script time out when the region extents are empty or inverted."
     },
     {
         "status": "Pending",
@@ -132,17 +142,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Optimizes Studio Output window performance when output is received only in hidden contexts."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes rare timing issue with Studio Output window that would result in bad ordering for print statements when using `task.defer`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes issue where printing complex tables with `__tostring` metamethods crashed Studio."
     },
     {
         "status": "Pending",

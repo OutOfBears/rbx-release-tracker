@@ -15,6 +15,11 @@
         "content": "Updates the error message in `ContentBridge::fromObject` when you try to create `Content`  from `nil` ."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes plugin debugging functionality when running plugins during place load."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Releases beta version of device blocking for the Creator Ban API."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "In the Luau New Type Solver, fixes a crash that could occur when using generics and type functions, specifically the `index` and `keyof` type functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes plugin debugging functionality when running plugins during place load."
     },
     {
         "status": "Pending",
