@@ -20,6 +20,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and a Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X** values. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces error handling to avoid crashes while importing a corrupted or unsupported `.rbxm` file. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name (for example, "Left Shoulder" for R6). |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with the Update All button in the plugin management window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where rotating a shadowed spot light could produce black artifacts along the edge. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds an `antiAliased` parameter to `Class.EditableImage.DrawCircle\|DrawCircle` and `Class.EditableImage.DrawLine\|DrawLine` to support drawing hard edges. |
@@ -30,7 +31,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes frame spikes when using high polling mice. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates `Class.SoundService.CharacterSoundsUseNewApi\|CharacterSoundsUseNewApi` script to fix latent issue with character loading. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Sequence nodes now execute multiple inputs in order strictly with the passing time. Previously extra time would be dropped if the time steps had more time than required to finish one input. Now, that extra time is applied to the next input, correctly aligning the output of sequence nodes with the timing of other nodes in the graph. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name (for example, "Left Shoulder" for R6). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a missing Transparency slider to `Class.StyleRule` properties in the Style Editor. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where voice crashed during speaker selection. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that caused Studio to crash on certain platforms when publishing a CSG part while enrolled in Studio Beta program. |

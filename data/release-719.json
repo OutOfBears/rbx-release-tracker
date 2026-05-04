@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name (for example, \"Left Shoulder\" for R6)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with the Update All button in the plugin management window."
     },
     {
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Sequence nodes now execute multiple inputs in order strictly with the passing time. Previously extra time would be dropped if the time steps had more time than required to finish one input. Now, that extra time is applied to the next input, correctly aligning the output of sequence nodes with the timing of other nodes in the graph."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name (for example, \"Left Shoulder\" for R6)."
     },
     {
         "status": "Pending",
