@@ -27,6 +27,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes `Class.ImageHandleAdornment` edge sampling."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes incorrect ambient occlusions for transparent materials, and fixes ambient occlusion artifacts for `Class.MaterialVariant.AlphaMode|AlphaMode`."
     },
     {
@@ -53,11 +58,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "`TextBounds` property should now be correct for text instances parented to a `Class.BillboardGui`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes `Class.ImageHandleAdornment` edge sampling."
     },
     {
         "status": "Pending",

@@ -102,12 +102,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes false culling of MeshParts when using the Solid Modeling On Meshes Studio beta feature."
+        "content": "Fixes false culling of `Class.MeshPart|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed an issue where IKControl parented to the model could cause character positions to stop replicating."
+        "content": "Fixes an issue where `Class.IKControl` parented to a model could cause character positions to stop replicating."
     },
     {
         "status": "Pending",

@@ -70,6 +70,11 @@
         "content": "Fixes issue where printing complex tables with `__tostring` metamethods crashed Studio."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes issue with using script breakpoints on local plugins while in Play mode."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds extra validation to `Terrain:CopyRegion`. An error will be output rather than a script time out when the region extents are empty or inverted."
@@ -143,10 +148,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes rare timing issue with Studio Output window that would result in bad ordering for print statements when using `task.defer`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes issue with using script breakpoints on local plugins while in Play mode."
     }
 ]
