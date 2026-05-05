@@ -4,9 +4,9 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Enum.KeyCode.TouchPosition` to the Input Action System. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements constant propagation for properties of eligible tables of constants. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode `TouchDelta` to be usable under a `Direction2D` `Class.InputAction` as a transformed velocity under the Input Action System. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Enum.KeyCode.TouchPosition` to the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in script debugging so that when a debugger breakpoint is hit, all other Luau threads immediately stop executing to keep the experience's state consistent. All threads resume normal execution when the debugger continues. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds KeyCode `TouchPinch` to be usable under a `Direction1D` `Class.InputAction` as a transformed velocity under the Input Action System. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.EditableImage:ReadPixelsBuffer\|ReadPixelsBuffer` and `Class.EditableImage:WritePixelsBuffer\|WritePixelsBuffer` now support the max size of the `EditableImage` instead of being capped to 1024x1024. |

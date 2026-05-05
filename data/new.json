@@ -2,17 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds `Enum.KeyCode.TouchPosition` to the Input Action System."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Implements constant propagation for properties of eligible tables of constants."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds KeyCode `TouchDelta` to be usable under a `Direction2D` `Class.InputAction` as a transformed velocity under the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.TouchPosition` to the Input Action System."
     },
     {
         "status": "Pending",
