@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Input Action System: `TouchPosition` keycode can now be used in `Class.InputBinding` to trigger `Class.InputAction` of type `bool`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Scaling an avatar with layered clothing no longer retriggers layered clothing fitting, resulting in significantly improved performance."
     },
     {
@@ -13,11 +18,6 @@
         "status": "Live",
         "type": "Improvements",
         "content": "Fixes a crash with `SetResolutionAsync`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Input Action System: `TouchPosition` keycode can now be used in `Class.InputBinding` to trigger `Class.InputAction` of type `bool`."
     },
     {
         "status": "Pending",
