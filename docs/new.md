@@ -13,13 +13,13 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes false culling of `Class.MeshPart\|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Displays a proper error message when the fallback engine font doesn't load correctly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds mouse support to iPadOS. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a type checking bug where `for..in` loops would sometimes infer an optional type for the values of the table. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes frame spikes when using high polling mice. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes missing autocomplete suggestions in intersections of string literals. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes false culling of `Class.MeshPart\|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates `Class.SoundService.CharacterSoundsUseNewApi\|CharacterSoundsUseNewApi` script to fix latent issue with character loading. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves error message when disconnecting due to packet failure. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Sequence nodes now execute multiple inputs in order strictly with the passing time. Previously, extra time would be dropped if the time steps had more time than required to finish one input, but that extra time is now applied to the next input, correctly aligning the output of sequence nodes with the timing of other nodes in the graph. |

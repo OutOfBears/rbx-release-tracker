@@ -20,6 +20,11 @@
         "content": "Save place dialog now supports keyboard interactions."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes false culling of `Class.MeshPart|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges."
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes missing autocomplete suggestions in intersections of string literals."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes false culling of `Class.MeshPart|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature."
     },
     {
         "status": "Pending",
