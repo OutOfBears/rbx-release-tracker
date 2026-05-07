@@ -29,8 +29,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.UITableLayout` sometimes incorrectly sized descendants when `Class.UITableLayout.FillEmptySpaceRows\|FillEmptySpaceRows` or `Class.UITableLayout.FillEmptySpaceColumns\|FillEmptySpaceColumns` was set to `true`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A `Class.GuiObject` influenced by a `Class.UIScale` no longer has its `Class.GuiObject.Size\|Size` property uneditable in the **Properties** window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes shading of `Class.HandleAdornment\|HandleAdornments` that have `Class.HandleAdornment.AlwaysOnTop\|AlwaysOnTop` set to `true`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes false culling of `Class.MeshPart\|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.IKControl` parented to a model could cause character positions to stop replicating. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where the Animation Graph Editor experiences a visual jump on zoom. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where the Plugins system menu would show duplicate submenus for particular plugins. |
 

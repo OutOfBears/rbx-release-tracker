@@ -18,6 +18,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `UIScale` causing `ScrollingFrame` scroll bar to not clip its children. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes search functionality in the Style Editor plugin in Roblox Studio. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Removes log spam of "Failed to play animation: [http://www.roblox.com/asset/?id=<assetid](http://www.roblox.com/asset/?id=%3Cassetid)>. AnimationTrack limit of 64 tracks exceeded for 'SelfAvatar', new animations will not be played." |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a small volume boost in the pitch shifter effects. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes night sky star twinkle rate at high FPS. |
@@ -28,7 +29,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes dark lighting that can occur when the sun is precisely in the center of the sky. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes SLIM handling of legacy surface types on `Class.SpecialMesh` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where script analysis would not warn on invalid assignments. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes search functionality in the Style Editor plugin in Roblox Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where with certain configurations `Class.IKControl\|IKControls` would not work. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.AudioPitchShifter` would briefly play a portion of the previous audio stream when a new stream was played. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where opening/closing the Animation Editor would remove the `Class.Animator` on the rig and create a new one, thereby deleting all of its previous state. |

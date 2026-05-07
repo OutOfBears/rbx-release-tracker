@@ -2,22 +2,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds `Enum.KeyCode.TouchPosition` to the Input Action System."
-    },
-    {
-        "status": "Live",
-        "type": "Improvements",
         "content": "Implements constant propagation for properties of eligible tables of constants."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds KeyCode `TouchDelta` to be usable under a `Direction2D` `Class.InputAction` as a transformed velocity under the Input Action System."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes an issue in script debugging so that when a debugger breakpoint is hit, all other Luau threads immediately stop executing to keep the experience's state consistent. All threads resume normal execution when the debugger continues."
     },
     {
         "status": "Pending",
@@ -67,21 +57,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Displays a proper error message when the fallback engine font doesn't load correctly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Roblox now always follows the physical key positions of the QWERTY keyboard layout."
     },
     {
@@ -92,42 +67,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes frame spikes when using high polling mice."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Updates `Class.SoundService.CharacterSoundsUseNewApi|CharacterSoundsUseNewApi` script to fix latent issue with character loading."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Sequence nodes now execute multiple inputs in order strictly with the passing time. Previously, extra time would be dropped if the time steps had more time than required to finish one input, but that extra time is now applied to the next input, correctly aligning the output of sequence nodes with the timing of other nodes in the graph."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name (for example, \"Left Shoulder\" for R6)."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds a missing transparency slider to `Class.StyleRule` properties in the Style Editor."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where voice crashed during speaker selection."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue that caused Studio to crash on certain platforms when publishing a CSG part while enrolled in Studio Beta program."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an intermittent issue with root animations on custom bone-based characters."
     },
     {
         "status": "Pending",

@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes search functionality in the Style Editor plugin in Roblox Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Removes log spam of \"Failed to play animation: [http://www.roblox.com/asset/?id=<assetid](http://www.roblox.com/asset/?id=%3Cassetid)>. AnimationTrack limit of 64 tracks exceeded for 'SelfAvatar', new animations will not be played.\""
     },
     {
@@ -93,11 +98,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a case where script analysis would not warn on invalid assignments."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes search functionality in the Style Editor plugin in Roblox Studio."
     },
     {
         "status": "Pending",
