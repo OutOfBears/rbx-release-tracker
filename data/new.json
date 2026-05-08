@@ -25,6 +25,11 @@
         "content": "Fixes false culling of `Class.MeshPart|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Adds a missing transparency slider to `Class.StyleRule` properties in the Style Editor."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges."
@@ -68,11 +73,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Sequence nodes now execute multiple inputs in order strictly with the passing time. Previously, extra time would be dropped if the time steps had more time than required to finish one input, but that extra time is now applied to the next input, correctly aligning the output of sequence nodes with the timing of other nodes in the graph."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds a missing transparency slider to `Class.StyleRule` properties in the Style Editor."
     },
     {
         "status": "Pending",

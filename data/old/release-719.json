@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where duplicate `Generated` folders appeared under `Class.ProceduralModels`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue with the Update All button in the plugin management window."
     },
     {
@@ -73,10 +78,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue that caused Studio to crash on certain platforms when publishing a CSG part while enrolled in Studio Beta program."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where duplicate `Generated` folders appeared under `Class.ProceduralModels`."
     }
 ]
