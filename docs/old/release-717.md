@@ -8,7 +8,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `InputBinding` calculation so that state is exclusively calculated from `KeyCode` or `UIButton` / composite directions. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reassign Capabilities for Humanoid |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the UX of enabling Server Authority under `Class.Workspace`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AvatarEditorService:PromptSaveAvatar()` and `Class.AvatarEditorService:NoPromptSaveAvatar()` will now make a single HTTP call to update the given user's platform avatar instead of up to 4 calls. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds structured logging methods to `Class.LogService`: `Class.LogService:Output()\|Output()`, `Class.LogService:Info()\|Info()`, `Class.LogService:Warn()\|Warn()`, `Class.LogService:Error()\|Error()`, and `Class.LogService:Log()\|Log()`. These methods accept a template string with `{key}` placeholders and a context table. `Class.LogService:Error()\|Error()` also halts execution and throws a structured error catchable via `Global.LuaGlobals.pcall()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates built-in avatar assets in Avatar Setup preview. |
