@@ -2,15 +2,15 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Implements constant propagation for properties of eligible tables of constants."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds KeyCode `TouchDelta` to be usable under a `Direction2D` `Class.InputAction` as a transformed velocity under the Input Action System."
     },
     {
-        "status": "Pending",
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Implements constant propagation for properties of eligible tables of constants."
+    },
+    {
+        "status": "Live",
         "type": "Improvements",
         "content": "Adds KeyCode `TouchPinch` to be usable under a `Direction1D` `Class.InputAction` as a transformed velocity under the Input Action System."
     },
@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Roblox now always follows the physical key positions of the QWERTY keyboard layout."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Introduces error handling to avoid crashes while importing a corrupted or unsupported `.rbxm` file."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug where rotating a shadowed spot light could produce black artifacts along the edge."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Roblox now always follows the physical key positions of the QWERTY keyboard layout."
     },
     {
         "status": "Pending",
