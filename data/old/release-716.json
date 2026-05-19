@@ -55,6 +55,11 @@
         "content": "Fixes a bug where `Class.Player.CharacterAppearanceLoaded` did not fire for avatars with makeup equipped."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "The `Class.Players.PlayerRemoving` event now correctly fires after a player leaves during **Server & Clients** testing."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "`TextBounds` property should now be correct for text instances parented to a `Class.BillboardGui`."
@@ -73,10 +78,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes an internal compiler exception that occurred when trying to write an uninitialized `const` variable."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "The `Class.Players.PlayerRemoving` event now correctly fires after a player leaves during **Server & Clients** testing."
     }
 ]

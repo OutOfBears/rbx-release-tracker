@@ -1,10 +1,5 @@
 [
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Class names, properties, and methods declared with the new `class...end` syntax now support go-to-definition in Studio via command + click."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."

@@ -40,6 +40,16 @@
         "content": "Adds a missing transparency slider to `Class.StyleRule` properties in the Style Editor."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where voice crashed during speaker selection."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes memory leak when deleting `Class.Instance|Instances` during playtest sessions in Studio."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges."
@@ -53,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes missing autocomplete suggestions in intersections of string literals."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where voice crashed during speaker selection."
     },
     {
         "status": "Pending",
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where pre-scheduling `Class.AudioPlayer:Stop()` would erroneously cause the audio to **begin** playing at the intended stop-time."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes memory leak when deleting `Class.Instance|Instances` during playtest sessions in Studio."
     },
     {
         "status": "Pending",
