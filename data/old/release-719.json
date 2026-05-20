@@ -72,7 +72,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name (for example, \"Left Shoulder\" for R6)."
+        "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name, such as \"Left Shoulder\" for R6."
     },
     {
         "status": "Pending",

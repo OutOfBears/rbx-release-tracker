@@ -27,7 +27,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixed issue where Skybox with atmosphere at times loads with lower resolution."
+        "content": "Fixes issue where skyboxes with atmosphere at times would load with lower resolution."
     },
     {
         "status": "Pending",
@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes issue where editable image won't render on a decal with PBR maps."
+        "content": "Fixes issue where `Class.EditableImage` objects wouldn't render on a decal with PBR maps."
     },
     {
         "status": "Live",
@@ -67,7 +67,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fix Platform replication logic when platform is unanchored."
+        "content": "Fixes platform replication logic when a platform is unanchored."
     },
     {
         "status": "Pending",
@@ -92,7 +92,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixed a bug for Chromebooks and Android devices with mice that sometimes prevented mouse buttons from working in first-person mode."
+        "content": "Fixes a bug for Chromebooks and Android devices with mice that sometimes prevented mouse buttons from working in first-person mode."
     },
     {
         "status": "Pending",
@@ -112,7 +112,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "SLIM support for Emissive Maps in Surface Appearance."
+        "content": "SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
     },
     {
         "status": "Pending",
