@@ -19,10 +19,9 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | A `Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **X** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **Y** values, and a Class.ScrollingFrame` with `Class.ScrollingFrame.ScrollingDirection\|ScrollingDirection` **Y** and no scrollable content can no longer set non-zero `Class.ScrollingFrame.CanvasPosition\|CanvasPosition` **X** values. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Roblox now always follows the physical key positions of the QWERTY keyboard layout. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Introduces error handling to avoid crashes while importing a corrupted or unsupported `.rbxm` file. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue that caused Studio to crash on certain platforms when publishing a CSG part while enrolled in Studio Beta program. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where duplicate `Generated` folders appeared under `Class.ProceduralModels`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with the Update All button in the plugin management window. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where rotating a shadowed spot light could produce black artifacts along the edge. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a fix for filtering attachments into parts as recommended objects. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name, such as "Left Shoulder" for R6. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue that caused Studio to crash on certain platforms when publishing a CSG part while enrolled in Studio Beta program. |
 

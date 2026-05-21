@@ -17,17 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Slightly reduces memory usage for physics constraints."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Luau now supports read-only table indexers using the syntax `{read [K]: V}` or `{V}`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue where skyboxes with atmosphere at times would load with lower resolution."
     },
     {
         "status": "Pending",
@@ -45,11 +35,6 @@
         "content": "Fixes crash on some Light instances when changing Light.range between under 64 to equal or greater than 64."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue where `Class.EditableImage` objects wouldn't render on a decal with PBR maps."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes geometry of ball-shaped `Part` instances that are parented to the player."
@@ -57,17 +42,12 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Normalize repeated slashes in rbxasset:// ContentIds."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixed cases of Explorer box select getting stuck."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Displays a proper error message when the fallback engine font doesn't load correctly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes platform replication logic when a platform is unanchored."
     },
     {
         "status": "Pending",
@@ -82,37 +62,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes frame spikes when using high polling mice."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Updates `Class.SoundService.CharacterSoundsUseNewApi|CharacterSoundsUseNewApi` script to fix latent issue with character loading."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug for Chromebooks and Android devices with mice that sometimes prevented mouse buttons from working in first-person mode."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adjusts the gamepad selection point and click algorithm to use a point on the selection outline of the current element as an origin rather than the center of the current selection."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Live Script reload now works for Parallel Luau."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
     },
     {
         "status": "Pending",
@@ -123,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix an issue where R15 elbows were slightly bent when playing blocky R15 animations (such as many defaults)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Normalize repeated slashes in rbxasset:// ContentIds."
     },
     {
         "status": "Pending",
@@ -143,10 +93,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "ProceduralModels now show bounds exactly equal to the Size when the selection visualization is set to Box."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where animations would not reset correctly in Avatar Setup."
     }
 ]
