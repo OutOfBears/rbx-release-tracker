@@ -97,7 +97,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
+        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
     },
     {
         "status": "Pending",

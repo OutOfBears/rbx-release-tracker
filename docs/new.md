@@ -28,7 +28,7 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces a new `Class.PlayerGui` property, `ClipsDescendantsSupportsRotation`, which enables clipping of rotated shapes and `Class.Path2D` instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adjusts the gamepad selection point and click algorithm to use a point on the selection outline of the current element as an origin rather than the center of the current selection. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | SLIM support for emissive maps in `Class.SurfaceAppearance` objects. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves the performance of `Class.AudioEcho` when the `DelayTime` property is unchanging. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a rare crash on mobile devices when using the Acoustic Simulation feature. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds pop-up when user is kicked from a play test that mirrors the message a player gets on being kicked from a server in-game. |
