@@ -12,16 +12,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes issue where skyboxes with atmosphere at times would load with lower resolution."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue where `Class.EditableImage` objects wouldn't render on a decal with PBR maps."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds support for yielding from Luau iterator functions."
     },
     {
@@ -77,11 +67,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug in the Animation Graph Editor where when a marker event is placed on the last keyframe in a clip, the event is not fired through the graph via `Class.AnimationTrack.GetMarkerReachedSignal`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "`Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually."
     },
     {
@@ -93,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adjusts the gamepad selection point and click algorithm to use a point on the selection outline of the current element as an origin rather than the center of the current selection."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
     },
     {
         "status": "Pending",

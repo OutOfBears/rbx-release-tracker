@@ -22,6 +22,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes false culling of `Class.MeshPart|MeshParts` when using the **Solid Modeling On Meshes** Studio beta feature."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes memory leak when deleting `Class.Instance|Instances` during playtest sessions in Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds an `antiAliased` parameter to `Class.EditableImage:DrawCircle()` and `Class.EditableImage:DrawLine()` to support drawing hard edges."
     },
     {
         "status": "Pending",
