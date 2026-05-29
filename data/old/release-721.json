@@ -42,7 +42,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Add more information about read-only/write-only properties to Luau type mismatch errors."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Normalize repeated slashes in rbxasset:// ContentIds."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Luau's New Type Solver: function types with parameter names will retain those parameter names when passed through type functions."
     },
     {
         "status": "Live",
@@ -53,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds mouse support to iPadOS."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Add more information about read-only/write-only properties to Luau type mismatch errors."
     },
     {
         "status": "Pending",
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix sleep behavior for simulated AnimationConstraints."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Luau's New Type Solver: function types with parameter names will retain those parameter names when passed through type functions."
     },
     {
         "status": "Pending",

@@ -7,6 +7,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds node name to animation graph logs."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes issue where `Class.EditableImage` objects wouldn't render on a decal with PBR maps."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Optimizes and improves the numerical stability of `CFrame:Lerp()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds node name to animation graph logs."
     },
     {
         "status": "Pending",
@@ -60,6 +60,11 @@
         "content": "Adds `Class.ProceduralModel:ForceGeneration()`, which forces generation based on the current parameters to be done immediately if possible. This is unlike normal generation, which happens as a batch once per frame."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "When cloned through scripts or duplicated in Studio, `Class.FaceControls` retains its properties."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where in-game zooming would affect MicroProfiler zoom even when it was not in focus."
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "When cloned through scripts or duplicated in Studio, `Class.FaceControls` retains its properties."
     },
     {
         "status": "Pending",
