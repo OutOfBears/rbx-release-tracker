@@ -55,6 +55,11 @@
         "content": "Fixes memory leak when deleting `Class.Instance|Instances` during playtest sessions in Studio."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "`Class.ProceduralModel|ProceduralModels` will no longer leak any memory when their `Class.ProceduralModel.Generator|Generator` module is edited repeatedly in Studio."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes a type checking bug where `for..in` loops would sometimes infer an optional type for the values of the table."
@@ -88,10 +93,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where pre-scheduling `Class.AudioPlayer:Stop()` would erroneously cause the audio to **begin** playing at the intended stop-time."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`Class.ProceduralModel|ProceduralModels` will no longer leak any memory when their `Class.ProceduralModel.Generator|Generator` module is edited repeatedly in Studio."
     }
 ]

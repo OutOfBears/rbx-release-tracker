@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "ProceduralModels now show bounds exactly equal to the Size when the selection visualization is set to Box."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixed cases of Explorer box select getting stuck."
     },
     {
@@ -88,10 +93,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fix sleep behavior for simulated AnimationConstraints."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "ProceduralModels now show bounds exactly equal to the Size when the selection visualization is set to Box."
     }
 ]

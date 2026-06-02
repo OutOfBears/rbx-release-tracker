@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name, such as \"Left Shoulder\" for R6."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "`Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes frame spikes when using high polling mice."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name, such as \"Left Shoulder\" for R6."
     },
     {
         "status": "Pending",
