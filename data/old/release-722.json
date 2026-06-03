@@ -50,6 +50,21 @@
         "content": "`Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Improves the performance of `Class.AudioEcho` when the `DelayTime` property is unchanging."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes a rare crash on mobile devices when using the Acoustic Simulation feature."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes bug in Developer Console where if ancestor parts were parented to nil, descendant instances were not tracked as unparented."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Displays a proper error message when the fallback engine font doesn't load correctly."
@@ -82,22 +97,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Improves the performance of `Class.AudioEcho` when the `DelayTime` property is unchanging."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a rare crash on mobile devices when using the Acoustic Simulation feature."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds pop-up when user is kicked from a play test that mirrors the message a player gets on being kicked from a server in-game."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes bug in Developer Console where if ancestor parts were parented to nil, descendant instances were not tracked as unparented."
+        "content": "Adds a pop-up when a user is kicked from a play test that mirrors the message a player receives in-game."
     },
     {
         "status": "Pending",

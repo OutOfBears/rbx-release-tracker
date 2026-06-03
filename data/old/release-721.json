@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "In the New Luau Type Solver, fixed a bug that could cause Studio hangs when type checking *many* copies of the same script calling a common function."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Normalize repeated slashes in rbxasset:// ContentIds."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Live Script reload now works for Parallel Luau."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "In the New Luau Type Solver, fixed a bug that could cause Studio hangs when type checking *many* copies of the same script calling a common function."
     },
     {
         "status": "Pending",

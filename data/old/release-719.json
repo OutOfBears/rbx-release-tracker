@@ -15,7 +15,7 @@
         "content": "Adds KeyCode `TouchPinch` to be usable under a `Direction1D` `Class.InputAction` as a transformed velocity under the Input Action System."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "`Class.EditableImage:ReadPixelsBuffer|ReadPixelsBuffer` and `Class.EditableImage:WritePixelsBuffer|WritePixelsBuffer` now support the max size of the `EditableImage` instead of being capped to 1024x1024."
     },

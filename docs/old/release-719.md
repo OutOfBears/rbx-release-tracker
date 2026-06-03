@@ -7,7 +7,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds KeyCode `TouchDelta` to be usable under a `Direction2D` `Class.InputAction` as a transformed velocity under the Input Action System. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements constant propagation for properties of eligible tables of constants. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds KeyCode `TouchPinch` to be usable under a `Direction1D` `Class.InputAction` as a transformed velocity under the Input Action System. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.EditableImage:ReadPixelsBuffer\|ReadPixelsBuffer` and `Class.EditableImage:WritePixelsBuffer\|WritePixelsBuffer` now support the max size of the `EditableImage` instead of being capped to 1024x1024. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.EditableImage:ReadPixelsBuffer\|ReadPixelsBuffer` and `Class.EditableImage:WritePixelsBuffer\|WritePixelsBuffer` now support the max size of the `EditableImage` instead of being capped to 1024x1024. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes some cases of `any` not working to "suppress errors" when used with tables. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds Scene Analysis to Roblox Studio. This feature gives creators feedback on Script Memory, Audio Memory, Animation Memory, Instances and other project resource usage. See the developer forum for the full announcement. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the open place dialog with a new look. |
