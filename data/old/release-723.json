@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Optimizes and improves the numerical stability of `CFrame:Lerp()`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Fixes issue where skyboxes with atmosphere at times would load with lower resolution."
     },
     {
@@ -27,32 +32,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "The `export` keyword has been extended to support variables and functions. This works by constructing an export table and returning it from the module with the respective fields set, providing a new, consistent way for users to expose a stable API from a module."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Shows the Sandboxed and Capabilities items in the Properties widget for more instance types when the Sandboxing Beta is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Optimizes and improves the numerical stability of `CFrame:Lerp()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.UserService:GetUserFromGlobalUserIdAsync()`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a read only Studio UI property `IsInSandbox` to sandbox-able instances. This property represents if the given instance or its ancestors has sandboxing enabled."
     },
     {
         "status": "Pending",
@@ -70,11 +50,6 @@
         "content": "When cloned through scripts or duplicated in Studio, `Class.FaceControls` retains its properties."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Fixes a bug with `Class.CurveAnimation`, where adding a marker on the last keyframe of a curve didn't fire."
-    },
-    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where in-game zooming would affect MicroProfiler zoom even when it was not in focus."
@@ -83,11 +58,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Disables platform replication when `Class.Humanoid.PlatformStand` is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
     },
     {
         "status": "Pending",

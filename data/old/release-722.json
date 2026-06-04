@@ -1,6 +1,6 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Adds a `UIModifier` property to `Class.InputBinding`."
     },
@@ -93,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Adjusts the gamepad selection point and click algorithm to use a point on the selection outline of the current element as an origin rather than the center of the current selection."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds a pop-up when a user is kicked from a play test that mirrors the message a player receives in-game."
     },
     {
         "status": "Pending",

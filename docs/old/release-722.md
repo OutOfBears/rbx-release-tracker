@@ -4,7 +4,7 @@
 
 | Status | Note |
 |--------|------|
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a `UIModifier` property to `Class.InputBinding`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a `UIModifier` property to `Class.InputBinding`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Slightly reduces memory usage for physics constraints. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for yielding from Luau iterator functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A new API, `GetBundlesByAssetIDAsync(assetId: number, limit: number?)`, has been added to `Class.AvatarEditorService`. It allows you to search for bundles that contain the provided assetId. |
@@ -28,6 +28,5 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the behavior of `Enum.AnimationNodeType.RandomSequenceNode` to where the RNG state persists across resets so subsequent plays of the node produce different orderings instead of the same ordering (current behavior). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces a new `Class.PlayerGui` property, `ClipsDescendantsSupportsRotation`, which enables clipping of rotated shapes and `Class.Path2D` instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adjusts the gamepad selection point and click algorithm to use a point on the selection outline of the current element as an origin rather than the center of the current selection. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a pop-up when a user is kicked from a play test that mirrors the message a player receives in-game. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where animations would not reset correctly in Avatar Setup. |
 
