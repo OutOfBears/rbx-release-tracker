@@ -18,6 +18,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug for Chromebooks and Android devices with mice that sometimes prevented mouse buttons from working in first-person mode. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Enum.AnimationNodeType.MaskNode` didn't work for rigs with spaces in their label name, such as "Left Shoulder" for R6. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Changes the behavior of `Enum.AnimationNodeType.RandomSequenceNode` to where the RNG state persists across resets so subsequent plays of the node produce different orderings instead of the same ordering (current behavior). |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves the performance of `Class.AudioEcho` when the `DelayTime` property is unchanging. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a rare crash on mobile devices when using the Acoustic Simulation feature. |
@@ -25,7 +26,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Displays a proper error message when the fallback engine font doesn't load correctly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes platform replication logic when a platform is unanchored. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes frame spikes when using high polling mice. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the behavior of `Enum.AnimationNodeType.RandomSequenceNode` to where the RNG state persists across resets so subsequent plays of the node produce different orderings instead of the same ordering (current behavior). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces a new `Class.PlayerGui` property, `ClipsDescendantsSupportsRotation`, which enables clipping of rotated shapes and `Class.Path2D` instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adjusts the gamepad selection point and click algorithm to use a point on the selection outline of the current element as an origin rather than the center of the current selection. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where animations would not reset correctly in Avatar Setup. |

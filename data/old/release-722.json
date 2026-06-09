@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Changes the behavior of `Enum.AnimationNodeType.RandomSequenceNode` to where the RNG state persists across resets so subsequent plays of the node produce different orderings instead of the same ordering (current behavior)."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "`Class.UICorner` instances placed on 9-slice images now round the image corners instead of rounding each image slice individually."
     },
     {
@@ -78,11 +83,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes frame spikes when using high polling mice."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Changes the behavior of `Enum.AnimationNodeType.RandomSequenceNode` to where the RNG state persists across resets so subsequent plays of the node produce different orderings instead of the same ordering (current behavior)."
     },
     {
         "status": "Pending",

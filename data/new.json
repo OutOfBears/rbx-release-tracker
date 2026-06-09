@@ -7,7 +7,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId`"
+        "content": "Adds `Class.CharacterMesh.MeshContent, `Class.CharacterMesh.BaseTextureContent`, `Class.CharacterMesh.OverlayTextureContent`"
     },
     {
         "status": "Pending",

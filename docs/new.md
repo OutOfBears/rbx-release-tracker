@@ -5,7 +5,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Windows Accessibility Hotkeys to enable Filter Keys, Sticky Keys, and Toggle Keys will no longer create a pop-up dialog if activated during runtime.  This change only affects the pop-up dialog, if the accessibility feature was enabled via Windows OS the feature will continue to behave exactly the same as before. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.CharacterMesh.MeshId`, `Class.CharacterMesh.BaseTextureId`, `Class.CharacterMesh.OverlayTextureId` |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.CharacterMesh.MeshContent, `Class.CharacterMesh.BaseTextureContent`, `Class.CharacterMesh.OverlayTextureContent` |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `export` keyword has been extended to support variables and functions. This works by constructing an export table and returning it from the module with the respective fields set, providing a new, consistent way for users to expose a stable API from a module. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a visual debugger for Instance stitching to the Server Authority debugger. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves terrain handling. |
