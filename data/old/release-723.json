@@ -25,6 +25,11 @@
         "content": "Content to string for Object now includes class name."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds `Class.ProceduralModel:ForceGeneration()`, which forces generation based on the current parameters to be done immediately if possible. This is unlike normal generation, which happens as a batch once per frame."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.StarterPlayer.LuaCharacterController` is deprecated and will be removed. Accessing this property in a live play session now logs the error \"StarterPlayer.LuaCharacterController is not supported and will be removed.\" You should remove any references to this property from your experience to avoid errors when the flag is fully enabled."
@@ -33,11 +38,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Shows the Sandboxed and Capabilities items in the Properties widget for more instance types when the Sandboxing Beta is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.ProceduralModel:ForceGeneration()`, which forces generation based on the current parameters to be done immediately if possible. This is unlike normal generation, which happens as a batch once per frame."
     },
     {
         "status": "Live",

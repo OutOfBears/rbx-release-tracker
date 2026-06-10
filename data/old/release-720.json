@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where pre-scheduling `Class.AudioPlayer:Stop()` would erroneously cause the audio to **begin** playing at the intended stop-time."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes memory leak when deleting `Class.Instance|Instances` during playtest sessions in Studio."
     },
     {
@@ -88,10 +93,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where `Class.IKControl` parented to a model could cause character positions to stop replicating."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where pre-scheduling `Class.AudioPlayer:Stop()` would erroneously cause the audio to **begin** playing at the intended stop-time."
     }
 ]

@@ -5,6 +5,11 @@
         "content": "Adds a `UIModifier` property to `Class.InputBinding`."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "`Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Slightly reduces memory usage for physics constraints."
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "A new API, `GetBundlesByAssetIDAsync(assetId: number, limit: number?)`, has been added to `Class.AvatarEditorService`. It allows you to search for bundles that contain the provided assetId."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed."
     },
     {
         "status": "Pending",
@@ -68,11 +68,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes bug in Developer Console where if ancestor parts were parented to nil, descendant instances were not tracked as unparented."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Displays a proper error message when the fallback engine font doesn't load correctly."
     },
     {
         "status": "Pending",

@@ -5,10 +5,10 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a `UIModifier` property to `Class.InputBinding`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Slightly reduces memory usage for physics constraints. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for yielding from Luau iterator functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A new API, `GetBundlesByAssetIDAsync(assetId: number, limit: number?)`, has been added to `Class.AvatarEditorService`. It allows you to search for bundles that contain the provided assetId. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Renaming nodes in the Animation Graph Editor now also changes the name of the instance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a "Open Logs Folder" action to the Studio Help menu to more easily access log files. |
 
@@ -23,7 +23,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves the performance of `Class.AudioEcho` when the `DelayTime` property is unchanging. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a rare crash on mobile devices when using the Acoustic Simulation feature. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes bug in Developer Console where if ancestor parts were parented to nil, descendant instances were not tracked as unparented. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Displays a proper error message when the fallback engine font doesn't load correctly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes platform replication logic when a platform is unanchored. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes frame spikes when using high polling mice. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Introduces a new `Class.PlayerGui` property, `ClipsDescendantsSupportsRotation`, which enables clipping of rotated shapes and `Class.Path2D` instances. |

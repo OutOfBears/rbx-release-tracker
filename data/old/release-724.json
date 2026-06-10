@@ -2,12 +2,7 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Windows Accessibility Hotkeys to enable Filter Keys, Sticky Keys, and Toggle Keys will no longer create a pop-up dialog if activated during runtime.  This change only affects the pop-up dialog, if the accessibility feature was enabled via Windows OS the feature will continue to behave exactly the same as before."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.CharacterMesh.MeshContent, `Class.CharacterMesh.BaseTextureContent`, `Class.CharacterMesh.OverlayTextureContent`"
+        "content": "When deleting or renaming attributes in the Generator module of a ProceduralModel, Studio will automatically remove the old attributes from the ProceduralModel to avoid stale attributes accumulating as you edit."
     },
     {
         "status": "Pending",
@@ -27,17 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Added `UIShadow.Enabled`, allowing `UIShadow`s to be individually toggled."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.UserService:GetUserFromGlobalUserIdAsync()`."
     },
     {
         "status": "Pending",
@@ -48,16 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.AvatarEditorService:PromptCreateOutfit` now accepts two new optional parameters (`outfitOptions` and `outfitType`) that let you create Makeup outfits in addition to regular Avatar outfits. When outfitType is omitted, the engine infers the correct type from the HumanoidDescription contents."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Logs more descriptive errors when attempting to build EditableMeshes through `Class.AssetService:CreateDataModelContentAsync`"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "When deleting or renaming attributes in the Generator module of a ProceduralModel, Studio will automatically remove the old attributes from the ProceduralModel to avoid stale attributes accumulating as you edit."
     },
     {
         "status": "Pending",
@@ -82,12 +57,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes thumbstick directional keycodes in the Input Action System to apply Response Curve and Deadzone calculations properly."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue causing some properties of the following types to have incorrect default values when created in Studio: `Sound`, `BloomEffect`, `UIGridLayout`, `UIListLayout`, `UIPageLayout`, `UITableLayout`, `UIShadow`."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "`TextBounds` property should now be correct for text instances parented to a `Class.BillboardGui`."
+        "content": "Fixes an issue where `Class.AudioListener` would flip its front/back channels in surround-sound formats."
     },
     {
         "status": "Pending",
@@ -102,37 +82,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "`VelocityPerpendicular` particle emitters now behave correctly with rotations."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes SLIM rendering visible from inside large buildings."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes thumbstick directional keycodes in the Input Action System to apply Response Curve and Deadzone calculations properly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue where a client could fail to create a tool weld after re-equipping."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPlayer.AutoPlay` doesn't work correct in a Team Create session."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioListener` would flip its front/back channels in surround-sound formats."
     },
     {
         "status": "Pending",
