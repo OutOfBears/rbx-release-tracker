@@ -5,11 +5,6 @@
         "content": "Windows Accessibility Hotkeys to enable Filter Keys, Sticky Keys, and Toggle Keys no longer create a pop-up dialog if activated during runtime.  This change only affects the pop-up dialog. If the accessibility feature was enabled via Windows OS, the feature will continue to behave exactly the same as before."
     },
     {
-        "status": "Live",
-        "type": "Improvements",
-        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`."
-    },
-    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `Class.CharacterMesh.MeshContent`, `Class.CharacterMesh.BaseTextureContent`, and `Class.CharacterMesh.OverlayTextureContent` properties."
@@ -33,6 +28,11 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Validates `Class.AnimationGraphDefinition` and log errors in the Developer Console if there are violations."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`."
     },
     {
         "status": "Pending",
