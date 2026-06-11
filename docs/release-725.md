@@ -5,13 +5,13 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Windows Accessibility Hotkeys to enable Filter Keys, Sticky Keys, and Toggle Keys no longer create a pop-up dialog if activated during runtime.  This change only affects the pop-up dialog. If the accessibility feature was enabled via Windows OS, the feature will continue to behave exactly the same as before. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Class.UserService:GetUserFromGlobalUserIdAsync()` method. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.CharacterMesh.MeshContent`, `Class.CharacterMesh.BaseTextureContent`, and `Class.CharacterMesh.OverlayTextureContent` properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a `Class.Animation.AnimationContent`, `Class.FileMesh.MeshContent`, `Class.FileMesh.TextureContent`, `Class.Beam.TextureContent`, and `Class.ParticleEmitter.TextureContent` property. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an error where Luau script analysis would sometimes incorrectly infer that `Library.table.unpack` returns `...unknown`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Validates `Class.AnimationGraphDefinition` and log errors in the Developer Console if there are violations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.UserService:GetUserFromGlobalUserIdAsync()` method. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Logs more descriptive errors when attempting to build `Class.EditableMesh` objects through `Class.AssetService:CreateDataModelContentAsync`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for `export` being highlighted in the Script Editor when applied to `export local`, `export const` and `export function`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds an `Class.EditableMesh:Clear()` method that provides you a way to remove all vertex data, bones, and FACS data without removing the `Class.EditableMesh` or its allocated space. |
