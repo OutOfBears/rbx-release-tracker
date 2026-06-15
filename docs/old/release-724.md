@@ -4,11 +4,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Added `UIShadow.Enabled`, allowing `UIShadow`s to be individually toggled. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When deleting or renaming attributes in the Generator module of a ProceduralModel, Studio will automatically remove the old attributes from the ProceduralModel to avoid stale attributes accumulating as you edit. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The `export` keyword has been extended to support variables and functions. This works by constructing an export table and returning it from the module with the respective fields set, providing a new, consistent way for users to expose a stable API from a module. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a visual debugger for Instance stitching to the Server Authority debugger. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves terrain handling. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added `UIShadow.Enabled`, allowing `UIShadow`s to be individually toggled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a read only Studio UI property `IsInSandbox` to sandbox-able instances. This property represents if the given instance or its ancestors has sandboxing enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AvatarEditorService:PromptCreateOutfit` now accepts two new optional parameters (`outfitOptions` and `outfitType`) that let you create Makeup outfits in addition to regular Avatar outfits. When outfitType is omitted, the engine infers the correct type from the HumanoidDescription contents. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds "Segment By Part" beta feature. |

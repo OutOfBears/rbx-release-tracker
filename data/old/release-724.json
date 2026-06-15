@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Added `UIShadow.Enabled`, allowing `UIShadow`s to be individually toggled."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "When deleting or renaming attributes in the Generator module of a ProceduralModel, Studio will automatically remove the old attributes from the ProceduralModel to avoid stale attributes accumulating as you edit."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Improves terrain handling."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Added `UIShadow.Enabled`, allowing `UIShadow`s to be individually toggled."
     },
     {
         "status": "Pending",
