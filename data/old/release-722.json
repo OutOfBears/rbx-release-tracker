@@ -7,12 +7,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "`Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed."
+        "content": "Slightly reduces memory usage for physics constraints."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Slightly reduces memory usage for physics constraints."
+        "content": "`Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed."
     },
     {
         "status": "Pending",
