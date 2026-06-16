@@ -5,14 +5,14 @@
         "content": "Adds `Enum.KeyCode.TouchPosition` to the Input Action System."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Fixes an issue in script debugging so that when a debugger breakpoint is hit, all other Luau threads immediately stop executing to keep the experience's state consistent. All threads resume normal execution when the debugger continues."
+        "content": "In the New Luau Type Solver, improves type checking table literals against unions of tables and anonymous functions against unions of functions."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, improves type checking table literals against unions of tables and anonymous functions against unions of functions."
+        "content": "Fixes an issue in script debugging so that when a debugger breakpoint is hit, all other Luau threads immediately stop executing to keep the experience's state consistent. All threads resume normal execution when the debugger continues."
     },
     {
         "status": "Pending",

@@ -5,8 +5,8 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Enum.KeyCode.TouchPosition` to the Input Action System. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, improves type checking table literals against unions of tables and anonymous functions against unions of functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue in script debugging so that when a debugger breakpoint is hit, all other Luau threads immediately stop executing to keep the experience's state consistent. All threads resume normal execution when the debugger continues. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, improves type checking table literals against unions of tables and anonymous functions against unions of functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Save place dialog now supports keyboard interactions. |
 
 ## Fixes
