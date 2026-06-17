@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a visual debugger for Instance stitching to the Server Authority debugger."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves terrain handling."
     },
     {

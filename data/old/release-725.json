@@ -22,27 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds the `Class.Animation.AnimationContent`, `Class.FileMesh.MeshContent`, `Class.FileMesh.TextureContent`, `Class.Beam.TextureContent`, and `Class.ParticleEmitter.TextureContent` properties."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes an error where Luau script analysis would sometimes incorrectly infer that `Library.table.unpack` returns `...unknown`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Logs more descriptive errors when attempting to build `Class.EditableMesh` objects through `Class.AssetService:CreateDataModelContentAsync`."
     },
     {
         "status": "Pending",
@@ -53,16 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds an `Class.EditableMesh:Clear()` method that provides you a way to remove all vertex data, bones, and FACS data without removing the `Class.EditableMesh` or its allocated space."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Enables Segmentation for `/generate_mesh` and `/generate_procedural_model` tools in Assistant."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Animation Graph Editor - Fixes trigger parameters not working with Sequence."
     },
     {
         "status": "Live",
@@ -112,17 +82,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Improves decal rendering."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioPlayer.AutoPlay` wouldn't work correctly in a Team Create session."
     },
     {
         "status": "Pending",
