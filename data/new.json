@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Validates `Class.AnimationGraphDefinition` and log errors in the Developer Console if there are violations."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Windows Accessibility Hotkeys to enable Filter Keys, Sticky Keys, and Toggle Keys no longer create a pop-up dialog if activated during runtime.  This change only affects the pop-up dialog. If the accessibility feature was enabled via Windows OS, the feature will continue to behave exactly the same as before."
     },
     {
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes an error where Luau script analysis would sometimes incorrectly infer that `Library.table.unpack` returns `...unknown`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Validates `Class.AnimationGraphDefinition` and log errors in the Developer Console if there are violations."
     },
     {
         "status": "Pending",
