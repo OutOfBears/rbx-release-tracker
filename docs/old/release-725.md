@@ -18,12 +18,12 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When a GuiObject scales to fullscreen because of `Class.ScreenGui.SafeAreaCompatibility`, it now retains its aspect ratio if it is affected by a `Class.UIAspectRatioConstraint`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face. |
-| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `TextBounds` property is now correct for text instances parented to a `Class.BillboardGui`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Displays a proper error message when the fallback engine font doesn't load correctly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where a UI element re-parented into a `Class.Frame` inside a `Class.ScrollingFrame` could appear pinned in place when slowly scrolled out of view. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes flag emoji not being handled correctly by `Library.utf8.graphemes()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where a `Class.Sky` object parented to a `Class.ViewportFrame` object could be influenced by the `Class.Sky` object in the `Class.Lighting` service, causing unintended lighting changes in the viewport. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes lags while loading terrain. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves decal rendering. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash that would occur when there were many `Class.AudioEmitter.AudioInteractionGroup\|AudioEmitter` audio interaction groups. |

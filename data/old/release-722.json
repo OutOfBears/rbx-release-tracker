@@ -15,6 +15,11 @@
         "content": "`Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Renaming nodes in the Animation Graph Editor now also changes the name of the instance."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds support for yielding from Luau iterator functions."
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "A new API, `GetBundlesByAssetIDAsync(assetId: number, limit: number?)`, has been added to `Class.AvatarEditorService`. It allows you to search for bundles that contain the provided assetId."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Renaming nodes in the Animation Graph Editor now also changes the name of the instance."
     },
     {
         "status": "Pending",

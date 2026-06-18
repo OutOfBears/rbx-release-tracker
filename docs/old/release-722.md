@@ -7,9 +7,9 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a `UIModifier` property to `Class.InputBinding`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Slightly reduces memory usage for physics constraints. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.InputBindings` connected to UI buttons now change state to `FALSE` when a touch releases rather than when the touch exits the button bounds but is still pressed. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Renaming nodes in the Animation Graph Editor now also changes the name of the instance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds support for yielding from Luau iterator functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | A new API, `GetBundlesByAssetIDAsync(assetId: number, limit: number?)`, has been added to `Class.AvatarEditorService`. It allows you to search for bundles that contain the provided assetId. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Renaming nodes in the Animation Graph Editor now also changes the name of the instance. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a "Open Logs Folder" action to the Studio Help menu to more easily access log files. |
 
 ## Fixes

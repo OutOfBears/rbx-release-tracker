@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Logs more descriptive errors when attempting to build `Class.EditableMesh` objects through `Class.AssetService:CreateDataModelContentAsync`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.Animation.AnimationContent`, `Class.FileMesh.MeshContent`, `Class.FileMesh.TextureContent`, `Class.Beam.TextureContent`, and `Class.ParticleEmitter.TextureContent` properties. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added new "Mannequin" option to the Studio Avatar Rig Generator. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a visual debugger for Instance stitching to the Server Authority debugger. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Logs more descriptive errors when attempting to build `Class.EditableMesh` objects through `Class.AssetService:CreateDataModelContentAsync`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.SoundService.ListenerType`, `Class.SoundService.ListenerCFrame`, and `Class.SoundService.ListenerObject` for setting the global listener position at edit time. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fix some erroneous cases of "generic bounds mismatches" involving nilable generic types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added options to Studio to display animation skeletons. |

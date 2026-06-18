@@ -50,6 +50,11 @@
         "content": "When cloned through scripts or duplicated in Studio, `Class.FaceControls` retains its properties."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes Animation Graph Editor throwing an error when clicking New."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where in-game zooming would affect MicroProfiler zoom even when it was not in focus."
@@ -68,10 +73,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes some parts of Studio not tracking mouse location properly, specifically Explorer, Ribbon, and Animation Graph Editor."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes Animation Graph Editor throwing an error when clicking New."
     }
 ]

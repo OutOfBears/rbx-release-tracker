@@ -45,11 +45,6 @@
         "content": "Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face."
     },
     {
-        "status": "Live",
-        "type": "Fixes",
-        "content": "Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations."
-    },
-    {
         "status": "Pending",
         "type": "Fixes",
         "content": "`TextBounds` property is now correct for text instances parented to a `Class.BillboardGui`."
@@ -73,6 +68,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where a `Class.Sky` object parented to a `Class.ViewportFrame` object could be influenced by the `Class.Sky` object in the `Class.Lighting` service, causing unintended lighting changes in the viewport."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations."
     },
     {
         "status": "Pending",
