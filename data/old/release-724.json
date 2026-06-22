@@ -65,6 +65,11 @@
         "content": "Fixes an issue where `Class.AudioListener` would flip its front/back channels in surround-sound formats."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Output Window now stacks prints that include links to Instances (e.g. \"▶ Baseplate (x2)\")."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, type inference of function statements on tables are now more tolerant to generic functions."
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where rejoining voice chat could bypass the Audio API (e.g. `Class.AudioDeviceInput`)."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Output Window now stacks prints that include links to Instances (e.g. \"▶ Baseplate (x2)\")."
     },
     {
         "status": "Pending",

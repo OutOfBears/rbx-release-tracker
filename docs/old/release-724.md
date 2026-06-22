@@ -22,12 +22,12 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes thumbstick directional keycodes in the Input Action System to apply Response Curve and Deadzone calculations properly. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue causing some properties of the following types to have incorrect default values when created in Studio: `Sound`, `BloomEffect`, `UIGridLayout`, `UIListLayout`, `UIPageLayout`, `UITableLayout`, `UIShadow`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where `Class.AudioListener` would flip its front/back channels in surround-sound formats. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Output Window now stacks prints that include links to Instances (e.g. "▶ Baseplate (x2)"). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, type inference of function statements on tables are now more tolerant to generic functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `TextLabel` with auto-scaled rich text may disappear under small scales. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes SLIM rendering visible from inside large buildings. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where a client could fail to create a tool weld after re-equipping. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where rejoining voice chat could bypass the Audio API (e.g. `Class.AudioDeviceInput`). |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Output Window now stacks prints that include links to Instances (e.g. "▶ Baseplate (x2)"). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a pop-up when a user is kicked from a play test that mirrors the message a player receives in-game. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Animation Graph Editor: Fixed crash when graph contains a clip you don't have permissions for |
 
