@@ -1,6 +1,6 @@
 [
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
         "content": "Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances."
     },

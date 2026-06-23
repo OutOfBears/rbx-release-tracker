@@ -4,7 +4,7 @@
 
 | Status | Note |
 |--------|------|
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds the `Class.UIShadow` component, which adds drop shadows to parent UI instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | The AssetImporter now supports an additional scaling factor when importing models and animations. The stud-to-meter conversion factor will be updated from (20:1) to (25:7). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.UIShadow`'s edges appear jagged on corners with large radii. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Luau now supports read-only table indexers using the syntax `{read [K]: V}` or `{V}`. |

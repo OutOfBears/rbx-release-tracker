@@ -22,12 +22,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds a visual debugger for Instance stitching to the Server Authority debugger."
+        "content": "Adds a visual debugger for `Class.Instance` stitching to the Server Authority debugger."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync` and `Class.Player:GetRoleInGroupAsync`."
+        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync()` and `Class.Player:GetRoleInGroupAsync()`."
     },
     {
         "status": "Pending",
@@ -47,7 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `game.ServerRestartScheduled` event."
+        "content": "Adds `Class.DataModel.ServerRestartScheduled` event."
     },
     {
         "status": "Pending",
