@@ -12,22 +12,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Added new \"Mannequin\" option to the Studio Avatar Rig Generator."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds a visual debugger for `Class.Instance` stitching to the Server Authority debugger."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync()` and `Class.Player:GetRoleInGroupAsync()`."
     },
     {
         "status": "Pending",
@@ -47,11 +32,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.DataModel.ServerRestartScheduled` event."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Enables Segmentation for `/generate_mesh` and `/generate_procedural_model` tools in Assistant."
     },
     {
@@ -63,11 +43,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Ellipsis now appear correctly when using wrap and truncate within a TextLabel. Both flows were fixed, rich text and non rich text."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds mouse support to iPadOS."
     },
     {
         "status": "Pending",
