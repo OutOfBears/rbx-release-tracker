@@ -95,6 +95,11 @@
         "content": "Fixes rendering of transparent avatars with highlights."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes Magic Mouse scrolling in Roblox Studio."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Set a limit to the growth factor of deferred operations queued within any given resumption point."
@@ -138,11 +143,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Physics debugging stats now works correctly when `Class.Workspace.ImprovedPhysicReplication` is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes Magic Mouse scrolling in Roblox Studio."
     },
     {
         "status": "Pending",
