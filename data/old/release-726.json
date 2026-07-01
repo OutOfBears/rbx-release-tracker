@@ -5,6 +5,11 @@
         "content": "Logs more descriptive errors when attempting to build `Class.EditableMesh` objects through `Class.AssetService:CreateDataModelContentAsync`."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Animation Graph Editor - Fixes trigger parameters not working with Sequence."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `Class.Animation.AnimationContent`, `Class.FileMesh.MeshContent`, `Class.FileMesh.TextureContent`, `Class.Beam.TextureContent`, and `Class.ParticleEmitter.TextureContent` properties."
@@ -35,24 +40,24 @@
         "content": "Enables Segmentation for `/generate_mesh` and `/generate_procedural_model` tools in Assistant."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Animation Graph Editor - Fixes trigger parameters not working with Sequence."
-    },
-    {
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes an issue where the Studio VR Emulator would error on session start."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Ellipsis now appear correctly when using wrap and truncate within a TextLabel. Both flows were fixed, rich text and non rich text."
+        "content": "Animation Graph Editor - Pressing undo after a property slide will now go back to that value, rather than along that value."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Animation Graph Editor - Double-clicking to rename is now restricted to the title bar, rather than the whole node."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
+        "content": "Ellipsis now appear correctly when using wrap and truncate within a TextLabel. Both flows were fixed, rich text and non rich text."
     },
     {
         "status": "Pending",
@@ -73,16 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash in the AnimationGraph where setting a node property with NaN via `AnimationTrack.SetParameter` would lead to a hard crash."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Animation Graph Editor - Pressing undo after a property slide will now go back to that value, rather than along that value."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Animation Graph Editor - Double-clicking to rename is now restricted to the title bar, rather than the whole node."
     },
     {
         "status": "Pending",
