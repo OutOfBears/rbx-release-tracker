@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Implements `type:issubtypeof()` for use in type functions."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Classes and services with `AcousticSimulationEnabled` such as `Class.SoundService` now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently."
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Tags are now sorted lexicographically. As a result, the order of tags returned by `Class.Instance:GetTags()` may change."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Implements `type:issubtypeof()` for use in type functions."
     },
     {
         "status": "Pending",
@@ -103,5 +103,10 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "`SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Animation Graph Editor - Layering of nodes is more consistent and predictable"
     }
 ]

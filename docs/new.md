@@ -4,12 +4,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements `type:issubtypeof()` for use in type functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Classes and services with `AcousticSimulationEnabled` such as `Class.SoundService` now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds a visual debugger for `Class.Instance` stitching to the Server Authority debugger. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AssetService.CreateAssetAsync\|CreateAssetAsync` now supports `Class.AudioTextToSpeech` asset generation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync()` and `Class.Player:GetRoleInGroupAsync()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Tags are now sorted lexicographically. As a result, the order of tags returned by `Class.Instance:GetTags()` may change. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Implements `type:issubtypeof()` for use in type functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.Player:GetCameraState()` to synchronize player camera state between client and server on Server Authoritative games. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where script analysis could show a spurious warning when passing a table literal to certain generic functions in strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where renaming a node replaced spaces with underscores in the Animation Graph Editor. |
@@ -30,4 +30,5 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Structured logging methods now accept mixed tables and pure arrays as the context parameter without throwing "Unable to cast to Dictionary". For mixed tables, string keys are preserved as-is and numeric keys are converted to strings (for example, index `1` becomes key `"1"`). For pure arrays like `{10, 20, 30}`, all entries become string-keyed (`"1"=10`, `"2"=20`, `"3"=30`). If a converted numeric key collides with an existing string key, the explicit string key takes precedence. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Physics debugging stats now works correctly when `Class.Workspace.ImprovedPhysicReplication` is enabled. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI. |
+| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Animation Graph Editor - Layering of nodes is more consistent and predictable |
 

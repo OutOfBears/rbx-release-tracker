@@ -32,6 +32,5 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an issue with crashing when assigning to locals annotated with `typeof()` types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Clarifies the error shown when `Class.Humanoid:ApplyDescription()` is called from the wrong context on a server-created `Class.Humanoid`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Magic Mouse scrolling in Roblox Studio. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Magic Mouse scrolling in Roblox Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Potential fix for the `Class.Instance`-picker sometimes selecting things behind the intended part when modifying an `Class.Instance`-reference property. |
 

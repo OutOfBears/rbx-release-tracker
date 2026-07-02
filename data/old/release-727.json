@@ -117,11 +117,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes Magic Mouse scrolling in Roblox Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Potential fix for the `Class.Instance`-picker sometimes selecting things behind the intended part when modifying an `Class.Instance`-reference property."
     }
 ]
