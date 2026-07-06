@@ -17,6 +17,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash in the AnimationGraph where setting a node property with NaN via `AnimationTrack.SetParameter` would lead to a hard crash. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where the Studio VR Emulator would error on session start. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor - Pressing undo after a property slide will now go back to that value, rather than along that value. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor - Double-clicking to rename is now restricted to the title bar, rather than the whole node. |
@@ -24,7 +25,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.AudioPlayer.AutoPlay` wouldn't work correctly in a Team Create session. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds two additional Gradient Types: Radial, Conical. Adds support for gradient tile modes: Clamp, Mirror, Repeat. Adds support for gradient scale. Adds support for gradients on Path2D instances. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fix server authority solver behavior when using external forces. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash in the AnimationGraph where setting a node property with NaN via `AnimationTrack.SetParameter` would lead to a hard crash. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes the ProceduralModel template script to respect the `Tab Width` and `Indent Using Spaces` script editor settings. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixed an issue in Windows version of Studio where GetPropertyChangedSignal continuously fires for some held keys on. |
 

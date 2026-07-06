@@ -21,6 +21,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Makes the `Class.MeshPart.DoubleSided\|DoubleSided` setter writable. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | The `Class.Players.PlayerRemoving\|PlayerRemoving` event now correctly fires after a player leaves during **Server & Clients** testing. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `TextBox.TextEditable` on mobile devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where `Class.Humanoid.ApplyDescriptionResetAsync\|ApplyDescriptionResetAsync` would create `NoCollisionConstraints` referencing parts on unrelated player character models. |
@@ -29,6 +30,5 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.LogService:Error()` no longer prints an error to the Output window when the call is wrapped in `Global.LuaGlobals.pcall()`. Caught errors are now properly suppressed. Uncaught errors continue to print with full context and stack trace as before. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Structured logging methods now accept mixed tables and pure arrays as the context parameter without throwing "Unable to cast to Dictionary". For mixed tables, string keys are preserved as-is and numeric keys are converted to strings (for example, index `1` becomes key `"1"`). For pure arrays like `{10, 20, 30}`, all entries become string-keyed (`"1"=10`, `"2"=20`, `"3"=30`). If a converted numeric key collides with an existing string key, the explicit string key takes precedence. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Physics debugging stats now works correctly when `Class.Workspace.ImprovedPhysicReplication` is enabled. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Animation Graph Editor - Layering of nodes is more consistent and predictable |
 

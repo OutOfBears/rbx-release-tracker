@@ -22,6 +22,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash that would occur when there were many `Class.AudioEmitter.AudioInteractionGroup\|AudioEmitter` audio interaction groups. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in `Class.UserInputService.GetStringForKeyCode` that would return "A" (or keyboard equivalent) for unrecognized KeyCodes on MacOS. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where an `Enum.AnimationNodeType.ClipNode` with a large `Speed` value would cause Studio to hang. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor: Fixes a bug so that having the Script Editor open no longer blocks actions like delete. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor: Fixes an error when pressing the delete/backspace button. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `TextBounds` property is now correct for text instances parented to a `Class.BillboardGui`. |
@@ -30,6 +31,5 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes lags while loading terrain. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves decal rendering. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a bug where an `Enum.AnimationNodeType.ClipNode` with a large `Speed` value would cause Studio to hang. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Animation Graph Editor: Fixes a bug where dragging from an enum pin would create a broken parameter. |
 

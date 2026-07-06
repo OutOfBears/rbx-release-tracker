@@ -62,6 +62,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "`SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "The `Class.Players.PlayerRemoving|PlayerRemoving` event now correctly fires after a player leaves during **Server & Clients** testing."
     },
     {
@@ -98,11 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Physics debugging stats now works correctly when `Class.Workspace.ImprovedPhysicReplication` is enabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "`SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI."
     },
     {
         "status": "Pending",

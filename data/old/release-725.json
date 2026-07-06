@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where an `Enum.AnimationNodeType.ClipNode` with a large `Speed` value would cause Studio to hang."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Animation Graph Editor: Fixes a bug so that having the Script Editor open no longer blocks actions like delete."
     },
     {
@@ -103,11 +108,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Improves decal rendering."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where an `Enum.AnimationNodeType.ClipNode` with a large `Speed` value would cause Studio to hang."
     },
     {
         "status": "Pending",
