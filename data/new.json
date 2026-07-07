@@ -22,7 +22,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adding `Enum.PreferredInput.MicroGamepad` for when there's no connected gamepad with 2 thumbsticks.\nAdding `Enum.KeyCode.ButtonCenter`, `Enum.KeyCode.ButtonBack`, `Enum.KeyCode.ButtonUp`, `Enum.KeyCode.ButtonDown`, `Enum.KeyCode.ButtonLeft`, `KeyCode.ButtonRight` for TV remote buttons."
+        "content": "Adding `Enum.PreferredInput.MicroGamepad` for when there's no connected gamepad with 2 thumbsticks.\nAdding `Enum.KeyCode.ButtonCenter`, `Enum.KeyCode.ButtonBack`, `Enum.KeyCode.ButtonUp`, `Enum.KeyCode.ButtonDown`, `Enum.KeyCode.ButtonLeft`, `Enum.KeyCode.ButtonRight` for TV remote buttons."
     },
     {
         "status": "Pending",
@@ -62,7 +62,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Adds flag to fix slowdown with Terrain:ReplaceMaterial()"
+        "content": "Adds flag to fix slowdown with `Class.Terrain:ReplaceMaterial()`"
     },
     {
         "status": "Pending",
@@ -82,12 +82,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes `Instance.QueryDescendants` collecting duplicates when multiple descendant combinators (>>) were used.\nAlso fixes a case where not all matches were found when child combinators (>) were mixed with descendant combinators (>>)."
+        "content": "Fixes `Class.Instance.QueryDescendants` collecting duplicates when multiple descendant combinators (>>) were used.\nAlso fixes a case where not all matches were found when child combinators (>) were mixed with descendant combinators (>>)."
     },
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a crash when using `AnimationNodeType.MaskNode` in a graph reused by multiple rigs in the experience."
+        "content": "Fixes a crash when using `Enum.AnimationNodeType.MaskNode` in a graph reused by multiple rigs in the experience."
     },
     {
         "status": "Pending",
