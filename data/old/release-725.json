@@ -57,6 +57,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where a `Class.Sky` object parented to a `Class.ViewportFrame` object could be influenced by the `Class.Sky` object in the `Class.Lighting` service, causing unintended lighting changes in the viewport."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a crash that would occur when there were many `Class.AudioEmitter.AudioInteractionGroup|AudioEmitter` audio interaction groups."
     },
     {
@@ -88,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Displays a proper error message when the fallback engine font doesn't load correctly."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where a `Class.Sky` object parented to a `Class.ViewportFrame` object could be influenced by the `Class.Sky` object in the `Class.Lighting` service, causing unintended lighting changes in the viewport."
     },
     {
         "status": "Pending",

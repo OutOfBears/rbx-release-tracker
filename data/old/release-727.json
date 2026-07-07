@@ -2,6 +2,16 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Converts the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to fire `Class.InputBinding|InputBindings` of type `Enum.InputBindingType|Scriptable`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Adds support for read-only table indexers to the type function runtime."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Animation Graph Editor - You can now click on pins to drag them instead of having to hold down"
     },
     {
@@ -37,27 +47,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Converts the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to fire `Class.InputBinding|InputBindings` of type `Enum.InputBindingType|Scriptable`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Reduces the mix-time of `Class.AudioEmitter`/`Class.AudioListener` by 15-30%."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes a case where Script Analysis would report spurious warnings for certain generic functions in strict mode."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds support for read-only table indexers to the type function runtime."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes Studio script editor freeze when pasting large scripts."
     },
     {
         "status": "Pending",
@@ -108,11 +103,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Clarifies the error shown when `Class.Humanoid:ApplyDescription()` is called from the wrong context on a server-created `Class.Humanoid`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes Magic Mouse scrolling in Roblox Studio."
     },
     {
         "status": "Pending",

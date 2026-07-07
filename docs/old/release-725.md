@@ -20,6 +20,7 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where a UI element re-parented into a `Class.Frame` inside a `Class.ScrollingFrame` could appear pinned in place when slowly scrolled out of view. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes flag emoji not being handled correctly by `Library.utf8.graphemes()`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue with cylinder part UVs being rotated 180 degrees on the back face. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where a `Class.Sky` object parented to a `Class.ViewportFrame` object could be influenced by the `Class.Sky` object in the `Class.Lighting` service, causing unintended lighting changes in the viewport. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a crash that would occur when there were many `Class.AudioEmitter.AudioInteractionGroup\|AudioEmitter` audio interaction groups. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug in `Class.UserInputService.GetStringForKeyCode` that would return "A" (or keyboard equivalent) for unrecognized KeyCodes on MacOS. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where an `Enum.AnimationNodeType.ClipNode` with a large `Speed` value would cause Studio to hang. |
@@ -27,7 +28,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor: Fixes an error when pressing the delete/backspace button. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `TextBounds` property is now correct for text instances parented to a `Class.BillboardGui`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Displays a proper error message when the fallback engine font doesn't load correctly. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where a `Class.Sky` object parented to a `Class.ViewportFrame` object could be influenced by the `Class.Sky` object in the `Class.Lighting` service, causing unintended lighting changes in the viewport. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes lags while loading terrain. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Improves decal rendering. |

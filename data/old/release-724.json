@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `TextLabel` with auto-scaled rich text may disappear under small scales."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes animation graph bug where a sequence or select node (`Enum.AnimationNodeType.SequenceNode`, `Enum.AnimationNodeType.PrioritySelect`, `Enum.AnimationNodeType.RandomSequenceNode`, `Enum.AnimationNodeType.Select`) do not advance with a 0-duration clip."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, type inference of function statements on tables are now more tolerant to generic functions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `TextLabel` with auto-scaled rich text may disappear under small scales."
     },
     {
         "status": "Pending",
