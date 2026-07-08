@@ -23,6 +23,7 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes rendering of transparent avatars with highlights. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Potential fix for the `Class.Instance`-picker sometimes selecting things behind the intended part when modifying an `Class.Instance`-reference property. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the Animation Graph Editor, the color of curves now fade alongside the weight. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes nodes in the Animation Graph Editor not providing the clip name in their title. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Set a limit to the growth factor of deferred operations queued within any given resumption point. |
@@ -30,5 +31,4 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Make Z-near plane more consistent across all platforms. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an issue with crashing when assigning to locals annotated with `typeof()` types. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Clarifies the error shown when `Class.Humanoid:ApplyDescription()` is called from the wrong context on a server-created `Class.Humanoid`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Potential fix for the `Class.Instance`-picker sometimes selecting things behind the intended part when modifying an `Class.Instance`-reference property. |
 

@@ -72,6 +72,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Potential fix for the `Class.Instance`-picker sometimes selecting things behind the intended part when modifying an `Class.Instance`-reference property."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "In the Animation Graph Editor, the color of curves now fade alongside the weight."
     },
     {
@@ -103,10 +108,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Clarifies the error shown when `Class.Humanoid:ApplyDescription()` is called from the wrong context on a server-created `Class.Humanoid`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Potential fix for the `Class.Instance`-picker sometimes selecting things behind the intended part when modifying an `Class.Instance`-reference property."
     }
 ]
