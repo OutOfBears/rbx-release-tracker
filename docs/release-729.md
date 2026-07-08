@@ -19,12 +19,12 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Magic Mouse scrolling in Roblox Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `TextBox.TextEditable` on mobile devices. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes erroneous script analysis warnings that could pop up when passing a generic function to another generic function as an argument in strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds flag to fix slowdown with `Class.Terrain:ReplaceMaterial()` |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Structured logging methods now accept mixed tables and pure arrays as the context parameter without throwing "Unable to cast to Dictionary". For mixed tables, string keys are preserved as-is and numeric keys are converted to strings (for example, index `1` becomes key `"1"`). For pure arrays like `{10, 20, 30}`, all entries become string-keyed (`"1"=10`, `"2"=20`, `"3"=30`). If a converted numeric key collides with an existing string key, the explicit string key takes precedence. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the `Workspace.PlayerScriptsUseInputActionSystem` default PlayerScripts to move the ThumbstickAction into its own sinking InputContext and not sink through the UI system. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Magic Mouse scrolling in Roblox Studio. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `Class.Instance.QueryDescendants` collecting duplicates when multiple descendant combinators (>>) were used.<br>Also fixes a case where not all matches were found when child combinators (>) were mixed with descendant combinators (>>). |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a crash when using `Enum.AnimationNodeType.MaskNode` in a graph reused by multiple rigs in the experience. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.AudioDeviceInput`'s noise suppression & echo cancellation could cause a memory leak. |

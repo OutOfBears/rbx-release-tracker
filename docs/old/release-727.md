@@ -4,11 +4,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.UserInputService:GetStringForKeyCode()` now accepts an optional second parameter of `Enum.KeyCodeStringFormat` (`Enum.KeyCodeStringFormat\|Default` or `Enum.KeyCodeStringFormat\|Abbreviated`). For example, "Left Control", "Right Control", and "Left Alt" become "LCtrl", "RCtrl", and "LAlt" respectively. Keys without a defined abbreviation fall through to the existing behavior. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Converts the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to fire `Class.InputBinding\|InputBindings` of type `Enum.InputBindingType\|Scriptable`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for read-only table indexers to the type function runtime. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor - You can now click on pins to drag them instead of having to hold down |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.UserInputService:GetStringForKeyCode()` now accepts an optional second parameter of `Enum.KeyCodeStringFormat` (`Enum.KeyCodeStringFormat\|Default` or `Enum.KeyCodeStringFormat\|Abbreviated`). For example, "Left Control", "Right Control", and "Left Alt" become "LCtrl", "RCtrl", and "LAlt" respectively. Keys without a defined abbreviation fall through to the existing behavior. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AudioEmitter.PositionType`, `Class.AudioEmitter.PositionInstance`, `Class.AudioListener.PositionType`, and `Class.AudioListener.PositionInstance` for setting the position of `Class.AudioEmitter\|AudioEmitters` and `Class.AudioListener\|AudioListeners` independent of their parent `Class.Instance`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.DataModel.ServerRestartScheduled` event. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to use the `Class.Player:GetCameraState()` API. |

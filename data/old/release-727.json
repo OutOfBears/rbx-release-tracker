@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "`Class.UserInputService:GetStringForKeyCode()` now accepts an optional second parameter of `Enum.KeyCodeStringFormat` (`Enum.KeyCodeStringFormat|Default` or `Enum.KeyCodeStringFormat|Abbreviated`). For example, \"Left Control\", \"Right Control\", and \"Left Alt\" become \"LCtrl\", \"RCtrl\", and \"LAlt\" respectively. Keys without a defined abbreviation fall through to the existing behavior."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Converts the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to fire `Class.InputBinding|InputBindings` of type `Enum.InputBindingType|Scriptable`."
     },
     {
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "`Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "`Class.UserInputService:GetStringForKeyCode()` now accepts an optional second parameter of `Enum.KeyCodeStringFormat` (`Enum.KeyCodeStringFormat|Default` or `Enum.KeyCodeStringFormat|Abbreviated`). For example, \"Left Control\", \"Right Control\", and \"Left Alt\" become \"LCtrl\", \"RCtrl\", and \"LAlt\" respectively. Keys without a defined abbreviation fall through to the existing behavior."
     },
     {
         "status": "Pending",
