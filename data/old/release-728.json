@@ -10,14 +10,14 @@
         "content": "Implements `type:issubtypeof()` for use in type functions."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "Tags are now sorted lexicographically. As a result, the order of tags returned by `Class.Instance:GetTags()` may change."
+        "content": "Adds `Class.Player:GetCameraState()` to synchronize player camera state between client and server on Server Authoritative games."
     },
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `Class.Player:GetCameraState()` to synchronize player camera state between client and server on Server Authoritative games."
+        "content": "Tags are now sorted lexicographically. As a result, the order of tags returned by `Class.Instance:GetTags()` may change."
     },
     {
         "status": "Pending",

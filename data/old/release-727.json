@@ -7,7 +7,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Updates the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to use the `Class.Player:GetCameraState()` API."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Converts the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to fire `Class.InputBinding|InputBindings` of type `Enum.InputBindingType|Scriptable`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Reduces the mix-time of `Class.AudioEmitter`/`Class.AudioListener` by 15-30%."
     },
     {
         "status": "Live",
@@ -37,17 +47,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Updates the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to use the `Class.Player:GetCameraState()` API."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Reduces the mix-time of `Class.AudioEmitter`/`Class.AudioListener` by 15-30%."
     },
     {
         "status": "Pending",

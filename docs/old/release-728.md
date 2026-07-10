@@ -6,8 +6,8 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds a visual debugger for `Class.Instance` stitching to the Server Authority debugger. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Implements `type:issubtypeof()` for use in type functions. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds `Class.Player:GetCameraState()` to synchronize player camera state between client and server on Server Authoritative games. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Tags are now sorted lexicographically. As a result, the order of tags returned by `Class.Instance:GetTags()` may change. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.Player:GetCameraState()` to synchronize player camera state between client and server on Server Authoritative games. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where script analysis could show a spurious warning when passing a table literal to certain generic functions in strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Animation Graph Editor - Fixes an issue where renaming a node replaced spaces with underscores. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Animation Graph Editor - Right-clicking now selects nodes. |

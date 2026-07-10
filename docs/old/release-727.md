@@ -5,15 +5,15 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.UserInputService:GetStringForKeyCode()` now accepts an optional second parameter of `Enum.KeyCodeStringFormat` (`Enum.KeyCodeStringFormat\|Default` or `Enum.KeyCodeStringFormat\|Abbreviated`). For example, "Left Control", "Right Control", and "Left Alt" become "LCtrl", "RCtrl", and "LAlt" respectively. Keys without a defined abbreviation fall through to the existing behavior. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to use the `Class.Player:GetCameraState()` API. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Converts the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to fire `Class.InputBinding\|InputBindings` of type `Enum.InputBindingType\|Scriptable`. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Reduces the mix-time of `Class.AudioEmitter`/`Class.AudioListener` by 15-30%. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds support for read-only table indexers to the type function runtime. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor - You can now click on pins to drag them instead of having to hold down |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AudioEmitter.PositionType`, `Class.AudioEmitter.PositionInstance`, `Class.AudioListener.PositionType`, and `Class.AudioListener.PositionInstance` for setting the position of `Class.AudioEmitter\|AudioEmitters` and `Class.AudioListener\|AudioListeners` independent of their parent `Class.Instance`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.DataModel.ServerRestartScheduled` event. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the `Class.Workspace.PlayerScriptsUseInputActionSystem` default `Class.PlayerScripts` to use the `Class.Player:GetCameraState()` API. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Reduces the mix-time of `Class.AudioEmitter`/`Class.AudioListener` by 15-30%. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where Script Analysis would report spurious warnings for certain generic functions in strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Studio's "Group as Model" context action now changes into "Group as Frame" when only GUI objects are selected. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the Animation Graph Editor, editing the name of a node will now select all the text box contents. |
