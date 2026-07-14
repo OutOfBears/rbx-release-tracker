@@ -6,7 +6,6 @@
 |--------|------|
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a class of internal compiler exceptions when using `table.freeze`, `setmetatable`, and other similar functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Classes and services with `AcousticSimulationEnabled` such as `Class.SoundService` now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.AssetService.CreateAssetAsync\|CreateAssetAsync` now supports `Class.AudioTextToSpeech` asset generation. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync()` and `Class.Player:GetRoleInGroupAsync()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adding `Enum.PreferredInput.MicroGamepad` for when connected gamepad doesn't have 2 thumbsticks.<br>Adding `Enum.KeyCode.ButtonCenter`, `Enum.KeyCode.ButtonBack`, `Enum.KeyCode.ButtonUp`, `Enum.KeyCode.ButtonDown`, `Enum.KeyCode.ButtonLeft`, `Enum.KeyCode.ButtonRight` for TV remote buttons. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio script editor freeze when pasting large scripts. |
@@ -20,9 +19,9 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `TextBox.TextEditable` on mobile devices. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes erroneous script analysis warnings that could pop up when passing a generic function to another generic function as an argument in strict mode. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes Magic Mouse scrolling in Roblox Studio. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes `Class.Instance.QueryDescendants` collecting duplicates when multiple descendant combinators (>>) were used.<br>Also fixes a case where not all matches were found when child combinators (>) were mixed with descendant combinators (>>). |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes erroneous script analysis warnings that could pop up when passing a generic function to another generic function as an argument in strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds flag to fix slowdown with `Class.Terrain:ReplaceMaterial()` |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Structured logging methods now accept mixed tables and pure arrays as the context parameter without throwing "Unable to cast to Dictionary". For mixed tables, string keys are preserved as-is and numeric keys are converted to strings (for example, index `1` becomes key `"1"`). For pure arrays like `{10, 20, 30}`, all entries become string-keyed (`"1"=10`, `"2"=20`, `"3"=30`). If a converted numeric key collides with an existing string key, the explicit string key takes precedence. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates the `Workspace.PlayerScriptsUseInputActionSystem` default PlayerScripts to move the ThumbstickAction into its own sinking InputContext and not sink through the UI system. |

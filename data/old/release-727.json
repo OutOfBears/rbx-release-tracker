@@ -47,11 +47,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes a case where Script Analysis would report spurious warnings for certain generic functions in strict mode."
     },
     {

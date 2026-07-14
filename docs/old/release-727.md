@@ -13,7 +13,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Class.GroundController.AccelerationTime` and `Class.GroundController.DecelerationTime` now only affect linear acceleration, not turning acceleration. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AudioEmitter.PositionType`, `Class.AudioEmitter.PositionInstance`, `Class.AudioListener.PositionType`, and `Class.AudioListener.PositionInstance` for setting the position of `Class.AudioEmitter\|AudioEmitters` and `Class.AudioListener\|AudioListeners` independent of their parent `Class.Instance`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.DataModel.ServerRestartScheduled` event. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes a case where Script Analysis would report spurious warnings for certain generic functions in strict mode. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Studio's "Group as Model" context action now changes into "Group as Frame" when only GUI objects are selected. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the Animation Graph Editor, editing the name of a node will now select all the text box contents. |
