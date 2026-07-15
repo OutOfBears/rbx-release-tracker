@@ -65,6 +65,11 @@
         "content": "Fixes `Class.Instance.QueryDescendants` collecting duplicates when multiple descendant combinators (>>) were used.\nAlso fixes a case where not all matches were found when child combinators (>) were mixed with descendant combinators (>>)."
     },
     {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where `Class.AudioDeviceInput`'s noise suppression & echo cancellation could cause a memory leak."
+    },
+    {
         "status": "Pending",
         "type": "Fixes",
         "content": "Adds flag to fix slowdown with `Class.Terrain:ReplaceMaterial()`"
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a crash when using `Enum.AnimationNodeType.MaskNode` in a graph reused by multiple rigs in the experience."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.AudioDeviceInput`'s noise suppression & echo cancellation could cause a memory leak."
     },
     {
         "status": "Pending",
