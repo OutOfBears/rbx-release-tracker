@@ -42,6 +42,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Adds two additional Gradient Types: Radial, Conical. Adds support for gradient tile modes: Clamp, Mirror, Repeat. Adds support for gradient scale. Adds support for gradients on Path2D instances."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fix server authority solver behavior when using external forces."
     },
     {
@@ -73,11 +78,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where `Class.AudioPlayer.AutoPlay` wouldn't work correctly in a Team Create session."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Adds two additional Gradient Types: Radial, Conical. Adds support for gradient tile modes: Clamp, Mirror, Repeat. Adds support for gradient scale. Adds support for gradients on Path2D instances."
     },
     {
         "status": "Pending",

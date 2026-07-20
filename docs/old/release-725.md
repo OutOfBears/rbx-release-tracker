@@ -16,6 +16,7 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `TextBounds` property is now correct for text instances parented to a `Class.BillboardGui`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | When a GuiObject scales to fullscreen because of `Class.ScreenGui.SafeAreaCompatibility`, it now retains its aspect ratio if it is affected by a `Class.UIAspectRatioConstraint`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes an issue where a UI element re-parented into a `Class.Frame` inside a `Class.ScrollingFrame` could appear pinned in place when slowly scrolled out of view. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes flag emoji not being handled correctly by `Library.utf8.graphemes()`. |
@@ -26,7 +27,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a bug where an `Enum.AnimationNodeType.ClipNode` with a large `Speed` value would cause Studio to hang. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor: Fixes a bug so that having the Script Editor open no longer blocks actions like delete. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Animation Graph Editor: Fixes an error when pressing the delete/backspace button. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `TextBounds` property is now correct for text instances parented to a `Class.BillboardGui`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Displays a proper error message when the fallback engine font doesn't load correctly. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Particle emitters with `Enum.ParticleOrientation` set to `VelocityPerpendicular` now behave correctly with rotations. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes lags while loading terrain. |

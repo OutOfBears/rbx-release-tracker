@@ -2,17 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Adds an indicator of whether or not packet-level compression is enabled to network GUIs."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds missing `GetInputPins` and `GetOutputPins` methods to `Class.AudioTextToSpeech` and `Class.AudioSpeechToText`."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `BatchGetAsync` to ordered data stores, allowing retrieval of multiple key-value pairs in a single request. Accepts an array of up to 100 string keys and returns a dictionary mapping each key to its value. Gated by `DataStoreEnableOrderedBatchGetAsync`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds an indicator of whether or not packet-level compression is enabled to network GUIs."
     },
     {
         "status": "Pending",

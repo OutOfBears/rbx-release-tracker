@@ -67,6 +67,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a crash when using `Enum.AnimationNodeType.MaskNode` in a graph reused by multiple rigs in the experience."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where `Class.AudioDeviceInput`'s noise suppression & echo cancellation could cause a memory leak."
     },
     {
@@ -83,11 +88,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Updates the `Workspace.PlayerScriptsUseInputActionSystem` default PlayerScripts to move the ThumbstickAction into its own sinking InputContext and not sink through the UI system."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a crash when using `Enum.AnimationNodeType.MaskNode` in a graph reused by multiple rigs in the experience."
     },
     {
         "status": "Pending",
