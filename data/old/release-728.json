@@ -67,11 +67,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "When using structured logging methods from `Class.LogService`, instance values are converted using `Class.Instance:GetFullName()`, which returns the instance's path without the `Class.DataModel` root. For example, `\"Workspace\"` for workspace or `\"Workspace.MyPart\"` for a child of workspace."
     },
     {

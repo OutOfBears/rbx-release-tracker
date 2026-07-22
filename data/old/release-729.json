@@ -17,11 +17,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adding `Enum.PreferredInput.MicroGamepad` for when connected gamepad doesn't have 2 thumbsticks.\nAdding `Enum.KeyCode.ButtonCenter`, `Enum.KeyCode.ButtonBack`, `Enum.KeyCode.ButtonUp`, `Enum.KeyCode.ButtonDown`, `Enum.KeyCode.ButtonLeft`, `Enum.KeyCode.ButtonRight` for TV remote buttons."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes Studio script editor freeze when pasting large scripts."
     },
     {

@@ -17,17 +17,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Class.AssetService.CreateAssetAsync|CreateAssetAsync` now supports `Class.AudioTextToSpeech` asset generation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the following API:<ul><li>`InputAction.BindingDisplayName` — string, read-only. Returns the display name for the active binding on the player's current device. Empty string if no binding matches.</li><li>`InputAction.BindingDisplayImage` — Content, read-only. Returns the button image for the active binding. nil for keyboard bindings or when no binding matches.</li><li>`InputBinding.DisplayName` — string, read/write. Sets a custom display name (e.g. \\\"FIGHT\\\"). When empty, the engine computes a default from the bound key(s). Persists across publishes.</li><li>`InputBinding.DisplayImage` — Content, read/write. Sets a custom image. When nil, the engine uses the default gamepad button icon. Persists across publishes.</li></ul>"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where some terrain brushes would ignore the terrain in favor of parts."
     },
     {
         "status": "Pending",
@@ -58,11 +53,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug where when exporting an asset, the file dialog would default to a system folder instead of the user's documents folder."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where some terrain brushes would ignore the terrain in favor of parts."
     },
     {
         "status": "Pending",
