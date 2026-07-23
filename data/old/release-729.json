@@ -1,5 +1,10 @@
 [
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes issue where rejoining an experience could make your voice inaudible to other people in the server."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "In the New Luau Type Solver, fixes a class of internal compiler exceptions when using `table.freeze`, `setmetatable`, and other similar functions."
@@ -18,11 +23,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Fixes Studio script editor freeze when pasting large scripts."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes issue where rejoining an experience could make your voice inaudible to other people in the server."
     },
     {
         "status": "Pending",

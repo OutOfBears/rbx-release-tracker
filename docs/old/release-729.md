@@ -4,11 +4,11 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes issue where rejoining an experience could make your voice inaudible to other people in the server. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes a class of internal compiler exceptions when using `table.freeze`, `setmetatable`, and other similar functions. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Classes and services with `AcousticSimulationEnabled` such as `Class.SoundService` now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.GroupService:GetRolesInGroupAsync(userId, groupId)` engine API returning all roles a user holds in a group, supporting multi-role assignment case. Deprecates `Class.Player:GetRankInGroupAsync()` and `Class.Player:GetRoleInGroupAsync()`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes Studio script editor freeze when pasting large scripts. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes issue where rejoining an experience could make your voice inaudible to other people in the server. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Particle emitters that use a small number of particles are no longer unnecessarily throttled at lower graphics quality levels, so low-rate particle effects render at their authored rate on lower-end settings |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes `ExpirationTime` in `Class.AvatarEditorService:GetItemDetailsAsync` and `Class.AvatarEditorService:GetBatchItemDetailsAsync` to return a DateTime object instead of a value table. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes missing unparented instances from displaying in SceneAnalysis |
