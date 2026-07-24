@@ -22,6 +22,16 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where `Class.VoiceChatService.IsVoiceEnabledForUserIdAsync` encountered an Http 403 error whenever it was used in Studio."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with the Acoustic Simulation feature where creating a `Class.AudioEmitter` or `Class.AudioListener` would simulate reflections/reverberation incorrectly for a few frames."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes an issue where some terrain brushes would ignore the terrain in favor of parts."
     },
     {
@@ -38,16 +48,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes potential improper occlusion culling by meshes with a `MeshSize` value of `0`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where `Class.VoiceChatService.IsVoiceEnabledForUserIdAsync` encountered an Http 403 error whenever it was used in Studio."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with the Acoustic Simulation feature where creating a `Class.AudioEmitter` or `Class.AudioListener` would simulate reflections/reverberation incorrectly for a few frames."
     },
     {
         "status": "Pending",
