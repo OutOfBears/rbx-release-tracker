@@ -22,6 +22,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes a case where Script Analysis would report spurious warnings for certain generic functions in strict mode."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds support for read-only table indexers to the type function runtime."
     },
     {
@@ -47,7 +52,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes a case where Script Analysis would report spurious warnings for certain generic functions in strict mode."
+        "content": "Fix a case where script analysis would spuriously warn on anonymous functions in strict mode."
     },
     {
         "status": "Pending",
