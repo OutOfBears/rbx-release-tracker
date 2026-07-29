@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "`Class.AssetService.CreateAssetAsync|CreateAssetAsync` now supports `Class.AudioTextToSpeech` asset generation."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "New list view for experiences in Studio StartPage."
     },
     {
@@ -12,17 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "`Class.AssetService.CreateAssetAsync|CreateAssetAsync` now supports `Class.AudioTextToSpeech` asset generation."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adding `Enum.PreferredInput.MicroGamepad` for when connected gamepad doesn't have 2 thumbsticks.\nAdding `Enum.KeyCode.ButtonCenter`, `Enum.KeyCode.ButtonBack`, `Enum.KeyCode.ButtonUp`, `Enum.KeyCode.ButtonDown`, `Enum.KeyCode.ButtonLeft`, `Enum.KeyCode.ButtonRight` for TV remote buttons."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds the following API:<ul><li>`InputAction.BindingDisplayName` — string, read-only. Returns the display name for the active binding on the player's current device. Empty string if no binding matches.</li><li>`InputAction.BindingDisplayImage` — Content, read-only. Returns the button image for the active binding. nil for keyboard bindings or when no binding matches.</li><li>`InputBinding.DisplayName` — string, read/write. Sets a custom display name (e.g. \\\"FIGHT\\\"). When empty, the engine computes a default from the bound key(s). Persists across publishes.</li><li>`InputBinding.DisplayImage` — Content, read/write. Sets a custom image. When nil, the engine uses the default gamepad button icon. Persists across publishes.</li></ul>"
+        "content": "`Class.AssetService:CreateAssetAsync()|CreateAssetAsync()` now supports `Class.AudioTextToSpeech` asset generation."
     },
     {
         "status": "Pending",
@@ -37,22 +32,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixed various crashes having to do with physics constraints."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Fixes an issue where using `Class.AudioRecorder` to record a stream with more than 4 channels would fail."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Hides empty space at the bottom of Studio when Show Diagnostics bar is disabled."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where TopBarInset content scales incorrectly when giving translation feedback"
     },
     {
         "status": "Pending",
@@ -78,11 +63,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where `Class.Sound|Sounds` affected by the doppler effect briefly use a stale position when playback begins."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed a bug that would cause an occasional disconnect when adding/removing attributes while using `Class.Workspace.AuthorityMode` of `Server` or `Class.Workspace.NextGenerationReplication`."
     },
     {
         "status": "Pending",

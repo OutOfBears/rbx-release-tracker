@@ -47,6 +47,11 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug where `Class.Humanoid.ApplyDescriptionResetAsync|ApplyDescriptionResetAsync` would create `NoCollisionConstraints` referencing parts on unrelated player character models."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "`SelectionImageObject` now uses the clipping rect of the rendering destination rather than inheriting a clipping rect from its original position in the UI."
     },
     {
@@ -58,11 +63,6 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Animation Graph Editor - Layering of nodes is more consistent and predictable"
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where `Class.Humanoid.ApplyDescriptionResetAsync|ApplyDescriptionResetAsync` would create `NoCollisionConstraints` referencing parts on unrelated player character models."
     },
     {
         "status": "Pending",
