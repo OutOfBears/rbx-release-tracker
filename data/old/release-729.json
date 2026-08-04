@@ -10,6 +10,11 @@
         "content": "Fixes issue where rejoining an experience could make your voice inaudible to other people in the server."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes `ExpirationTime` in `Class.AvatarEditorService:GetItemDetailsAsync` and `Class.AvatarEditorService:GetBatchItemDetailsAsync` to return a DateTime object instead of a value table."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Classes and services with `AcousticSimulationEnabled` such as `Class.SoundService` now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently."
@@ -28,11 +33,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Particle emitters that use a small number of particles are no longer unnecessarily throttled at lower graphics quality levels, so low-rate particle effects render at their authored rate on lower-end settings"
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Fixes `ExpirationTime` in `Class.AvatarEditorService:GetItemDetailsAsync` and `Class.AvatarEditorService:GetBatchItemDetailsAsync` to return a DateTime object instead of a value table."
     },
     {
         "status": "Pending",

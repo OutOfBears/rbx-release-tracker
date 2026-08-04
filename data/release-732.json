@@ -12,7 +12,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Moves collision group APIs from `Class.PhysicsService` and `Class.Workspace.TouchesUseCollisionGroups` to `Class.WorldRoot` so that each `Class.WorldModel` can register and configure its own collision groups independently of `Class.Workspace`. Enable `Class.WorldModel.UseWorkspaceCollisionGroups` to opt a `Class.WorldModel` to use `Class.Workspace` collision groups for simulation instead of its own."
+        "content": "Moves collision group APIs from `Class.PhysicsService` to `Class.WorldRoot` so that each `Class.WorldModel` can register and configure its own collision groups independently of `Class.Workspace`. Enable `Class.WorldModel.UseWorkspaceCollisionGroups` to opt a `Class.WorldModel` to use `Class.Workspace` collision groups for simulation instead of its own."
     },
     {
         "status": "Pending",

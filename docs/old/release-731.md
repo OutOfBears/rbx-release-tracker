@@ -4,9 +4,9 @@
 
 | Status | Note |
 |--------|------|
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Added a search bar to the Beta Features dialog, allowing you to filter beta features by text. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | `Class.AssetService:CreateAssetAsync()\|CreateAssetAsync()` now supports `Class.AudioTextToSpeech` asset generation. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | New list view for experiences in Studio StartPage. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Added a search bar to the Beta Features dialog, allowing you to filter beta features by text. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | `Part.shap` is no longer accessible. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `Class.AudioEmitter.DistanceAttenuationMode`, allowing `Class.AudioEmitter\|AudioEmitters` to use a preset curve for distance attenuation instead of the existing custom table `Class.AudioEmitter.DistanceAttenuation`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where using `Class.AudioRecorder` to record a stream with more than 4 channels would fail. |

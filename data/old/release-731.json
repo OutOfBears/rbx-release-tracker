@@ -2,17 +2,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Added a search bar to the Beta Features dialog, allowing you to filter beta features by text."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "`Class.AssetService:CreateAssetAsync()|CreateAssetAsync()` now supports `Class.AudioTextToSpeech` asset generation."
     },
     {
         "status": "Live",
         "type": "Improvements",
         "content": "New list view for experiences in Studio StartPage."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Added a search bar to the Beta Features dialog, allowing you to filter beta features by text."
     },
     {
         "status": "Pending",
