@@ -12,16 +12,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Moves collision group APIs from `Class.PhysicsService` to `Class.WorldRoot` so that each `Class.WorldModel` can register and configure its own collision groups independently of `Class.Workspace`. Enable `Class.WorldModel.UseWorkspaceCollisionGroups` to opt a `Class.WorldModel` to use `Class.Workspace` collision groups for simulation instead of its own."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Enum.PreferredInput.MicroGamepad` for when a player has connected or most recently interacted with a gamepad without a thumbstick (for example, a TV remote or another limited-input gamepad). Also adds `Enum.KeyCode.ButtonCenter`, `Enum.KeyCode.ButtonBack`, `Enum.KeyCode.ButtonUp`, `Enum.KeyCode.ButtonDown`, `Enum.KeyCode.ButtonLeft`, and `Enum.KeyCode.ButtonRight`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds `Class.InputBinding.DisplayName` and `Class.InputBinding.DisplayImage` in service of `Class.InputActionLabel`. Also adds the read-only `Class.InputAction.PreferredBinding` property for creators who want full control over how bindings are displayed in custom UI."
     },
     {
@@ -32,22 +22,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes various crashes related to physics constraints."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Improves trackpad gesture handling on iPad."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "Updates the default `Class.Workspace.PlayerScriptsUseInputActionSystem` player scripts to call `Class.InputBinding:Fire()` and `Class.Player:GetCameraState()` directly."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "MicroProfiler only shows local IP addresses for connecting to it."
     },
     {
         "status": "Pending",
@@ -122,11 +102,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where user-defined type function instances where not being evaluated for autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Touch input fix for `Class.InputAction.PreferredBinding` supporting UI modifiers and UI buttons."
     },
     {
@@ -138,11 +113,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue in loading compressed audio files that could result in spurious \"file not found\" errors."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes a bug where exported type functions would sometimes be replaced with `**error-type**` or raise an error alluding to modification across arenas."
     },
     {
         "status": "Pending",

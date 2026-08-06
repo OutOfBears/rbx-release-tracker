@@ -17,7 +17,6 @@
 | Status | Note |
 |--------|------|
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes some cases of Luau claiming intersections between extern types and table types are uninhabited, resulting in spurious errors and confusing inference results. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue with particle flicker when the parent part rapidly teleports around. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Changes `Class.Workspace.PlayerCharacterDestroyBehavior` to also destroy the Character on the client. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where `Class.Sound\|Sounds` affected by the doppler effect briefly use a stale position when playback begins. |

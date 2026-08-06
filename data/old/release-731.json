@@ -42,11 +42,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes SLIM support for emissive maps in `Class.SurfaceAppearance` objects."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes an issue with particle flicker when the parent part rapidly teleports around."
     },
     {
