@@ -10,6 +10,11 @@
         "content": "Adds type information for `Class.Player:GetCameraState()`."
     },
     {
+        "status": "Live",
+        "type": "Improvements",
+        "content": "Fixes a `FontFace` editing bug for `Class.InputActionLabel`."
+    },
+    {
         "status": "Pending",
         "type": "Improvements",
         "content": "Moves collision group APIs from `Class.PhysicsService` to `Class.WorldRoot` so that each `Class.WorldModel` can register and configure its own collision groups independently of `Class.Workspace`. Enable `Class.WorldModel.UseWorkspaceCollisionGroups|UseWorkspaceCollisionGroups` to have a `Class.WorldModel` use `Class.Workspace` collision groups for simulation instead of its own."
@@ -67,12 +72,12 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes a `FontFace` editing bug for `Class.InputActionLabel`."
+        "content": "Adds min and max value controls to the `NumberSequence` editor in QT Properties."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds min and max value controls to the `NumberSequence` editor in QT Properties."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes mesh LOD flickering by transferring the cull handle instead of recreating it."
     },
     {
         "status": "Pending",
@@ -113,11 +118,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where user-defined type function instances were not evaluated for autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes mesh LOD flickering by transferring the cull handle instead of recreating it."
     },
     {
         "status": "Pending",
