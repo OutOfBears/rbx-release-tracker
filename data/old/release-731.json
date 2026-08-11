@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Fixes an issue where using `Class.AudioRecorder` to record a stream with more than 4 channels would fail."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "New list view for experiences in Studio StartPage."
     },
     {
@@ -27,22 +32,22 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Fixes an issue where using `Class.AudioRecorder` to record a stream with more than 4 channels would fail."
+        "content": "Hides empty space at the bottom of Studio when Show Diagnostics bar is disabled."
     },
     {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Hides empty space at the bottom of Studio when Show Diagnostics bar is disabled."
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue with particle flicker when the parent part rapidly teleports around."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixed Studio becoming unresponsive when adjusting terrain brush size."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes some cases of Luau claiming intersections between extern types and table types are uninhabited, resulting in spurious errors and confusing inference results."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue with particle flicker when the parent part rapidly teleports around."
     },
     {
         "status": "Pending",
@@ -58,10 +63,5 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, the \"Lazy Type expands to an instance that has disappeared\" error no longer occurs."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixed Studio becoming unresponsive when adjusting terrain brush size."
     }
 ]

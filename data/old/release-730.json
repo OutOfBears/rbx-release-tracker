@@ -7,12 +7,12 @@
     {
         "status": "Live",
         "type": "Improvements",
-        "content": "Adds missing `GetInputPins` and `GetOutputPins` methods to `Class.AudioTextToSpeech` and `Class.AudioSpeechToText`."
+        "content": "In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Improvements",
-        "content": "In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas."
+        "content": "Adds missing `GetInputPins` and `GetOutputPins` methods to `Class.AudioTextToSpeech` and `Class.AudioSpeechToText`."
     },
     {
         "status": "Live",

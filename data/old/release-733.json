@@ -17,17 +17,7 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Moves collision group APIs from `Class.PhysicsService` to `Class.WorldRoot` so that each `Class.WorldModel` can register and configure its own collision groups independently of `Class.Workspace`. Enable `Class.WorldModel.UseWorkspaceCollisionGroups|UseWorkspaceCollisionGroups` to have a `Class.WorldModel` use `Class.Workspace` collision groups for simulation instead of its own."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Optimizations and stability improvements for Bone and Attachment-based rigs."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Classes and services with `AcousticSimulationEnabled` such as `Class.SoundService` now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently."
     },
     {
         "status": "Pending",
@@ -67,11 +57,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "Adds `UIShadow.Inset`, allowing you to specify a `UIShadow` to be rendered above and within the parent element.\nAdds `UIShadow.ShowBehindParent`, allowing you to show or hide the part of `UIShadow` that's behind the parent element."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Adds min and max value controls to the `NumberSequence` editor in QT Properties."
     },
     {
@@ -97,22 +82,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug where animation retargeting could produce incorrect results when avatar limbs are missing."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes `Class.LogService.MessageOut|MessageOut` behavior in deferred signals mode so that printing inside the signal handler no longer causes an infinite loop."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where equipping and unequipping tools sometimes caused full `FastCluster` (avatar rendering) rebuilds and framerate spikes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where clients running above 60FPS would encounter more movement mispredictions in `Workspace.AuthorityMode = Server`."
     },
     {
         "status": "Pending",

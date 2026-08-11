@@ -5,8 +5,8 @@
 | Status | Note |
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an indicator of whether or not packet-level compression is enabled to network GUIs. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds missing `GetInputPins` and `GetOutputPins` methods to `Class.AudioTextToSpeech` and `Class.AudioSpeechToText`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas. |
 
 ## Fixes
 
