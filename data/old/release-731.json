@@ -37,17 +37,17 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "Fixes an issue with particle flicker when the parent part rapidly teleports around."
-    },
-    {
-        "status": "Live",
-        "type": "Fixes",
         "content": "Fixed Studio becoming unresponsive when adjusting terrain brush size."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, fixes some cases of Luau claiming intersections between extern types and table types are uninhabited, resulting in spurious errors and confusing inference results."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes an issue with particle flicker when the parent part rapidly teleports around."
     },
     {
         "status": "Pending",
