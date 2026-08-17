@@ -12,17 +12,17 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves trackpad gesture handling on iPad."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds support for Pixel 10a GrapheneOS self-signed boot keys."
     },
     {
         "status": "Pending",
         "type": "Improvements",
         "content": "New zero-code UI instance that connects to an `Class.InputAction` and automatically displays the preferred binding (active device's `Class.InputBinding`) as a text label or image."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves trackpad gesture handling on iPad."
     },
     {
         "status": "Pending",
@@ -62,12 +62,27 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes a bug that can cause the `Class.Humanoid.Died` signal to fire when other characters are streamed out."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Minor fixes to mouse behavior on iPad."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug that would cause an occasional disconnect when adding/removing attributes while using `Class.Workspace.AuthorityMode` of `Enum.AuthorityMode.Server` or `Class.Workspace.NextGenerationReplication`."
     },
     {
         "status": "Live",
         "type": "Fixes",
         "content": "Touch input fix for `Class.InputAction.PreferredBinding` supporting UI modifiers and UI buttons."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue in loading compressed audio files that could result in spurious \"file not found\" errors."
     },
     {
         "status": "Pending",
@@ -87,11 +102,6 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes a bug that can cause the `Class.Humanoid.Died` signal to fire when other characters are streamed out."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Reparenting a child UI element and then deleting the previous parent in the same frame no longer causes the child to lose styling."
     },
     {
@@ -102,17 +112,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Minor fixes to mouse behavior on iPad."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a bug where saving Command Bar snippets in one Studio window could be silently wiped when a second Studio window was open. Snippets are now persisted immediately on each save/unsave action."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue in loading compressed audio files that could result in spurious \"file not found\" errors."
     },
     {
         "status": "Pending",
