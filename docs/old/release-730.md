@@ -7,7 +7,6 @@
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds an indicator of whether or not packet-level compression is enabled to network GUIs. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | In the New Luau Type Solver, fixes an issue where variadic function arguments were not pushed into lambdas. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds missing `GetInputPins` and `GetOutputPins` methods to `Class.AudioTextToSpeech` and `Class.AudioSpeechToText`. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds `BatchGetAsync` to ordered data stores, allowing retrieval of multiple key-value pairs in a single request. Accepts an array of up to 100 string keys and returns a dictionary mapping each key to its value. Gated by `DataStoreEnableOrderedBatchGetAsync`. |
 
 ## Fixes
 

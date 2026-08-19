@@ -2,6 +2,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Improves the Input Action System to correctly handle multiple touches originating on `UIButtons` and `UIModifiers`."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Improves memory-tracking system."
     },
     {
@@ -23,11 +28,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds `BatchGetAsync` to ordered data stores, allowing retrieval of multiple key-value pairs in a single request. Accepts an array of up to 100 string keys and returns a dictionary mapping each key to its value. Gated by `DataStoreEnableOrderedBatchGetAsync`."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Improves the Input Action System to correctly handle multiple touches originating on `UIButtons` and `UIModifiers`."
     },
     {
         "status": "Pending",
@@ -62,7 +62,27 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Fixes an issue where equipping and unequipping tools sometimes caused full `FastCluster` (avatar rendering) rebuilds and framerate spikes."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where user-defined type function instances were not evaluated for autocomplete."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes mesh LOD flickering by transferring the cull handle instead of recreating it."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes occasional cursor lock when the app starts in the background."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes order-dependent logic when comparing attributes under server authority."
     },
     {
         "status": "Pending",
@@ -82,32 +102,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes `Class.LogService.MessageOut|MessageOut` behavior in deferred signals mode so that printing inside the signal handler no longer causes an infinite loop."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where equipping and unequipping tools sometimes caused full `FastCluster` (avatar rendering) rebuilds and framerate spikes."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where user-defined type function instances were not evaluated for autocomplete."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes occasional cursor lock when the app starts in the background."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes a bug where exported type functions would sometimes be replaced with `**error-type**` or raise an error alluding to modification across arenas."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes order-dependent logic when comparing attributes under server authority."
     },
     {
         "status": "Pending",

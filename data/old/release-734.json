@@ -12,36 +12,6 @@
     {
         "status": "Pending",
         "type": "Improvements",
-        "content": "New entry point for Collections API."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Classes and services with `AcousticSimulationEnabled`, such as `Class.SoundService`, now have subcategories where you can enable or disable `Occlusion` and `Reverb` independently."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Allows `Class.TextBox` objects with `TextEditable` = `false` to copy the `Class.TextBox.Text` on mobile devices without showing the native keyboard."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds new `Class.EditableImage` function called `SampleImageProjected` that's the opposite of `Class.EditableImage.DrawImageProjected|DrawImageProjected`, with the projection defining how to sample texels from the source texture onto the decal texture."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds additional `Class.EditableImage` blending mode: `ImageCombineType.Subtract`. Subtract subtracts source image color and alpha from the destination image."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Adds `Class.UIShadow.Inset`,  which allows you to specify a `UIShadow` to be rendered above and within the parent element, and `UIShadow.ShowBehindParent`, which allows you to show or hide the part of `UIShadow` that's behind the parent element."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
         "content": "Updates the language of the error diagnostics for type mismatch errors in Luau to be more succinct and easier to understand."
     },
     {
@@ -77,12 +47,12 @@
     {
         "status": "Live",
         "type": "Fixes",
-        "content": "New `InputSink` property for UI that allows for the deprecation of the \"Active\" property."
+        "content": "Fixes an issue where assigning `Class.Sound.PlaybackRegion` and `Class.AudioPlayer.PlaybackRegion` could stall the audio engine."
     },
     {
-        "status": "Pending",
+        "status": "Live",
         "type": "Fixes",
-        "content": "Improves mouse click handling on Xbox."
+        "content": "Fixes OverlapParams not being sent via `Class.Actor:SendMessage`."
     },
     {
         "status": "Pending",
@@ -102,27 +72,12 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Fixes an issue where clients running above 60FPS would encounter more movement mispredictions when `Class.Workspace.AuthorityMode` was set to `Server`."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes issue where the Windows system’s keyboard layout would switch to English on launch for players who didn’t have US QWERTY installed. The active input language is now left untouched, so typing in chat and search uses your own layout. Keybinds such as WASD continue to follow physical key positions."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Automatically predict (`Enum.PredictionMode.On`) unstitched instances created in `Class.RunService.BindToSimulation|BindToSimulation`, unless overridden by `Class.RunService:SetPredictionMode`. When stitched, the instances will default back to `Enum.PredictionMode.Automatic`, unless they've been overridden."
     },
     {
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where looping sounds could loop-back prematurely."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes an issue where assigning `Class.Sound.PlaybackRegion` and `Class.AudioPlayer.PlaybackRegion` could stall the audio engine."
     },
     {
         "status": "Pending",
@@ -138,11 +93,6 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes an issue where changing `Class.SoundService.RolloffScale` might not affect a `Class.Sound` until it or the listener moves."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Fixes OverlapParams not being sent via `Class.Actor:SendMessage`."
     },
     {
         "status": "Pending",
