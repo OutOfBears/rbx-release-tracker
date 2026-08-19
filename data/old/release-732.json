@@ -22,12 +22,32 @@
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Moves collision group APIs from `Class.PhysicsService` to `Class.WorldRoot` so that each `Class.WorldModel` can register and configure its own collision groups independently of `Class.Workspace`. Enable `Class.WorldModel.UseWorkspaceCollisionGroups|UseWorkspaceCollisionGroups` to have a `Class.WorldModel` use `Class.Workspace` collision groups for simulation instead of its own."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `Enum.PreferredInput.MicroGamepad|MicroGamepad` for when a player has connected or most recently interacted with a gamepad without a thumbstick (for example, a TV remote or another limited-input gamepad). Also adds `Enum.KeyCode.ButtonCenter|ButtonCenter`, `Enum.KeyCode.ButtonBack|ButtonBack`, `Enum.KeyCode.ButtonUp|ButtonUp`, `Enum.KeyCode.ButtonDown|ButtonDown`, `Enum.KeyCode.ButtonLeft|ButtonLeft`, and `Enum.KeyCode.ButtonRight|ButtonRight`."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "New zero-code UI instance that connects to an `Class.InputAction` and automatically displays the preferred binding (active device's `Class.InputBinding`) as a text label or image."
     },
     {
         "status": "Pending",
         "type": "Improvements",
+        "content": "Fixes various crashes related to physics constraints."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
         "content": "Updates the default `Class.Workspace.PlayerScriptsUseInputActionSystem` player scripts to call `Class.InputBinding:Fire()` and `Class.Player:GetCameraState()` directly."
+    },
+    {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Fixes an issue where the MicroProfiler only showed local IP addresses when connecting to it."
     },
     {
         "status": "Pending",
@@ -62,7 +82,17 @@
     {
         "status": "Live",
         "type": "Fixes",
+        "content": "Visible and on-screen modal buttons inside an off-screen parent now unlock the mouse."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
         "content": "Fixes a bug that can cause the `Class.Humanoid.Died` signal to fire when other characters are streamed out."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Reparenting a child UI element and then deleting the previous parent in the same frame no longer causes the child to lose styling."
     },
     {
         "status": "Live",
@@ -73,6 +103,11 @@
         "status": "Live",
         "type": "Fixes",
         "content": "Fixes a bug that would cause an occasional disconnect when adding/removing attributes while using `Class.Workspace.AuthorityMode` of `Enum.AuthorityMode.Server` or `Class.Workspace.NextGenerationReplication`."
+    },
+    {
+        "status": "Live",
+        "type": "Fixes",
+        "content": "Fixes an issue where user-defined type function instances were not evaluated for autocomplete."
     },
     {
         "status": "Live",
@@ -92,17 +127,7 @@
     {
         "status": "Pending",
         "type": "Fixes",
-        "content": "Visible and on-screen modal buttons inside an off-screen parent now unlock the mouse."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
         "content": "Fixes rare sleep behavior that can occur when parts sleep the exact moment a `Class.Constraint` is removed."
-    },
-    {
-        "status": "Pending",
-        "type": "Fixes",
-        "content": "Reparenting a child UI element and then deleting the previous parent in the same frame no longer causes the child to lose styling."
     },
     {
         "status": "Pending",
@@ -113,6 +138,11 @@
         "status": "Pending",
         "type": "Fixes",
         "content": "Fixes a bug where saving Command Bar snippets in one Studio window could be silently wiped when a second Studio window was open. Snippets are now persisted immediately on each save/unsave action."
+    },
+    {
+        "status": "Pending",
+        "type": "Fixes",
+        "content": "Fixes a bug where exported type functions would sometimes be replaced with `**error-type**` or raise an error alluding to modification across arenas."
     },
     {
         "status": "Pending",

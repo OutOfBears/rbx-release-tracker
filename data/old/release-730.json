@@ -15,6 +15,11 @@
         "content": "Adds missing `GetInputPins` and `GetOutputPins` methods to `Class.AudioTextToSpeech` and `Class.AudioSpeechToText`."
     },
     {
+        "status": "Pending",
+        "type": "Improvements",
+        "content": "Adds `BatchGetAsync` to ordered data stores, allowing retrieval of multiple key-value pairs in a single request. Accepts an array of up to 100 string keys and returns a dictionary mapping each key to its value. Gated by `DataStoreEnableOrderedBatchGetAsync`."
+    },
+    {
         "status": "Live",
         "type": "Fixes",
         "content": "In the New Luau Type Solver, autocomplete on refinements of `any` will no longer exclude results *from* the refinement."
