@@ -12,6 +12,11 @@
     {
         "status": "Live",
         "type": "Improvements",
+        "content": "Updates `Player:IsVerified` API to accept verification level enum."
+    },
+    {
+        "status": "Live",
+        "type": "Improvements",
         "content": "Adds type information for `Class.Player:GetCameraState()`."
     },
     {
@@ -48,11 +53,6 @@
         "status": "Pending",
         "type": "Improvements",
         "content": "Adds the `MemoryStoreDistributedCounter` data structure to the `MemoryStoreService` with support for `GetAsync()` and `IncrementAsync()` methods."
-    },
-    {
-        "status": "Pending",
-        "type": "Improvements",
-        "content": "Updates `Player:IsVerified` API to accept verification level enum."
     },
     {
         "status": "Pending",

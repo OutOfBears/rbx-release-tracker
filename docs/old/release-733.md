@@ -6,6 +6,7 @@
 |--------|------|
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves the Input Action System to correctly handle multiple touches originating on `UIButtons` and `UIModifiers`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Improves memory-tracking system. |
+| ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Updates `Player:IsVerified` API to accept verification level enum. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Adds type information for `Class.Player:GetCameraState()`. |
 | ![Live](https://img.shields.io/badge/Live-009E57?style=flat)  | Fixes a `FontFace` editing bug for `Class.InputActionLabel`. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Optimizations and stability improvements for Bone and Attachment-based rigs. |
@@ -14,7 +15,6 @@
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes various crashes related to physics constraints. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Fixes an issue where the MicroProfiler only showed local IP addresses when connecting to it. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds the `MemoryStoreDistributedCounter` data structure to the `MemoryStoreService` with support for `GetAsync()` and `IncrementAsync()` methods. |
-| ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Updates `Player:IsVerified` API to accept verification level enum. |
 | ![Pending](https://img.shields.io/badge/Pending-DEA517?style=flat)  | Adds min and max value controls to the `NumberSequence` editor in QT Properties. |
 
 ## Fixes
